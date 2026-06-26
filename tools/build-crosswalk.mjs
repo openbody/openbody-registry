@@ -5,9 +5,10 @@
 // each free-exercise-db movement id to a canonical OpenBody id (or null = not yet curated).
 // It is (1) the resolution table for FED-sourced refs and (2) the curation worklist.
 //
-// This generator preserves existing `canonical` fills and only adds new FED rows / refreshes
-// names, so maintainers edit the table freely. Run with a local FED dump (not committed):
-//   node tools/build-crosswalk.mjs path/to/free-exercise-db/dist/exercises.json
+// This generator preserves existing `canonical` fills AND the pinned upstream `commit`, and
+// only adds new FED rows / refreshes names, so maintainers edit the table freely. Run with a
+// local FED dump (not committed); pass the upstream commit you dumped from to re-pin it:
+//   node tools/build-crosswalk.mjs path/to/free-exercise-db/dist/exercises.json [upstream-commit-sha]
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -26,13 +27,22 @@ const SEED = {
   Standing_Military_Press: "overhead-press.barbell",
 };
 
+// Bootstrap pin: used only when the crosswalk file doesn't exist yet AND no commit arg is given.
+const DEFAULT_COMMIT = "b0eed061e1c832b3ed815fbaa4b45b3cdc14df49";
+
 const src = process.argv[2];
-if (!src) { console.error("usage: build-crosswalk.mjs <free-exercise-db/dist/exercises.json>"); process.exit(1); }
+const commitArg = process.argv[3];
+if (!src) { console.error("usage: build-crosswalk.mjs <free-exercise-db/dist/exercises.json> [upstream-commit-sha]"); process.exit(1); }
 const fed = JSON.parse(fs.readFileSync(src, "utf8"));
 
-const prev = fs.existsSync(outPath)
-  ? Object.fromEntries(JSON.parse(fs.readFileSync(outPath, "utf8")).mappings.map((m) => [m.id, m.canonical]))
-  : {};
+const prevDoc = fs.existsSync(outPath) ? JSON.parse(fs.readFileSync(outPath, "utf8")) : null;
+const prev = prevDoc ? Object.fromEntries(prevDoc.mappings.map((m) => [m.id, m.canonical])) : {};
+
+// Pin precedence: explicit CLI arg > existing pinned commit > bootstrap default.
+const commit = commitArg ?? prevDoc?.commit ?? DEFAULT_COMMIT;
+if (!commitArg && !prevDoc?.commit) {
+  console.warn(`warning: no commit arg and no existing pin — using bootstrap default ${DEFAULT_COMMIT}; pass the upstream commit to re-pin.`);
+}
 
 const mappings = fed
   .map((e) => ({ id: e.id, name: e.name, canonical: prev[e.id] ?? SEED[e.id] ?? null }))
@@ -41,7 +51,7 @@ const mappings = fed
 const doc = {
   source: "free-exercise-db",
   upstream: "https://github.com/yuhonas/free-exercise-db",
-  commit: "b0eed061e1c832b3ed815fbaa4b45b3cdc14df49",
+  commit,
   license: "Unlicense (public domain)",
   note: "Crosswalk only — NOT canonical registry data. `canonical` points at a data/exercises.json id, or null if that movement is not yet hand-curated (the worklist). See CONTRIBUTING.md.",
   mappings,

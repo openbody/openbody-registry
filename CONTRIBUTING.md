@@ -32,7 +32,11 @@ stays consistent for future maintainers.
 4. **Attributes** (optional): `met` (Compendium MET, cite the edition in your PR).
 5. **Crosswalk codes** (optional, §6.4): `coded` may carry incumbent ids
    (`{ "wger": 73 }`) for *this* entry. For bulk source mappings, prefer the crosswalk file.
-6. **`source`**: `"curated"` for hand-authored entries.
+6. **`source`**: provenance of the entry's data. Use `"curated"` for a fully hand-authored
+   entry; `"compendium"` when the entry's `attributes.met` comes from the Compendium of
+   Physical Activities; `"free-exercise-db"` if a crosswalked movement seeded the entry (its
+   facets must still be hand-verified against §6.3). Facets are always hand-authored regardless
+   of `source`.
 7. **Validate**: `npm run check` (id format + uniqueness + facet conformance + crosswalk
    integrity). Green is required.
 

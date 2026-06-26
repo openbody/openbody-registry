@@ -3,8 +3,7 @@
 The canonical registry (`data/exercises.json`) is **hand-curated and CC0-original**.
 Third-party datasets are used **only as crosswalk sources** (a `source-id → canonical-id`
 table, `crosswalk/`), never imported as canonical entries — so the registry's quality and id
-stability are owned, not inherited. Source evaluation:
-`dev-context/specs/openbody/registry/SOURCE-COMPARISON.md` (private).
+stability are owned, not inherited. The per-source evaluation is documented below.
 
 ## Crosswalk sources
 
@@ -40,4 +39,4 @@ entries, citing the Compendium edition in the PR. Not a bulk source.
 An earlier pass bulk-imported free-exercise-db as ~872 canonical entries (with algorithmic
 id decomposition). That was **reverted** in favour of hand-curated-canonical + crosswalk-only
 (2026-06-26) — to own id quality/stability and give maintainers a clear method
-(CONTRIBUTING.md) rather than inheriting machine-derived ids. See DECISIONS 2026-06-26.
+(CONTRIBUTING.md) rather than inheriting machine-derived ids.

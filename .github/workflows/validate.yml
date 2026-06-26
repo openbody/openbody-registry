@@ -14,7 +14,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Validate registry entries
+      - name: Validate registry entries and crosswalk integrity
         run: npm run check
-      - name: Ingest mapping self-test
-        run: npm run ingest:selftest
