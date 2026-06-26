@@ -1,19 +1,12 @@
-// Validate the canonical registry data against the entry schema's core invariants
-// (SPEC §6.2/§6.3). Dependency-free so CI is a single `node` run.
+// Validate the hand-curated canonical registry (data/exercises.json) against the entry
+// schema's core invariants (SPEC §6.2/§6.3), and check crosswalk referential integrity
+// (every non-null crosswalk target resolves to a canonical id). Dependency-free.
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const schema = JSON.parse(fs.readFileSync(path.join(root, "schema/registry-entry.schema.json"), "utf8"));
-
-// Data lives in data/exercises.json (curated canonical) + data/seed/*.json (sourced seeds).
-function dataFiles() {
-  const files = ["data/exercises.json"];
-  const seedDir = path.join(root, "data/seed");
-  if (fs.existsSync(seedDir)) for (const f of fs.readdirSync(seedDir).sort()) if (f.endsWith(".json")) files.push(`data/seed/${f}`);
-  return files;
-}
 
 const idRe = new RegExp(schema.properties.id.pattern);
 const facetProps = schema.$defs.facets.properties;
@@ -47,23 +40,35 @@ export function validateEntry(e, seenIds) {
 }
 
 function main() {
-  const seen = new Set(); // global id uniqueness across all data files
   const errors = [];
-  let total = 0;
-  const perFile = [];
-  for (const rel of dataFiles()) {
-    const entries = JSON.parse(fs.readFileSync(path.join(root, rel), "utf8"));
-    for (const e of entries) errors.push(...validateEntry(e, seen));
-    total += entries.length;
-    perFile.push(`${rel} (${entries.length})`);
+
+  // 1. Canonical entries.
+  const seen = new Set();
+  const entries = JSON.parse(fs.readFileSync(path.join(root, "data/exercises.json"), "utf8"));
+  for (const e of entries) errors.push(...validateEntry(e, seen));
+
+  // 2. Crosswalk referential integrity (every non-null `canonical` resolves to an entry).
+  const xwalkDir = path.join(root, "crosswalk");
+  let mapped = 0, xwalkTotal = 0;
+  if (fs.existsSync(xwalkDir)) {
+    for (const f of fs.readdirSync(xwalkDir).filter((f) => f.endsWith(".json"))) {
+      const x = JSON.parse(fs.readFileSync(path.join(xwalkDir, f), "utf8"));
+      for (const m of x.mappings ?? []) {
+        xwalkTotal++;
+        if (m.canonical == null) continue;
+        mapped++;
+        if (!seen.has(m.canonical)) errors.push(`crosswalk/${f}: '${m.id}' → unknown canonical id '${m.canonical}'`);
+      }
+    }
   }
+
   if (errors.length) {
-    console.error(`OpenBody registry: ${errors.length} error(s) across ${total} entries:`);
+    console.error(`OpenBody registry: ${errors.length} error(s):`);
     for (const e of errors.slice(0, 50)) console.error("  ✗ " + e);
     if (errors.length > 50) console.error(`  … and ${errors.length - 50} more`);
     process.exit(1);
   }
-  console.log(`OpenBody registry: ${total} entries valid, ids globally unique — ${perFile.join(", ")}.`);
+  console.log(`OpenBody registry: ${entries.length} canonical entries valid (ids unique); crosswalk ${mapped}/${xwalkTotal} mapped, all targets resolve.`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main();

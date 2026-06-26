@@ -8,13 +8,17 @@ own semver cadence, §6.2). **Data is CC0.**
 
 ## What's here
 
+The registry is **hand-curated** for quality and stable identity; third-party datasets are
+used **only as crosswalk sources**, never imported as canonical entries. See
+[CONTRIBUTING.md](./CONTRIBUTING.md) for the method.
+
 | Path | What |
 |---|---|
 | `schema/registry-entry.schema.json` | JSON Schema for one registry entry (id + names + facets + attributes + coded, §6.2/§6.3). |
-| `data/exercises.json` | **Curated canonical** entries (11, CC0-original, authoritative) spanning strength / endurance / functional / mobility / flexibility. |
-| `data/seed/free-exercise-db.json` | **Imported seed** — 872 entries from free-exercise-db (The Unlicense → CC0, commit `b0eed06`). Pre-v1 slug ids; see SOURCES.md. |
-| `tools/validate.mjs` | Dependency-free validator: id format + uniqueness + facet conformance. `npm run check`. |
-| `tools/ingest-free-exercise-db.mjs` | Maps [free-exercise-db](https://github.com/yuhonas/free-exercise-db) records → entries. `npm run ingest:selftest`. See SOURCES.md — the bulk import is gated on a licensing sign-off. |
+| `data/exercises.json` | **The canonical entries** — hand-curated, CC0, authoritative. The registry. |
+| `crosswalk/free-exercise-db.json` | Crosswalk **only**: free-exercise-db movement id → canonical id (or `null`). Resolution table + curation worklist. See SOURCES.md. |
+| `tools/validate.mjs` | Dependency-free validator: id format + uniqueness + facet conformance + crosswalk integrity. `npm run check`. |
+| `tools/build-crosswalk.mjs` | Rebuild a crosswalk table from a local source dump (preserving fills). `npm run crosswalk -- <dump.json>`. |
 
 ## Entry model (§6.3)
 
@@ -39,8 +43,7 @@ authoritative.
 
 ## Status
 
-Pre-v1 (ids **not** stable until v1.0). 883 entries total — 11 curated canonical + 872
-imported from free-exercise-db (see SOURCES.md). Imported ids have been **algorithmically
-decomposed** to canonical `base[.variation]` + variation facets (`npm run decompose`).
-Remaining before v1.0 (OB-24): human review of the decomposition; Compendium MET /
-functional / mobility supplements; dedupe. Model, schema, validator, ingest, and CI green.
+Pre-v1 (ids **not** stable until v1.0). Hand-curation is deliberate and ongoing: the
+canonical set starts small and grows by reviewed addition (see CONTRIBUTING.md). The
+free-exercise-db crosswalk (873 movements, 6 mapped so far) is the worklist. Model, schema,
+validator, crosswalk, and CI are in place and green.
