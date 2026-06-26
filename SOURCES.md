@@ -28,11 +28,24 @@ the structured data under CC0 is supported.
 - **Structured data only** — names + facets (modality/mechanic/equipment/anatomy); the
   upstream `instructions` prose and `images` are **not** bundled.
 - **Ids decomposed toward canonical form** (`tools/decompose-ids.mjs`): source equipment +
-  a qualifier lexicon map names → `base[.equipment][.stance][.grip]` + variation facets
-  (e.g. `wide-grip-lat-pulldown` → `lat-pulldown.cable.wide` + `grip:wide`). 616 of 872
-  restructured, 6 auto-disambiguated. **Still pre-v1** — this is an algorithmic pass; a
-  human review (+ functional/mobility supplements, dedupe) is the remaining v1.0 work
-  (OB-24). Ids are NOT promised stable until v1.0.
+  a qualifier lexicon map names → `base[.equipment][.stance][.grip][.laterality]` + variation
+  facets (e.g. `wide-grip-lat-pulldown` → `lat-pulldown.cable.wide` + `grip:wide`). 616 of
+  872 restructured; **256 are atomic base movements** kept as single-segment ids (no
+  variation to extract, e.g. `ab-roller`); **1 genuine duplicate flagged** for dedupe
+  (`smith-press.machine.decline.2`). **Still pre-v1** — algorithmic pass; a human review
+  (+ supplements, dedupe) is the remaining v1.0 work (OB-24). Ids are NOT promised stable
+  until v1.0.
+
+## Extraction coverage (what we took from free-exercise-db)
+
+- **Records:** 872 of 873 (one skipped — id collision with the curated set). ~99.9%.
+- **Fields mapped:** `name` → `names`; `equipment` → facet + id segment; `mechanic` →
+  facet; `primaryMuscles`/`secondaryMuscles` → `facets.anatomy`; `category` → `modality`;
+  `id` → `coded.free-exercise-db` (reverse crosswalk).
+- **Fields deliberately NOT taken:** `instructions` (prose — out of scope for an identity
+  registry), `images` (binary, larger surface), `force` (push/pull/static — not modelled
+  yet; candidate for `movementPattern` later), `level` (beginner/expert — not identity).
+- **Upstream pin:** commit `b0eed061e1c832b3ed815fbaa4b45b3cdc14df49`; re-pin on any refresh.
 
 ## Compendium of Physical Activities (MET)
 

@@ -60,16 +60,17 @@ for (const e of entries) {
   let base = slug(lower);
   if (!base) base = slug(e.names[0]); // fallback: never empty
 
-  const segs = [base, eq.seg, stance?.val, grip?.val].filter(Boolean);
+  // laterality:alternating distinguishes a sibling, so it belongs IN the id (not just facets).
+  const segs = [base, eq.seg, stance?.val, grip?.val, lat?.val].filter(Boolean);
   let id = segs.join(".");
 
   if (curatedIds.has(id)) { dropped++; continue; } // curated canonical wins
   if (used.has(id)) {
-    // disambiguate with laterality, then a numeric segment; log it.
-    const alt = lat ? `${id}.${lat.val}` : id;
-    let cand = alt, n = 1;
-    while (used.has(cand) || curatedIds.has(cand)) cand = `${alt}.${++n}`;
+    // remaining collisions are genuine near-duplicates → numeric suffix + logged for OB-24 dedupe.
+    let cand = id, n = 1;
+    while (used.has(cand) || curatedIds.has(cand)) cand = `${id}.${++n}`;
     id = cand; collisions++;
+    console.error(`  collision: "${e.names[0]}" → ${id} (likely duplicate; review)`);
   }
   used.add(id);
   if (id !== e.id) changed++;

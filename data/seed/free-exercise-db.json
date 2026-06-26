@@ -190,7 +190,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hammer-curl.dumbbell",
+    "id": "hammer-curl.dumbbell.alternating",
     "names": [
       "Alternate Hammer Curl"
     ],
@@ -214,7 +214,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "heel-touchers",
+    "id": "heel-touchers.alternating",
     "names": [
       "Alternate Heel Touchers"
     ],
@@ -235,7 +235,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "curl.dumbbell.incline",
+    "id": "curl.dumbbell.incline.alternating",
     "names": [
       "Alternate Incline Dumbbell Curl"
     ],
@@ -260,7 +260,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leg-diagonal-bound",
+    "id": "leg-diagonal-bound.alternating",
     "names": [
       "Alternate Leg Diagonal Bound"
     ],
@@ -287,7 +287,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "shoulder-press.cable",
+    "id": "shoulder-press.cable.alternating",
     "names": [
       "Alternating Cable Shoulder Press"
     ],
@@ -311,7 +311,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "deltoid-raise.dumbbell",
+    "id": "deltoid-raise.dumbbell.alternating",
     "names": [
       "Alternating Deltoid Raise"
     ],
@@ -332,7 +332,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "floor-press.kettlebell",
+    "id": "floor-press.kettlebell.alternating",
     "names": [
       "Alternating Floor Press"
     ],
@@ -358,7 +358,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hang-clean.kettlebell",
+    "id": "hang-clean.kettlebell.alternating",
     "names": [
       "Alternating Hang Clean"
     ],
@@ -387,7 +387,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "press.kettlebell",
+    "id": "press.kettlebell.alternating",
     "names": [
       "Alternating Kettlebell Press"
     ],
@@ -411,7 +411,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "row.kettlebell",
+    "id": "row.kettlebell.alternating",
     "names": [
       "Alternating Kettlebell Row"
     ],
@@ -436,7 +436,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "renegade-row.kettlebell",
+    "id": "renegade-row.kettlebell.alternating",
     "names": [
       "Alternating Renegade Row"
     ],
@@ -3056,7 +3056,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "shoulder-press.cable.2",
+    "id": "shoulder-press.cable",
     "names": [
       "Cable Shoulder Press"
     ],
@@ -4961,7 +4961,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "double-hang-clean.kettlebell",
+    "id": "double-hang-clean.kettlebell.alternating",
     "names": [
       "Double Kettlebell Alternating Hang Clean"
     ],
@@ -5189,7 +5189,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bicep-curl.dumbbell",
+    "id": "bicep-curl.dumbbell.alternating",
     "names": [
       "Dumbbell Alternate Bicep Curl"
     ],
@@ -5262,7 +5262,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bicep-curl.dumbbell.2",
+    "id": "bicep-curl.dumbbell",
     "names": [
       "Dumbbell Bicep Curl"
     ],
@@ -7958,7 +7958,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "curl.dumbbell.incline.2",
+    "id": "curl.dumbbell.incline",
     "names": [
       "Incline Dumbbell Curl"
     ],
@@ -8760,7 +8760,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hang-clean.kettlebell.2",
+    "id": "hang-clean.kettlebell",
     "names": [
       "Kettlebell Hang Clean"
     ],
@@ -9206,7 +9206,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "crunch-with-oblique-twists.cable.kneeling",
+    "id": "crunch-with-oblique-twists.cable.kneeling.alternating",
     "names": [
       "Kneeling Cable Crunch With Alternating Oblique Twists"
     ],
@@ -15249,7 +15249,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "see-saw-press-side-press.dumbbell",
+    "id": "see-saw-press-side-press.dumbbell.alternating",
     "names": [
       "See-Saw Press (Alternating Side Press)"
     ],
@@ -17320,7 +17320,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "press.dumbbell.standing",
+    "id": "press.dumbbell.standing.alternating",
     "names": [
       "Standing Alternating Dumbbell Press"
     ],
@@ -17644,7 +17644,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "press.dumbbell.standing.2",
+    "id": "press.dumbbell.standing",
     "names": [
       "Standing Dumbbell Press"
     ],
