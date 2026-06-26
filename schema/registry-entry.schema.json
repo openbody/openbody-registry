@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openbody.dev/registry/registry-entry.schema.json",
+  "title": "OpenBody Canonical Exercise Registry Entry",
+  "description": "One canonical base movement: a stable id, display names, classification + variation facets (SPEC §6.3), registry attributes (e.g. MET), and incumbent crosswalk codes (§6.4). Data is CC0.",
+  "type": "object",
+  "required": ["id", "names"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Canonical, unprefixed, dot-segmented id (§6.2). base[.variation…].",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?:\\.[a-z0-9]+(?:-[a-z0-9]+)*)*$"
+    },
+    "names": {
+      "type": "array",
+      "description": "Human-readable display names; first is the preferred label.",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "facets": { "$ref": "#/$defs/facets" },
+    "attributes": {
+      "type": "object",
+      "description": "Registry attributes of the movement (NOT identity) — e.g. MET intensity (§6.2/§6.4).",
+      "properties": {
+        "met": { "type": "number", "description": "Compendium of Physical Activities MET value." }
+      },
+      "additionalProperties": true
+    },
+    "coded": {
+      "type": "object",
+      "description": "Identity-equivalence crosswalk to incumbent systems (§6.4); advisory.",
+      "additionalProperties": { "type": ["string", "number"] }
+    },
+    "source": {
+      "type": "string",
+      "description": "Provenance of this entry (e.g. `curated`, `free-exercise-db`, `compendium`)."
+    }
+  },
+  "$defs": {
+    "facets": {
+      "type": "object",
+      "description": "Classification (intrinsic) + variation (distinguishing) facets — SPEC §6.3.",
+      "additionalProperties": false,
+      "properties": {
+        "modality": { "type": "string", "description": "Open token (§5.9)." },
+        "movementPattern": { "type": "string", "description": "Open token (§5.9)." },
+        "anatomy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["primary"],
+          "properties": {
+            "primary": { "type": "array", "items": { "type": "string" } },
+            "secondary": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "mechanic": { "enum": ["compound", "isolation"] },
+        "equipment": { "type": "string", "description": "Equipment class (barbell/dumbbell/machine/…)." },
+        "grip": { "type": "string" },
+        "laterality": { "enum": ["bilateral", "unilateral_left", "unilateral_right", "alternating"] },
+        "stance": { "type": "string" },
+        "barPosition": { "type": "string" },
+        "rangeOfMotion": { "type": "string" }
+      }
+    }
+  }
+}

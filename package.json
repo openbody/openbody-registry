@@ -1,0 +1,12 @@
+{
+  "name": "@openbody/registry",
+  "version": "0.0.1",
+  "private": true,
+  "description": "OpenBody canonical exercise registry (CC0): base movements + facets (SPEC §6).",
+  "license": "CC0-1.0",
+  "type": "module",
+  "scripts": {
+    "check": "node tools/validate.mjs",
+    "ingest:selftest": "node tools/ingest-free-exercise-db.mjs --selftest"
+  }
+}

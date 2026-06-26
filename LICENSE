@@ -1,0 +1,11 @@
+OpenBody exercise registry data — CC0 1.0 Universal (Public Domain Dedication).
+
+SPDX-License-Identifier: CC0-1.0
+
+To the extent possible under law, the OpenBody project has waived all copyright and
+related or neighboring rights to the registry data in this repository. See
+https://creativecommons.org/publicdomain/zero/1.0/ for the full text.
+
+(The verbatim CC0 legal code will be vendored here before public release; see the
+openbody standard's LICENSING.md. Tooling/scripts in `tools/` are Apache-2.0, consistent
+with the reference code.)

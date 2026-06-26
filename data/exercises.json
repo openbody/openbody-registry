@@ -1,0 +1,159 @@
+[
+  {
+    "id": "squat.barbell.high-bar",
+    "names": ["High-Bar Back Squat", "Barbell Back Squat"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "squat",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors", "spinal-erectors"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "barPosition": "high-bar",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "curated"
+  },
+  {
+    "id": "deadlift.barbell.conventional",
+    "names": ["Conventional Deadlift"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hinge",
+      "anatomy": { "primary": ["glutes", "hamstrings", "spinal-erectors"], "secondary": ["lats", "trapezius"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "stance": "conventional",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "curated"
+  },
+  {
+    "id": "bench-press.barbell.flat",
+    "names": ["Flat Barbell Bench Press", "Bench Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps", "anterior-deltoid"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 5.0 },
+    "coded": { "wger": 73 },
+    "source": "curated"
+  },
+  {
+    "id": "overhead-press.barbell",
+    "names": ["Overhead Press", "Strict Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["anterior-deltoid"], "secondary": ["triceps", "upper-trapezius"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 5.0 },
+    "source": "curated"
+  },
+  {
+    "id": "pull-up",
+    "names": ["Pull-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats"], "secondary": ["biceps", "rhomboids"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "grip": "pronated",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "curl.dumbbell",
+    "names": ["Dumbbell Biceps Curl"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "elbow-flexion",
+      "anatomy": { "primary": ["biceps"], "secondary": ["brachioradialis"] },
+      "mechanic": "isolation",
+      "equipment": "dumbbell",
+      "laterality": "alternating"
+    },
+    "attributes": { "met": 3.5 },
+    "source": "curated"
+  },
+  {
+    "id": "thruster.barbell",
+    "names": ["Barbell Thruster"],
+    "facets": {
+      "modality": "functional",
+      "movementPattern": "squat-to-press",
+      "anatomy": { "primary": ["quadriceps", "anterior-deltoid"], "secondary": ["glutes", "triceps"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "run",
+    "names": ["Running"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "hamstrings", "calves"], "secondary": ["glutes"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 9.8 },
+    "coded": { "healthkit": "running" },
+    "source": "compendium"
+  },
+  {
+    "id": "row.erg",
+    "names": ["Rowing (Ergometer)", "Indoor Row"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "row",
+      "anatomy": { "primary": ["lats", "quadriceps"], "secondary": ["hamstrings", "biceps"] },
+      "mechanic": "compound",
+      "equipment": "machine"
+    },
+    "attributes": { "met": 7.0 },
+    "source": "compendium"
+  },
+  {
+    "id": "plank",
+    "names": ["Front Plank"],
+    "facets": {
+      "modality": "mobility",
+      "movementPattern": "anti-extension",
+      "anatomy": { "primary": ["rectus-abdominis", "transverse-abdominis"], "secondary": ["obliques"] },
+      "mechanic": "isolation",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.8 },
+    "source": "curated"
+  },
+  {
+    "id": "hamstring-stretch.standing",
+    "names": ["Standing Hamstring Stretch"],
+    "facets": {
+      "modality": "flexibility",
+      "movementPattern": "static-stretch",
+      "anatomy": { "primary": ["hamstrings"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "rangeOfMotion": "full"
+    },
+    "attributes": { "met": 2.3 },
+    "source": "curated"
+  }
+]
