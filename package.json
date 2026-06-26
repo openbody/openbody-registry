@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "check": "node tools/validate.mjs",
-    "ingest:selftest": "node tools/ingest-free-exercise-db.mjs --selftest"
+    "ingest:selftest": "node tools/ingest-free-exercise-db.mjs --selftest",
+    "decompose": "node tools/decompose-ids.mjs"
   }
 }

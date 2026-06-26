@@ -40,6 +40,7 @@ authoritative.
 ## Status
 
 Pre-v1 (ids **not** stable until v1.0). 883 entries total — 11 curated canonical + 872
-imported from free-exercise-db (see SOURCES.md). Remaining before v1.0: decompose imported
-slug ids → `base[.variation]` + variation facets; Compendium MET / functional / mobility
-supplements. Model, schema, validator, ingest, and CI are in place and green.
+imported from free-exercise-db (see SOURCES.md). Imported ids have been **algorithmically
+decomposed** to canonical `base[.variation]` + variation facets (`npm run decompose`).
+Remaining before v1.0 (OB-24): human review of the decomposition; Compendium MET /
+functional / mobility supplements; dedupe. Model, schema, validator, ingest, and CI green.

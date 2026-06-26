@@ -27,9 +27,12 @@ the structured data under CC0 is supported.
   none) and a reverse crosswalk.
 - **Structured data only** — names + facets (modality/mechanic/equipment/anatomy); the
   upstream `instructions` prose and `images` are **not** bundled.
-- **Pre-v1 / unstable ids** — seed ids are first-pass full-name slugs (`3-4-sit-up`).
-  Decomposition into canonical `base[.variation]` + variation facets is a curation
-  refinement before v1.0; registry ids are NOT stable until v1.0.
+- **Ids decomposed toward canonical form** (`tools/decompose-ids.mjs`): source equipment +
+  a qualifier lexicon map names → `base[.equipment][.stance][.grip]` + variation facets
+  (e.g. `wide-grip-lat-pulldown` → `lat-pulldown.cable.wide` + `grip:wide`). 616 of 872
+  restructured, 6 auto-disambiguated. **Still pre-v1** — this is an algorithmic pass; a
+  human review (+ functional/mobility supplements, dedupe) is the remaining v1.0 work
+  (OB-24). Ids are NOT promised stable until v1.0.
 
 ## Compendium of Physical Activities (MET)
 

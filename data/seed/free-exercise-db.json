@@ -42,7 +42,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "ab-crunch-machine",
+    "id": "ab-crunch.machine",
     "names": [
       "Ab Crunch Machine"
     ],
@@ -85,7 +85,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "adductor",
+    "id": "adductor.foam-roll",
     "names": [
       "Adductor"
     ],
@@ -123,7 +123,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "advanced-kettlebell-windmill",
+    "id": "advanced-windmill.kettlebell",
     "names": [
       "Advanced Kettlebell Windmill"
     ],
@@ -190,7 +190,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternate-hammer-curl",
+    "id": "hammer-curl.dumbbell",
     "names": [
       "Alternate Hammer Curl"
     ],
@@ -205,7 +205,8 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternate_Hammer_Curl"
@@ -213,7 +214,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternate-heel-touchers",
+    "id": "heel-touchers",
     "names": [
       "Alternate Heel Touchers"
     ],
@@ -225,7 +226,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternate_Heel_Touchers"
@@ -233,7 +235,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternate-incline-dumbbell-curl",
+    "id": "curl.dumbbell.incline",
     "names": [
       "Alternate Incline Dumbbell Curl"
     ],
@@ -248,7 +250,9 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "incline",
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternate_Incline_Dumbbell_Curl"
@@ -256,7 +260,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternate-leg-diagonal-bound",
+    "id": "leg-diagonal-bound",
     "names": [
       "Alternate Leg Diagonal Bound"
     ],
@@ -274,7 +278,8 @@
           "glutes",
           "hamstrings"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternate_Leg_Diagonal_Bound"
@@ -282,7 +287,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternating-cable-shoulder-press",
+    "id": "shoulder-press.cable",
     "names": [
       "Alternating Cable Shoulder Press"
     ],
@@ -297,7 +302,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternating_Cable_Shoulder_Press"
@@ -305,7 +311,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternating-deltoid-raise",
+    "id": "deltoid-raise.dumbbell",
     "names": [
       "Alternating Deltoid Raise"
     ],
@@ -317,7 +323,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternating_Deltoid_Raise"
@@ -325,7 +332,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternating-floor-press",
+    "id": "floor-press.kettlebell",
     "names": [
       "Alternating Floor Press"
     ],
@@ -342,7 +349,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternating_Floor_Press"
@@ -350,7 +358,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternating-hang-clean",
+    "id": "hang-clean.kettlebell",
     "names": [
       "Alternating Hang Clean"
     ],
@@ -370,7 +378,8 @@
           "lower-back",
           "traps"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternating_Hang_Clean"
@@ -378,7 +387,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternating-kettlebell-press",
+    "id": "press.kettlebell",
     "names": [
       "Alternating Kettlebell Press"
     ],
@@ -393,7 +402,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternating_Kettlebell_Press"
@@ -401,7 +411,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternating-kettlebell-row",
+    "id": "row.kettlebell",
     "names": [
       "Alternating Kettlebell Row"
     ],
@@ -417,7 +427,8 @@
           "biceps",
           "lats"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternating_Kettlebell_Row"
@@ -425,7 +436,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "alternating-renegade-row",
+    "id": "renegade-row.kettlebell",
     "names": [
       "Alternating Renegade Row"
     ],
@@ -444,7 +455,8 @@
           "lats",
           "triceps"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Alternating_Renegade_Row"
@@ -508,7 +520,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "anti-gravity-press",
+    "id": "anti-gravity-press.barbell",
     "names": [
       "Anti-Gravity Press"
     ],
@@ -555,7 +567,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "arnold-dumbbell-press",
+    "id": "arnold-press.dumbbell",
     "names": [
       "Arnold Dumbbell Press"
     ],
@@ -578,7 +590,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "around-the-worlds",
+    "id": "around-the-worlds.dumbbell",
     "names": [
       "Around The Worlds"
     ],
@@ -688,7 +700,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "back-flyes-with-bands",
+    "id": "back-flyes-with.band",
     "names": [
       "Back Flyes - With Bands"
     ],
@@ -739,7 +751,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "backward-medicine-ball-throw",
+    "id": "backward-throw.medicine-ball",
     "names": [
       "Backward Medicine Ball Throw"
     ],
@@ -783,7 +795,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "ball-leg-curl",
+    "id": "ball-leg-curl.exercise-ball",
     "names": [
       "Ball Leg Curl"
     ],
@@ -832,7 +844,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "band-good-morning",
+    "id": "good-morning.band",
     "names": [
       "Band Good Morning"
     ],
@@ -856,7 +868,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "band-good-morning-pull-through",
+    "id": "good-morning-pull-through.band",
     "names": [
       "Band Good Morning (Pull Through)"
     ],
@@ -880,7 +892,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "band-hip-adductions",
+    "id": "hip-adductions.band",
     "names": [
       "Band Hip Adductions"
     ],
@@ -900,7 +912,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "band-pull-apart",
+    "id": "pull-apart.band",
     "names": [
       "Band Pull Apart"
     ],
@@ -924,7 +936,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "band-skull-crusher",
+    "id": "skull-crusher.band",
     "names": [
       "Band Skull Crusher"
     ],
@@ -944,7 +956,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-ab-rollout",
+    "id": "ab-rollout.barbell",
     "names": [
       "Barbell Ab Rollout"
     ],
@@ -968,7 +980,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-ab-rollout-on-knees",
+    "id": "ab-rollout-on-knees.barbell",
     "names": [
       "Barbell Ab Rollout - On Knees"
     ],
@@ -992,7 +1004,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-bench-press-medium-grip",
+    "id": "bench-press-medium-grip.barbell",
     "names": [
       "Barbell Bench Press - Medium Grip"
     ],
@@ -1016,7 +1028,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-curl",
+    "id": "curl.barbell",
     "names": [
       "Barbell Curl"
     ],
@@ -1039,7 +1051,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-curls-lying-against-an-incline",
+    "id": "curls-lying-against-an.barbell.incline",
     "names": [
       "Barbell Curls Lying Against An Incline"
     ],
@@ -1051,7 +1063,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Barbell_Curls_Lying_Against_An_Incline"
@@ -1059,7 +1072,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-deadlift",
+    "id": "deadlift.barbell",
     "names": [
       "Barbell Deadlift"
     ],
@@ -1089,7 +1102,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-full-squat",
+    "id": "full-squat.barbell",
     "names": [
       "Barbell Full Squat"
     ],
@@ -1115,7 +1128,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-glute-bridge",
+    "id": "glute-bridge.barbell",
     "names": [
       "Barbell Glute Bridge"
     ],
@@ -1139,7 +1152,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-guillotine-bench-press",
+    "id": "guillotine-bench-press.barbell",
     "names": [
       "Barbell Guillotine Bench Press"
     ],
@@ -1163,7 +1176,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-hack-squat",
+    "id": "hack-squat.barbell",
     "names": [
       "Barbell Hack Squat"
     ],
@@ -1188,7 +1201,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-hip-thrust",
+    "id": "hip-thrust.barbell",
     "names": [
       "Barbell Hip Thrust"
     ],
@@ -1212,7 +1225,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-incline-bench-press-medium-grip",
+    "id": "bench-press-medium-grip.barbell.incline",
     "names": [
       "Barbell Incline Bench Press - Medium Grip"
     ],
@@ -1228,7 +1241,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Barbell_Incline_Bench_Press_-_Medium_Grip"
@@ -1236,7 +1250,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-incline-shoulder-raise",
+    "id": "shoulder-raise.barbell.incline",
     "names": [
       "Barbell Incline Shoulder Raise"
     ],
@@ -1251,7 +1265,8 @@
         "secondary": [
           "chest"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Barbell_Incline_Shoulder_Raise"
@@ -1259,7 +1274,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-lunge",
+    "id": "lunge.barbell",
     "names": [
       "Barbell Lunge"
     ],
@@ -1284,7 +1299,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-rear-delt-row",
+    "id": "rear-delt-row.barbell",
     "names": [
       "Barbell Rear Delt Row"
     ],
@@ -1309,7 +1324,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-rollout-from-bench",
+    "id": "rollout-from-bench.barbell",
     "names": [
       "Barbell Rollout from Bench"
     ],
@@ -1335,7 +1350,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-seated-calf-raise",
+    "id": "calf-raise.barbell.seated",
     "names": [
       "Barbell Seated Calf Raise"
     ],
@@ -1347,7 +1362,8 @@
         "primary": [
           "calves"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Barbell_Seated_Calf_Raise"
@@ -1355,7 +1371,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-shoulder-press",
+    "id": "shoulder-press.barbell",
     "names": [
       "Barbell Shoulder Press"
     ],
@@ -1379,7 +1395,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-shrug",
+    "id": "shrug.barbell",
     "names": [
       "Barbell Shrug"
     ],
@@ -1399,7 +1415,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-shrug-behind-the-back",
+    "id": "shrug-behind-the-back.barbell",
     "names": [
       "Barbell Shrug Behind The Back"
     ],
@@ -1423,7 +1439,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-side-bend",
+    "id": "side-bend.barbell",
     "names": [
       "Barbell Side Bend"
     ],
@@ -1446,7 +1462,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-side-split-squat",
+    "id": "side-split-squat.barbell",
     "names": [
       "Barbell Side Split Squat"
     ],
@@ -1471,7 +1487,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-squat",
+    "id": "squat.barbell",
     "names": [
       "Barbell Squat"
     ],
@@ -1497,7 +1513,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-squat-to-a-bench",
+    "id": "squat-to-a-bench.barbell",
     "names": [
       "Barbell Squat To A Bench"
     ],
@@ -1523,7 +1539,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-step-ups",
+    "id": "step-ups.barbell",
     "names": [
       "Barbell Step Ups"
     ],
@@ -1549,7 +1565,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "barbell-walking-lunge",
+    "id": "walking-lunge.barbell",
     "names": [
       "Barbell Walking Lunge"
     ],
@@ -1695,7 +1711,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bench-press-powerlifting",
+    "id": "bench-press-powerlifting.barbell",
     "names": [
       "Bench Press - Powerlifting"
     ],
@@ -1721,7 +1737,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bench-press-with-bands",
+    "id": "bench-press-with.band",
     "names": [
       "Bench Press - With Bands"
     ],
@@ -1745,7 +1761,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bench-press-with-chains",
+    "id": "bench-press-with-chains.barbell",
     "names": [
       "Bench Press with Chains"
     ],
@@ -1795,7 +1811,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-arm-barbell-pullover",
+    "id": "bent-arm-pullover.barbell",
     "names": [
       "Bent-Arm Barbell Pullover"
     ],
@@ -1821,7 +1837,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-arm-dumbbell-pullover",
+    "id": "bent-arm-pullover.dumbbell",
     "names": [
       "Bent-Arm Dumbbell Pullover"
     ],
@@ -1866,7 +1882,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-over-barbell-row",
+    "id": "row.barbell.bent-over",
     "names": [
       "Bent Over Barbell Row"
     ],
@@ -1883,7 +1899,8 @@
           "lats",
           "shoulders"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Bent_Over_Barbell_Row"
@@ -1891,7 +1908,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-over-dumbbell-rear-delt-raise-with-head-on-bench",
+    "id": "rear-delt-raise-with-head-on-bench.dumbbell.bent-over",
     "names": [
       "Bent Over Dumbbell Rear Delt Raise With Head On Bench"
     ],
@@ -1903,7 +1920,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench"
@@ -1911,7 +1929,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-over-low-pulley-side-lateral",
+    "id": "low-pulley-side-lateral.cable.bent-over",
     "names": [
       "Bent Over Low-Pulley Side Lateral"
     ],
@@ -1928,7 +1946,8 @@
           "middle-back",
           "traps"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Bent_Over_Low-Pulley_Side_Lateral"
@@ -1936,7 +1955,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-over-one-arm-long-bar-row",
+    "id": "one-arm-long-bar-row.barbell.bent-over",
     "names": [
       "Bent Over One-Arm Long Bar Row"
     ],
@@ -1954,7 +1973,8 @@
           "lower-back",
           "traps"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Bent_Over_One-Arm_Long_Bar_Row"
@@ -1962,7 +1982,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-over-two-arm-long-bar-row",
+    "id": "two-arm-long-bar-row.barbell.bent-over",
     "names": [
       "Bent Over Two-Arm Long Bar Row"
     ],
@@ -1978,7 +1998,8 @@
           "biceps",
           "lats"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Bent_Over_Two-Arm_Long_Bar_Row"
@@ -1986,7 +2007,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-over-two-dumbbell-row",
+    "id": "two-row.dumbbell.bent-over",
     "names": [
       "Bent Over Two-Dumbbell Row"
     ],
@@ -2003,7 +2024,8 @@
           "lats",
           "shoulders"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Bent_Over_Two-Dumbbell_Row"
@@ -2011,7 +2033,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-over-two-dumbbell-row-with-palms-in",
+    "id": "two-row-with-palms-in.dumbbell.bent-over",
     "names": [
       "Bent Over Two-Dumbbell Row With Palms In"
     ],
@@ -2027,7 +2049,8 @@
           "biceps",
           "lats"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Bent_Over_Two-Dumbbell_Row_With_Palms_In"
@@ -2035,7 +2058,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bent-press",
+    "id": "bent-press.kettlebell",
     "names": [
       "Bent Press"
     ],
@@ -2087,7 +2110,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bicycling-stationary",
+    "id": "bicycling-stationary.machine",
     "names": [
       "Bicycling, Stationary"
     ],
@@ -2111,7 +2134,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "board-press",
+    "id": "board-press.barbell",
     "names": [
       "Board Press"
     ],
@@ -2181,7 +2204,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bodyweight-flyes",
+    "id": "bodyweight-flyes.ez-bar",
     "names": [
       "Bodyweight Flyes"
     ],
@@ -2278,7 +2301,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bosu-ball-cable-crunch-with-side-bends",
+    "id": "bosu-ball-crunch-with-side-bends.cable",
     "names": [
       "Bosu Ball Cable Crunch With Side Bends"
     ],
@@ -2298,7 +2321,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bottoms-up-clean-from-the-hang-position",
+    "id": "bottoms-up-clean-from-the-hang-position.kettlebell",
     "names": [
       "Bottoms-Up Clean From The Hang Position"
     ],
@@ -2396,7 +2419,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "box-squat",
+    "id": "box-squat.barbell",
     "names": [
       "Box Squat"
     ],
@@ -2423,7 +2446,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "box-squat-with-bands",
+    "id": "box-squat-with-bands.barbell",
     "names": [
       "Box Squat with Bands"
     ],
@@ -2451,7 +2474,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "box-squat-with-chains",
+    "id": "box-squat-with-chains.barbell",
     "names": [
       "Box Squat with Chains"
     ],
@@ -2479,7 +2502,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "brachialis-smr",
+    "id": "brachialis-smr.foam-roll",
     "names": [
       "Brachialis-SMR"
     ],
@@ -2498,7 +2521,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "bradford-rocky-presses",
+    "id": "bradford-rocky-presses.barbell",
     "names": [
       "Bradford/Rocky Presses"
     ],
@@ -2564,7 +2587,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "butterfly",
+    "id": "butterfly.machine",
     "names": [
       "Butterfly"
     ],
@@ -2584,7 +2607,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-chest-press",
+    "id": "chest-press.cable",
     "names": [
       "Cable Chest Press"
     ],
@@ -2608,7 +2631,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-crossover",
+    "id": "crossover.cable",
     "names": [
       "Cable Crossover"
     ],
@@ -2631,7 +2654,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-crunch",
+    "id": "crunch.cable",
     "names": [
       "Cable Crunch"
     ],
@@ -2651,7 +2674,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-deadlifts",
+    "id": "deadlifts.cable",
     "names": [
       "Cable Deadlifts"
     ],
@@ -2677,7 +2700,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-hammer-curls-rope-attachment",
+    "id": "hammer-curls-rope-attachment.cable",
     "names": [
       "Cable Hammer Curls - Rope Attachment"
     ],
@@ -2697,7 +2720,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-hip-adduction",
+    "id": "hip-adduction.cable",
     "names": [
       "Cable Hip Adduction"
     ],
@@ -2717,7 +2740,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-incline-pushdown",
+    "id": "pushdown.cable.incline",
     "names": [
       "Cable Incline Pushdown"
     ],
@@ -2729,7 +2752,8 @@
         "primary": [
           "lats"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Cable_Incline_Pushdown"
@@ -2737,7 +2761,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-incline-triceps-extension",
+    "id": "triceps-extension.cable.incline",
     "names": [
       "Cable Incline Triceps Extension"
     ],
@@ -2749,7 +2773,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Cable_Incline_Triceps_Extension"
@@ -2757,7 +2782,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-internal-rotation",
+    "id": "internal-rotation.cable",
     "names": [
       "Cable Internal Rotation"
     ],
@@ -2777,7 +2802,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-iron-cross",
+    "id": "iron-cross.cable",
     "names": [
       "Cable Iron Cross"
     ],
@@ -2797,7 +2822,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-judo-flip",
+    "id": "judo-flip.cable",
     "names": [
       "Cable Judo Flip"
     ],
@@ -2817,7 +2842,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-lying-triceps-extension",
+    "id": "triceps-extension.cable.lying",
     "names": [
       "Cable Lying Triceps Extension"
     ],
@@ -2829,7 +2854,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Cable_Lying_Triceps_Extension"
@@ -2837,7 +2863,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-one-arm-tricep-extension",
+    "id": "one-arm-tricep-extension.cable",
     "names": [
       "Cable One Arm Tricep Extension"
     ],
@@ -2857,7 +2883,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-preacher-curl",
+    "id": "preacher-curl.cable",
     "names": [
       "Cable Preacher Curl"
     ],
@@ -2880,7 +2906,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-rear-delt-fly",
+    "id": "rear-delt-fly.cable",
     "names": [
       "Cable Rear Delt Fly"
     ],
@@ -2900,7 +2926,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-reverse-crunch",
+    "id": "reverse-crunch.cable",
     "names": [
       "Cable Reverse Crunch"
     ],
@@ -2920,7 +2946,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-rope-overhead-triceps-extension",
+    "id": "rope-overhead-triceps-extension.cable",
     "names": [
       "Cable Rope Overhead Triceps Extension"
     ],
@@ -2940,7 +2966,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-rope-rear-delt-rows",
+    "id": "rope-rear-delt-rows.cable",
     "names": [
       "Cable Rope Rear-Delt Rows"
     ],
@@ -2964,7 +2990,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-russian-twists",
+    "id": "russian-twists.cable",
     "names": [
       "Cable Russian Twists"
     ],
@@ -2984,7 +3010,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-seated-crunch",
+    "id": "crunch.cable.seated",
     "names": [
       "Cable Seated Crunch"
     ],
@@ -2996,7 +3022,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Cable_Seated_Crunch"
@@ -3004,7 +3031,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-seated-lateral-raise",
+    "id": "lateral-raise.cable.seated",
     "names": [
       "Cable Seated Lateral Raise"
     ],
@@ -3020,7 +3047,8 @@
           "middle-back",
           "traps"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Cable_Seated_Lateral_Raise"
@@ -3028,7 +3056,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-shoulder-press",
+    "id": "shoulder-press.cable.2",
     "names": [
       "Cable Shoulder Press"
     ],
@@ -3051,7 +3079,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-shrugs",
+    "id": "shrugs.cable",
     "names": [
       "Cable Shrugs"
     ],
@@ -3071,7 +3099,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cable-wrist-curl",
+    "id": "wrist-curl.cable",
     "names": [
       "Cable Wrist Curl"
     ],
@@ -3091,7 +3119,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "calf-machine-shoulder-shrug",
+    "id": "calf-shoulder-shrug.machine",
     "names": [
       "Calf-Machine Shoulder Shrug"
     ],
@@ -3111,7 +3139,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "calf-press",
+    "id": "calf-press.machine",
     "names": [
       "Calf Press"
     ],
@@ -3131,7 +3159,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "calf-press-on-the-leg-press-machine",
+    "id": "calf-press-on-the-leg-press.machine",
     "names": [
       "Calf Press On The Leg Press Machine"
     ],
@@ -3151,7 +3179,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "calf-raise-on-a-dumbbell",
+    "id": "calf-raise-on-a.dumbbell",
     "names": [
       "Calf Raise On A Dumbbell"
     ],
@@ -3171,7 +3199,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "calf-raises-with-bands",
+    "id": "calf-raises-with.band",
     "names": [
       "Calf Raises - With Bands"
     ],
@@ -3229,7 +3257,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "calves-smr",
+    "id": "calves-smr.foam-roll",
     "names": [
       "Calves-SMR"
     ],
@@ -3275,7 +3303,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "car-drivers",
+    "id": "car-drivers.barbell",
     "names": [
       "Car Drivers"
     ],
@@ -3346,7 +3374,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "catch-and-overhead-throw",
+    "id": "catch-and-overhead-throw.medicine-ball",
     "names": [
       "Catch and Overhead Throw"
     ],
@@ -3460,7 +3488,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "chair-squat",
+    "id": "chair-squat.machine",
     "names": [
       "Chair Squat"
     ],
@@ -3531,7 +3559,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "chest-push-from-3-point-stance",
+    "id": "chest-push-from-3-point-stance.medicine-ball",
     "names": [
       "Chest Push from 3 point stance"
     ],
@@ -3556,7 +3584,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "chest-push-multiple-response",
+    "id": "chest-push-multiple-response.medicine-ball",
     "names": [
       "Chest Push (multiple response)"
     ],
@@ -3581,7 +3609,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "chest-push-single-response",
+    "id": "chest-push-single-response.medicine-ball",
     "names": [
       "Chest Push (single response)"
     ],
@@ -3606,7 +3634,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "chest-push-with-run-release",
+    "id": "chest-push-with-run-release.medicine-ball",
     "names": [
       "Chest Push with Run Release"
     ],
@@ -3631,7 +3659,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "chest-stretch-on-stability-ball",
+    "id": "chest-stretch-on.exercise-ball",
     "names": [
       "Chest Stretch on Stability Ball"
     ],
@@ -3747,7 +3775,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "clean",
+    "id": "clean.barbell",
     "names": [
       "Clean"
     ],
@@ -3776,7 +3804,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "clean-deadlift",
+    "id": "clean-deadlift.barbell",
     "names": [
       "Clean Deadlift"
     ],
@@ -3804,7 +3832,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "clean-pull",
+    "id": "clean-pull.barbell",
     "names": [
       "Clean Pull"
     ],
@@ -3831,7 +3859,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "clean-shrug",
+    "id": "clean-shrug.barbell",
     "names": [
       "Clean Shrug"
     ],
@@ -3855,7 +3883,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "clean-and-jerk",
+    "id": "clean-and-jerk.barbell",
     "names": [
       "Clean and Jerk"
     ],
@@ -3884,7 +3912,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "clean-and-press",
+    "id": "clean-and-press.barbell",
     "names": [
       "Clean and Press"
     ],
@@ -3916,7 +3944,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "clean-from-blocks",
+    "id": "clean-from-blocks.barbell",
     "names": [
       "Clean from Blocks"
     ],
@@ -3967,7 +3995,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "close-grip-barbell-bench-press",
+    "id": "bench-press.barbell.close",
     "names": [
       "Close-Grip Barbell Bench Press"
     ],
@@ -3983,7 +4011,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Close-Grip_Barbell_Bench_Press"
@@ -3991,7 +4020,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "close-grip-dumbbell-press",
+    "id": "press.dumbbell.close",
     "names": [
       "Close-Grip Dumbbell Press"
     ],
@@ -4007,7 +4036,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Close-Grip_Dumbbell_Press"
@@ -4015,7 +4045,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "close-grip-ez-bar-curl-with-band",
+    "id": "ez-bar-curl-with-band.ez-bar.close",
     "names": [
       "Close-Grip EZ-Bar Curl with Band"
     ],
@@ -4030,7 +4060,8 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Close-Grip_EZ-Bar_Curl_with_Band"
@@ -4038,7 +4069,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "close-grip-ez-bar-press",
+    "id": "ez-bar-press.ez-bar.close",
     "names": [
       "Close-Grip EZ-Bar Press"
     ],
@@ -4054,7 +4085,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Close-Grip_EZ-Bar_Press"
@@ -4062,7 +4094,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "close-grip-ez-bar-curl",
+    "id": "ez-bar-curl.barbell.close",
     "names": [
       "Close-Grip EZ Bar Curl"
     ],
@@ -4077,7 +4109,8 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Close-Grip_EZ_Bar_Curl"
@@ -4085,7 +4118,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "close-grip-front-lat-pulldown",
+    "id": "front-lat-pulldown.cable.close",
     "names": [
       "Close-Grip Front Lat Pulldown"
     ],
@@ -4102,7 +4135,8 @@
           "middle-back",
           "shoulders"
         ]
-      }
+      },
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Close-Grip_Front_Lat_Pulldown"
@@ -4110,7 +4144,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "close-grip-push-up-off-of-a-dumbbell",
+    "id": "push-up-off-of-a-dumbbell.close",
     "names": [
       "Close-Grip Push-Up off of a Dumbbell"
     ],
@@ -4127,7 +4161,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Close-Grip_Push-Up_off_of_a_Dumbbell"
@@ -4135,7 +4170,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "close-grip-standing-barbell-curl",
+    "id": "curl.barbell.standing.close",
     "names": [
       "Close-Grip Standing Barbell Curl"
     ],
@@ -4150,7 +4185,9 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "standing",
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Close-Grip_Standing_Barbell_Curl"
@@ -4207,7 +4244,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "concentration-curls",
+    "id": "concentration-curls.dumbbell",
     "names": [
       "Concentration Curls"
     ],
@@ -4250,7 +4287,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cross-body-hammer-curl",
+    "id": "cross-body-hammer-curl.dumbbell",
     "names": [
       "Cross Body Hammer Curl"
     ],
@@ -4273,7 +4310,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cross-over-with-bands",
+    "id": "cross-over-with.band",
     "names": [
       "Cross Over - With Bands"
     ],
@@ -4405,7 +4442,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "cuban-press",
+    "id": "cuban-press.dumbbell",
     "names": [
       "Cuban Press"
     ],
@@ -4470,7 +4507,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "deadlift-with-bands",
+    "id": "deadlift-with-bands.barbell",
     "names": [
       "Deadlift with Bands"
     ],
@@ -4498,7 +4535,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "deadlift-with-chains",
+    "id": "deadlift-with-chains.barbell",
     "names": [
       "Deadlift with Chains"
     ],
@@ -4526,7 +4563,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-barbell-bench-press",
+    "id": "bench-press.barbell.decline",
     "names": [
       "Decline Barbell Bench Press"
     ],
@@ -4542,7 +4579,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_Barbell_Bench_Press"
@@ -4550,7 +4588,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-close-grip-bench-to-skull-crusher",
+    "id": "bench-to-skull-crusher.barbell.decline.close",
     "names": [
       "Decline Close-Grip Bench To Skull Crusher"
     ],
@@ -4566,7 +4604,9 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "stance": "decline",
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Decline_Close-Grip_Bench_To_Skull_Crusher"
@@ -4574,7 +4614,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-crunch",
+    "id": "crunch.decline",
     "names": [
       "Decline Crunch"
     ],
@@ -4586,7 +4626,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_Crunch"
@@ -4594,7 +4635,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-dumbbell-bench-press",
+    "id": "bench-press.dumbbell.decline",
     "names": [
       "Decline Dumbbell Bench Press"
     ],
@@ -4610,7 +4651,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_Dumbbell_Bench_Press"
@@ -4618,7 +4660,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-dumbbell-flyes",
+    "id": "flyes.dumbbell.decline",
     "names": [
       "Decline Dumbbell Flyes"
     ],
@@ -4630,7 +4672,8 @@
         "primary": [
           "chest"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_Dumbbell_Flyes"
@@ -4638,7 +4681,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-dumbbell-triceps-extension",
+    "id": "triceps-extension.dumbbell.decline",
     "names": [
       "Decline Dumbbell Triceps Extension"
     ],
@@ -4650,7 +4693,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_Dumbbell_Triceps_Extension"
@@ -4658,7 +4702,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-ez-bar-triceps-extension",
+    "id": "ez-bar-triceps-extension.barbell.decline",
     "names": [
       "Decline EZ Bar Triceps Extension"
     ],
@@ -4670,7 +4714,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_EZ_Bar_Triceps_Extension"
@@ -4678,7 +4723,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-oblique-crunch",
+    "id": "oblique-crunch.decline",
     "names": [
       "Decline Oblique Crunch"
     ],
@@ -4690,7 +4735,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_Oblique_Crunch"
@@ -4698,7 +4744,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-push-up",
+    "id": "push-up.decline",
     "names": [
       "Decline Push-Up"
     ],
@@ -4713,7 +4759,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_Push-Up"
@@ -4721,7 +4768,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-reverse-crunch",
+    "id": "reverse-crunch.decline",
     "names": [
       "Decline Reverse Crunch"
     ],
@@ -4733,7 +4780,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_Reverse_Crunch"
@@ -4741,7 +4789,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "decline-smith-press",
+    "id": "smith-press.machine.decline",
     "names": [
       "Decline Smith Press"
     ],
@@ -4757,7 +4805,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Decline_Smith_Press"
@@ -4765,7 +4814,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "deficit-deadlift",
+    "id": "deficit-deadlift.barbell",
     "names": [
       "Deficit Deadlift"
     ],
@@ -4820,7 +4869,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dip-machine",
+    "id": "dip.machine",
     "names": [
       "Dip Machine"
     ],
@@ -4912,7 +4961,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "double-kettlebell-alternating-hang-clean",
+    "id": "double-hang-clean.kettlebell",
     "names": [
       "Double Kettlebell Alternating Hang Clean"
     ],
@@ -4933,7 +4982,8 @@
           "quadriceps",
           "traps"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Double_Kettlebell_Alternating_Hang_Clean"
@@ -4941,7 +4991,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "double-kettlebell-jerk",
+    "id": "double-jerk.kettlebell",
     "names": [
       "Double Kettlebell Jerk"
     ],
@@ -4966,7 +5016,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "double-kettlebell-push-press",
+    "id": "double-push-press.kettlebell",
     "names": [
       "Double Kettlebell Push Press"
     ],
@@ -4991,7 +5041,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "double-kettlebell-snatch",
+    "id": "double-snatch.kettlebell",
     "names": [
       "Double Kettlebell Snatch"
     ],
@@ -5016,7 +5066,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "double-kettlebell-windmill",
+    "id": "double-windmill.kettlebell",
     "names": [
       "Double Kettlebell Windmill"
     ],
@@ -5068,7 +5118,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "downward-facing-balance",
+    "id": "downward-facing-balance.exercise-ball",
     "names": [
       "Downward Facing Balance"
     ],
@@ -5092,7 +5142,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "drag-curl",
+    "id": "drag-curl.barbell",
     "names": [
       "Drag Curl"
     ],
@@ -5139,7 +5189,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-alternate-bicep-curl",
+    "id": "bicep-curl.dumbbell",
     "names": [
       "Dumbbell Alternate Bicep Curl"
     ],
@@ -5154,7 +5204,8 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Alternate_Bicep_Curl"
@@ -5162,7 +5213,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-bench-press",
+    "id": "bench-press.dumbbell",
     "names": [
       "Dumbbell Bench Press"
     ],
@@ -5186,7 +5237,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-bench-press-with-neutral-grip",
+    "id": "bench-press-with.dumbbell.neutral",
     "names": [
       "Dumbbell Bench Press with Neutral Grip"
     ],
@@ -5202,7 +5253,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "grip": "neutral"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Bench_Press_with_Neutral_Grip"
@@ -5210,7 +5262,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-bicep-curl",
+    "id": "bicep-curl.dumbbell.2",
     "names": [
       "Dumbbell Bicep Curl"
     ],
@@ -5233,7 +5285,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-clean",
+    "id": "clean.dumbbell",
     "names": [
       "Dumbbell Clean"
     ],
@@ -5262,7 +5314,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-floor-press",
+    "id": "floor-press.dumbbell",
     "names": [
       "Dumbbell Floor Press"
     ],
@@ -5286,7 +5338,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-flyes",
+    "id": "flyes.dumbbell",
     "names": [
       "Dumbbell Flyes"
     ],
@@ -5306,7 +5358,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-incline-row",
+    "id": "row.dumbbell.incline",
     "names": [
       "Dumbbell Incline Row"
     ],
@@ -5324,7 +5376,8 @@
           "lats",
           "shoulders"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Incline_Row"
@@ -5332,7 +5385,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-incline-shoulder-raise",
+    "id": "shoulder-raise.dumbbell.incline",
     "names": [
       "Dumbbell Incline Shoulder Raise"
     ],
@@ -5347,7 +5400,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Incline_Shoulder_Raise"
@@ -5355,7 +5409,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-lunges",
+    "id": "lunges.dumbbell",
     "names": [
       "Dumbbell Lunges"
     ],
@@ -5380,7 +5434,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-lying-one-arm-rear-lateral-raise",
+    "id": "one-arm-rear-lateral-raise.dumbbell.lying",
     "names": [
       "Dumbbell Lying One-Arm Rear Lateral Raise"
     ],
@@ -5395,7 +5449,8 @@
         "secondary": [
           "middle-back"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Lying_One-Arm_Rear_Lateral_Raise"
@@ -5403,7 +5458,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-lying-pronation",
+    "id": "pronation.dumbbell.lying",
     "names": [
       "Dumbbell Lying Pronation"
     ],
@@ -5415,7 +5470,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Lying_Pronation"
@@ -5423,7 +5479,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-lying-rear-lateral-raise",
+    "id": "rear-lateral-raise.dumbbell.lying",
     "names": [
       "Dumbbell Lying Rear Lateral Raise"
     ],
@@ -5435,7 +5491,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Lying_Rear_Lateral_Raise"
@@ -5443,7 +5500,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-lying-supination",
+    "id": "supination.dumbbell.lying",
     "names": [
       "Dumbbell Lying Supination"
     ],
@@ -5455,7 +5512,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Lying_Supination"
@@ -5463,7 +5521,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-one-arm-shoulder-press",
+    "id": "one-arm-shoulder-press.dumbbell",
     "names": [
       "Dumbbell One-Arm Shoulder Press"
     ],
@@ -5486,7 +5544,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-one-arm-triceps-extension",
+    "id": "one-arm-triceps-extension.dumbbell",
     "names": [
       "Dumbbell One-Arm Triceps Extension"
     ],
@@ -5506,7 +5564,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-one-arm-upright-row",
+    "id": "one-arm-upright-row.dumbbell",
     "names": [
       "Dumbbell One-Arm Upright Row"
     ],
@@ -5530,7 +5588,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-prone-incline-curl",
+    "id": "prone-curl.dumbbell.incline",
     "names": [
       "Dumbbell Prone Incline Curl"
     ],
@@ -5542,7 +5600,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Prone_Incline_Curl"
@@ -5550,7 +5609,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-raise",
+    "id": "raise.dumbbell",
     "names": [
       "Dumbbell Raise"
     ],
@@ -5573,7 +5632,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-rear-lunge",
+    "id": "rear-lunge.dumbbell",
     "names": [
       "Dumbbell Rear Lunge"
     ],
@@ -5598,7 +5657,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-scaption",
+    "id": "scaption.dumbbell",
     "names": [
       "Dumbbell Scaption"
     ],
@@ -5621,7 +5680,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-seated-box-jump",
+    "id": "box-jump.dumbbell.seated",
     "names": [
       "Dumbbell Seated Box Jump"
     ],
@@ -5638,7 +5697,8 @@
           "glutes",
           "hamstrings"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Seated_Box_Jump"
@@ -5646,7 +5706,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-seated-one-leg-calf-raise",
+    "id": "one-leg-calf-raise.dumbbell.seated",
     "names": [
       "Dumbbell Seated One-Leg Calf Raise"
     ],
@@ -5658,7 +5718,8 @@
         "primary": [
           "calves"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Dumbbell_Seated_One-Leg_Calf_Raise"
@@ -5666,7 +5727,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-shoulder-press",
+    "id": "shoulder-press.dumbbell",
     "names": [
       "Dumbbell Shoulder Press"
     ],
@@ -5689,7 +5750,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-shrug",
+    "id": "shrug.dumbbell",
     "names": [
       "Dumbbell Shrug"
     ],
@@ -5709,7 +5770,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-side-bend",
+    "id": "side-bend.dumbbell",
     "names": [
       "Dumbbell Side Bend"
     ],
@@ -5729,7 +5790,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-squat",
+    "id": "squat.dumbbell",
     "names": [
       "Dumbbell Squat"
     ],
@@ -5755,7 +5816,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-squat-to-a-bench",
+    "id": "squat-to-a-bench.dumbbell",
     "names": [
       "Dumbbell Squat To A Bench"
     ],
@@ -5781,7 +5842,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-step-ups",
+    "id": "step-ups.dumbbell",
     "names": [
       "Dumbbell Step Ups"
     ],
@@ -5806,7 +5867,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "dumbbell-tricep-extension-pronated-grip",
+    "id": "tricep-extension-pronated-grip.dumbbell",
     "names": [
       "Dumbbell Tricep Extension -Pronated Grip"
     ],
@@ -5865,7 +5926,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "ez-bar-curl",
+    "id": "ez-bar-curl.ez-bar",
     "names": [
       "EZ-Bar Curl"
     ],
@@ -5885,7 +5946,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "ez-bar-skullcrusher",
+    "id": "ez-bar-skullcrusher.ez-bar",
     "names": [
       "EZ-Bar Skullcrusher"
     ],
@@ -5972,7 +6033,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "elevated-back-lunge",
+    "id": "elevated-back-lunge.barbell",
     "names": [
       "Elevated Back Lunge"
     ],
@@ -5996,7 +6057,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "elevated-cable-rows",
+    "id": "elevated-rows.cable",
     "names": [
       "Elevated Cable Rows"
     ],
@@ -6020,7 +6081,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "elliptical-trainer",
+    "id": "elliptical-trainer.machine",
     "names": [
       "Elliptical Trainer"
     ],
@@ -6044,7 +6105,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "exercise-ball-crunch",
+    "id": "crunch.exercise-ball",
     "names": [
       "Exercise Ball Crunch"
     ],
@@ -6064,7 +6125,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "exercise-ball-pull-in",
+    "id": "pull-in.exercise-ball",
     "names": [
       "Exercise Ball Pull-In"
     ],
@@ -6084,7 +6145,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "extended-range-one-arm-kettlebell-floor-press",
+    "id": "extended-range-one-arm-floor-press.kettlebell",
     "names": [
       "Extended Range One-Arm Kettlebell Floor Press"
     ],
@@ -6108,7 +6169,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "external-rotation",
+    "id": "external-rotation.dumbbell",
     "names": [
       "External Rotation"
     ],
@@ -6128,7 +6189,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "external-rotation-with-band",
+    "id": "external-rotation-with.band",
     "names": [
       "External Rotation with Band"
     ],
@@ -6148,7 +6209,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "external-rotation-with-cable",
+    "id": "external-rotation-with.cable",
     "names": [
       "External Rotation with Cable"
     ],
@@ -6168,7 +6229,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "face-pull",
+    "id": "face-pull.cable",
     "names": [
       "Face Pull"
     ],
@@ -6246,7 +6307,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "finger-curls",
+    "id": "finger-curls.barbell",
     "names": [
       "Finger Curls"
     ],
@@ -6266,7 +6327,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "flat-bench-cable-flyes",
+    "id": "flat-bench-flyes.cable",
     "names": [
       "Flat Bench Cable Flyes"
     ],
@@ -6306,7 +6367,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "flat-bench-lying-leg-raise",
+    "id": "flat-bench-leg-raise.lying",
     "names": [
       "Flat Bench Lying Leg Raise"
     ],
@@ -6318,7 +6379,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Flat_Bench_Lying_Leg_Raise"
@@ -6326,7 +6388,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "flexor-incline-dumbbell-curls",
+    "id": "flexor-curls.dumbbell.incline",
     "names": [
       "Flexor Incline Dumbbell Curls"
     ],
@@ -6338,7 +6400,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Flexor_Incline_Dumbbell_Curls"
@@ -6369,7 +6432,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "floor-press",
+    "id": "floor-press.barbell",
     "names": [
       "Floor Press"
     ],
@@ -6393,7 +6456,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "floor-press-with-chains",
+    "id": "floor-press-with-chains.barbell",
     "names": [
       "Floor Press with Chains"
     ],
@@ -6487,7 +6550,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "frankenstein-squat",
+    "id": "frankenstein-squat.barbell",
     "names": [
       "Frankenstein Squat"
     ],
@@ -6582,7 +6645,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "front-barbell-squat",
+    "id": "front-squat.barbell",
     "names": [
       "Front Barbell Squat"
     ],
@@ -6607,7 +6670,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "front-barbell-squat-to-a-bench",
+    "id": "front-squat-to-a-bench.barbell",
     "names": [
       "Front Barbell Squat To A Bench"
     ],
@@ -6659,7 +6722,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "front-cable-raise",
+    "id": "front-raise.cable",
     "names": [
       "Front Cable Raise"
     ],
@@ -6706,7 +6769,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "front-dumbbell-raise",
+    "id": "front-raise.dumbbell",
     "names": [
       "Front Dumbbell Raise"
     ],
@@ -6726,7 +6789,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "front-incline-dumbbell-raise",
+    "id": "front-raise.dumbbell.incline",
     "names": [
       "Front Incline Dumbbell Raise"
     ],
@@ -6738,7 +6801,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Front_Incline_Dumbbell_Raise"
@@ -6785,7 +6849,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "front-raise-and-pullover",
+    "id": "front-raise-and-pullover.barbell",
     "names": [
       "Front Raise And Pullover"
     ],
@@ -6810,7 +6874,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "front-squat-clean-grip",
+    "id": "front-squat-clean-grip.barbell",
     "names": [
       "Front Squat (Clean Grip)"
     ],
@@ -6835,7 +6899,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "front-squats-with-two-kettlebells",
+    "id": "front-squats-with-two.kettlebell",
     "names": [
       "Front Squats With Two Kettlebells"
     ],
@@ -6859,7 +6923,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "front-two-dumbbell-raise",
+    "id": "front-two-raise.dumbbell",
     "names": [
       "Front Two-Dumbbell Raise"
     ],
@@ -6879,7 +6943,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "full-range-of-motion-lat-pulldown",
+    "id": "full-range-of-motion-lat-pulldown.cable",
     "names": [
       "Full Range-Of-Motion Lat Pulldown"
     ],
@@ -6928,7 +6992,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "glute-ham-raise",
+    "id": "glute-ham-raise.machine",
     "names": [
       "Glute Ham Raise"
     ],
@@ -6975,7 +7039,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "goblet-squat",
+    "id": "goblet-squat.kettlebell",
     "names": [
       "Goblet Squat"
     ],
@@ -7001,7 +7065,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "good-morning",
+    "id": "good-morning.barbell",
     "names": [
       "Good Morning"
     ],
@@ -7026,7 +7090,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "good-morning-off-pins",
+    "id": "good-morning-off-pins.barbell",
     "names": [
       "Good Morning off Pins"
     ],
@@ -7114,7 +7178,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hack-squat",
+    "id": "hack-squat.machine",
     "names": [
       "Hack Squat"
     ],
@@ -7139,7 +7203,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hammer-curls",
+    "id": "hammer-curls.dumbbell",
     "names": [
       "Hammer Curls"
     ],
@@ -7159,7 +7223,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hammer-grip-incline-db-bench-press",
+    "id": "hammer-grip-db-bench-press.dumbbell.incline",
     "names": [
       "Hammer Grip Incline DB Bench Press"
     ],
@@ -7175,7 +7239,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Hammer_Grip_Incline_DB_Bench_Press"
@@ -7183,7 +7248,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hamstring-smr",
+    "id": "hamstring-smr.foam-roll",
     "names": [
       "Hamstring-SMR"
     ],
@@ -7245,7 +7310,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hang-clean",
+    "id": "hang-clean.barbell",
     "names": [
       "Hang Clean"
     ],
@@ -7274,7 +7339,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hang-clean-below-the-knees",
+    "id": "hang-clean-below-the-knees.barbell",
     "names": [
       "Hang Clean - Below the Knees"
     ],
@@ -7303,7 +7368,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hang-snatch",
+    "id": "hang-snatch.barbell",
     "names": [
       "Hang Snatch"
     ],
@@ -7333,7 +7398,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hang-snatch-below-knees",
+    "id": "hang-snatch-below-knees.barbell",
     "names": [
       "Hang Snatch - Below Knees"
     ],
@@ -7363,7 +7428,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hanging-bar-good-morning",
+    "id": "hanging-bar-good-morning.barbell",
     "names": [
       "Hanging Bar Good Morning"
     ],
@@ -7428,7 +7493,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "heaving-snatch-balance",
+    "id": "heaving-snatch-balance.barbell",
     "names": [
       "Heaving Snatch Balance"
     ],
@@ -7481,7 +7546,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "high-cable-curls",
+    "id": "high-curls.cable",
     "names": [
       "High Cable Curls"
     ],
@@ -7524,7 +7589,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hip-extension-with-bands",
+    "id": "hip-extension-with.band",
     "names": [
       "Hip Extension with Bands"
     ],
@@ -7547,7 +7612,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hip-flexion-with-band",
+    "id": "hip-flexion-with.band",
     "names": [
       "Hip Flexion with Band"
     ],
@@ -7567,7 +7632,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hip-lift-with-band",
+    "id": "hip-lift-with.band",
     "names": [
       "Hip Lift with Band"
     ],
@@ -7591,7 +7656,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "hug-a-ball",
+    "id": "hug-a-ball.exercise-ball",
     "names": [
       "Hug A Ball"
     ],
@@ -7730,7 +7795,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "iliotibial-tract-smr",
+    "id": "iliotibial-tract-smr.foam-roll",
     "names": [
       "Iliotibial Tract-SMR"
     ],
@@ -7770,7 +7835,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-barbell-triceps-extension",
+    "id": "triceps-extension.barbell.incline",
     "names": [
       "Incline Barbell Triceps Extension"
     ],
@@ -7785,7 +7850,8 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Barbell_Triceps_Extension"
@@ -7793,7 +7859,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-bench-pull",
+    "id": "bench-pull.barbell.incline",
     "names": [
       "Incline Bench Pull"
     ],
@@ -7809,7 +7875,8 @@
           "lats",
           "shoulders"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Bench_Pull"
@@ -7817,7 +7884,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-cable-chest-press",
+    "id": "chest-press.cable.incline",
     "names": [
       "Incline Cable Chest Press"
     ],
@@ -7833,7 +7900,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Cable_Chest_Press"
@@ -7841,7 +7909,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-cable-flye",
+    "id": "flye.cable.incline",
     "names": [
       "Incline Cable Flye"
     ],
@@ -7856,7 +7924,8 @@
         "secondary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Cable_Flye"
@@ -7864,7 +7933,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-dumbbell-bench-with-palms-facing-in",
+    "id": "bench-with-palms-facing-in.dumbbell.incline",
     "names": [
       "Incline Dumbbell Bench With Palms Facing In"
     ],
@@ -7880,7 +7949,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Dumbbell_Bench_With_Palms_Facing_In"
@@ -7888,7 +7958,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-dumbbell-curl",
+    "id": "curl.dumbbell.incline.2",
     "names": [
       "Incline Dumbbell Curl"
     ],
@@ -7900,7 +7970,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Dumbbell_Curl"
@@ -7908,7 +7979,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-dumbbell-flyes",
+    "id": "flyes.dumbbell.incline",
     "names": [
       "Incline Dumbbell Flyes"
     ],
@@ -7923,7 +7994,8 @@
         "secondary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Dumbbell_Flyes"
@@ -7931,7 +8003,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-dumbbell-flyes-with-a-twist",
+    "id": "flyes-with-a-twist.dumbbell.incline",
     "names": [
       "Incline Dumbbell Flyes - With A Twist"
     ],
@@ -7946,7 +8018,8 @@
         "secondary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Dumbbell_Flyes_-_With_A_Twist"
@@ -7954,7 +8027,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-dumbbell-press",
+    "id": "press.dumbbell.incline",
     "names": [
       "Incline Dumbbell Press"
     ],
@@ -7970,7 +8043,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Dumbbell_Press"
@@ -7978,7 +8052,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-hammer-curls",
+    "id": "hammer-curls.dumbbell.incline",
     "names": [
       "Incline Hammer Curls"
     ],
@@ -7990,7 +8064,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Hammer_Curls"
@@ -7998,7 +8073,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-inner-biceps-curl",
+    "id": "inner-biceps-curl.dumbbell.incline",
     "names": [
       "Incline Inner Biceps Curl"
     ],
@@ -8010,7 +8085,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Inner_Biceps_Curl"
@@ -8018,7 +8094,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-push-up",
+    "id": "push-up.incline",
     "names": [
       "Incline Push-Up"
     ],
@@ -8034,7 +8110,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Push-Up"
@@ -8042,7 +8119,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-push-up-close-grip",
+    "id": "push-up.incline.close",
     "names": [
       "Incline Push-Up Close-Grip"
     ],
@@ -8058,7 +8135,9 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "stance": "incline",
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Incline_Push-Up_Close-Grip"
@@ -8066,7 +8145,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-push-up-depth-jump",
+    "id": "push-up-depth-jump.incline",
     "names": [
       "Incline Push-Up Depth Jump"
     ],
@@ -8082,7 +8161,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Push-Up_Depth_Jump"
@@ -8090,7 +8170,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-push-up-medium",
+    "id": "push-up-medium.incline",
     "names": [
       "Incline Push-Up Medium"
     ],
@@ -8107,7 +8187,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Push-Up_Medium"
@@ -8115,7 +8196,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-push-up-reverse-grip",
+    "id": "push-up.incline.reverse",
     "names": [
       "Incline Push-Up Reverse Grip"
     ],
@@ -8132,7 +8213,9 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline",
+      "grip": "reverse"
     },
     "coded": {
       "free-exercise-db": "Incline_Push-Up_Reverse_Grip"
@@ -8140,7 +8223,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "incline-push-up-wide",
+    "id": "push-up-wide.incline",
     "names": [
       "Incline Push-Up Wide"
     ],
@@ -8157,7 +8240,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Incline_Push-Up_Wide"
@@ -8205,7 +8289,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "internal-rotation-with-band",
+    "id": "internal-rotation-with.band",
     "names": [
       "Internal Rotation with Band"
     ],
@@ -8271,7 +8355,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "iron-cross",
+    "id": "iron-cross.dumbbell",
     "names": [
       "Iron Cross"
     ],
@@ -8407,7 +8491,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "jm-press",
+    "id": "jm-press.barbell",
     "names": [
       "JM Press"
     ],
@@ -8471,7 +8555,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "jefferson-squats",
+    "id": "jefferson-squats.barbell",
     "names": [
       "Jefferson Squats"
     ],
@@ -8498,7 +8582,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "jerk-balance",
+    "id": "jerk-balance.barbell",
     "names": [
       "Jerk Balance"
     ],
@@ -8524,7 +8608,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "jerk-dip-squat",
+    "id": "jerk-dip-squat.barbell",
     "names": [
       "Jerk Dip Squat"
     ],
@@ -8548,7 +8632,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "jogging-treadmill",
+    "id": "jogging-treadmill.machine",
     "names": [
       "Jogging, Treadmill"
     ],
@@ -8603,7 +8687,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-arnold-press",
+    "id": "arnold-press.kettlebell",
     "names": [
       "Kettlebell Arnold Press"
     ],
@@ -8626,7 +8710,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-dead-clean",
+    "id": "dead-clean.kettlebell",
     "names": [
       "Kettlebell Dead Clean"
     ],
@@ -8653,7 +8737,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-figure-8",
+    "id": "figure-8.kettlebell",
     "names": [
       "Kettlebell Figure 8"
     ],
@@ -8676,7 +8760,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-hang-clean",
+    "id": "hang-clean.kettlebell.2",
     "names": [
       "Kettlebell Hang Clean"
     ],
@@ -8703,7 +8787,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-one-legged-deadlift",
+    "id": "one-legged-deadlift.kettlebell",
     "names": [
       "Kettlebell One-Legged Deadlift"
     ],
@@ -8727,7 +8811,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-pass-between-the-legs",
+    "id": "pass-between-the-legs.kettlebell",
     "names": [
       "Kettlebell Pass Between The Legs"
     ],
@@ -8752,7 +8836,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-pirate-ships",
+    "id": "pirate-ships.kettlebell",
     "names": [
       "Kettlebell Pirate Ships"
     ],
@@ -8775,7 +8859,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-pistol-squat",
+    "id": "pistol-squat.kettlebell",
     "names": [
       "Kettlebell Pistol Squat"
     ],
@@ -8801,7 +8885,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-seated-press",
+    "id": "press.kettlebell.seated",
     "names": [
       "Kettlebell Seated Press"
     ],
@@ -8816,7 +8900,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Kettlebell_Seated_Press"
@@ -8824,7 +8909,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-seesaw-press",
+    "id": "seesaw-press.kettlebell",
     "names": [
       "Kettlebell Seesaw Press"
     ],
@@ -8847,7 +8932,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-sumo-high-pull",
+    "id": "sumo-high-pull.kettlebell",
     "names": [
       "Kettlebell Sumo High Pull"
     ],
@@ -8874,7 +8959,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-thruster",
+    "id": "thruster.kettlebell",
     "names": [
       "Kettlebell Thruster"
     ],
@@ -8898,7 +8983,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-turkish-get-up-lunge-style",
+    "id": "turkish-get-up-lunge-style.kettlebell",
     "names": [
       "Kettlebell Turkish Get-Up (Lunge style)"
     ],
@@ -8924,7 +9009,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-turkish-get-up-squat-style",
+    "id": "turkish-get-up-squat-style.kettlebell",
     "names": [
       "Kettlebell Turkish Get-Up (Squat style)"
     ],
@@ -8951,7 +9036,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kettlebell-windmill",
+    "id": "windmill.kettlebell",
     "names": [
       "Kettlebell Windmill"
     ],
@@ -9099,7 +9184,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kneeling-arm-drill",
+    "id": "arm-drill.kneeling",
     "names": [
       "Kneeling Arm Drill"
     ],
@@ -9112,7 +9197,8 @@
         "secondary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "kneeling"
     },
     "coded": {
       "free-exercise-db": "Kneeling_Arm_Drill"
@@ -9120,7 +9206,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kneeling-cable-crunch-with-alternating-oblique-twists",
+    "id": "crunch-with-oblique-twists.cable.kneeling",
     "names": [
       "Kneeling Cable Crunch With Alternating Oblique Twists"
     ],
@@ -9132,7 +9218,9 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "kneeling",
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists"
@@ -9140,7 +9228,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kneeling-cable-triceps-extension",
+    "id": "triceps-extension.cable.kneeling",
     "names": [
       "Kneeling Cable Triceps Extension"
     ],
@@ -9152,7 +9240,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "kneeling"
     },
     "coded": {
       "free-exercise-db": "Kneeling_Cable_Triceps_Extension"
@@ -9160,7 +9249,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kneeling-forearm-stretch",
+    "id": "forearm-stretch.kneeling",
     "names": [
       "Kneeling Forearm Stretch"
     ],
@@ -9171,7 +9260,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "kneeling"
     },
     "coded": {
       "free-exercise-db": "Kneeling_Forearm_Stretch"
@@ -9179,7 +9269,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kneeling-high-pulley-row",
+    "id": "high-pulley-row.cable.kneeling",
     "names": [
       "Kneeling High Pulley Row"
     ],
@@ -9195,7 +9285,8 @@
           "biceps",
           "middle-back"
         ]
-      }
+      },
+      "stance": "kneeling"
     },
     "coded": {
       "free-exercise-db": "Kneeling_High_Pulley_Row"
@@ -9203,7 +9294,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kneeling-hip-flexor",
+    "id": "hip-flexor.kneeling",
     "names": [
       "Kneeling Hip Flexor"
     ],
@@ -9217,7 +9308,8 @@
         "secondary": [
           "quadriceps"
         ]
-      }
+      },
+      "stance": "kneeling"
     },
     "coded": {
       "free-exercise-db": "Kneeling_Hip_Flexor"
@@ -9225,7 +9317,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kneeling-jump-squat",
+    "id": "jump-squat.barbell.kneeling",
     "names": [
       "Kneeling Jump Squat"
     ],
@@ -9242,7 +9334,8 @@
           "hamstrings",
           "quadriceps"
         ]
-      }
+      },
+      "stance": "kneeling"
     },
     "coded": {
       "free-exercise-db": "Kneeling_Jump_Squat"
@@ -9250,7 +9343,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kneeling-single-arm-high-pulley-row",
+    "id": "single-arm-high-pulley-row.cable.kneeling",
     "names": [
       "Kneeling Single-Arm High Pulley Row"
     ],
@@ -9266,7 +9359,8 @@
           "biceps",
           "middle-back"
         ]
-      }
+      },
+      "stance": "kneeling"
     },
     "coded": {
       "free-exercise-db": "Kneeling_Single-Arm_High_Pulley_Row"
@@ -9274,7 +9368,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "kneeling-squat",
+    "id": "squat.barbell.kneeling",
     "names": [
       "Kneeling Squat"
     ],
@@ -9291,7 +9385,8 @@
           "hamstrings",
           "lower-back"
         ]
-      }
+      },
+      "stance": "kneeling"
     },
     "coded": {
       "free-exercise-db": "Kneeling_Squat"
@@ -9299,7 +9394,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "landmine-180-s",
+    "id": "landmine-180-s.barbell",
     "names": [
       "Landmine 180's"
     ],
@@ -9324,7 +9419,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "landmine-linear-jammer",
+    "id": "landmine-linear-jammer.barbell",
     "names": [
       "Landmine Linear Jammer"
     ],
@@ -9433,7 +9528,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lateral-raise-with-bands",
+    "id": "lateral-raise-with.band",
     "names": [
       "Lateral Raise - With Bands"
     ],
@@ -9453,7 +9548,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "latissimus-dorsi-smr",
+    "id": "latissimus-dorsi-smr.foam-roll",
     "names": [
       "Latissimus Dorsi-SMR"
     ],
@@ -9473,7 +9568,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leg-over-floor-press",
+    "id": "leg-over-floor-press.kettlebell",
     "names": [
       "Leg-Over Floor Press"
     ],
@@ -9516,7 +9611,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leg-extensions",
+    "id": "leg-extensions.machine",
     "names": [
       "Leg Extensions"
     ],
@@ -9559,7 +9654,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leg-press",
+    "id": "leg-press.machine",
     "names": [
       "Leg Press"
     ],
@@ -9604,7 +9699,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leverage-chest-press",
+    "id": "leverage-chest-press.machine",
     "names": [
       "Leverage Chest Press"
     ],
@@ -9628,7 +9723,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leverage-deadlift",
+    "id": "leverage-deadlift.machine",
     "names": [
       "Leverage Deadlift"
     ],
@@ -9652,7 +9747,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leverage-decline-chest-press",
+    "id": "leverage-chest-press.machine.decline",
     "names": [
       "Leverage Decline Chest Press"
     ],
@@ -9668,7 +9763,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Leverage_Decline_Chest_Press"
@@ -9676,7 +9772,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leverage-high-row",
+    "id": "leverage-high-row.machine",
     "names": [
       "Leverage High Row"
     ],
@@ -9699,7 +9795,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leverage-incline-chest-press",
+    "id": "leverage-chest-press.machine.incline",
     "names": [
       "Leverage Incline Chest Press"
     ],
@@ -9715,7 +9811,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Leverage_Incline_Chest_Press"
@@ -9723,7 +9820,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leverage-iso-row",
+    "id": "leverage-iso-row.machine",
     "names": [
       "Leverage Iso Row"
     ],
@@ -9747,7 +9844,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leverage-shoulder-press",
+    "id": "leverage-shoulder-press.machine",
     "names": [
       "Leverage Shoulder Press"
     ],
@@ -9770,7 +9867,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "leverage-shrug",
+    "id": "leverage-shrug.machine",
     "names": [
       "Leverage Shrug"
     ],
@@ -9940,7 +10037,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "low-cable-crossover",
+    "id": "low-crossover.cable",
     "names": [
       "Low Cable Crossover"
     ],
@@ -9963,7 +10060,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "low-cable-triceps-extension",
+    "id": "low-triceps-extension.cable",
     "names": [
       "Low Cable Triceps Extension"
     ],
@@ -9983,7 +10080,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "low-pulley-row-to-neck",
+    "id": "low-pulley-row-to-neck.cable",
     "names": [
       "Low Pulley Row To Neck"
     ],
@@ -10008,7 +10105,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lower-back-smr",
+    "id": "lower-back-smr.foam-roll",
     "names": [
       "Lower Back-SMR"
     ],
@@ -10046,7 +10143,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lunge-pass-through",
+    "id": "lunge-pass-through.kettlebell",
     "names": [
       "Lunge Pass Through"
     ],
@@ -10071,7 +10168,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lunge-sprint",
+    "id": "lunge-sprint.machine",
     "names": [
       "Lunge Sprint"
     ],
@@ -10096,7 +10193,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-bent-leg-groin",
+    "id": "bent-leg-groin.lying",
     "names": [
       "Lying Bent Leg Groin"
     ],
@@ -10107,7 +10204,8 @@
         "primary": [
           "adductors"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Bent_Leg_Groin"
@@ -10115,7 +10213,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-cable-curl",
+    "id": "curl.cable.lying",
     "names": [
       "Lying Cable Curl"
     ],
@@ -10127,7 +10225,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Cable_Curl"
@@ -10135,7 +10234,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-cambered-barbell-row",
+    "id": "cambered-row.barbell.lying",
     "names": [
       "Lying Cambered Barbell Row"
     ],
@@ -10152,7 +10251,8 @@
           "lats",
           "traps"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Cambered_Barbell_Row"
@@ -10160,7 +10260,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-close-grip-bar-curl-on-high-pulley",
+    "id": "bar-curl-on-high-pulley.cable.lying.close",
     "names": [
       "Lying Close-Grip Bar Curl On High Pulley"
     ],
@@ -10172,7 +10272,9 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "lying",
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Lying_Close-Grip_Bar_Curl_On_High_Pulley"
@@ -10180,7 +10282,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-close-grip-barbell-triceps-extension-behind-the-head",
+    "id": "triceps-extension-behind-the-head.barbell.lying.close",
     "names": [
       "Lying Close-Grip Barbell Triceps Extension Behind The Head"
     ],
@@ -10192,7 +10294,9 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "lying",
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head"
@@ -10200,7 +10304,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-close-grip-barbell-triceps-press-to-chin",
+    "id": "barbell-triceps-press-to-chin.ez-bar.lying.close",
     "names": [
       "Lying Close-Grip Barbell Triceps Press To Chin"
     ],
@@ -10212,7 +10316,9 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "lying",
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Lying_Close-Grip_Barbell_Triceps_Press_To_Chin"
@@ -10220,7 +10326,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-crossover",
+    "id": "crossover.lying",
     "names": [
       "Lying Crossover"
     ],
@@ -10231,7 +10337,8 @@
         "primary": [
           "abductors"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Crossover"
@@ -10239,7 +10346,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-dumbbell-tricep-extension",
+    "id": "tricep-extension.dumbbell.lying",
     "names": [
       "Lying Dumbbell Tricep Extension"
     ],
@@ -10255,7 +10362,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Dumbbell_Tricep_Extension"
@@ -10263,7 +10371,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-face-down-plate-neck-resistance",
+    "id": "face-down-plate-neck-resistance.lying",
     "names": [
       "Lying Face Down Plate Neck Resistance"
     ],
@@ -10275,7 +10383,8 @@
         "primary": [
           "neck"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Face_Down_Plate_Neck_Resistance"
@@ -10283,7 +10392,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-face-up-plate-neck-resistance",
+    "id": "face-up-plate-neck-resistance.lying",
     "names": [
       "Lying Face Up Plate Neck Resistance"
     ],
@@ -10295,7 +10404,8 @@
         "primary": [
           "neck"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Face_Up_Plate_Neck_Resistance"
@@ -10303,7 +10413,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-glute",
+    "id": "glute.lying",
     "names": [
       "Lying Glute"
     ],
@@ -10317,7 +10427,8 @@
         "secondary": [
           "abductors"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Glute"
@@ -10325,7 +10436,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-hamstring",
+    "id": "hamstring.lying",
     "names": [
       "Lying Hamstring"
     ],
@@ -10339,7 +10450,8 @@
         "secondary": [
           "calves"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Hamstring"
@@ -10347,7 +10459,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-high-bench-barbell-curl",
+    "id": "high-bench-curl.barbell.lying",
     "names": [
       "Lying High Bench Barbell Curl"
     ],
@@ -10359,7 +10471,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_High_Bench_Barbell_Curl"
@@ -10367,7 +10480,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-leg-curls",
+    "id": "leg-curls.machine.lying",
     "names": [
       "Lying Leg Curls"
     ],
@@ -10379,7 +10492,8 @@
         "primary": [
           "hamstrings"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Leg_Curls"
@@ -10387,7 +10501,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-machine-squat",
+    "id": "squat.machine.lying",
     "names": [
       "Lying Machine Squat"
     ],
@@ -10404,7 +10518,8 @@
           "glutes",
           "hamstrings"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Machine_Squat"
@@ -10412,7 +10527,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-one-arm-lateral-raise",
+    "id": "one-arm-lateral-raise.dumbbell.lying",
     "names": [
       "Lying One-Arm Lateral Raise"
     ],
@@ -10424,7 +10539,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_One-Arm_Lateral_Raise"
@@ -10432,7 +10548,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-prone-quadriceps",
+    "id": "prone-quadriceps.lying",
     "names": [
       "Lying Prone Quadriceps"
     ],
@@ -10443,7 +10559,8 @@
         "primary": [
           "quadriceps"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Prone_Quadriceps"
@@ -10451,7 +10568,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-rear-delt-raise",
+    "id": "rear-delt-raise.dumbbell.lying",
     "names": [
       "Lying Rear Delt Raise"
     ],
@@ -10463,7 +10580,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Rear_Delt_Raise"
@@ -10471,7 +10589,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-supine-dumbbell-curl",
+    "id": "supine-curl.dumbbell.lying",
     "names": [
       "Lying Supine Dumbbell Curl"
     ],
@@ -10483,7 +10601,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Supine_Dumbbell_Curl"
@@ -10491,7 +10610,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-t-bar-row",
+    "id": "t-bar-row.machine.lying",
     "names": [
       "Lying T-Bar Row"
     ],
@@ -10507,7 +10626,8 @@
           "biceps",
           "lats"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_T-Bar_Row"
@@ -10515,7 +10635,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "lying-triceps-press",
+    "id": "triceps-press.ez-bar.lying",
     "names": [
       "Lying Triceps Press"
     ],
@@ -10527,7 +10647,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Lying_Triceps_Press"
@@ -10535,7 +10656,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "machine-bench-press",
+    "id": "bench-press.machine",
     "names": [
       "Machine Bench Press"
     ],
@@ -10559,7 +10680,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "machine-bicep-curl",
+    "id": "bicep-curl.machine",
     "names": [
       "Machine Bicep Curl"
     ],
@@ -10579,7 +10700,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "machine-preacher-curls",
+    "id": "preacher-curls.machine",
     "names": [
       "Machine Preacher Curls"
     ],
@@ -10599,7 +10720,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "machine-shoulder-military-press",
+    "id": "shoulder-military-press.machine",
     "names": [
       "Machine Shoulder (Military) Press"
     ],
@@ -10622,7 +10743,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "machine-triceps-extension",
+    "id": "triceps-extension.machine",
     "names": [
       "Machine Triceps Extension"
     ],
@@ -10642,7 +10763,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "medicine-ball-chest-pass",
+    "id": "chest-pass.medicine-ball",
     "names": [
       "Medicine Ball Chest Pass"
     ],
@@ -10666,7 +10787,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "medicine-ball-full-twist",
+    "id": "full-twist.medicine-ball",
     "names": [
       "Medicine Ball Full Twist"
     ],
@@ -10689,7 +10810,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "medicine-ball-scoop-throw",
+    "id": "scoop-throw.medicine-ball",
     "names": [
       "Medicine Ball Scoop Throw"
     ],
@@ -10714,7 +10835,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "middle-back-shrug",
+    "id": "middle-back-shrug.dumbbell",
     "names": [
       "Middle Back Shrug"
     ],
@@ -10782,7 +10903,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "monster-walk",
+    "id": "monster-walk.band",
     "names": [
       "Monster Walk"
     ],
@@ -10849,7 +10970,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "muscle-snatch",
+    "id": "muscle-snatch.barbell",
     "names": [
       "Muscle Snatch"
     ],
@@ -10905,7 +11026,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "narrow-stance-hack-squats",
+    "id": "narrow-stance-hack-squats.machine",
     "names": [
       "Narrow Stance Hack Squats"
     ],
@@ -10930,7 +11051,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "narrow-stance-leg-press",
+    "id": "narrow-stance-leg-press.machine",
     "names": [
       "Narrow Stance Leg Press"
     ],
@@ -10955,7 +11076,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "narrow-stance-squats",
+    "id": "narrow-stance-squats.barbell",
     "names": [
       "Narrow Stance Squats"
     ],
@@ -11025,7 +11146,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "neck-press",
+    "id": "neck-press.barbell",
     "names": [
       "Neck Press"
     ],
@@ -11089,7 +11210,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "olympic-squat",
+    "id": "olympic-squat.barbell",
     "names": [
       "Olympic Squat"
     ],
@@ -11153,7 +11274,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-dumbbell-row",
+    "id": "one-arm-row.dumbbell",
     "names": [
       "One-Arm Dumbbell Row"
     ],
@@ -11178,7 +11299,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-flat-bench-dumbbell-flye",
+    "id": "one-arm-flat-bench-flye.dumbbell",
     "names": [
       "One-Arm Flat Bench Dumbbell Flye"
     ],
@@ -11198,7 +11319,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-high-pulley-cable-side-bends",
+    "id": "one-arm-high-pulley-side-bends.cable",
     "names": [
       "One-Arm High-Pulley Cable Side Bends"
     ],
@@ -11218,7 +11339,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-incline-lateral-raise",
+    "id": "one-arm-lateral-raise.dumbbell.incline",
     "names": [
       "One-Arm Incline Lateral Raise"
     ],
@@ -11230,7 +11351,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "One-Arm_Incline_Lateral_Raise"
@@ -11238,7 +11360,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-clean",
+    "id": "one-arm-clean.kettlebell",
     "names": [
       "One-Arm Kettlebell Clean"
     ],
@@ -11264,7 +11386,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-clean-and-jerk",
+    "id": "one-arm-clean-and-jerk.kettlebell",
     "names": [
       "One-Arm Kettlebell Clean and Jerk"
     ],
@@ -11284,7 +11406,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-floor-press",
+    "id": "one-arm-floor-press.kettlebell",
     "names": [
       "One-Arm Kettlebell Floor Press"
     ],
@@ -11307,7 +11429,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-jerk",
+    "id": "one-arm-jerk.kettlebell",
     "names": [
       "One-Arm Kettlebell Jerk"
     ],
@@ -11332,7 +11454,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-military-press-to-the-side",
+    "id": "one-arm-military-press-to-the-side.kettlebell",
     "names": [
       "One-Arm Kettlebell Military Press To The Side"
     ],
@@ -11355,7 +11477,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-para-press",
+    "id": "one-arm-para-press.kettlebell",
     "names": [
       "One-Arm Kettlebell Para Press"
     ],
@@ -11378,7 +11500,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-push-press",
+    "id": "one-arm-push-press.kettlebell",
     "names": [
       "One-Arm Kettlebell Push Press"
     ],
@@ -11403,7 +11525,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-row",
+    "id": "one-arm-row.kettlebell",
     "names": [
       "One-Arm Kettlebell Row"
     ],
@@ -11427,7 +11549,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-snatch",
+    "id": "one-arm-snatch.kettlebell",
     "names": [
       "One-Arm Kettlebell Snatch"
     ],
@@ -11455,7 +11577,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-split-jerk",
+    "id": "one-arm-split-jerk.kettlebell",
     "names": [
       "One-Arm Kettlebell Split Jerk"
     ],
@@ -11481,7 +11603,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-split-snatch",
+    "id": "one-arm-split-snatch.kettlebell",
     "names": [
       "One-Arm Kettlebell Split Snatch"
     ],
@@ -11505,7 +11627,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-kettlebell-swings",
+    "id": "one-arm-swings.kettlebell",
     "names": [
       "One-Arm Kettlebell Swings"
     ],
@@ -11531,7 +11653,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-long-bar-row",
+    "id": "one-arm-long-bar-row.barbell",
     "names": [
       "One-Arm Long Bar Row"
     ],
@@ -11555,7 +11677,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-medicine-ball-slam",
+    "id": "one-arm-slam.medicine-ball",
     "names": [
       "One-Arm Medicine Ball Slam"
     ],
@@ -11579,7 +11701,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-open-palm-kettlebell-clean",
+    "id": "one-arm-open-palm-clean.kettlebell",
     "names": [
       "One-Arm Open Palm Kettlebell Clean"
     ],
@@ -11606,7 +11728,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-overhead-kettlebell-squats",
+    "id": "one-arm-overhead-squats.kettlebell",
     "names": [
       "One-Arm Overhead Kettlebell Squats"
     ],
@@ -11632,7 +11754,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-side-deadlift",
+    "id": "one-arm-side-deadlift.barbell",
     "names": [
       "One-Arm Side Deadlift"
     ],
@@ -11660,7 +11782,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-side-laterals",
+    "id": "one-arm-side-laterals.dumbbell",
     "names": [
       "One-Arm Side Laterals"
     ],
@@ -11680,7 +11802,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-legged-cable-kickback",
+    "id": "one-legged-kickback.cable",
     "names": [
       "One-Legged Cable Kickback"
     ],
@@ -11747,7 +11869,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-dumbbell-bench-press",
+    "id": "one-arm-bench-press.dumbbell",
     "names": [
       "One Arm Dumbbell Bench Press"
     ],
@@ -11771,7 +11893,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-dumbbell-preacher-curl",
+    "id": "one-arm-preacher-curl.dumbbell",
     "names": [
       "One Arm Dumbbell Preacher Curl"
     ],
@@ -11791,7 +11913,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-floor-press",
+    "id": "one-arm-floor-press.barbell",
     "names": [
       "One Arm Floor Press"
     ],
@@ -11815,7 +11937,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-lat-pulldown",
+    "id": "one-arm-lat-pulldown.cable",
     "names": [
       "One Arm Lat Pulldown"
     ],
@@ -11839,7 +11961,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-pronated-dumbbell-triceps-extension",
+    "id": "one-arm-pronated-triceps-extension.dumbbell",
     "names": [
       "One Arm Pronated Dumbbell Triceps Extension"
     ],
@@ -11859,7 +11981,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-arm-supinated-dumbbell-triceps-extension",
+    "id": "one-arm-supinated-triceps-extension.dumbbell",
     "names": [
       "One Arm Supinated Dumbbell Triceps Extension"
     ],
@@ -11947,7 +12069,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "one-leg-barbell-squat",
+    "id": "one-leg-squat.barbell",
     "names": [
       "One Leg Barbell Squat"
     ],
@@ -11972,7 +12094,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "open-palm-kettlebell-clean",
+    "id": "open-palm-clean.kettlebell",
     "names": [
       "Open Palm Kettlebell Clean"
     ],
@@ -12023,7 +12145,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "overhead-cable-curl",
+    "id": "overhead-curl.cable",
     "names": [
       "Overhead Cable Curl"
     ],
@@ -12065,7 +12187,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "overhead-slam",
+    "id": "overhead-slam.medicine-ball",
     "names": [
       "Overhead Slam"
     ],
@@ -12085,7 +12207,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "overhead-squat",
+    "id": "overhead-squat.barbell",
     "names": [
       "Overhead Squat"
     ],
@@ -12161,7 +12283,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "pallof-press",
+    "id": "pallof-press.cable",
     "names": [
       "Pallof Press"
     ],
@@ -12186,7 +12308,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "pallof-press-with-rotation",
+    "id": "pallof-press-with-rotation.cable",
     "names": [
       "Pallof Press With Rotation"
     ],
@@ -12211,7 +12333,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "palms-down-dumbbell-wrist-curl-over-a-bench",
+    "id": "palms-down-wrist-curl-over-a-bench.dumbbell",
     "names": [
       "Palms-Down Dumbbell Wrist Curl Over A Bench"
     ],
@@ -12231,7 +12353,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "palms-down-wrist-curl-over-a-bench",
+    "id": "palms-down-wrist-curl-over-a-bench.barbell",
     "names": [
       "Palms-Down Wrist Curl Over A Bench"
     ],
@@ -12251,7 +12373,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "palms-up-barbell-wrist-curl-over-a-bench",
+    "id": "palms-up-wrist-curl-over-a-bench.barbell",
     "names": [
       "Palms-Up Barbell Wrist Curl Over A Bench"
     ],
@@ -12271,7 +12393,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "palms-up-dumbbell-wrist-curl-over-a-bench",
+    "id": "palms-up-wrist-curl-over-a-bench.dumbbell",
     "names": [
       "Palms-Up Dumbbell Wrist Curl Over A Bench"
     ],
@@ -12334,7 +12456,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "peroneals-smr",
+    "id": "peroneals-smr.foam-roll",
     "names": [
       "Peroneals-SMR"
     ],
@@ -12372,7 +12494,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "physioball-hip-bridge",
+    "id": "physioball-hip-bridge.exercise-ball",
     "names": [
       "Physioball Hip Bridge"
     ],
@@ -12395,7 +12517,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "pin-presses",
+    "id": "pin-presses.barbell",
     "names": [
       "Pin Presses"
     ],
@@ -12422,7 +12544,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "piriformis-smr",
+    "id": "piriformis-smr.foam-roll",
     "names": [
       "Piriformis-SMR"
     ],
@@ -12505,7 +12627,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "plie-dumbbell-squat",
+    "id": "plie-squat.dumbbell",
     "names": [
       "Plie Dumbbell Squat"
     ],
@@ -12531,7 +12653,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "plyo-kettlebell-pushups",
+    "id": "plyo-pushups.kettlebell",
     "names": [
       "Plyo Kettlebell Pushups"
     ],
@@ -12598,7 +12720,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "power-clean",
+    "id": "power-clean.barbell",
     "names": [
       "Power Clean"
     ],
@@ -12629,7 +12751,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "power-clean-from-blocks",
+    "id": "power-clean-from-blocks.barbell",
     "names": [
       "Power Clean from Blocks"
     ],
@@ -12652,7 +12774,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "power-jerk",
+    "id": "power-jerk.barbell",
     "names": [
       "Power Jerk"
     ],
@@ -12680,7 +12802,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "power-partials",
+    "id": "power-partials.dumbbell",
     "names": [
       "Power Partials"
     ],
@@ -12700,7 +12822,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "power-snatch",
+    "id": "power-snatch.barbell",
     "names": [
       "Power Snatch"
     ],
@@ -12729,7 +12851,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "power-snatch-from-blocks",
+    "id": "power-snatch-from-blocks.barbell",
     "names": [
       "Power Snatch from Blocks"
     ],
@@ -12788,7 +12910,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "preacher-curl",
+    "id": "preacher-curl.barbell",
     "names": [
       "Preacher Curl"
     ],
@@ -12808,7 +12930,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "preacher-hammer-dumbbell-curl",
+    "id": "preacher-hammer-curl.dumbbell",
     "names": [
       "Preacher Hammer Dumbbell Curl"
     ],
@@ -12831,7 +12953,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "press-sit-up",
+    "id": "press-sit-up.barbell",
     "names": [
       "Press Sit-Up"
     ],
@@ -12902,7 +13024,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "pull-through",
+    "id": "pull-through.cable",
     "names": [
       "Pull Through"
     ],
@@ -13023,7 +13145,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "push-ups-with-feet-on-an-exercise-ball",
+    "id": "push-ups-with-feet-on-an.exercise-ball",
     "names": [
       "Push-Ups With Feet On An Exercise Ball"
     ],
@@ -13047,7 +13169,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "push-press",
+    "id": "push-press.barbell",
     "names": [
       "Push Press"
     ],
@@ -13071,7 +13193,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "push-press-behind-the-neck",
+    "id": "push-press-behind-the-neck.barbell",
     "names": [
       "Push Press - Behind the Neck"
     ],
@@ -13169,7 +13291,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "pyramid",
+    "id": "pyramid.exercise-ball",
     "names": [
       "Pyramid"
     ],
@@ -13210,7 +13332,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "quadriceps-smr",
+    "id": "quadriceps-smr.foam-roll",
     "names": [
       "Quadriceps-SMR"
     ],
@@ -13254,7 +13376,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "rack-delivery",
+    "id": "rack-delivery.barbell",
     "names": [
       "Rack Delivery"
     ],
@@ -13278,7 +13400,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "rack-pull-with-bands",
+    "id": "rack-pull-with-bands.barbell",
     "names": [
       "Rack Pull with Bands"
     ],
@@ -13305,7 +13427,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "rack-pulls",
+    "id": "rack-pulls.barbell",
     "names": [
       "Rack Pulls"
     ],
@@ -13350,7 +13472,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "recumbent-bike",
+    "id": "recumbent-bike.machine",
     "names": [
       "Recumbent Bike"
     ],
@@ -13374,7 +13496,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "return-push-from-stance",
+    "id": "return-push-from-stance.medicine-ball",
     "names": [
       "Return Push from Stance"
     ],
@@ -13398,7 +13520,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-band-bench-press",
+    "id": "reverse-band-bench-press.barbell",
     "names": [
       "Reverse Band Bench Press"
     ],
@@ -13425,7 +13547,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-band-box-squat",
+    "id": "reverse-band-box-squat.barbell",
     "names": [
       "Reverse Band Box Squat"
     ],
@@ -13454,7 +13576,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-band-deadlift",
+    "id": "reverse-band-deadlift.barbell",
     "names": [
       "Reverse Band Deadlift"
     ],
@@ -13482,7 +13604,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-band-power-squat",
+    "id": "reverse-band-power-squat.barbell",
     "names": [
       "Reverse Band Power Squat"
     ],
@@ -13509,7 +13631,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-band-sumo-deadlift",
+    "id": "reverse-band-sumo-deadlift.barbell",
     "names": [
       "Reverse Band Sumo Deadlift"
     ],
@@ -13539,7 +13661,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-barbell-curl",
+    "id": "reverse-curl.barbell",
     "names": [
       "Reverse Barbell Curl"
     ],
@@ -13562,7 +13684,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-barbell-preacher-curls",
+    "id": "reverse-barbell-preacher-curls.ez-bar",
     "names": [
       "Reverse Barbell Preacher Curls"
     ],
@@ -13585,7 +13707,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-cable-curl",
+    "id": "reverse-curl.cable",
     "names": [
       "Reverse Cable Curl"
     ],
@@ -13628,7 +13750,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-flyes",
+    "id": "reverse-flyes.dumbbell",
     "names": [
       "Reverse Flyes"
     ],
@@ -13648,7 +13770,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-flyes-with-external-rotation",
+    "id": "reverse-flyes-with-external-rotation.dumbbell",
     "names": [
       "Reverse Flyes With External Rotation"
     ],
@@ -13668,7 +13790,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-grip-bent-over-rows",
+    "id": "rows.barbell.bent-over.reverse",
     "names": [
       "Reverse Grip Bent-Over Rows"
     ],
@@ -13685,7 +13807,9 @@
           "lats",
           "shoulders"
         ]
-      }
+      },
+      "stance": "bent-over",
+      "grip": "reverse"
     },
     "coded": {
       "free-exercise-db": "Reverse_Grip_Bent-Over_Rows"
@@ -13693,7 +13817,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-grip-triceps-pushdown",
+    "id": "triceps-pushdown.cable.reverse",
     "names": [
       "Reverse Grip Triceps Pushdown"
     ],
@@ -13705,7 +13829,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "grip": "reverse"
     },
     "coded": {
       "free-exercise-db": "Reverse_Grip_Triceps_Pushdown"
@@ -13713,7 +13838,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-hyperextension",
+    "id": "reverse-hyperextension.machine",
     "names": [
       "Reverse Hyperextension"
     ],
@@ -13736,7 +13861,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-machine-flyes",
+    "id": "reverse-flyes.machine",
     "names": [
       "Reverse Machine Flyes"
     ],
@@ -13779,7 +13904,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "reverse-triceps-bench-press",
+    "id": "reverse-triceps-bench-press.barbell",
     "names": [
       "Reverse Triceps Bench Press"
     ],
@@ -13803,7 +13928,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "rhomboids-smr",
+    "id": "rhomboids-smr.foam-roll",
     "names": [
       "Rhomboids-SMR"
     ],
@@ -13929,7 +14054,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "rocking-standing-calf-raise",
+    "id": "rocking-calf-raise.barbell.standing",
     "names": [
       "Rocking Standing Calf Raise"
     ],
@@ -13941,7 +14066,8 @@
         "primary": [
           "calves"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Rocking_Standing_Calf_Raise"
@@ -13974,7 +14100,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "romanian-deadlift",
+    "id": "romanian-deadlift.barbell",
     "names": [
       "Romanian Deadlift"
     ],
@@ -13999,7 +14125,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "romanian-deadlift-from-deficit",
+    "id": "romanian-deadlift-from-deficit.barbell",
     "names": [
       "Romanian Deadlift from Deficit"
     ],
@@ -14051,7 +14177,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "rope-crunch",
+    "id": "rope-crunch.cable",
     "names": [
       "Rope Crunch"
     ],
@@ -14094,7 +14220,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "rope-straight-arm-pulldown",
+    "id": "rope-straight-arm-pulldown.cable",
     "names": [
       "Rope Straight-Arm Pulldown"
     ],
@@ -14137,7 +14263,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "rowing-stationary",
+    "id": "rowing-stationary.machine",
     "names": [
       "Rowing, Stationary"
     ],
@@ -14185,7 +14311,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "running-treadmill",
+    "id": "running-treadmill.machine",
     "names": [
       "Running, Treadmill"
     ],
@@ -14331,7 +14457,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-band-hamstring-curl",
+    "id": "band-hamstring-curl.seated",
     "names": [
       "Seated Band Hamstring Curl"
     ],
@@ -14343,7 +14469,8 @@
         "primary": [
           "hamstrings"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Band_Hamstring_Curl"
@@ -14351,7 +14478,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-barbell-military-press",
+    "id": "military-press.barbell.seated",
     "names": [
       "Seated Barbell Military Press"
     ],
@@ -14366,7 +14493,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Barbell_Military_Press"
@@ -14374,7 +14502,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-barbell-twist",
+    "id": "twist.barbell.seated",
     "names": [
       "Seated Barbell Twist"
     ],
@@ -14386,7 +14514,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Barbell_Twist"
@@ -14394,7 +14523,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-bent-over-one-arm-dumbbell-triceps-extension",
+    "id": "seated-one-arm-triceps-extension.dumbbell.bent-over",
     "names": [
       "Seated Bent-Over One-Arm Dumbbell Triceps Extension"
     ],
@@ -14406,7 +14535,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension"
@@ -14414,7 +14544,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-bent-over-rear-delt-raise",
+    "id": "seated-rear-delt-raise.dumbbell.bent-over",
     "names": [
       "Seated Bent-Over Rear Delt Raise"
     ],
@@ -14426,7 +14556,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Seated_Bent-Over_Rear_Delt_Raise"
@@ -14434,7 +14565,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-bent-over-two-arm-dumbbell-triceps-extension",
+    "id": "seated-two-arm-triceps-extension.dumbbell.bent-over",
     "names": [
       "Seated Bent-Over Two-Arm Dumbbell Triceps Extension"
     ],
@@ -14446,7 +14577,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Seated_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension"
@@ -14454,7 +14586,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-biceps",
+    "id": "biceps.seated",
     "names": [
       "Seated Biceps"
     ],
@@ -14470,7 +14602,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Biceps"
@@ -14478,7 +14611,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-cable-rows",
+    "id": "rows.cable.seated",
     "names": [
       "Seated Cable Rows"
     ],
@@ -14495,7 +14628,8 @@
           "lats",
           "shoulders"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Cable_Rows"
@@ -14503,7 +14637,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-cable-shoulder-press",
+    "id": "shoulder-press.cable.seated",
     "names": [
       "Seated Cable Shoulder Press"
     ],
@@ -14518,7 +14652,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Cable_Shoulder_Press"
@@ -14526,7 +14661,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-calf-raise",
+    "id": "calf-raise.machine.seated",
     "names": [
       "Seated Calf Raise"
     ],
@@ -14538,7 +14673,8 @@
         "primary": [
           "calves"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Calf_Raise"
@@ -14546,7 +14682,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-calf-stretch",
+    "id": "calf-stretch.seated",
     "names": [
       "Seated Calf Stretch"
     ],
@@ -14560,7 +14696,8 @@
           "hamstrings",
           "lower-back"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Calf_Stretch"
@@ -14568,7 +14705,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-close-grip-concentration-barbell-curl",
+    "id": "concentration-curl.barbell.seated.close",
     "names": [
       "Seated Close-Grip Concentration Barbell Curl"
     ],
@@ -14580,7 +14717,9 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "seated",
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Seated_Close-Grip_Concentration_Barbell_Curl"
@@ -14588,7 +14727,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-dumbbell-curl",
+    "id": "curl.dumbbell.seated",
     "names": [
       "Seated Dumbbell Curl"
     ],
@@ -14600,7 +14739,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Dumbbell_Curl"
@@ -14608,7 +14748,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-dumbbell-inner-biceps-curl",
+    "id": "inner-biceps-curl.dumbbell.seated",
     "names": [
       "Seated Dumbbell Inner Biceps Curl"
     ],
@@ -14620,7 +14760,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Dumbbell_Inner_Biceps_Curl"
@@ -14628,7 +14769,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-dumbbell-palms-down-wrist-curl",
+    "id": "palms-down-wrist-curl.dumbbell.seated",
     "names": [
       "Seated Dumbbell Palms-Down Wrist Curl"
     ],
@@ -14640,7 +14781,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Dumbbell_Palms-Down_Wrist_Curl"
@@ -14648,7 +14790,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-dumbbell-palms-up-wrist-curl",
+    "id": "palms-up-wrist-curl.dumbbell.seated",
     "names": [
       "Seated Dumbbell Palms-Up Wrist Curl"
     ],
@@ -14660,7 +14802,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Dumbbell_Palms-Up_Wrist_Curl"
@@ -14668,7 +14811,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-dumbbell-press",
+    "id": "press.dumbbell.seated",
     "names": [
       "Seated Dumbbell Press"
     ],
@@ -14683,7 +14826,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Dumbbell_Press"
@@ -14691,7 +14835,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-flat-bench-leg-pull-in",
+    "id": "flat-bench-leg-pull-in.seated",
     "names": [
       "Seated Flat Bench Leg Pull-In"
     ],
@@ -14703,7 +14847,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Flat_Bench_Leg_Pull-In"
@@ -14711,7 +14856,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-floor-hamstring-stretch",
+    "id": "floor-hamstring-stretch.seated",
     "names": [
       "Seated Floor Hamstring Stretch"
     ],
@@ -14724,7 +14869,8 @@
         "secondary": [
           "calves"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Floor_Hamstring_Stretch"
@@ -14732,7 +14878,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-front-deltoid",
+    "id": "front-deltoid.seated",
     "names": [
       "Seated Front Deltoid"
     ],
@@ -14746,7 +14892,8 @@
         "secondary": [
           "chest"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Front_Deltoid"
@@ -14754,7 +14901,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-glute",
+    "id": "glute.seated",
     "names": [
       "Seated Glute"
     ],
@@ -14768,7 +14915,8 @@
         "secondary": [
           "adductors"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Glute"
@@ -14776,7 +14924,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-good-mornings",
+    "id": "good-mornings.barbell.seated",
     "names": [
       "Seated Good Mornings"
     ],
@@ -14791,7 +14939,8 @@
         "secondary": [
           "glutes"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Good_Mornings"
@@ -14799,7 +14948,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-hamstring",
+    "id": "hamstring.seated",
     "names": [
       "Seated Hamstring"
     ],
@@ -14812,7 +14961,8 @@
         "secondary": [
           "calves"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Hamstring"
@@ -14820,7 +14970,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-hamstring-and-calf-stretch",
+    "id": "hamstring-and-calf-stretch.seated",
     "names": [
       "Seated Hamstring and Calf Stretch"
     ],
@@ -14834,7 +14984,8 @@
         "secondary": [
           "calves"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Hamstring_and_Calf_Stretch"
@@ -14842,7 +14993,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-head-harness-neck-resistance",
+    "id": "head-harness-neck-resistance.seated",
     "names": [
       "Seated Head Harness Neck Resistance"
     ],
@@ -14854,7 +15005,8 @@
         "primary": [
           "neck"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Head_Harness_Neck_Resistance"
@@ -14862,7 +15014,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-leg-curl",
+    "id": "leg-curl.machine.seated",
     "names": [
       "Seated Leg Curl"
     ],
@@ -14874,7 +15026,8 @@
         "primary": [
           "hamstrings"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Leg_Curl"
@@ -14882,7 +15035,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-leg-tucks",
+    "id": "leg-tucks.seated",
     "names": [
       "Seated Leg Tucks"
     ],
@@ -14894,7 +15047,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Leg_Tucks"
@@ -14902,7 +15056,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-one-arm-dumbbell-palms-down-wrist-curl",
+    "id": "one-arm-palms-down-wrist-curl.dumbbell.seated",
     "names": [
       "Seated One-Arm Dumbbell Palms-Down Wrist Curl"
     ],
@@ -14914,7 +15068,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl"
@@ -14922,7 +15077,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-one-arm-dumbbell-palms-up-wrist-curl",
+    "id": "one-arm-palms-up-wrist-curl.dumbbell.seated",
     "names": [
       "Seated One-Arm Dumbbell Palms-Up Wrist Curl"
     ],
@@ -14934,7 +15089,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_One-Arm_Dumbbell_Palms-Up_Wrist_Curl"
@@ -14942,7 +15098,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-one-arm-cable-pulley-rows",
+    "id": "one-arm-pulley-rows.cable.seated",
     "names": [
       "Seated One-arm Cable Pulley Rows"
     ],
@@ -14959,7 +15115,8 @@
           "lats",
           "traps"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_One-arm_Cable_Pulley_Rows"
@@ -14967,7 +15124,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-overhead-stretch",
+    "id": "overhead-stretch.seated",
     "names": [
       "Seated Overhead Stretch"
     ],
@@ -14978,7 +15135,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Overhead_Stretch"
@@ -14986,7 +15144,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-palm-up-barbell-wrist-curl",
+    "id": "palm-up-wrist-curl.barbell.seated",
     "names": [
       "Seated Palm-Up Barbell Wrist Curl"
     ],
@@ -14998,7 +15156,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Palm-Up_Barbell_Wrist_Curl"
@@ -15006,7 +15165,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-palms-down-barbell-wrist-curl",
+    "id": "palms-down-wrist-curl.barbell.seated",
     "names": [
       "Seated Palms-Down Barbell Wrist Curl"
     ],
@@ -15018,7 +15177,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Palms-Down_Barbell_Wrist_Curl"
@@ -15026,7 +15186,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-side-lateral-raise",
+    "id": "side-lateral-raise.dumbbell.seated",
     "names": [
       "Seated Side Lateral Raise"
     ],
@@ -15038,7 +15198,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Side_Lateral_Raise"
@@ -15046,7 +15207,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-triceps-press",
+    "id": "triceps-press.dumbbell.seated",
     "names": [
       "Seated Triceps Press"
     ],
@@ -15058,7 +15219,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Triceps_Press"
@@ -15066,7 +15228,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "seated-two-arm-palms-up-low-pulley-wrist-curl",
+    "id": "two-arm-palms-up-low-pulley-wrist-curl.cable.seated",
     "names": [
       "Seated Two-Arm Palms-Up Low-Pulley Wrist Curl"
     ],
@@ -15078,7 +15240,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "seated"
     },
     "coded": {
       "free-exercise-db": "Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl"
@@ -15086,7 +15249,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "see-saw-press-alternating-side-press",
+    "id": "see-saw-press-side-press.dumbbell",
     "names": [
       "See-Saw Press (Alternating Side Press)"
     ],
@@ -15102,7 +15265,8 @@
           "abdominals",
           "triceps"
         ]
-      }
+      },
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "See-Saw_Press_Alternating_Side_Press"
@@ -15110,7 +15274,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "shotgun-row",
+    "id": "shotgun-row.cable",
     "names": [
       "Shotgun Row"
     ],
@@ -15155,7 +15319,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "shoulder-press-with-bands",
+    "id": "shoulder-press-with.band",
     "names": [
       "Shoulder Press - With Bands"
     ],
@@ -15217,7 +15381,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "side-lying-floor-stretch",
+    "id": "side-floor-stretch.lying",
     "names": [
       "Side-Lying Floor Stretch"
     ],
@@ -15227,7 +15391,8 @@
         "primary": [
           "lats"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Side-Lying_Floor_Stretch"
@@ -15303,7 +15468,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "side-lateral-raise",
+    "id": "side-lateral-raise.dumbbell",
     "names": [
       "Side Lateral Raise"
     ],
@@ -15323,7 +15488,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "side-laterals-to-front-raise",
+    "id": "side-laterals-to-front-raise.dumbbell",
     "names": [
       "Side Laterals to Front Raise"
     ],
@@ -15365,7 +15530,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "side-lying-groin-stretch",
+    "id": "side-groin-stretch.lying",
     "names": [
       "Side Lying Groin Stretch"
     ],
@@ -15379,7 +15544,8 @@
         "secondary": [
           "hamstrings"
         ]
-      }
+      },
+      "stance": "lying"
     },
     "coded": {
       "free-exercise-db": "Side_Lying_Groin_Stretch"
@@ -15406,7 +15572,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "side-standing-long-jump",
+    "id": "side-long-jump.standing",
     "names": [
       "Side Standing Long Jump"
     ],
@@ -15422,7 +15588,8 @@
           "glutes",
           "hamstrings"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Side_Standing_Long_Jump"
@@ -15505,7 +15672,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "single-arm-cable-crossover",
+    "id": "single-arm-crossover.cable",
     "names": [
       "Single-Arm Cable Crossover"
     ],
@@ -15525,7 +15692,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "single-arm-linear-jammer",
+    "id": "single-arm-linear-jammer.barbell",
     "names": [
       "Single-Arm Linear Jammer"
     ],
@@ -15673,7 +15840,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "single-leg-leg-extension",
+    "id": "single-leg-leg-extension.machine",
     "names": [
       "Single-Leg Leg Extension"
     ],
@@ -15719,7 +15886,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "single-dumbbell-raise",
+    "id": "single-raise.dumbbell",
     "names": [
       "Single Dumbbell Raise"
     ],
@@ -16051,7 +16218,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-incline-shoulder-raise",
+    "id": "smith-shoulder-raise.barbell.incline",
     "names": [
       "Smith Incline Shoulder Raise"
     ],
@@ -16066,7 +16233,8 @@
         "secondary": [
           "chest"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Smith_Incline_Shoulder_Raise"
@@ -16074,7 +16242,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-behind-the-back-shrug",
+    "id": "smith-behind-the-back-shrug.machine",
     "names": [
       "Smith Machine Behind the Back Shrug"
     ],
@@ -16097,7 +16265,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-bench-press",
+    "id": "smith-bench-press.machine",
     "names": [
       "Smith Machine Bench Press"
     ],
@@ -16121,7 +16289,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-bent-over-row",
+    "id": "smith-row.machine.bent-over",
     "names": [
       "Smith Machine Bent Over Row"
     ],
@@ -16138,7 +16306,8 @@
           "lats",
           "shoulders"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Smith_Machine_Bent_Over_Row"
@@ -16146,7 +16315,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-calf-raise",
+    "id": "smith-calf-raise.machine",
     "names": [
       "Smith Machine Calf Raise"
     ],
@@ -16166,7 +16335,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-close-grip-bench-press",
+    "id": "smith-bench-press.machine.close",
     "names": [
       "Smith Machine Close-Grip Bench Press"
     ],
@@ -16182,7 +16351,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "grip": "close"
     },
     "coded": {
       "free-exercise-db": "Smith_Machine_Close-Grip_Bench_Press"
@@ -16190,7 +16360,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-decline-press",
+    "id": "smith-press.machine.decline.2",
     "names": [
       "Smith Machine Decline Press"
     ],
@@ -16206,7 +16376,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "decline"
     },
     "coded": {
       "free-exercise-db": "Smith_Machine_Decline_Press"
@@ -16214,7 +16385,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-hang-power-clean",
+    "id": "smith-hang-power-clean.machine",
     "names": [
       "Smith Machine Hang Power Clean"
     ],
@@ -16241,7 +16412,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-hip-raise",
+    "id": "smith-hip-raise.machine",
     "names": [
       "Smith Machine Hip Raise"
     ],
@@ -16261,7 +16432,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-incline-bench-press",
+    "id": "smith-bench-press.machine.incline",
     "names": [
       "Smith Machine Incline Bench Press"
     ],
@@ -16277,7 +16448,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Smith_Machine_Incline_Bench_Press"
@@ -16285,7 +16457,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-leg-press",
+    "id": "smith-leg-press.machine",
     "names": [
       "Smith Machine Leg Press"
     ],
@@ -16310,7 +16482,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-one-arm-upright-row",
+    "id": "smith-one-arm-upright-row.machine",
     "names": [
       "Smith Machine One-Arm Upright Row"
     ],
@@ -16334,7 +16506,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-overhead-shoulder-press",
+    "id": "smith-overhead-shoulder-press.machine",
     "names": [
       "Smith Machine Overhead Shoulder Press"
     ],
@@ -16357,7 +16529,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-pistol-squat",
+    "id": "smith-pistol-squat.machine",
     "names": [
       "Smith Machine Pistol Squat"
     ],
@@ -16382,7 +16554,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-reverse-calf-raises",
+    "id": "smith-reverse-calf-raises.machine",
     "names": [
       "Smith Machine Reverse Calf Raises"
     ],
@@ -16402,7 +16574,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-squat",
+    "id": "smith-squat.machine",
     "names": [
       "Smith Machine Squat"
     ],
@@ -16428,7 +16600,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-stiff-legged-deadlift",
+    "id": "smith-stiff-legged-deadlift.machine",
     "names": [
       "Smith Machine Stiff-Legged Deadlift"
     ],
@@ -16452,7 +16624,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-machine-upright-row",
+    "id": "smith-upright-row.machine",
     "names": [
       "Smith Machine Upright Row"
     ],
@@ -16477,7 +16649,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "smith-single-leg-split-squat",
+    "id": "smith-single-leg-split-squat.machine",
     "names": [
       "Smith Single-Leg Split Squat"
     ],
@@ -16502,7 +16674,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "snatch",
+    "id": "snatch.barbell",
     "names": [
       "Snatch"
     ],
@@ -16531,7 +16703,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "snatch-balance",
+    "id": "snatch-balance.barbell",
     "names": [
       "Snatch Balance"
     ],
@@ -16558,7 +16730,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "snatch-deadlift",
+    "id": "snatch-deadlift.barbell",
     "names": [
       "Snatch Deadlift"
     ],
@@ -16586,7 +16758,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "snatch-pull",
+    "id": "snatch-pull.barbell",
     "names": [
       "Snatch Pull"
     ],
@@ -16613,7 +16785,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "snatch-shrug",
+    "id": "snatch-shrug.barbell",
     "names": [
       "Snatch Shrug"
     ],
@@ -16637,7 +16809,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "snatch-from-blocks",
+    "id": "snatch-from-blocks.barbell",
     "names": [
       "Snatch from Blocks"
     ],
@@ -16667,7 +16839,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "speed-band-overhead-triceps",
+    "id": "speed-overhead-triceps.band",
     "names": [
       "Speed Band Overhead Triceps"
     ],
@@ -16687,7 +16859,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "speed-box-squat",
+    "id": "speed-box-squat.barbell",
     "names": [
       "Speed Box Squat"
     ],
@@ -16712,7 +16884,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "speed-squats",
+    "id": "speed-squats.barbell",
     "names": [
       "Speed Squats"
     ],
@@ -16738,7 +16910,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "spell-caster",
+    "id": "spell-caster.dumbbell",
     "names": [
       "Spell Caster"
     ],
@@ -16787,7 +16959,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "spider-curl",
+    "id": "spider-curl.ez-bar",
     "names": [
       "Spider Curl"
     ],
@@ -16832,7 +17004,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "split-clean",
+    "id": "split-clean.barbell",
     "names": [
       "Split Clean"
     ],
@@ -16861,7 +17033,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "split-jerk",
+    "id": "split-jerk.barbell",
     "names": [
       "Split Jerk"
     ],
@@ -16912,7 +17084,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "split-snatch",
+    "id": "split-snatch.barbell",
     "names": [
       "Split Snatch"
     ],
@@ -16943,7 +17115,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "split-squat-with-dumbbells",
+    "id": "split-squat-with-s.dumbbell",
     "names": [
       "Split Squat with Dumbbells"
     ],
@@ -16990,7 +17162,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "squat-jerk",
+    "id": "squat-jerk.barbell",
     "names": [
       "Squat Jerk"
     ],
@@ -17017,7 +17189,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "squat-with-bands",
+    "id": "squat-with-bands.barbell",
     "names": [
       "Squat with Bands"
     ],
@@ -17044,7 +17216,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "squat-with-chains",
+    "id": "squat-with-chains.barbell",
     "names": [
       "Squat with Chains"
     ],
@@ -17071,7 +17243,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "squat-with-plate-movers",
+    "id": "squat-with-plate-movers.barbell",
     "names": [
       "Squat with Plate Movers"
     ],
@@ -17098,7 +17270,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "squats-with-bands",
+    "id": "squats-with.band",
     "names": [
       "Squats - With Bands"
     ],
@@ -17124,7 +17296,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "stairmaster",
+    "id": "stairmaster.machine",
     "names": [
       "Stairmaster"
     ],
@@ -17148,7 +17320,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-alternating-dumbbell-press",
+    "id": "press.dumbbell.standing",
     "names": [
       "Standing Alternating Dumbbell Press"
     ],
@@ -17163,7 +17335,9 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "standing",
+      "laterality": "alternating"
     },
     "coded": {
       "free-exercise-db": "Standing_Alternating_Dumbbell_Press"
@@ -17171,7 +17345,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-barbell-calf-raise",
+    "id": "calf-raise.barbell.standing",
     "names": [
       "Standing Barbell Calf Raise"
     ],
@@ -17183,7 +17357,8 @@
         "primary": [
           "calves"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Barbell_Calf_Raise"
@@ -17191,7 +17366,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-barbell-press-behind-neck",
+    "id": "press-behind-neck.barbell.standing",
     "names": [
       "Standing Barbell Press Behind Neck"
     ],
@@ -17206,7 +17381,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Barbell_Press_Behind_Neck"
@@ -17214,7 +17390,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-bent-over-one-arm-dumbbell-triceps-extension",
+    "id": "standing-one-arm-triceps-extension.dumbbell.bent-over",
     "names": [
       "Standing Bent-Over One-Arm Dumbbell Triceps Extension"
     ],
@@ -17229,7 +17405,8 @@
         "secondary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension"
@@ -17237,7 +17414,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-bent-over-two-arm-dumbbell-triceps-extension",
+    "id": "standing-two-arm-triceps-extension.dumbbell.bent-over",
     "names": [
       "Standing Bent-Over Two-Arm Dumbbell Triceps Extension"
     ],
@@ -17249,7 +17426,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "bent-over"
     },
     "coded": {
       "free-exercise-db": "Standing_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension"
@@ -17257,7 +17435,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-biceps-cable-curl",
+    "id": "biceps-curl.cable.standing",
     "names": [
       "Standing Biceps Cable Curl"
     ],
@@ -17269,7 +17447,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Biceps_Cable_Curl"
@@ -17277,7 +17456,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-biceps-stretch",
+    "id": "biceps-stretch.standing",
     "names": [
       "Standing Biceps Stretch"
     ],
@@ -17293,7 +17472,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Biceps_Stretch"
@@ -17301,7 +17481,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-bradford-press",
+    "id": "bradford-press.barbell.standing",
     "names": [
       "Standing Bradford Press"
     ],
@@ -17316,7 +17496,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Bradford_Press"
@@ -17324,7 +17505,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-cable-chest-press",
+    "id": "chest-press.cable.standing",
     "names": [
       "Standing Cable Chest Press"
     ],
@@ -17340,7 +17521,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Cable_Chest_Press"
@@ -17348,7 +17530,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-cable-lift",
+    "id": "lift.cable.standing",
     "names": [
       "Standing Cable Lift"
     ],
@@ -17363,7 +17545,8 @@
         "secondary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Cable_Lift"
@@ -17371,7 +17554,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-cable-wood-chop",
+    "id": "wood-chop.cable.standing",
     "names": [
       "Standing Cable Wood Chop"
     ],
@@ -17386,7 +17569,8 @@
         "secondary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Cable_Wood_Chop"
@@ -17394,7 +17578,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-calf-raises",
+    "id": "calf-raises.machine.standing",
     "names": [
       "Standing Calf Raises"
     ],
@@ -17406,7 +17590,8 @@
         "primary": [
           "calves"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Calf_Raises"
@@ -17414,7 +17599,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-concentration-curl",
+    "id": "concentration-curl.dumbbell.standing",
     "names": [
       "Standing Concentration Curl"
     ],
@@ -17429,7 +17614,8 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Concentration_Curl"
@@ -17437,7 +17623,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-dumbbell-calf-raise",
+    "id": "calf-raise.dumbbell.standing",
     "names": [
       "Standing Dumbbell Calf Raise"
     ],
@@ -17449,7 +17635,8 @@
         "primary": [
           "calves"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Dumbbell_Calf_Raise"
@@ -17457,7 +17644,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-dumbbell-press",
+    "id": "press.dumbbell.standing.2",
     "names": [
       "Standing Dumbbell Press"
     ],
@@ -17472,7 +17659,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Dumbbell_Press"
@@ -17480,7 +17668,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-dumbbell-reverse-curl",
+    "id": "reverse-curl.dumbbell.standing",
     "names": [
       "Standing Dumbbell Reverse Curl"
     ],
@@ -17495,7 +17683,8 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Dumbbell_Reverse_Curl"
@@ -17503,7 +17692,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-dumbbell-straight-arm-front-delt-raise-above-head",
+    "id": "straight-arm-front-delt-raise-above-head.dumbbell.standing",
     "names": [
       "Standing Dumbbell Straight-Arm Front Delt Raise Above Head"
     ],
@@ -17515,7 +17704,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Dumbbell_Straight-Arm_Front_Delt_Raise_Above_Head"
@@ -17523,7 +17713,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-dumbbell-triceps-extension",
+    "id": "triceps-extension.dumbbell.standing",
     "names": [
       "Standing Dumbbell Triceps Extension"
     ],
@@ -17535,7 +17725,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Dumbbell_Triceps_Extension"
@@ -17543,7 +17734,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-dumbbell-upright-row",
+    "id": "upright-row.dumbbell.standing",
     "names": [
       "Standing Dumbbell Upright Row"
     ],
@@ -17559,7 +17750,8 @@
           "biceps",
           "shoulders"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Dumbbell_Upright_Row"
@@ -17567,7 +17759,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-elevated-quad-stretch",
+    "id": "elevated-quad-stretch.standing",
     "names": [
       "Standing Elevated Quad Stretch"
     ],
@@ -17578,7 +17770,8 @@
         "primary": [
           "quadriceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Elevated_Quad_Stretch"
@@ -17586,7 +17779,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-front-barbell-raise-over-head",
+    "id": "front-raise-over-head.barbell.standing",
     "names": [
       "Standing Front Barbell Raise Over Head"
     ],
@@ -17598,7 +17791,8 @@
         "primary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Front_Barbell_Raise_Over_Head"
@@ -17606,7 +17800,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-gastrocnemius-calf-stretch",
+    "id": "gastrocnemius-calf-stretch.standing",
     "names": [
       "Standing Gastrocnemius Calf Stretch"
     ],
@@ -17619,7 +17813,8 @@
         "secondary": [
           "hamstrings"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Gastrocnemius_Calf_Stretch"
@@ -17627,7 +17822,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-hamstring-and-calf-stretch",
+    "id": "hamstring-and-calf-stretch.standing",
     "names": [
       "Standing Hamstring and Calf Stretch"
     ],
@@ -17638,7 +17833,8 @@
         "primary": [
           "hamstrings"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Hamstring_and_Calf_Stretch"
@@ -17646,7 +17842,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-hip-circles",
+    "id": "hip-circles.standing",
     "names": [
       "Standing Hip Circles"
     ],
@@ -17661,7 +17857,8 @@
         "secondary": [
           "adductors"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Hip_Circles"
@@ -17669,7 +17866,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-hip-flexors",
+    "id": "hip-flexors.standing",
     "names": [
       "Standing Hip Flexors"
     ],
@@ -17680,7 +17877,8 @@
         "primary": [
           "quadriceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Hip_Flexors"
@@ -17688,7 +17886,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-inner-biceps-curl",
+    "id": "inner-biceps-curl.dumbbell.standing",
     "names": [
       "Standing Inner-Biceps Curl"
     ],
@@ -17700,7 +17898,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Inner-Biceps_Curl"
@@ -17708,7 +17907,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-lateral-stretch",
+    "id": "lateral-stretch.standing",
     "names": [
       "Standing Lateral Stretch"
     ],
@@ -17718,7 +17917,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Lateral_Stretch"
@@ -17726,7 +17926,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-leg-curl",
+    "id": "leg-curl.machine.standing",
     "names": [
       "Standing Leg Curl"
     ],
@@ -17738,7 +17938,8 @@
         "primary": [
           "hamstrings"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Leg_Curl"
@@ -17746,7 +17947,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-long-jump",
+    "id": "long-jump.standing",
     "names": [
       "Standing Long Jump"
     ],
@@ -17763,7 +17964,8 @@
           "glutes",
           "hamstrings"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Long_Jump"
@@ -17771,7 +17973,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-low-pulley-deltoid-raise",
+    "id": "low-pulley-deltoid-raise.cable.standing",
     "names": [
       "Standing Low-Pulley Deltoid Raise"
     ],
@@ -17786,7 +17988,8 @@
         "secondary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Low-Pulley_Deltoid_Raise"
@@ -17794,7 +17997,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-low-pulley-one-arm-triceps-extension",
+    "id": "low-pulley-one-arm-triceps-extension.cable.standing",
     "names": [
       "Standing Low-Pulley One-Arm Triceps Extension"
     ],
@@ -17810,7 +18013,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Low-Pulley_One-Arm_Triceps_Extension"
@@ -17818,7 +18022,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-military-press",
+    "id": "military-press.barbell.standing",
     "names": [
       "Standing Military Press"
     ],
@@ -17833,7 +18037,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Military_Press"
@@ -17841,7 +18046,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-olympic-plate-hand-squeeze",
+    "id": "olympic-plate-hand-squeeze.standing",
     "names": [
       "Standing Olympic Plate Hand Squeeze"
     ],
@@ -17856,7 +18061,8 @@
         "secondary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Olympic_Plate_Hand_Squeeze"
@@ -17864,7 +18070,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-one-arm-cable-curl",
+    "id": "one-arm-curl.cable.standing",
     "names": [
       "Standing One-Arm Cable Curl"
     ],
@@ -17876,7 +18082,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_One-Arm_Cable_Curl"
@@ -17884,7 +18091,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-one-arm-dumbbell-curl-over-incline-bench",
+    "id": "standing-one-arm-curl-over-bench.dumbbell.incline",
     "names": [
       "Standing One-Arm Dumbbell Curl Over Incline Bench"
     ],
@@ -17896,7 +18103,8 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench"
@@ -17904,7 +18112,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-one-arm-dumbbell-triceps-extension",
+    "id": "one-arm-triceps-extension.dumbbell.standing",
     "names": [
       "Standing One-Arm Dumbbell Triceps Extension"
     ],
@@ -17920,7 +18128,8 @@
           "chest",
           "shoulders"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_One-Arm_Dumbbell_Triceps_Extension"
@@ -17928,7 +18137,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-overhead-barbell-triceps-extension",
+    "id": "overhead-triceps-extension.barbell.standing",
     "names": [
       "Standing Overhead Barbell Triceps Extension"
     ],
@@ -17943,7 +18152,8 @@
         "secondary": [
           "shoulders"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Overhead_Barbell_Triceps_Extension"
@@ -17951,7 +18161,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-palm-in-one-arm-dumbbell-press",
+    "id": "palm-in-one-arm-press.dumbbell.standing",
     "names": [
       "Standing Palm-In One-Arm Dumbbell Press"
     ],
@@ -17966,7 +18176,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Palm-In_One-Arm_Dumbbell_Press"
@@ -17974,7 +18185,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-palms-in-dumbbell-press",
+    "id": "palms-in-press.dumbbell.standing",
     "names": [
       "Standing Palms-In Dumbbell Press"
     ],
@@ -17989,7 +18200,8 @@
         "secondary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Palms-In_Dumbbell_Press"
@@ -17997,7 +18209,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-palms-up-barbell-behind-the-back-wrist-curl",
+    "id": "palms-up-behind-the-back-wrist-curl.barbell.standing",
     "names": [
       "Standing Palms-Up Barbell Behind The Back Wrist Curl"
     ],
@@ -18009,7 +18221,8 @@
         "primary": [
           "forearms"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Palms-Up_Barbell_Behind_The_Back_Wrist_Curl"
@@ -18017,7 +18230,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-pelvic-tilt",
+    "id": "pelvic-tilt.standing",
     "names": [
       "Standing Pelvic Tilt"
     ],
@@ -18031,7 +18244,8 @@
         "secondary": [
           "glutes"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Pelvic_Tilt"
@@ -18039,7 +18253,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-rope-crunch",
+    "id": "rope-crunch.cable.standing",
     "names": [
       "Standing Rope Crunch"
     ],
@@ -18051,7 +18265,8 @@
         "primary": [
           "abdominals"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Rope_Crunch"
@@ -18059,7 +18274,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-soleus-and-achilles-stretch",
+    "id": "soleus-and-achilles-stretch.standing",
     "names": [
       "Standing Soleus And Achilles Stretch"
     ],
@@ -18070,7 +18285,8 @@
         "primary": [
           "calves"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Soleus_And_Achilles_Stretch"
@@ -18078,7 +18294,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-toe-touches",
+    "id": "toe-touches.standing",
     "names": [
       "Standing Toe Touches"
     ],
@@ -18091,7 +18307,8 @@
         "secondary": [
           "calves"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Toe_Touches"
@@ -18099,7 +18316,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-towel-triceps-extension",
+    "id": "towel-triceps-extension.standing",
     "names": [
       "Standing Towel Triceps Extension"
     ],
@@ -18111,7 +18328,8 @@
         "primary": [
           "triceps"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Towel_Triceps_Extension"
@@ -18119,7 +18337,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "standing-two-arm-overhead-throw",
+    "id": "two-arm-overhead-throw.medicine-ball.standing",
     "names": [
       "Standing Two-Arm Overhead Throw"
     ],
@@ -18135,7 +18353,8 @@
           "chest",
           "lats"
         ]
-      }
+      },
+      "stance": "standing"
     },
     "coded": {
       "free-exercise-db": "Standing_Two-Arm_Overhead_Throw"
@@ -18193,7 +18412,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "step-mill",
+    "id": "step-mill.machine",
     "names": [
       "Step Mill"
     ],
@@ -18217,7 +18436,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "stiff-legged-barbell-deadlift",
+    "id": "stiff-legged-deadlift.barbell",
     "names": [
       "Stiff-Legged Barbell Deadlift"
     ],
@@ -18241,7 +18460,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "stiff-legged-dumbbell-deadlift",
+    "id": "stiff-legged-deadlift.dumbbell",
     "names": [
       "Stiff-Legged Dumbbell Deadlift"
     ],
@@ -18265,7 +18484,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "stiff-leg-barbell-good-morning",
+    "id": "stiff-leg-good-morning.barbell",
     "names": [
       "Stiff Leg Barbell Good Morning"
     ],
@@ -18309,7 +18528,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "straight-arm-dumbbell-pullover",
+    "id": "straight-arm-pullover.dumbbell",
     "names": [
       "Straight-Arm Dumbbell Pullover"
     ],
@@ -18334,7 +18553,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "straight-arm-pulldown",
+    "id": "straight-arm-pulldown.cable",
     "names": [
       "Straight-Arm Pulldown"
     ],
@@ -18354,7 +18573,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "straight-bar-bench-mid-rows",
+    "id": "straight-bar-bench-mid-rows.barbell",
     "names": [
       "Straight Bar Bench Mid Rows"
     ],
@@ -18378,7 +18597,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "straight-raises-on-incline-bench",
+    "id": "straight-raises-on-bench.barbell.incline",
     "names": [
       "Straight Raises on Incline Bench"
     ],
@@ -18393,7 +18612,8 @@
         "secondary": [
           "traps"
         ]
-      }
+      },
+      "stance": "incline"
     },
     "coded": {
       "free-exercise-db": "Straight_Raises_on_Incline_Bench"
@@ -18427,7 +18647,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "sumo-deadlift",
+    "id": "sumo-deadlift.barbell",
     "names": [
       "Sumo Deadlift"
     ],
@@ -18456,7 +18676,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "sumo-deadlift-with-bands",
+    "id": "sumo-deadlift-with-bands.barbell",
     "names": [
       "Sumo Deadlift with Bands"
     ],
@@ -18485,7 +18705,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "sumo-deadlift-with-chains",
+    "id": "sumo-deadlift-with-chains.barbell",
     "names": [
       "Sumo Deadlift with Chains"
     ],
@@ -18539,7 +18759,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "supine-chest-throw",
+    "id": "supine-chest-throw.medicine-ball",
     "names": [
       "Supine Chest Throw"
     ],
@@ -18563,7 +18783,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "supine-one-arm-overhead-throw",
+    "id": "supine-one-arm-overhead-throw.medicine-ball",
     "names": [
       "Supine One-Arm Overhead Throw"
     ],
@@ -18588,7 +18808,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "supine-two-arm-overhead-throw",
+    "id": "supine-two-arm-overhead-throw.medicine-ball",
     "names": [
       "Supine Two-Arm Overhead Throw"
     ],
@@ -18758,7 +18978,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "t-bar-row-with-handle",
+    "id": "t-bar-row-with-handle.barbell",
     "names": [
       "T-Bar Row with Handle"
     ],
@@ -18782,7 +19002,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "tate-press",
+    "id": "tate-press.dumbbell",
     "names": [
       "Tate Press"
     ],
@@ -18828,7 +19048,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "thigh-abductor",
+    "id": "thigh-abductor.machine",
     "names": [
       "Thigh Abductor"
     ],
@@ -18851,7 +19071,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "thigh-adductor",
+    "id": "thigh-adductor.machine",
     "names": [
       "Thigh Adductor"
     ],
@@ -18926,7 +19146,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "torso-rotation",
+    "id": "torso-rotation.exercise-ball",
     "names": [
       "Torso Rotation"
     ],
@@ -18992,7 +19212,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "tricep-dumbbell-kickback",
+    "id": "tricep-kickback.dumbbell",
     "names": [
       "Tricep Dumbbell Kickback"
     ],
@@ -19033,7 +19253,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "triceps-overhead-extension-with-rope",
+    "id": "triceps-overhead-extension-with-rope.cable",
     "names": [
       "Triceps Overhead Extension with Rope"
     ],
@@ -19053,7 +19273,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "triceps-pushdown",
+    "id": "triceps-pushdown.cable",
     "names": [
       "Triceps Pushdown"
     ],
@@ -19073,7 +19293,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "triceps-pushdown-rope-attachment",
+    "id": "triceps-pushdown-rope-attachment.cable",
     "names": [
       "Triceps Pushdown - Rope Attachment"
     ],
@@ -19093,7 +19313,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "triceps-pushdown-v-bar-attachment",
+    "id": "triceps-pushdown-v-bar-attachment.cable",
     "names": [
       "Triceps Pushdown - V-Bar Attachment"
     ],
@@ -19155,7 +19375,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "two-arm-dumbbell-preacher-curl",
+    "id": "two-arm-preacher-curl.dumbbell",
     "names": [
       "Two-Arm Dumbbell Preacher Curl"
     ],
@@ -19175,7 +19395,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "two-arm-kettlebell-clean",
+    "id": "two-arm-clean.kettlebell",
     "names": [
       "Two-Arm Kettlebell Clean"
     ],
@@ -19202,7 +19422,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "two-arm-kettlebell-jerk",
+    "id": "two-arm-jerk.kettlebell",
     "names": [
       "Two-Arm Kettlebell Jerk"
     ],
@@ -19227,7 +19447,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "two-arm-kettlebell-military-press",
+    "id": "two-arm-military-press.kettlebell",
     "names": [
       "Two-Arm Kettlebell Military Press"
     ],
@@ -19250,7 +19470,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "two-arm-kettlebell-row",
+    "id": "two-arm-row.kettlebell",
     "names": [
       "Two-Arm Kettlebell Row"
     ],
@@ -19274,7 +19494,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "underhand-cable-pulldowns",
+    "id": "underhand-pulldowns.cable",
     "names": [
       "Underhand Cable Pulldowns"
     ],
@@ -19342,7 +19562,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "upright-barbell-row",
+    "id": "upright-row.barbell",
     "names": [
       "Upright Barbell Row"
     ],
@@ -19365,7 +19585,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "upright-cable-row",
+    "id": "upright-row.cable",
     "names": [
       "Upright Cable Row"
     ],
@@ -19388,7 +19608,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "upright-row-with-bands",
+    "id": "upright-row-with.band",
     "names": [
       "Upright Row - With Bands"
     ],
@@ -19433,7 +19653,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "v-bar-pulldown",
+    "id": "v-bar-pulldown.cable",
     "names": [
       "V-Bar Pulldown"
     ],
@@ -19483,7 +19703,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "vertical-swing",
+    "id": "vertical-swing.dumbbell",
     "names": [
       "Vertical Swing"
     ],
@@ -19508,7 +19728,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "walking-treadmill",
+    "id": "walking-treadmill.machine",
     "names": [
       "Walking, Treadmill"
     ],
@@ -19532,7 +19752,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "weighted-ball-hyperextension",
+    "id": "weighted-ball-hyperextension.exercise-ball",
     "names": [
       "Weighted Ball Hyperextension"
     ],
@@ -19557,7 +19777,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "weighted-ball-side-bend",
+    "id": "weighted-ball-side-bend.exercise-ball",
     "names": [
       "Weighted Ball Side Bend"
     ],
@@ -19601,7 +19821,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "weighted-crunches",
+    "id": "weighted-crunches.medicine-ball",
     "names": [
       "Weighted Crunches"
     ],
@@ -19621,7 +19841,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "weighted-jump-squat",
+    "id": "weighted-jump-squat.barbell",
     "names": [
       "Weighted Jump Squat"
     ],
@@ -19671,7 +19891,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "weighted-sissy-squat",
+    "id": "weighted-sissy-squat.barbell",
     "names": [
       "Weighted Sissy Squat"
     ],
@@ -19741,7 +19961,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wide-grip-barbell-bench-press",
+    "id": "bench-press.barbell.wide",
     "names": [
       "Wide-Grip Barbell Bench Press"
     ],
@@ -19757,7 +19977,8 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "grip": "wide"
     },
     "coded": {
       "free-exercise-db": "Wide-Grip_Barbell_Bench_Press"
@@ -19765,7 +19986,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wide-grip-decline-barbell-bench-press",
+    "id": "bench-press.barbell.decline.wide",
     "names": [
       "Wide-Grip Decline Barbell Bench Press"
     ],
@@ -19781,7 +20002,9 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "decline",
+      "grip": "wide"
     },
     "coded": {
       "free-exercise-db": "Wide-Grip_Decline_Barbell_Bench_Press"
@@ -19789,7 +20012,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wide-grip-decline-barbell-pullover",
+    "id": "pullover.barbell.decline.wide",
     "names": [
       "Wide-Grip Decline Barbell Pullover"
     ],
@@ -19805,7 +20028,9 @@
           "shoulders",
           "triceps"
         ]
-      }
+      },
+      "stance": "decline",
+      "grip": "wide"
     },
     "coded": {
       "free-exercise-db": "Wide-Grip_Decline_Barbell_Pullover"
@@ -19813,7 +20038,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wide-grip-lat-pulldown",
+    "id": "lat-pulldown.cable.wide",
     "names": [
       "Wide-Grip Lat Pulldown"
     ],
@@ -19830,7 +20055,8 @@
           "middle-back",
           "shoulders"
         ]
-      }
+      },
+      "grip": "wide"
     },
     "coded": {
       "free-exercise-db": "Wide-Grip_Lat_Pulldown"
@@ -19838,7 +20064,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wide-grip-pulldown-behind-the-neck",
+    "id": "pulldown-behind-the-neck.cable.wide",
     "names": [
       "Wide-Grip Pulldown Behind The Neck"
     ],
@@ -19855,7 +20081,8 @@
           "middle-back",
           "shoulders"
         ]
-      }
+      },
+      "grip": "wide"
     },
     "coded": {
       "free-exercise-db": "Wide-Grip_Pulldown_Behind_The_Neck"
@@ -19863,7 +20090,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wide-grip-rear-pull-up",
+    "id": "rear-pull-up.wide",
     "names": [
       "Wide-Grip Rear Pull-Up"
     ],
@@ -19880,7 +20107,8 @@
           "middle-back",
           "shoulders"
         ]
-      }
+      },
+      "grip": "wide"
     },
     "coded": {
       "free-exercise-db": "Wide-Grip_Rear_Pull-Up"
@@ -19888,7 +20116,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wide-grip-standing-barbell-curl",
+    "id": "curl.barbell.standing.wide",
     "names": [
       "Wide-Grip Standing Barbell Curl"
     ],
@@ -19900,7 +20128,9 @@
         "primary": [
           "biceps"
         ]
-      }
+      },
+      "stance": "standing",
+      "grip": "wide"
     },
     "coded": {
       "free-exercise-db": "Wide-Grip_Standing_Barbell_Curl"
@@ -19908,7 +20138,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wide-stance-barbell-squat",
+    "id": "wide-stance-squat.barbell",
     "names": [
       "Wide Stance Barbell Squat"
     ],
@@ -19934,7 +20164,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wide-stance-stiff-legs",
+    "id": "wide-stance-stiff-legs.barbell",
     "names": [
       "Wide Stance Stiff Legs"
     ],
@@ -20068,7 +20298,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "wrist-rotations-with-straight-bar",
+    "id": "wrist-rotations-with-straight-bar.barbell",
     "names": [
       "Wrist Rotations with Straight Bar"
     ],
@@ -20117,7 +20347,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "zercher-squats",
+    "id": "zercher-squats.barbell",
     "names": [
       "Zercher Squats"
     ],
@@ -20142,7 +20372,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "zottman-curl",
+    "id": "zottman-curl.dumbbell",
     "names": [
       "Zottman Curl"
     ],
@@ -20165,7 +20395,7 @@
     "source": "free-exercise-db"
   },
   {
-    "id": "zottman-preacher-curl",
+    "id": "zottman-preacher-curl.dumbbell",
     "names": [
       "Zottman Preacher Curl"
     ],
