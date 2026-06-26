@@ -11,7 +11,8 @@ own semver cadence, §6.2). **Data is CC0.**
 | Path | What |
 |---|---|
 | `schema/registry-entry.schema.json` | JSON Schema for one registry entry (id + names + facets + attributes + coded, §6.2/§6.3). |
-| `data/exercises.json` | The canonical entries. Currently a small **curated seed** (CC0-original) spanning strength / endurance / functional / mobility / flexibility to exercise the model. |
+| `data/exercises.json` | **Curated canonical** entries (11, CC0-original, authoritative) spanning strength / endurance / functional / mobility / flexibility. |
+| `data/seed/free-exercise-db.json` | **Imported seed** — 872 entries from free-exercise-db (The Unlicense → CC0, commit `b0eed06`). Pre-v1 slug ids; see SOURCES.md. |
 | `tools/validate.mjs` | Dependency-free validator: id format + uniqueness + facet conformance. `npm run check`. |
 | `tools/ingest-free-exercise-db.mjs` | Maps [free-exercise-db](https://github.com/yuhonas/free-exercise-db) records → entries. `npm run ingest:selftest`. See SOURCES.md — the bulk import is gated on a licensing sign-off. |
 
@@ -38,6 +39,7 @@ authoritative.
 
 ## Status
 
-Pre-v1 seed. The bulk free-exercise-db import and the cardio (Compendium MET) /
-functional / mobility supplements are pending (see SOURCES.md). The model, schema,
-validator, and ingest mapping are in place and CI-checked.
+Pre-v1 (ids **not** stable until v1.0). 883 entries total — 11 curated canonical + 872
+imported from free-exercise-db (see SOURCES.md). Remaining before v1.0: decompose imported
+slug ids → `base[.variation]` + variation facets; Compendium MET / functional / mobility
+supplements. Model, schema, validator, ingest, and CI are in place and green.

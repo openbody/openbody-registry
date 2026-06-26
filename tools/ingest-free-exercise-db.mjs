@@ -10,7 +10,11 @@
 //   node tools/ingest-free-exercise-db.mjs --selftest          # map synthetic samples, validate
 //   node tools/ingest-free-exercise-db.mjs <fed-exercises.json> # map a local clone (writes nothing)
 import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { validateEntry } from "./validate.mjs";
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
@@ -65,11 +69,31 @@ const arg = process.argv[2];
 if (arg === "--selftest") {
   selftest();
 } else if (arg) {
+  // Licensing cleared (free-exercise-db = The Unlicense / public domain → CC0; see SOURCES.md).
+  const outArg = process.argv.indexOf("--out");
+  const outPath = outArg > -1 ? process.argv[outArg + 1] : path.join(root, "data/seed/free-exercise-db.json");
   const src = JSON.parse(fs.readFileSync(arg, "utf8"));
-  const mapped = (Array.isArray(src) ? src : src.exercises ?? []).map(mapRecord);
-  console.error(`Mapped ${mapped.length} records. NOT writing output — bulk import + CC0 redistribution needs licensing sign-off (see SOURCES.md). Sample:`);
-  console.log(JSON.stringify(mapped.slice(0, 2), null, 2));
+  const raw = Array.isArray(src) ? src : src.exercises ?? [];
+
+  // Curated entries (data/exercises.json) are authoritative — skip any id collision.
+  const curatedIds = new Set(JSON.parse(fs.readFileSync(path.join(root, "data/exercises.json"), "utf8")).map((e) => e.id));
+  const out = [];
+  const seen = new Set();
+  let skipped = 0;
+  for (const r of raw) {
+    const e = mapRecord(r);
+    if (curatedIds.has(e.id) || seen.has(e.id)) { skipped++; continue; }
+    seen.add(e.id);
+    out.push(e);
+  }
+  // Validate before writing.
+  const errs = out.flatMap((e) => validateEntry(e, new Set()));
+  if (errs.length) { console.error(`ingest FAILED — ${errs.length} invalid entries:\n` + errs.slice(0, 20).map((e) => "  ✗ " + e).join("\n")); process.exit(1); }
+
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, JSON.stringify(out, null, 2) + "\n");
+  console.log(`Wrote ${out.length} entries → ${path.relative(root, outPath)} (skipped ${skipped} id-collisions/dupes).`);
 } else {
-  console.error("usage: ingest-free-exercise-db.mjs --selftest | <fed-exercises.json>");
+  console.error("usage: ingest-free-exercise-db.mjs --selftest | <fed-exercises.json> [--out <path>]");
   process.exit(1);
 }
