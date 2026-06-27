@@ -1,0 +1,19 @@
+{
+  "vocabulary": "block-grouping",
+  "field": "Block.grouping",
+  "specRef": "§5.4",
+  "open": true,
+  "description": "How the child elements of a Block are grouped (§5.4). Spec canon: superset, giant_set, circuit, drop_set. Extended with the intra-set-rest and contrast families that incumbents (incl. Hevy) under-model — rest_pause is the founder's motivating gap (METHODOLOGY-VALIDATION, Hevy test).",
+  "tokens": [
+    { "token": "superset", "label": "Superset", "description": "Two exercises performed back-to-back with no rest between." },
+    { "token": "giant_set", "label": "Giant Set", "description": "Three or more exercises performed in sequence with no rest." },
+    { "token": "circuit", "label": "Circuit", "description": "A rotation through several stations, typically minimal rest." },
+    { "token": "drop_set", "label": "Drop Set", "description": "Canonical encoding: post-first WorkUnits carry setRole 'drop' with reduced load and no rest (§5.4)." },
+    { "token": "rest_pause", "label": "Rest-Pause", "description": "One effort to near-failure, then short (~10-20 s) rests with more reps; child WorkUnits carry setRole 'rest_pause'/'cluster' and a short rest." },
+    { "token": "cluster", "label": "Cluster Set", "description": "Intra-set rests at fixed points (e.g. 5×(2 reps, 10 s)); child WorkUnits carry setRole 'cluster'." },
+    { "token": "complex", "label": "Complex", "description": "Several movements performed in sequence without setting the implement down (e.g. a barbell complex); child WorkUnits each carry their own exerciseRef." },
+    { "token": "contrast", "label": "Contrast / PAP", "aliases": ["post-activation potentiation", "french contrast"], "description": "Heavy strength paired with explosive/plyometric work to exploit potentiation." },
+    { "token": "mechanical_drop_set", "label": "Mechanical Drop Set", "description": "Switch to a mechanically easier variation (angle/grip/exercise) to continue past failure; each child WorkUnit carries its own exerciseRef." },
+    { "token": "pre_exhaust", "label": "Pre-Exhaust", "aliases": ["post-exhaust"], "description": "An isolation movement before (or after) a compound to target a muscle." }
+  ]
+}

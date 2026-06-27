@@ -1,0 +1,18 @@
+{
+  "vocabulary": "progression-rule",
+  "field": "Progression.rule",
+  "specRef": "§5.14",
+  "open": true,
+  "description": "Declarative progression rules (§5.14). Spec canon (linear, double, percent, custom) plus common named schemes; params carry the rule's parameters. An opaque script is a separate non-normative escape hatch (§5.14).",
+  "tokens": [
+    { "token": "linear", "label": "Linear", "description": "Add a fixed increment per period (e.g. +2.5 kg/session)." },
+    { "token": "double", "label": "Double Progression", "description": "Increase reps within a window, then add load and reset reps." },
+    { "token": "percent", "label": "Percentage", "description": "Advance by a percentage of a threshold (e.g. %1RM waves)." },
+    { "token": "wave", "label": "Wave Loading", "description": "Cyclic up/down loading within and across sessions." },
+    { "token": "undulating", "label": "Undulating (DUP)", "aliases": ["dup"], "description": "Daily/weekly varied rep-load targets." },
+    { "token": "autoregulated", "label": "Autoregulated", "description": "Advance by readiness/RPE rather than a fixed rule." },
+    { "token": "step", "label": "Step Loading", "description": "Hold a load for N sessions, then step up." },
+    { "token": "deload", "label": "Deload", "description": "A planned reduction in load/volume for recovery." },
+    { "token": "custom", "label": "Custom", "description": "A bespoke rule; pair with an opaque script where needed (§5.14)." }
+  ]
+}

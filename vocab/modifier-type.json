@@ -1,0 +1,27 @@
+{
+  "vocabulary": "modifier-type",
+  "field": "modifiers[].type",
+  "specRef": "§5.17",
+  "open": true,
+  "description": "Conditions that alter a WorkUnit/Block (§5.17). Spec examples plus joint_angle / box_height / target_height — the isometric-position and jump/throw-target cases the model otherwise has no canonical home for (METHODOLOGY-VALIDATION G4/G5).",
+  "tokens": [
+    { "token": "bfr", "label": "Blood-Flow Restriction", "aliases": ["occlusion"], "description": "Cuff/band restriction; value MAY carry cuff pressure (unit e.g. mm[Hg])." },
+    { "token": "ems", "label": "Electrical Muscle Stimulation" },
+    { "token": "altitude", "label": "Altitude", "description": "Hypoxic/altitude condition; value MAY carry elevation (m)." },
+    { "token": "heat", "label": "Heat", "description": "Elevated ambient temperature; value MAY carry temperature." },
+    { "token": "cold", "label": "Cold", "description": "Low ambient temperature; value MAY carry temperature." },
+    { "token": "humidity", "label": "Humidity" },
+    { "token": "wind", "label": "Wind", "description": "Headwind/tailwind; value MAY carry speed." },
+    { "token": "terrain", "label": "Terrain", "description": "Surface type (trail, sand, track)." },
+    { "token": "incline", "label": "Incline", "description": "Uphill grade; value e.g. percent." },
+    { "token": "decline", "label": "Decline", "description": "Downhill grade." },
+    { "token": "accommodating_band", "label": "Accommodating Band", "description": "Added band tension on a barbell movement." },
+    { "token": "chains", "label": "Chains", "description": "Added chain weight on a barbell movement." },
+    { "token": "paused", "label": "Paused", "description": "An enforced pause in the lift; value MAY carry pause seconds (or use phasePattern)." },
+    { "token": "joint_angle", "label": "Joint Angle", "description": "Fixed joint angle for an isometric/partial (e.g. pin press at 90°); value carries degrees (unit deg)." },
+    { "token": "box_height", "label": "Box Height", "description": "Box/platform height for jumps/step-ups; value carries height." },
+    { "token": "target_height", "label": "Target Height", "description": "Target height for wall-ball/throw; value carries height." },
+    { "token": "edge_depth", "label": "Edge Depth", "description": "Fingerboard/hangboard edge depth; value carries depth (unit mm)." },
+    { "token": "partner_assisted", "label": "Partner-Assisted", "description": "A partner assists/resists (sweep, spot, hand-off)." }
+  ]
+}

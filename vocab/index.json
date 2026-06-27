@@ -1,0 +1,21 @@
+{
+  "description": "Manifest of OpenBody controlled-vocabulary files (the open, registry-backed token sets, SPEC §5.9). Each file lists the recommended-canon tokens for one model field. The spec defines the mechanism; these ship content on the registry's own cadence. Unknown tokens always round-trip — these files never close a set. CC0.",
+  "vocabularies": [
+    { "file": "disciplines.json", "field": "Session.disciplines[]", "specRef": "§5.3" },
+    { "file": "modality.json", "field": "ExerciseRef.facets.modality", "specRef": "§6.3" },
+    { "file": "movement-pattern.json", "field": "ExerciseRef.facets.movementPattern", "specRef": "§6.3" },
+    { "file": "range-of-motion.json", "field": "ExerciseRef.facets.rangeOfMotion", "specRef": "§6.3" },
+    { "file": "block-scoring-scheme.json", "field": "Block.scoring.scheme", "specRef": "§5.4" },
+    { "file": "block-grouping.json", "field": "Block.grouping", "specRef": "§5.4" },
+    { "file": "set-role.json", "field": "WorkUnit.setRole", "specRef": "§5.5" },
+    { "file": "load-basis.json", "field": "Load.basis", "specRef": "§5.12" },
+    { "file": "modifier-type.json", "field": "modifiers[].type", "specRef": "§5.17" },
+    { "file": "effort-method.json", "field": "EffortLoad.method", "specRef": "§5.13" },
+    { "file": "threshold-kind.json", "field": "Target.relativeToThreshold.of / ThresholdProfile.kind", "specRef": "§5.10, §5.11" },
+    { "file": "stop-condition-kind.json", "field": "Target.stopCondition.kind", "specRef": "§5.10" },
+    { "file": "progression-rule.json", "field": "Progression.rule", "specRef": "§5.14" },
+    { "file": "participant-role.json", "field": "participants[].role", "specRef": "§5.19" },
+    { "file": "status-period-type.json", "field": "StatusPeriod.type", "specRef": "§5.20" },
+    { "file": "phase-qualifier.json", "field": "phasePattern[].qualifier", "specRef": "§5.15" }
+  ]
+}

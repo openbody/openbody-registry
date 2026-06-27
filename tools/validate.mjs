@@ -10,6 +10,9 @@ const schema = JSON.parse(fs.readFileSync(path.join(root, "schema/registry-entry
 
 const idRe = new RegExp(schema.properties.id.pattern);
 const facetProps = schema.$defs.facets.properties;
+const vocabSchema = JSON.parse(fs.readFileSync(path.join(root, "schema/vocab-file.schema.json"), "utf8"));
+const vocabNameRe = new RegExp(vocabSchema.properties.vocabulary.pattern);
+const tokenRe = new RegExp(vocabSchema.$defs.token.properties.token.pattern);
 const mechanicEnum = facetProps.mechanic.enum;
 const lateralityEnum = facetProps.laterality.enum;
 const allowedFacets = new Set(Object.keys(facetProps));
@@ -39,6 +42,27 @@ export function validateEntry(e, seenIds) {
   return errs;
 }
 
+/** Validate one controlled-vocabulary file; returns an array of error strings. */
+export function validateVocabFile(name, doc) {
+  const errs = [];
+  if (typeof doc?.vocabulary !== "string" || !vocabNameRe.test(doc.vocabulary))
+    errs.push(`${name}: 'vocabulary' missing or not kebab-case`);
+  if (typeof doc?.field !== "string") errs.push(`${name}: 'field' (string) required`);
+  if (!Array.isArray(doc?.tokens) || doc.tokens.length < 1) {
+    errs.push(`${name}: 'tokens' must be a non-empty array`);
+    return errs;
+  }
+  const seenTokens = new Set();
+  for (const t of doc.tokens) {
+    const where = `${name}:${t?.token ?? "(no token)"}`;
+    if (typeof t?.token !== "string" || !tokenRe.test(t.token)) errs.push(`${where}: token missing or malformed`);
+    else if (seenTokens.has(t.token)) errs.push(`${where}: duplicate token`);
+    else seenTokens.add(t.token);
+    if (typeof t?.label !== "string" || !t.label) errs.push(`${where}: 'label' (non-empty string) required`);
+  }
+  return errs;
+}
+
 function main() {
   const errors = [];
 
@@ -62,13 +86,25 @@ function main() {
     }
   }
 
+  // 3. Controlled vocabularies (vocab/*.json) — open token sets (§5.9).
+  const vocabDir = path.join(root, "vocab");
+  let vocabFiles = 0, vocabTokens = 0;
+  if (fs.existsSync(vocabDir)) {
+    for (const f of fs.readdirSync(vocabDir).filter((f) => f.endsWith(".json") && f !== "index.json")) {
+      const v = JSON.parse(fs.readFileSync(path.join(vocabDir, f), "utf8"));
+      const errs = validateVocabFile(`vocab/${f}`, v);
+      errors.push(...errs);
+      if (!errs.length) { vocabFiles++; vocabTokens += v.tokens.length; }
+    }
+  }
+
   if (errors.length) {
     console.error(`OpenBody registry: ${errors.length} error(s):`);
     for (const e of errors.slice(0, 50)) console.error("  ✗ " + e);
     if (errors.length > 50) console.error(`  … and ${errors.length - 50} more`);
     process.exit(1);
   }
-  console.log(`OpenBody registry: ${entries.length} canonical entries valid (ids unique); crosswalk ${mapped}/${xwalkTotal} mapped, all targets resolve.`);
+  console.log(`OpenBody registry: ${entries.length} canonical entries valid (ids unique); crosswalk ${mapped}/${xwalkTotal} mapped, all targets resolve; ${vocabFiles} vocabularies (${vocabTokens} tokens) valid.`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main();

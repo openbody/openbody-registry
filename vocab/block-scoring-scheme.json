@@ -1,0 +1,16 @@
+{
+  "vocabulary": "block-scoring-scheme",
+  "field": "Block.scoring.scheme",
+  "specRef": "§5.4",
+  "open": true,
+  "description": "Multi-exercise scoring schemes carried on a Block (§5.4). Spec canon: amrap, for_time, emom, tabata, rounds. Extended here with send_off/interval — the send-off-clock model swimmers, rowers and runners actually use, which the spec's rest-duration field and emom/tabata don't name (METHODOLOGY-VALIDATION G3).",
+  "tokens": [
+    { "token": "amrap", "label": "AMRAP", "aliases": ["as many rounds as possible", "as many reps as possible"], "description": "Maximize rounds/reps within timeCapSec." },
+    { "token": "for_time", "label": "For Time", "description": "Complete the prescribed work as fast as possible (timeCapSec is the ceiling)." },
+    { "token": "emom", "label": "EMOM", "aliases": ["every minute on the minute"], "description": "Start a fixed work parcel each intervalSec (minute = 60); rest is the remainder." },
+    { "token": "tabata", "label": "Tabata", "description": "Interval protocol, classically 20 s work / 10 s rest × 8 (workSec/restSec/rounds)." },
+    { "token": "rounds", "label": "Rounds", "aliases": ["rft", "rounds for time"], "description": "A fixed number of rounds of the children." },
+    { "token": "send_off", "label": "Send-off Interval", "aliases": ["on the clock", "interval send-off"], "description": "Each rep departs on a fixed send-off (e.g. 10×100 m 'on 1:30'); rest is send-off minus work time, not a fixed rest. Carry the send-off in intervalSec." },
+    { "token": "interval", "label": "Interval", "description": "Generic structured work/rest intervals where no more specific scheme fits (workSec/restSec/rounds)." }
+  ]
+}

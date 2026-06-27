@@ -1,0 +1,22 @@
+{
+  "vocabulary": "load-basis",
+  "field": "Load.basis",
+  "specRef": "§5.12",
+  "open": true,
+  "description": "How a Load.value is to be interpreted (§5.12), so non-kilogram resistance round-trips without pretending to be weight. Spec canon plus 'chain' (variable accommodating load that increases through the range; METHODOLOGY-VALIDATION G5).",
+  "tokens": [
+    { "token": "marked_weight", "label": "Marked Weight", "description": "The nominal weight marked on the implement/plates." },
+    { "token": "stack", "label": "Weight Stack", "description": "A selectorized machine stack (kg/lb)." },
+    { "token": "machine_level", "label": "Machine Level", "description": "A machine resistance level/setting (e.g. 'level 7'); unit is a machine-specific scale token." },
+    { "token": "band", "label": "Resistance Band", "description": "Elastic band resistance (often by color); variable through range." },
+    { "token": "spring", "label": "Spring", "description": "Spring resistance (e.g. Pilates reformer)." },
+    { "token": "chain", "label": "Chain", "description": "Added chain weight that increases as links lift off the floor (accommodating)." },
+    { "token": "incline", "label": "Incline", "description": "Resistance from grade/incline." },
+    { "token": "assist", "label": "Assistance", "description": "Assistance that reduces effective load (assisted pull-up/dip); value is the assistance magnitude." },
+    { "token": "bodyweight_relative", "label": "Bodyweight-Relative", "description": "Load expressed as a multiple of bodyweight." },
+    { "token": "effective_force", "label": "Effective Force", "description": "Measured/derived force rather than an implement weight." },
+    { "token": "animal_traction", "label": "Animal Traction", "description": "Resistance from an animal (e.g. equestrian/sled-dog contexts)." },
+    { "token": "rotational", "label": "Rotational", "description": "Rotational/leverage implements (Indian club, mace/gada, sledgehammer)." },
+    { "token": "fluid_flow", "label": "Fluid Flow", "description": "Air/water resistance proportional to effort (assault bike, water rower, swim)." }
+  ]
+}

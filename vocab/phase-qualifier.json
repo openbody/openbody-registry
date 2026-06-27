@@ -1,0 +1,13 @@
+{
+  "vocabulary": "phase-qualifier",
+  "field": "phasePattern[].qualifier",
+  "specRef": "§5.15",
+  "open": true,
+  "description": "Qualifier for a phasePattern phase with no fixed duration (§5.15) — e.g. lifting tempo 'X' = explosive concentric.",
+  "tokens": [
+    { "token": "explosive", "label": "Explosive", "description": "Maximal-intent fast phase (tempo 'X')." },
+    { "token": "max", "label": "Maximal", "description": "Maximal effort, duration not fixed." },
+    { "token": "controlled", "label": "Controlled", "description": "Deliberate, controlled tempo." },
+    { "token": "slow", "label": "Slow", "description": "Deliberately slow phase." }
+  ]
+}

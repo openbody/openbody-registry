@@ -1,0 +1,20 @@
+{
+  "vocabulary": "threshold-kind",
+  "field": "Target.relativeToThreshold.of / ThresholdProfile.entries[].kind",
+  "specRef": "§5.10, §5.11",
+  "open": true,
+  "description": "Reference capacities a relativeToThreshold target resolves against (§5.10/§5.11). One vocabulary shared by both the target's `of` and the ThresholdProfile entry's `kind`, so they match by equality. Casing follows the spec's examples (1RM, FTP, maxHR, pace).",
+  "tokens": [
+    { "token": "1RM", "label": "One-Rep Max", "description": "Maximal single-rep load for a lift (scope via ThresholdProfile.for)." },
+    { "token": "FTP", "label": "Functional Threshold Power", "description": "Cycling power threshold (W)." },
+    { "token": "maxHR", "label": "Maximum Heart Rate", "description": "Max HR (/min)." },
+    { "token": "restingHR", "label": "Resting Heart Rate" },
+    { "token": "LTHR", "label": "Lactate-Threshold Heart Rate" },
+    { "token": "pace", "label": "Threshold Pace", "aliases": ["threshold pace", "race pace"], "description": "Reference running pace (e.g. min/km)." },
+    { "token": "CSS", "label": "Critical Swim Speed", "description": "Swim threshold pace (per 100 m)." },
+    { "token": "vVO2max", "label": "Velocity at VO2max", "description": "Running velocity at VO2max." },
+    { "token": "VO2max", "label": "Maximal Oxygen Uptake", "description": "mL/kg/min." },
+    { "token": "bodyweight", "label": "Bodyweight", "description": "Subject bodyweight (for bodyweight-relative loads)." },
+    { "token": "anthropometric", "label": "Anthropometric", "description": "A measured body dimension (limb length, height, wingspan) — scope via ThresholdProfile.for (§5.11/R16)." }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "vocabulary": "modality",
+  "field": "ExerciseRef.facets.modality",
+  "specRef": "§5.9, §6.3",
+  "open": true,
+  "description": "The broad class of a movement (intrinsic classification facet, §6.3). Aligned with the modality values used in data/exercises.json.",
+  "tokens": [
+    { "token": "strength", "label": "Strength", "description": "Resistance movements for force production / hypertrophy." },
+    { "token": "endurance", "label": "Endurance", "description": "Sustained cyclic cardio movements." },
+    { "token": "power", "label": "Power", "description": "Explosive/ballistic movements (Olympic lifts, jumps, throws)." },
+    { "token": "functional", "label": "Functional", "description": "Mixed-modal functional movements (e.g. thruster)." },
+    { "token": "mobility", "label": "Mobility", "description": "Active range-of-motion and stability work." },
+    { "token": "flexibility", "label": "Flexibility", "description": "Stretching for range of motion." },
+    { "token": "skill", "label": "Skill", "description": "Technique/skill-dominant movements (e.g. gymnastics elements)." },
+    { "token": "balance", "label": "Balance", "description": "Stability/balance-dominant movements." }
+  ]
+}

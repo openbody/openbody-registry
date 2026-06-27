@@ -1,0 +1,16 @@
+{
+  "vocabulary": "range-of-motion",
+  "field": "ExerciseRef.facets.rangeOfMotion",
+  "specRef": "§5.9, §6.3",
+  "open": true,
+  "description": "Range-of-motion variation facet (§6.3). Spec examples (full, partial, deficit) plus lengthened-partial — the long-muscle-length partial that is a current hypertrophy trend (METHODOLOGY-VALIDATION G2/trending).",
+  "tokens": [
+    { "token": "full", "label": "Full ROM", "description": "Complete range of motion." },
+    { "token": "partial", "label": "Partial ROM", "description": "A reduced range of motion." },
+    { "token": "lengthened-partial", "label": "Lengthened Partial", "aliases": ["stretch partial", "long-length partial"], "description": "A partial performed at the long-muscle-length (stretched) portion of the range." },
+    { "token": "shortened-partial", "label": "Shortened Partial", "description": "A partial at the short-muscle-length portion." },
+    { "token": "deficit", "label": "Deficit", "description": "Extended range below normal (e.g. deficit deadlift)." },
+    { "token": "elevated", "label": "Elevated / Reduced", "description": "Reduced range from an elevated start (e.g. block pull, board press)." },
+    { "token": "paused", "label": "Paused", "description": "Full range with an enforced pause (also expressible via phasePattern)." }
+  ]
+}

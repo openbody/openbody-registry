@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openbody.dev/registry/vocab-file.schema.json",
+  "title": "OpenBody Controlled-Vocabulary File",
+  "description": "One open, registry-backed vocabulary (SPEC §5.9): the recommended canonical tokens for a single field (e.g. Block.scoring.scheme, disciplines, setRole). The spec defines the MECHANISM (recommended canon token + namespaced fallback + lossless opaque round-trip); this ships the CONTENT on the registry's own cadence. Unknown tokens MUST still round-trip — this file never closes the set. Data is CC0.",
+  "type": "object",
+  "required": ["vocabulary", "field", "tokens"],
+  "additionalProperties": false,
+  "properties": {
+    "vocabulary": {
+      "type": "string",
+      "description": "Stable kebab-case name of this vocabulary (e.g. `block-scoring-scheme`).",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "field": {
+      "type": "string",
+      "description": "The model field(s) this vocabulary supplies, for human reference (e.g. `Block.scoring.scheme`)."
+    },
+    "specRef": {
+      "type": "string",
+      "description": "SPEC section that defines the field (e.g. `§5.4`)."
+    },
+    "description": { "type": "string" },
+    "open": {
+      "type": "boolean",
+      "description": "Always true for these vocabularies — the set is open and unknown tokens round-trip (§5.9). Present for clarity; a closed enum is defined in the spec, not here.",
+      "const": true
+    },
+    "tokens": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/token" }
+    }
+  },
+  "$defs": {
+    "token": {
+      "type": "object",
+      "required": ["token", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "token": {
+          "type": "string",
+          "description": "The on-the-wire value, exactly as it appears in records. Per-field casing follows the spec's own examples: lowercase snake/kebab for most fields (`amrap`, `marked_weight`, `vertical-pull`), but acronym/mixed forms where the spec uses them (`RPE`, `%1RM`, `FTP`, `maxHR`). Namespaced extensions (`acme:foo`) are NOT listed here.",
+          "pattern": "^%?[A-Za-z0-9]+(?:[-_][A-Za-z0-9]+)*$"
+        },
+        "label": {
+          "type": "string",
+          "description": "Human-readable display label."
+        },
+        "aliases": {
+          "type": "array",
+          "description": "Common synonyms/spellings a producer might emit; a consumer MAY fold these to `token`.",
+          "items": { "type": "string" }
+        },
+        "description": { "type": "string" },
+        "appliesTo": {
+          "type": "array",
+          "description": "Optional narrowing: disciplines/contexts this token is typically used in (display/filtering hint, not a constraint).",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

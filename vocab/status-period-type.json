@@ -1,0 +1,19 @@
+{
+  "vocabulary": "status-period-type",
+  "field": "StatusPeriod.type",
+  "specRef": "§5.20",
+  "open": true,
+  "description": "Subject-timeline context periods that explain gaps and modify interpretation (§5.20) — e.g. threshold staleness after a layoff. Context, not training events.",
+  "tokens": [
+    { "token": "injury", "label": "Injury" },
+    { "token": "illness", "label": "Illness" },
+    { "token": "layoff", "label": "Layoff", "aliases": ["break", "detraining"], "description": "An extended training gap." },
+    { "token": "deload", "label": "Deload Week" },
+    { "token": "taper", "label": "Taper", "description": "Pre-competition volume reduction." },
+    { "token": "competition_prep", "label": "Competition Prep" },
+    { "token": "pregnancy", "label": "Pregnancy" },
+    { "token": "postpartum", "label": "Postpartum" },
+    { "token": "return_to_play", "label": "Return to Play", "description": "Graded return after injury/illness." },
+    { "token": "travel", "label": "Travel", "description": "Disruption from travel." }
+  ]
+}

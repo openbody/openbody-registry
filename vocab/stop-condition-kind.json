@@ -1,0 +1,17 @@
+{
+  "vocabulary": "stop-condition-kind",
+  "field": "Target.stopCondition.kind",
+  "specRef": "§5.10",
+  "open": true,
+  "description": "Open-ended / autoregulated target kinds (§5.10) — the set ends on a condition rather than a fixed number. Spec canon plus a few common autoregulation variants.",
+  "tokens": [
+    { "token": "to_failure", "label": "To Failure", "description": "Continue to momentary muscular failure." },
+    { "token": "to_technical_failure", "label": "To Technical Failure", "description": "Stop when form breaks down (before absolute failure)." },
+    { "token": "to_rpe", "label": "To RPE", "description": "Continue until a target RPE (value parameterizes, e.g. 8)." },
+    { "token": "to_rir", "label": "To RIR", "description": "Continue until a target reps-in-reserve." },
+    { "token": "amrap", "label": "AMRAP", "description": "As many reps/rounds as possible (set-level)." },
+    { "token": "work_up_to", "label": "Work Up To", "description": "Ramp to a target (e.g. work up to a heavy single)." },
+    { "token": "max", "label": "Max", "description": "A maximal attempt (1RM/test)." },
+    { "token": "to_breath", "label": "To Breath", "description": "Driven by a breath pattern/hold (pairs with phasePattern, §5.15)." }
+  ]
+}

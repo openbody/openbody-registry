@@ -1,0 +1,30 @@
+{
+  "vocabulary": "movement-pattern",
+  "field": "ExerciseRef.facets.movementPattern",
+  "specRef": "§5.9, §6.3",
+  "open": true,
+  "description": "The fundamental movement pattern (intrinsic classification facet, §6.3). Kebab-case, aligned with the patterns used in data/exercises.json.",
+  "tokens": [
+    { "token": "squat", "label": "Squat", "description": "Knee-dominant bilateral lower-body push." },
+    { "token": "hinge", "label": "Hip Hinge", "description": "Hip-dominant pull (deadlift, RDL, swing)." },
+    { "token": "lunge", "label": "Lunge", "description": "Single-leg/split stance." },
+    { "token": "horizontal-push", "label": "Horizontal Push", "description": "Press away from the torso (bench, push-up)." },
+    { "token": "vertical-push", "label": "Vertical Push", "description": "Press overhead." },
+    { "token": "horizontal-pull", "label": "Horizontal Pull", "description": "Row toward the torso." },
+    { "token": "vertical-pull", "label": "Vertical Pull", "description": "Pull down/up (pull-up, pulldown)." },
+    { "token": "row", "label": "Row", "description": "Rowing-pattern pull (incl. ergometer)." },
+    { "token": "carry", "label": "Carry", "description": "Loaded carry (farmer's, suitcase, yoke)." },
+    { "token": "rotation", "label": "Rotation", "description": "Trunk/limb rotation (throws, club/mace swings)." },
+    { "token": "anti-extension", "label": "Anti-Extension", "description": "Resist spinal extension (plank, rollout)." },
+    { "token": "anti-rotation", "label": "Anti-Rotation", "description": "Resist trunk rotation (Pallof)." },
+    { "token": "anti-lateral-flexion", "label": "Anti-Lateral-Flexion", "description": "Resist side-bend (suitcase carry)." },
+    { "token": "jump", "label": "Jump", "description": "Lower-body ballistic (box jump, broad jump)." },
+    { "token": "throw", "label": "Throw", "description": "Upper/whole-body ballistic projection (wall ball, med-ball, Highland throws)." },
+    { "token": "squat-to-press", "label": "Squat-to-Press", "description": "Combined lower push + overhead press (thruster)." },
+    { "token": "elbow-flexion", "label": "Elbow Flexion", "description": "Biceps curl pattern." },
+    { "token": "elbow-extension", "label": "Elbow Extension", "description": "Triceps extension pattern." },
+    { "token": "gait", "label": "Gait", "description": "Locomotion (run, walk, sprint)." },
+    { "token": "static-stretch", "label": "Static Stretch", "description": "Held lengthening of a muscle." },
+    { "token": "isometric-hold", "label": "Isometric Hold", "description": "Static position under tension (planche, L-sit, wall sit, hang)." }
+  ]
+}

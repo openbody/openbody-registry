@@ -1,0 +1,17 @@
+{
+  "vocabulary": "participant-role",
+  "field": "participants[].role",
+  "specRef": "§5.19",
+  "open": true,
+  "description": "The role a participant plays in a Session (§5.19). Spec canon plus opponent/teammate/coach — needed so combat and racquet/team sports can attribute a result against an opponent (METHODOLOGY-VALIDATION G5).",
+  "tokens": [
+    { "token": "athlete", "label": "Athlete", "description": "The primary subject performing the work." },
+    { "token": "partner", "label": "Partner", "description": "A co-participant in collaborative work (partner WOD, relay)." },
+    { "token": "teammate", "label": "Teammate", "description": "A member of the same team." },
+    { "token": "opponent", "label": "Opponent", "description": "An adversary in a match/bout/game (combat, racquet, team sport)." },
+    { "token": "pacer", "label": "Pacer", "description": "Sets the pace for the athlete." },
+    { "token": "spotter", "label": "Spotter", "description": "Provides safety/assistance on a lift." },
+    { "token": "guide", "label": "Guide", "description": "Guides an athlete (e.g. visually-impaired running)." },
+    { "token": "coach", "label": "Coach", "description": "Directs/observes; not performing the work." }
+  ]
+}

@@ -72,6 +72,26 @@ stays consistent for future maintainers.
 your `canonical` fills** and adding any new source rows. Pin the upstream commit in the file
 header and in `SOURCES.md`. Source dumps are **not** committed — only the crosswalk table.
 
+## Adding a controlled-vocabulary token (`vocab/*.json`)
+
+The `vocab/` files supply the recommended-canon tokens for the model's open,
+registry-backed fields (§5.9). They are **not** closed enums — adding a token never breaks
+anyone, and an unknown token always round-trips. Add one when a real methodology needs a
+shared name.
+
+1. **Pick the right file** (one per field; see `vocab/index.json`). Don't invent a new
+   vocabulary file for a field the spec defines as a *closed* enum (those live in the spec,
+   not here).
+2. **Match the field's casing.** Most fields are lowercase snake/kebab (`amrap`,
+   `marked_weight`, `vertical-pull`); a few follow the spec's acronym casing
+   (`RPE`, `%1RM`, `FTP`, `maxHR`). Follow the existing tokens in the file.
+3. **Add `{ token, label }`** (+ optional `aliases`, `description`, `appliesTo`). Reuse an
+   existing token rather than minting a synonym; prefer adding an `alias` to an existing
+   token over a near-duplicate token.
+4. **Validate**: `npm run check` (token format + uniqueness within the file).
+
+Promotion of a widely-used namespaced token into canon follows SPEC §9.3.
+
 ## Id stability
 
 Pre-v1.0 ids MAY change. **From v1.0 they are stable** — a published id is never repurposed.

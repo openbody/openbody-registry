@@ -1,0 +1,19 @@
+{
+  "vocabulary": "set-role",
+  "field": "WorkUnit.setRole",
+  "specRef": "§5.5",
+  "open": true,
+  "description": "The role a single set plays (§5.5). Spec canon: warmup, working, drop, failure, backoff (with a named tail: cluster, myo, primer). Extended with rest_pause and top_set so the intra-set-rest family and top-set/back-off programming encode consistently.",
+  "tokens": [
+    { "token": "warmup", "label": "Warm-up Set", "description": "A submaximal preparatory set, typically excluded from working volume." },
+    { "token": "working", "label": "Working Set", "description": "A counted set at the prescribed effort/load." },
+    { "token": "top_set", "label": "Top Set", "description": "The heaviest set of an exercise (e.g. the AMRAP top set in 5/3/1)." },
+    { "token": "backoff", "label": "Back-off Set", "aliases": ["back-off"], "description": "A lighter set following a heavier top set." },
+    { "token": "drop", "label": "Drop Set Component", "description": "A post-first set at reduced load within a drop_set Block." },
+    { "token": "failure", "label": "To Failure", "description": "A set taken to momentary muscular failure." },
+    { "token": "rest_pause", "label": "Rest-Pause Component", "description": "A mini-set within a rest-pause Block, separated by a short rest." },
+    { "token": "cluster", "label": "Cluster Component", "description": "A mini-set within a cluster set, separated by a short intra-set rest." },
+    { "token": "myo", "label": "Myo-rep Component", "aliases": ["myo-reps"], "description": "An activation or mini-set within a myo-reps scheme." },
+    { "token": "primer", "label": "Primer Set", "description": "A light potentiation/priming set before working sets." }
+  ]
+}

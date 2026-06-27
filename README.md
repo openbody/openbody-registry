@@ -15,10 +15,23 @@ used **only as crosswalk sources**, never imported as canonical entries. See
 | Path | What |
 |---|---|
 | `schema/registry-entry.schema.json` | JSON Schema for one registry entry (id + names + facets + attributes + coded, §6.2/§6.3). |
+| `schema/vocab-file.schema.json` | JSON Schema for one controlled-vocabulary file (open token set, §5.9). |
 | `data/exercises.json` | **The canonical entries** — hand-curated, CC0, authoritative. The registry. |
+| `vocab/*.json` | **The controlled vocabularies** — recommended-canon tokens for the model's open, registry-backed fields (§5.9): `disciplines`, `block-scoring-scheme`, `block-grouping`, `set-role`, `load-basis`, `modifier-type`, `effort-method`, `threshold-kind`, `stop-condition-kind`, `progression-rule`, `participant-role`, `status-period-type`, `modality`, `movement-pattern`, `range-of-motion`, `phase-qualifier`. See `vocab/index.json`. |
 | `crosswalk/free-exercise-db.json` | Crosswalk **only**: free-exercise-db movement id → canonical id (or `null`). Resolution table + curation worklist. See SOURCES.md. |
-| `tools/validate.mjs` | Dependency-free validator: id format + uniqueness + facet conformance + crosswalk integrity. `npm run check`. |
+| `tools/validate.mjs` | Dependency-free validator: entry id format + uniqueness + facet conformance + crosswalk integrity + vocabulary token format/uniqueness. `npm run check`. |
 | `tools/build-crosswalk.mjs` | Rebuild a crosswalk table from a local source dump (preserving fills). `npm run crosswalk -- <dump.json>`. |
+
+## Controlled vocabularies (§5.9)
+
+Pillar B has many **open, registry-backed token fields** — `Session.disciplines`,
+`Block.scoring.scheme`, `Block.grouping`, `WorkUnit.setRole`, `Load.basis`,
+`modifiers[].type`, `EffortLoad.method`, and the facet tokens, among others. The **spec
+defines the mechanism** (recommended-canon token → namespaced fallback → lossless opaque
+round-trip); this registry **ships the content** in `vocab/`, on its own cadence. These
+files **never close a set** — an unknown token MUST still round-trip (§3.3). They exist so
+independent implementers converge on the *same* token for the *same* concept (so a
+rest-pause, an AMRAP, or a %1RM target encodes identically everywhere), not to constrain.
 
 ## Entry model (§6.3)
 

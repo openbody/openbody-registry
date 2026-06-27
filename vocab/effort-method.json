@@ -1,0 +1,17 @@
+{
+  "vocabulary": "effort-method",
+  "field": "EffortLoad.method",
+  "specRef": "§5.13",
+  "open": true,
+  "description": "Effort is plural (§5.13): each EffortLoad tags the method it was measured by. Tokens follow the spec's acronym casing (RPE, RIR, %1RM). external/internal is the closed EffortLoad.kind, not part of this open vocabulary.",
+  "tokens": [
+    { "token": "RPE", "label": "Rate of Perceived Exertion", "description": "Subjective effort, typically 1-10." },
+    { "token": "RIR", "label": "Reps in Reserve", "description": "Estimated reps remaining before failure." },
+    { "token": "sRPE", "label": "Session RPE", "description": "Whole-session perceived exertion (× duration → load)." },
+    { "token": "TRIMP", "label": "Training Impulse", "description": "HR-based internal training load." },
+    { "token": "TSS", "label": "Training Stress Score", "description": "Power/pace-based endurance load." },
+    { "token": "VBT", "label": "Velocity-Based Training", "description": "Bar/movement velocity (or % velocity loss) as the effort signal." },
+    { "token": "%1RM", "label": "Percent of 1RM", "description": "Load as a percent of one-rep max (also expressible as a relativeToThreshold load target)." },
+    { "token": "HRr", "label": "Heart-Rate Reserve", "description": "Effort as % of HR reserve." }
+  ]
+}
