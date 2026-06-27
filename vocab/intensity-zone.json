@@ -1,0 +1,22 @@
+{
+  "vocabulary": "intensity-zone",
+  "field": "Intensity.zone",
+  "specRef": "§5.13",
+  "open": true,
+  "description": "Named training zones — a shorthand for a relative band on an Intensity dimension (§5.13, v0.5). A consumer resolves the zone to a band against the relevant threshold (e.g. hr z2 → 60-70% maxHR; power z4 → 91-105% FTP). Both a numeric 5-zone scheme and named bands are listed; the dimension on the Intensity entry disambiguates HR vs power zones.",
+  "tokens": [
+    { "token": "z1", "label": "Zone 1", "aliases": ["zone 1"], "description": "Active recovery / very easy." },
+    { "token": "z2", "label": "Zone 2", "aliases": ["zone 2"], "description": "Endurance / aerobic base." },
+    { "token": "z3", "label": "Zone 3", "aliases": ["zone 3"], "description": "Tempo." },
+    { "token": "z4", "label": "Zone 4", "aliases": ["zone 4"], "description": "Threshold." },
+    { "token": "z5", "label": "Zone 5", "aliases": ["zone 5"], "description": "VO2max / anaerobic." },
+    { "token": "recovery", "label": "Recovery", "description": "Active recovery (≈ z1)." },
+    { "token": "endurance", "label": "Endurance", "description": "Aerobic base (≈ z2)." },
+    { "token": "tempo", "label": "Tempo", "description": "Moderate-hard sustained (≈ z3)." },
+    { "token": "sweet_spot", "label": "Sweet Spot", "description": "≈ 88-94% FTP, between tempo and threshold." },
+    { "token": "threshold", "label": "Threshold", "description": "At/around FTP or lactate threshold (≈ z4)." },
+    { "token": "vo2max", "label": "VO2max", "description": "Maximal aerobic (≈ z5)." },
+    { "token": "anaerobic", "label": "Anaerobic", "description": "Above VO2max." },
+    { "token": "sprint", "label": "Sprint / Neuromuscular", "description": "Maximal short efforts." }
+  ]
+}

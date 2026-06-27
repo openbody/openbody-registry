@@ -1,0 +1,15 @@
+{
+  "vocabulary": "intensity-dimension",
+  "field": "Intensity.dimension",
+  "specRef": "§5.13",
+  "open": true,
+  "description": "The dimension an Intensity target applies to (§5.13, v0.5) — the non-resistance 'how hard' axis. Resistance lives in Load (§5.12); perceived/derived effort in EffortLoad (§5.13).",
+  "tokens": [
+    { "token": "power", "label": "Power", "description": "Mechanical power output (cycling, rowing, ski-erg); unit W." },
+    { "token": "pace", "label": "Pace", "description": "Time per distance (running min/km, swimming /100m)." },
+    { "token": "hr", "label": "Heart Rate", "aliases": ["heart rate"], "description": "Target heart rate / HR zone; unit /min." },
+    { "token": "speed", "label": "Speed", "description": "Distance per time (m/s, km/h); also bar velocity for VBT." },
+    { "token": "grade", "label": "Grade", "description": "Incline/decline target; unit %." },
+    { "token": "cadence", "label": "Cadence", "aliases": ["rpm", "spm", "stroke rate"], "description": "Movement rate (cycling rpm, running spm, swim stroke rate); unit /min." }
+  ]
+}
