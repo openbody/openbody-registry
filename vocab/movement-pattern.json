@@ -24,6 +24,16 @@
     { "token": "elbow-flexion", "label": "Elbow Flexion", "description": "Biceps curl pattern." },
     { "token": "elbow-extension", "label": "Elbow Extension", "description": "Triceps extension pattern." },
     { "token": "gait", "label": "Gait", "description": "Locomotion (run, walk, sprint)." },
+    { "token": "cycle", "label": "Cycle", "description": "Pedalling locomotion (bike, air bike)." },
+    { "token": "swim", "label": "Swim", "description": "Swimming stroke locomotion." },
+    { "token": "ski", "label": "Ski", "description": "Ski/ski-erg double-pole pattern." },
+    { "token": "sled", "label": "Sled", "description": "Sled push/pull/drag drive." },
+    { "token": "clean", "label": "Clean", "description": "Olympic clean (ground/hang to front-rack)." },
+    { "token": "snatch", "label": "Snatch", "description": "Olympic snatch (ground/hang to overhead)." },
+    { "token": "jerk", "label": "Jerk", "description": "Overhead drive from the rack (jerk/push-press)." },
+    { "token": "squat-thrust", "label": "Squat Thrust", "description": "Burpee-style drop-to-plank and stand." },
+    { "token": "strike", "label": "Strike", "description": "Striking pattern (punch, kick, knee, elbow)." },
+    { "token": "mobilization", "label": "Mobilization", "description": "Dynamic joint mobilization (cat-cow, CARs)." },
     { "token": "static-stretch", "label": "Static Stretch", "description": "Held lengthening of a muscle." },
     { "token": "isometric-hold", "label": "Isometric Hold", "description": "Static position under tension (planche, L-sit, wall sit, hang)." }
   ]

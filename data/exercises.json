@@ -155,5 +155,525 @@
     },
     "attributes": { "met": 2.3 },
     "source": "curated"
+  },
+  {
+    "id": "squat.barbell.front",
+    "names": ["Front Squat", "Barbell Front Squat"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "squat",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["core", "upper-back"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "barPosition": "front",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "curated"
+  },
+  {
+    "id": "deadlift.barbell.romanian",
+    "names": ["Romanian Deadlift", "RDL"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hinge",
+      "anatomy": { "primary": ["hamstrings", "glutes"], "secondary": ["spinal-erectors", "lats"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "stance": "romanian",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "curated"
+  },
+  {
+    "id": "row.barbell.bent-over",
+    "names": ["Bent-Over Barbell Row"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-pull",
+      "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps", "spinal-erectors"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "stance": "bent-over",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 5.0 },
+    "source": "curated"
+  },
+  {
+    "id": "lat-pulldown.cable",
+    "names": ["Lat Pulldown"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats"], "secondary": ["biceps", "rhomboids"] },
+      "mechanic": "compound",
+      "equipment": "cable",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 5.0 },
+    "source": "curated"
+  },
+  {
+    "id": "push-up",
+    "names": ["Push-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps", "anterior-deltoid"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.8 },
+    "source": "curated"
+  },
+  {
+    "id": "dip",
+    "names": ["Dip", "Parallel Bar Dip"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["pectoralis-major", "triceps"], "secondary": ["anterior-deltoid"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 5.0 },
+    "source": "curated"
+  },
+  {
+    "id": "muscle-up",
+    "names": ["Muscle-Up"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats", "pectoralis-major"], "secondary": ["triceps", "biceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "pistol-squat",
+    "names": ["Pistol Squat", "Single-Leg Squat"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "squat",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "alternating"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "handstand",
+    "names": ["Handstand"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["core", "triceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 4.0 },
+    "source": "curated"
+  },
+  {
+    "id": "l-sit",
+    "names": ["L-Sit"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["rectus-abdominis", "hip-flexors"], "secondary": ["triceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 4.0 },
+    "source": "curated"
+  },
+  {
+    "id": "clean-and-jerk.barbell",
+    "names": ["Clean and Jerk"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "clean",
+      "anatomy": { "primary": ["glutes", "quadriceps", "deltoids"], "secondary": ["trapezius", "hamstrings"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "curated"
+  },
+  {
+    "id": "snatch.barbell",
+    "names": ["Snatch", "Barbell Snatch"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "snatch",
+      "anatomy": { "primary": ["glutes", "deltoids", "trapezius"], "secondary": ["quadriceps", "hamstrings"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "curated"
+  },
+  {
+    "id": "power-clean.barbell",
+    "names": ["Power Clean"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "clean",
+      "anatomy": { "primary": ["glutes", "trapezius"], "secondary": ["quadriceps", "hamstrings"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "curated"
+  },
+  {
+    "id": "kettlebell-swing",
+    "names": ["Kettlebell Swing"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "hinge",
+      "anatomy": { "primary": ["glutes", "hamstrings"], "secondary": ["core", "deltoids"] },
+      "mechanic": "compound",
+      "equipment": "kettlebell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 9.3 },
+    "source": "compendium"
+  },
+  {
+    "id": "kettlebell-snatch",
+    "names": ["Kettlebell Snatch"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "snatch",
+      "anatomy": { "primary": ["glutes", "deltoids"], "secondary": ["hamstrings", "trapezius"] },
+      "mechanic": "compound",
+      "equipment": "kettlebell",
+      "laterality": "alternating"
+    },
+    "attributes": { "met": 9.5 },
+    "source": "compendium"
+  },
+  {
+    "id": "wall-ball",
+    "names": ["Wall Ball Shot"],
+    "facets": {
+      "modality": "functional",
+      "movementPattern": "throw",
+      "anatomy": { "primary": ["quadriceps", "anterior-deltoid"], "secondary": ["glutes", "triceps"] },
+      "mechanic": "compound",
+      "equipment": "medicine-ball",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "burpee",
+    "names": ["Burpee"],
+    "facets": {
+      "modality": "functional",
+      "movementPattern": "squat-thrust",
+      "anatomy": { "primary": ["pectoralis-major", "quadriceps"], "secondary": ["core", "triceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "box-jump",
+    "names": ["Box Jump"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "jump",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["calves"] },
+      "mechanic": "compound",
+      "equipment": "box",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "sled-push",
+    "names": ["Sled Push"],
+    "facets": {
+      "modality": "functional",
+      "movementPattern": "sled",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["calves", "core"] },
+      "mechanic": "compound",
+      "equipment": "sled",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 9.0 },
+    "source": "curated"
+  },
+  {
+    "id": "sled-pull",
+    "names": ["Sled Pull"],
+    "facets": {
+      "modality": "functional",
+      "movementPattern": "sled",
+      "anatomy": { "primary": ["hamstrings", "lats"], "secondary": ["biceps", "core"] },
+      "mechanic": "compound",
+      "equipment": "sled",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "farmers-carry",
+    "names": ["Farmer's Carry"],
+    "facets": {
+      "modality": "functional",
+      "movementPattern": "carry",
+      "anatomy": { "primary": ["forearms", "trapezius"], "secondary": ["core", "glutes"] },
+      "mechanic": "compound",
+      "equipment": "implement",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "curated"
+  },
+  {
+    "id": "sandbag-lunge",
+    "names": ["Sandbag Lunge", "Walking Lunge"],
+    "facets": {
+      "modality": "functional",
+      "movementPattern": "lunge",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["core"] },
+      "mechanic": "compound",
+      "equipment": "sandbag",
+      "laterality": "alternating"
+    },
+    "attributes": { "met": 7.0 },
+    "source": "curated"
+  },
+  {
+    "id": "atlas-stone-lift",
+    "names": ["Atlas Stone Lift"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hinge",
+      "anatomy": { "primary": ["glutes", "spinal-erectors", "biceps"], "secondary": ["quadriceps"] },
+      "mechanic": "compound",
+      "equipment": "stone",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "yoke-carry",
+    "names": ["Yoke Carry", "Yoke Walk"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "carry",
+      "anatomy": { "primary": ["quadriceps", "trapezius", "core"], "secondary": ["calves"] },
+      "mechanic": "compound",
+      "equipment": "yoke",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "caber-toss",
+    "names": ["Caber Toss"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "throw",
+      "anatomy": { "primary": ["spinal-erectors", "deltoids", "quadriceps"], "secondary": ["biceps"] },
+      "mechanic": "compound",
+      "equipment": "caber",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 7.0 },
+    "source": "curated"
+  },
+  {
+    "id": "mace-360",
+    "names": ["Mace 360", "Gada Swing"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "rotation",
+      "anatomy": { "primary": ["deltoids", "core"], "secondary": ["forearms", "upper-back"] },
+      "mechanic": "compound",
+      "equipment": "mace",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "curated"
+  },
+  {
+    "id": "heavy-bag",
+    "names": ["Heavy Bag Work"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "strike",
+      "anatomy": { "primary": ["deltoids", "core"], "secondary": ["forearms", "quadriceps"] },
+      "mechanic": "compound",
+      "equipment": "heavy-bag",
+      "laterality": "alternating"
+    },
+    "attributes": { "met": 6.0 },
+    "source": "compendium"
+  },
+  {
+    "id": "shadowboxing",
+    "names": ["Shadowboxing"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "strike",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["core", "calves"] },
+      "mechanic": "compound",
+      "equipment": "none",
+      "laterality": "alternating"
+    },
+    "attributes": { "met": 5.0 },
+    "source": "compendium"
+  },
+  {
+    "id": "cycling",
+    "names": ["Cycling", "Road Cycling"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "cycle",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["hamstrings", "calves"] },
+      "mechanic": "compound",
+      "equipment": "bicycle"
+    },
+    "attributes": { "met": 7.5 },
+    "coded": { "healthkit": "cycling" },
+    "source": "compendium"
+  },
+  {
+    "id": "air-bike",
+    "names": ["Air Bike", "Assault Bike", "Echo Bike"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "cycle",
+      "anatomy": { "primary": ["quadriceps", "lats"], "secondary": ["hamstrings", "triceps"] },
+      "mechanic": "compound",
+      "equipment": "machine"
+    },
+    "attributes": { "met": 8.0 },
+    "source": "curated"
+  },
+  {
+    "id": "ski.erg",
+    "names": ["Ski Erg", "SkiErg"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "ski",
+      "anatomy": { "primary": ["lats", "triceps"], "secondary": ["core"] },
+      "mechanic": "compound",
+      "equipment": "machine"
+    },
+    "attributes": { "met": 7.0 },
+    "source": "curated"
+  },
+  {
+    "id": "swim.freestyle",
+    "names": ["Freestyle Swim", "Front Crawl"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "pectoralis-major"], "secondary": ["deltoids", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 8.3 },
+    "coded": { "healthkit": "swimming" },
+    "source": "compendium"
+  },
+  {
+    "id": "walk",
+    "names": ["Walking"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "calves"], "secondary": ["glutes"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 3.5 },
+    "coded": { "healthkit": "walking" },
+    "source": "compendium"
+  },
+  {
+    "id": "jump-rope",
+    "names": ["Jump Rope", "Skipping"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "jump",
+      "anatomy": { "primary": ["calves"], "secondary": ["deltoids", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "jump-rope",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 11.0 },
+    "source": "compendium"
+  },
+  {
+    "id": "downward-dog",
+    "names": ["Downward-Facing Dog", "Adho Mukha Svanasana"],
+    "facets": {
+      "modality": "flexibility",
+      "movementPattern": "static-stretch",
+      "anatomy": { "primary": ["hamstrings", "calves"], "secondary": ["deltoids"] },
+      "mechanic": "compound",
+      "equipment": "none",
+      "rangeOfMotion": "full"
+    },
+    "attributes": { "met": 2.5 },
+    "source": "curated"
+  },
+  {
+    "id": "couch-stretch",
+    "names": ["Couch Stretch"],
+    "facets": {
+      "modality": "flexibility",
+      "movementPattern": "static-stretch",
+      "anatomy": { "primary": ["hip-flexors", "quadriceps"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "laterality": "alternating",
+      "rangeOfMotion": "full"
+    },
+    "attributes": { "met": 2.3 },
+    "source": "curated"
+  },
+  {
+    "id": "cat-cow",
+    "names": ["Cat-Cow", "Cat-Camel"],
+    "facets": {
+      "modality": "mobility",
+      "movementPattern": "mobilization",
+      "anatomy": { "primary": ["spinal-erectors"], "secondary": ["abdominals"] },
+      "mechanic": "compound",
+      "equipment": "none",
+      "rangeOfMotion": "full"
+    },
+    "attributes": { "met": 2.5 },
+    "source": "curated"
   }
 ]
