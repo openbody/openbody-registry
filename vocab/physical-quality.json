@@ -1,0 +1,25 @@
+{
+  "vocabulary": "physical-quality",
+  "field": "Session.qualities[] / Block.qualities[]",
+  "specRef": "§5.3, §5.4",
+  "open": true,
+  "description": "Recommended-canon tokens for the physical quality (component of fitness / biomotor ability) a Session or Block develops (§5.3/§5.4, R20). A descriptive classification axis orthogonal to `disciplines` (the activity) and `intent` (the purpose): the same squat is `strength`, `power`, or `muscular_endurance` depending on how it is prescribed, so the quality is not reliably derivable and is carried explicitly. Open set (§5.9): a quality with no token here is carried namespaced or opaque and still round-trips. Seed spans the ACSM health-related and skill-related components plus the modern strength-and-conditioning vocabulary. One Session/Block MAY develop several.",
+  "tokens": [
+    { "token": "endurance", "label": "Cardiorespiratory Endurance", "aliases": ["aerobic", "cardio", "aerobic endurance", "cardiovascular"], "description": "Sustained whole-body aerobic capacity (the classic ACSM health-related component)." },
+    { "token": "anaerobic_capacity", "label": "Anaerobic Capacity", "aliases": ["anaerobic", "lactic"], "description": "High-intensity work tolerance above threshold (glycolytic capacity)." },
+    { "token": "muscular_endurance", "label": "Muscular Endurance", "aliases": ["local endurance", "strength endurance"], "description": "Ability of a muscle group to sustain repeated/long contractions." },
+    { "token": "strength", "label": "Strength", "aliases": ["maximal strength", "max strength"], "description": "Maximal force production." },
+    { "token": "hypertrophy", "label": "Hypertrophy", "aliases": ["muscle growth", "size"], "description": "Muscle cross-sectional growth (an adaptation goal apps commonly tag as a quality)." },
+    { "token": "power", "label": "Power", "aliases": ["explosiveness", "explosive strength", "rfd"], "description": "Rate of force development / force × velocity (jumps, throws, Olympic lifts)." },
+    { "token": "speed", "label": "Speed", "aliases": ["acceleration", "max velocity", "sprint speed"], "description": "Maximal movement velocity (sprinting)." },
+    { "token": "agility", "label": "Agility", "aliases": ["change of direction", "cod", "quickness"], "description": "Rapid whole-body change of direction / reactive movement." },
+    { "token": "balance", "label": "Balance", "aliases": ["postural control", "equilibrium"], "description": "Maintaining the centre of mass over the base of support (static/dynamic)." },
+    { "token": "stability", "label": "Stability", "aliases": ["core stability", "joint stability", "anti-movement", "motor control"], "description": "Resisting unwanted movement / controlling a joint or the trunk under load (planks, Pallof, anti-rotation)." },
+    { "token": "mobility", "label": "Mobility", "aliases": ["active rom", "movement quality", "cars", "joint mobility"], "description": "Active, controlled range of motion under the body's own power (CARs, end-range control, FRC)." },
+    { "token": "flexibility", "label": "Flexibility", "aliases": ["passive rom", "stretching", "suppleness"], "description": "Passive range of motion at a joint (static / PNF stretching; the ACSM health-related component)." },
+    { "token": "coordination", "label": "Coordination", "aliases": ["motor skill", "skill", "rhythm"], "description": "Smooth, efficient multi-segment movement / inter-limb timing." },
+    { "token": "reaction", "label": "Reaction Time", "aliases": ["reactivity", "reaction speed"], "description": "Latency from stimulus to movement (skill-related component)." },
+    { "token": "accuracy", "label": "Accuracy", "aliases": ["precision", "aim"], "description": "Spatial/targeting precision (throwing, shooting, archery)." },
+    { "token": "work_capacity", "label": "Work Capacity", "aliases": ["conditioning", "gpp", "general physical preparedness", "metcon"], "description": "General capacity to perform and recover from total training work (conditioning)." }
+  ]
+}

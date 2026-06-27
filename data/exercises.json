@@ -675,5 +675,75 @@
     },
     "attributes": { "met": 2.5 },
     "source": "curated"
+  },
+  {
+    "id": "shoulder-cars",
+    "names": ["Shoulder CARs", "Controlled Articular Rotations (Shoulder)"],
+    "facets": {
+      "modality": "mobility",
+      "movementPattern": "mobilization",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["rotator-cuff"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "rangeOfMotion": "full"
+    },
+    "attributes": { "met": 2.3 },
+    "source": "curated"
+  },
+  {
+    "id": "single-leg-stance",
+    "names": ["Single-Leg Stance", "Single-Leg Balance"],
+    "facets": {
+      "modality": "stability",
+      "movementPattern": "balance",
+      "anatomy": { "primary": ["ankle-stabilizers"], "secondary": ["glutes", "core"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "rangeOfMotion": "static"
+    },
+    "attributes": { "met": 2.0 },
+    "source": "curated"
+  },
+  {
+    "id": "pallof-press",
+    "names": ["Pallof Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "anti-rotation",
+      "anatomy": { "primary": ["obliques", "transverse-abdominis"], "secondary": ["rectus-abdominis"] },
+      "mechanic": "isolation",
+      "equipment": "cable",
+      "rangeOfMotion": "partial"
+    },
+    "attributes": { "met": 3.0 },
+    "source": "curated"
+  },
+  {
+    "id": "sprint",
+    "names": ["Sprint", "Maximal Sprint"],
+    "facets": {
+      "modality": "conditioning",
+      "movementPattern": "locomotion",
+      "anatomy": { "primary": ["hamstrings", "glutes", "quadriceps"], "secondary": ["calves"] },
+      "mechanic": "compound",
+      "equipment": "none",
+      "rangeOfMotion": "full"
+    },
+    "attributes": { "met": 12.0 },
+    "source": "curated"
+  },
+  {
+    "id": "pro-agility-shuttle",
+    "names": ["Pro-Agility Shuttle", "5-10-5 Shuttle"],
+    "facets": {
+      "modality": "conditioning",
+      "movementPattern": "change-of-direction",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["calves", "adductors"] },
+      "mechanic": "compound",
+      "equipment": "none",
+      "rangeOfMotion": "full"
+    },
+    "attributes": { "met": 10.0 },
+    "source": "curated"
   }
 ]

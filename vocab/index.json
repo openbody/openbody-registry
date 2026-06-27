@@ -2,6 +2,7 @@
   "description": "Manifest of OpenBody controlled-vocabulary files (the open, registry-backed token sets, SPEC §5.9). Each file lists the recommended-canon tokens for one model field. The spec defines the mechanism; these ship content on the registry's own cadence. Unknown tokens always round-trip — these files never close a set. CC0.",
   "vocabularies": [
     { "file": "disciplines.json", "field": "Session.disciplines[]", "specRef": "§5.3" },
+    { "file": "physical-quality.json", "field": "Session.qualities[] / Block.qualities[]", "specRef": "§5.3, §5.4" },
     { "file": "modality.json", "field": "ExerciseRef.facets.modality", "specRef": "§6.3" },
     { "file": "movement-pattern.json", "field": "ExerciseRef.facets.movementPattern", "specRef": "§6.3" },
     { "file": "range-of-motion.json", "field": "ExerciseRef.facets.rangeOfMotion", "specRef": "§6.3" },

@@ -25,6 +25,7 @@
     { "token": "partner_assisted", "label": "Partner-Assisted", "description": "A partner assists/resists (sweep, spot, hand-off)." },
     { "token": "rom_target", "label": "Range-of-Motion Target", "description": "Prescribed ROM for rehab/mobility (e.g. to 90°); value carries degrees (unit deg)." },
     { "token": "transition", "label": "Transition", "description": "Multisport transition (T1/T2); value MAY carry transition time." },
-    { "token": "pool_course", "label": "Pool Course", "description": "Swim course affecting distance interpretation (scy/scm/lcm)." }
+    { "token": "pool_course", "label": "Pool Course", "description": "Swim course affecting distance interpretation (scy/scm/lcm)." },
+    { "token": "unstable_surface", "label": "Unstable Surface", "aliases": ["bosu", "wobble board", "balance pad", "stability ball"], "description": "Balance/stability work performed on a deliberately unstable surface; value MAY name the device." }
   ]
 }
