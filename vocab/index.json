@@ -23,6 +23,7 @@
     { "file": "phase-qualifier.json", "field": "phasePattern[].qualifier", "specRef": "§5.15" },
     { "file": "grip.json", "field": "ExerciseRef.facets.grip", "specRef": "§6.3" },
     { "file": "stance.json", "field": "ExerciseRef.facets.stance", "specRef": "§6.3" },
-    { "file": "bar-position.json", "field": "ExerciseRef.facets.barPosition", "specRef": "§6.3" }
+    { "file": "bar-position.json", "field": "ExerciseRef.facets.barPosition", "specRef": "§6.3" },
+    { "file": "equipment.json", "field": "ExerciseRef.facets.equipment", "specRef": "§6.3" }
   ]
 }

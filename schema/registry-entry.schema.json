@@ -70,7 +70,7 @@
           }
         },
         "mechanic": { "enum": ["compound", "isolation"] },
-        "equipment": { "type": "string", "description": "Equipment class (barbell/dumbbell/machine/…)." },
+        "equipment": { "type": "string", "description": "Equipment class (barbell/dumbbell/machine/…). Open token; recommended canon in vocab/equipment.json (§5.9)." },
         "grip": { "type": "string" },
         "laterality": { "enum": ["bilateral", "unilateral_left", "unilateral_right", "alternating"] },
         "stance": { "type": "string" },

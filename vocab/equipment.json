@@ -1,0 +1,33 @@
+{
+  "vocabulary": "equipment",
+  "field": "ExerciseRef.facets.equipment",
+  "specRef": "§6.3",
+  "open": true,
+  "description": "The equipment class (barbell vs dumbbell vs machine, etc.) that distinguishes a movement from its sibling variations (variation facet, §6.3) — not the concrete unit/make/model/settings, which is a Descriptors field (§5.16). Open token; unknown values round-trip (§3.3, §5.9). Equipment terms are domain-general (mobility/rehab/conditioning use the same classes as strength work), so this is a single shared vocabulary rather than a discipline-specific one. Seeded from the 19 values already in use across data/exercises.json, plus five common classes not yet in the registry (ez-bar, trap-bar, smith-machine, resistance-band, suspension).",
+  "tokens": [
+    { "token": "barbell", "label": "Barbell", "description": "Straight barbell (e.g. back squat, bench press, deadlift)." },
+    { "token": "dumbbell", "label": "Dumbbell", "description": "Dumbbell(s), used bilaterally or unilaterally." },
+    { "token": "kettlebell", "label": "Kettlebell", "description": "Kettlebell(s)." },
+    { "token": "cable", "label": "Cable", "description": "Cable stack/pulley machine." },
+    { "token": "machine", "label": "Machine", "description": "Selectorized or plate-loaded machine (leg press, lat pulldown, etc.), other than cable, Smith, or suspension." },
+    { "token": "bodyweight", "label": "Bodyweight", "aliases": ["body-weight", "calisthenics"], "description": "No external load beyond the practitioner's own body weight." },
+    { "token": "none", "label": "None", "description": "No equipment involved (distinct from bodyweight where body weight is the load, e.g. stretching)." },
+    { "token": "box", "label": "Box", "aliases": ["plyo-box"], "description": "Plyometric or step box." },
+    { "token": "medicine-ball", "label": "Medicine Ball", "aliases": ["med-ball"], "description": "Weighted medicine ball." },
+    { "token": "sandbag", "label": "Sandbag", "description": "Sandbag, used for carries, cleans, or loaded work." },
+    { "token": "sled", "label": "Sled", "description": "Weighted push/pull sled." },
+    { "token": "yoke", "label": "Yoke", "description": "Loaded frame carried on the shoulders/back (strongman yoke walk)." },
+    { "token": "stone", "label": "Stone", "aliases": ["atlas-stone"], "description": "Atlas/loading stone (strongman)." },
+    { "token": "mace", "label": "Mace", "aliases": ["steel-mace"], "description": "Steel mace, swung for rotational/leverage training." },
+    { "token": "caber", "label": "Caber", "description": "Tapered log tossed for distance/rotation (Highland games)." },
+    { "token": "implement", "label": "Implement", "description": "General/unspecified strongman or specialty implement not covered by a more specific token." },
+    { "token": "heavy-bag", "label": "Heavy Bag", "description": "Suspended heavy/punching bag (striking conditioning)." },
+    { "token": "jump-rope", "label": "Jump Rope", "aliases": ["skipping-rope"], "description": "Jump rope/skipping rope." },
+    { "token": "bicycle", "label": "Bicycle", "aliases": ["bike"], "description": "Stationary or road bicycle (cycling conditioning)." },
+    { "token": "ez-bar", "label": "EZ Bar", "aliases": ["ez-curl-bar"], "description": "Cambered curl bar with angled grips." },
+    { "token": "trap-bar", "label": "Trap Bar", "aliases": ["hex-bar"], "description": "Hexagonal/trap bar with neutral, centered grip handles." },
+    { "token": "smith-machine", "label": "Smith Machine", "description": "Barbell fixed to a vertical linear track." },
+    { "token": "resistance-band", "label": "Resistance Band", "aliases": ["band"], "description": "Elastic resistance band, used standalone or as an accommodating-resistance accessory." },
+    { "token": "suspension", "label": "Suspension Trainer", "aliases": ["TRX"], "description": "Strap-based suspension trainer anchored overhead (e.g. TRX)." }
+  ]
+}
