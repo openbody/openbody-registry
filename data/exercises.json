@@ -12,7 +12,8 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 6.0 },
-    "source": "curated"
+    "source": "curated",
+    "variations": ["squat.barbell.front"]
   },
   {
     "id": "deadlift.barbell.conventional",
@@ -71,7 +72,9 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 8.0 },
-    "source": "curated"
+    "source": "curated",
+    "regressions": ["lat-pulldown.cable"],
+    "progressions": ["muscle-up"]
   },
   {
     "id": "curl.dumbbell",
@@ -169,7 +172,8 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 6.0 },
-    "source": "curated"
+    "source": "curated",
+    "variations": ["squat.barbell.high-bar"]
   },
   {
     "id": "deadlift.barbell.romanian",
@@ -213,7 +217,8 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 5.0 },
-    "source": "curated"
+    "source": "curated",
+    "progressions": ["pull-up"]
   },
   {
     "id": "push-up",
@@ -241,7 +246,8 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 5.0 },
-    "source": "curated"
+    "source": "curated",
+    "progressions": ["muscle-up"]
   },
   {
     "id": "muscle-up",
@@ -255,7 +261,8 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 8.0 },
-    "source": "curated"
+    "source": "curated",
+    "regressions": ["pull-up", "dip"]
   },
   {
     "id": "pistol-squat",

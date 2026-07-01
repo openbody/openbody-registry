@@ -35,6 +35,21 @@
     "source": {
       "type": "string",
       "description": "Provenance of this entry (e.g. `curated`, `free-exercise-db`, `compendium`)."
+    },
+    "progressions": {
+      "type": "array",
+      "description": "Ids of harder variations of this entry (e.g. `pull-up` → `muscle-up`). Relationship between entries, not classification of this one.",
+      "items": { "type": "string" }
+    },
+    "regressions": {
+      "type": "array",
+      "description": "Ids of easier variations of this entry (e.g. `pull-up` → `lat-pulldown.cable`). Relationship between entries, not classification of this one.",
+      "items": { "type": "string" }
+    },
+    "variations": {
+      "type": "array",
+      "description": "Ids of lateral alternatives at similar difficulty (e.g. `squat.barbell.high-bar` ↔ `squat.barbell.front`). Relationship between entries, not classification of this one.",
+      "items": { "type": "string" }
     }
   },
   "$defs": {
