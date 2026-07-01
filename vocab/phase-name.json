@@ -1,0 +1,15 @@
+{
+  "vocabulary": "phase-name",
+  "field": "phasePattern[].name",
+  "specRef": "§5.15",
+  "open": true,
+  "description": "The named phase within a phasePattern (§5.15) — lifting tempo or breath-work phases, extensible to other cyclic/phased modalities.",
+  "tokens": [
+    { "token": "eccentric", "label": "Eccentric", "description": "Lengthening phase under load." },
+    { "token": "concentric", "label": "Concentric", "description": "Shortening phase under load." },
+    { "token": "pause", "label": "Pause", "description": "Isometric hold within a lifting tempo (e.g. tempo '30X1')." },
+    { "token": "inhale", "label": "Inhale", "description": "Breath-work inhalation phase." },
+    { "token": "exhale", "label": "Exhale", "description": "Breath-work exhalation phase." },
+    { "token": "hold", "label": "Hold", "description": "Breath-work retention phase (post-inhale or post-exhale)." }
+  ]
+}
