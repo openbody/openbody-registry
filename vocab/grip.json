@@ -1,0 +1,17 @@
+{
+  "vocabulary": "grip",
+  "field": "ExerciseRef.facets.grip",
+  "specRef": "§6.3",
+  "open": true,
+  "description": "The hand/grip orientation or style that distinguishes a movement from its sibling variations (variation facet, §6.3). Open token; unknown values round-trip (§3.3, §5.9). Seeded from common strength-training grip variants; 'pronated' is already in use in data/exercises.json (pull-up).",
+  "tokens": [
+    { "token": "pronated", "label": "Pronated Grip", "aliases": ["overhand"], "description": "Palms facing away from the body (overhand)." },
+    { "token": "supinated", "label": "Supinated Grip", "aliases": ["underhand", "reverse"], "description": "Palms facing toward the body (underhand/reverse)." },
+    { "token": "neutral", "label": "Neutral Grip", "aliases": ["hammer"], "description": "Palms facing each other (hammer grip)." },
+    { "token": "mixed", "label": "Mixed Grip", "aliases": ["alternated"], "description": "One hand pronated, one supinated (common on deadlifts)." },
+    { "token": "hook", "label": "Hook Grip", "description": "Thumb wrapped inside the fingers against the bar (Olympic lifting)." },
+    { "token": "false-grip", "label": "False Grip", "aliases": ["monkey-grip", "monkey-paw"], "description": "Thumb over the bar rather than wrapped around it (gymnastics rings/muscle-up)." },
+    { "token": "wide", "label": "Wide Grip", "description": "Hands placed wider than shoulder width." },
+    { "token": "close", "label": "Close Grip", "aliases": ["narrow"], "description": "Hands placed narrower than shoulder width." }
+  ]
+}

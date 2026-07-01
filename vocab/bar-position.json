@@ -1,0 +1,13 @@
+{
+  "vocabulary": "bar-position",
+  "field": "ExerciseRef.facets.barPosition",
+  "specRef": "§6.3",
+  "open": true,
+  "description": "Where a bar is placed on the body, distinguishing a movement from its sibling variations (variation facet, §6.3). Distinct from stance (foot/body position), which never co-occurs with barPosition on the same exercise in data/exercises.json. Open token; unknown values round-trip (§3.3, §5.9). Includes 'high-bar' and 'front', already in use in data/exercises.json (back squat, front squat).",
+  "tokens": [
+    { "token": "high-bar", "label": "High-Bar", "description": "Bar rests on the upper trapezius (high-bar back squat)." },
+    { "token": "low-bar", "label": "Low-Bar", "description": "Bar rests lower, across the rear/posterior deltoids (low-bar back squat)." },
+    { "token": "front", "label": "Front Rack", "aliases": ["front-rack"], "description": "Bar rests across the front deltoids/clavicles (front squat)." },
+    { "token": "safety-bar", "label": "Safety Squat Bar", "aliases": ["SSB", "safety-squat-bar"], "description": "A cambered/yoke bar that rests on the shoulders with front-loaded handles (safety squat bar, SSB)." }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "vocabulary": "stance",
+  "field": "ExerciseRef.facets.stance",
+  "specRef": "§6.3",
+  "open": true,
+  "description": "The foot/body stance (or, for hinge/row-family lifts, the torso-orientation variant) that distinguishes a movement from its sibling variations (variation facet, §6.3). Distinct from barPosition (bar placement on the back), which never co-occurs with stance on the same exercise in data/exercises.json. Open token; unknown values round-trip (§3.3, §5.9). Includes 'conventional', 'romanian', and 'bent-over', already in use in data/exercises.json (deadlift, RDL, bent-over row).",
+  "tokens": [
+    { "token": "conventional", "label": "Conventional Stance", "description": "Standard hip-width stance (e.g. conventional deadlift)." },
+    { "token": "sumo", "label": "Sumo Stance", "description": "Wide stance with toes turned out, hands inside the legs (deadlift)." },
+    { "token": "close", "label": "Close Stance", "aliases": ["narrow"], "description": "Feet placed narrower than hip width." },
+    { "token": "wide", "label": "Wide Stance", "description": "Feet placed wider than hip width (not sumo-specific)." },
+    { "token": "staggered", "label": "Staggered Stance", "aliases": ["split-stance"], "description": "One foot forward of the other (e.g. staggered-stance RDL, split squat)." },
+    { "token": "romanian", "label": "Romanian", "description": "Romanian deadlift's hip-hinge stance/ROM variant: minimal knee bend, bar travels to mid-shin." },
+    { "token": "bent-over", "label": "Bent-Over", "description": "Torso hinged forward and held static through the set (e.g. bent-over row)." }
+  ]
+}

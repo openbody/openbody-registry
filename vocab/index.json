@@ -19,6 +19,9 @@
     { "file": "progression-rule.json", "field": "Progression.rule", "specRef": "§5.14" },
     { "file": "participant-role.json", "field": "participants[].role", "specRef": "§5.19" },
     { "file": "status-period-type.json", "field": "StatusPeriod.type", "specRef": "§5.20" },
-    { "file": "phase-qualifier.json", "field": "phasePattern[].qualifier", "specRef": "§5.15" }
+    { "file": "phase-qualifier.json", "field": "phasePattern[].qualifier", "specRef": "§5.15" },
+    { "file": "grip.json", "field": "ExerciseRef.facets.grip", "specRef": "§6.3" },
+    { "file": "stance.json", "field": "ExerciseRef.facets.stance", "specRef": "§6.3" },
+    { "file": "bar-position.json", "field": "ExerciseRef.facets.barPosition", "specRef": "§6.3" }
   ]
 }
