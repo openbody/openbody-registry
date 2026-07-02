@@ -19,7 +19,7 @@ used **only as crosswalk sources**, never imported as canonical entries. See
 | `data/exercises.json` | **The canonical entries** — hand-curated, CC0, authoritative. The registry. |
 | `vocab/*.json` | **The controlled vocabularies** — recommended-canon tokens for the model's open, registry-backed fields (§5.9): `disciplines`, `block-scoring-scheme`, `block-grouping`, `set-role`, `load-basis`, `modifier-type`, `effort-method`, `threshold-kind`, `stop-condition-kind`, `progression-rule`, `participant-role`, `status-period-type`, `modality`, `movement-pattern`, `range-of-motion`, `phase-qualifier`. See `vocab/index.json`. |
 | `crosswalk/free-exercise-db.json` | Crosswalk **only**: free-exercise-db movement id → canonical id (or `null`). Resolution table + curation worklist. See SOURCES.md. |
-| `tools/validate.mjs` | Dependency-free validator: entry id format + uniqueness + facet conformance + crosswalk integrity + vocabulary token format/uniqueness. `npm run check`. |
+| `tools/validate.mjs` | Validator: each canonical entry against `schema/registry-entry.schema.json` (ajv) + id uniqueness + crosswalk integrity + vocabulary token format/uniqueness. `npm run check`. |
 | `tools/build-crosswalk.mjs` | Rebuild a crosswalk table from a local source dump (preserving fills). `npm run crosswalk -- <dump.json>`. |
 
 ## Controlled vocabularies (§5.9)

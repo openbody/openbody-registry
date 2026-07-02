@@ -1,44 +1,43 @@
-// Validate the hand-curated canonical registry (data/exercises.json) against the entry
-// schema's core invariants (SPEC §6.2/§6.3), and check crosswalk referential integrity
-// (every non-null crosswalk target resolves to a canonical id). Dependency-free.
+// Validate the hand-curated canonical registry (data/exercises.json) against
+// schema/registry-entry.schema.json (SPEC §6.2/§6.3) using ajv, and layer on the
+// checks the schema cannot express: cross-entry id uniqueness and crosswalk
+// referential integrity (every non-null crosswalk target resolves to a canonical id).
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import Ajv2020Mod from "ajv/dist/2020.js";
+import addFormatsMod from "ajv-formats";
+// ajv / ajv-formats are CJS; this mirrors the pattern used in openbody-ts/src/validate.ts.
+const Ajv2020 = Ajv2020Mod;
+const addFormats = addFormatsMod;
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const schema = JSON.parse(fs.readFileSync(path.join(root, "schema/registry-entry.schema.json"), "utf8"));
-
-const idRe = new RegExp(schema.properties.id.pattern);
-const facetProps = schema.$defs.facets.properties;
 const vocabSchema = JSON.parse(fs.readFileSync(path.join(root, "schema/vocab-file.schema.json"), "utf8"));
 const vocabNameRe = new RegExp(vocabSchema.properties.vocabulary.pattern);
 const tokenRe = new RegExp(vocabSchema.$defs.token.properties.token.pattern);
-const mechanicEnum = facetProps.mechanic.enum;
-const lateralityEnum = facetProps.laterality.enum;
-const allowedFacets = new Set(Object.keys(facetProps));
 
-/** Validate one entry; returns an array of error strings. */
+const ajv = new Ajv2020({ allErrors: true, strict: false });
+addFormats(ajv);
+const validateAgainstSchema = ajv.compile(schema);
+
+/** Validate one entry against the JSON Schema, plus cross-entry id uniqueness. */
 export function validateEntry(e, seenIds) {
   const errs = [];
-  const where = e && e.id ? e.id : "(no id)";
-  if (typeof e?.id !== "string" || !idRe.test(e.id)) errs.push(`${where}: id missing or not a canonical id`);
-  else if (seenIds) {
+  const where = e && typeof e.id === "string" ? e.id : "(no id)";
+  const ok = validateAgainstSchema(e);
+  if (!ok) {
+    for (const err of validateAgainstSchema.errors) {
+      const at = err.instancePath ? err.instancePath : "";
+      errs.push(`${where}${at}: ${err.message}${err.params ? " " + JSON.stringify(err.params) : ""}`);
+    }
+  }
+  // Id uniqueness is inherently cross-record — ajv validates one entry at a time
+  // and cannot see the rest of the array, so this stays hand-rolled.
+  if (typeof e?.id === "string" && seenIds) {
     if (seenIds.has(e.id)) errs.push(`${where}: duplicate id`);
     seenIds.add(e.id);
   }
-  if (!Array.isArray(e?.names) || e.names.length < 1 || !e.names.every((n) => typeof n === "string"))
-    errs.push(`${where}: names must be a non-empty array of strings`);
-  if (e?.facets !== undefined) {
-    const f = e.facets;
-    for (const k of Object.keys(f)) if (!allowedFacets.has(k)) errs.push(`${where}: unknown facet '${k}'`);
-    if (f.mechanic !== undefined && !mechanicEnum.includes(f.mechanic)) errs.push(`${where}: mechanic '${f.mechanic}' not in ${mechanicEnum}`);
-    if (f.laterality !== undefined && !lateralityEnum.includes(f.laterality)) errs.push(`${where}: laterality '${f.laterality}' invalid`);
-    if (f.anatomy !== undefined && (!Array.isArray(f.anatomy.primary) || f.anatomy.primary.length < 1))
-      errs.push(`${where}: facets.anatomy.primary required (non-empty array)`);
-  }
-  if (e?.attributes?.met !== undefined && typeof e.attributes.met !== "number") errs.push(`${where}: attributes.met must be a number`);
-  if (e?.coded !== undefined) for (const [k, v] of Object.entries(e.coded))
-    if (typeof v !== "string" && typeof v !== "number") errs.push(`${where}: coded.${k} must be string|number`);
   return errs;
 }
 
