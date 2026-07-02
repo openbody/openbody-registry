@@ -1,7 +1,11 @@
-// Validate the hand-curated canonical registry (data/exercises.json) against
+// Validate the canonical exercise registry (data/exercises.json) against
 // schema/registry-entry.schema.json (SPEC §6.2/§6.3) using ajv, and layer on the
 // checks the schema cannot express: cross-entry id uniqueness and crosswalk
 // referential integrity (every non-null crosswalk target resolves to a canonical id).
+// Also validates every controlled-vocabulary file under vocab/ (including the
+// measurement-type registry, vocab/measurements/, SPEC §4.5 — folded in from
+// openbody-measurements, OB-66), plus cross-file token uniqueness across the
+// Measurement.* vocabularies (they are subsets of one shared value space).
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -85,15 +89,38 @@ function main() {
     }
   }
 
-  // 3. Controlled vocabularies (vocab/*.json) — open token sets (§5.9).
+  // 3. Controlled vocabularies (vocab/**/*.json, recursive — includes the
+  //    measurement-type registry under vocab/measurements/) — open token sets
+  //    (§5.9 for the training vocabularies, §4.5 for the measurement types).
   const vocabDir = path.join(root, "vocab");
   let vocabFiles = 0, vocabTokens = 0;
+  const measurementTokens = new Map(); // token → file, across Measurement.* vocabularies
   if (fs.existsSync(vocabDir)) {
-    for (const f of fs.readdirSync(vocabDir).filter((f) => f.endsWith(".json") && f !== "index.json")) {
+    const files = fs
+      .readdirSync(vocabDir, { recursive: true })
+      .map(String)
+      .filter((f) => f.endsWith(".json") && path.basename(f) !== "index.json")
+      .sort();
+    for (const f of files) {
+      const rel = `vocab/${f.split(path.sep).join("/")}`;
       const v = JSON.parse(fs.readFileSync(path.join(vocabDir, f), "utf8"));
-      const errs = validateVocabFile(`vocab/${f}`, v);
+      const errs = validateVocabFile(rel, v);
       errors.push(...errs);
       if (!errs.length) { vocabFiles++; vocabTokens += v.tokens.length; }
+      // Cross-file: no duplicate token across the Measurement.* vocabularies.
+      // The measurement files (and competition-score) are domain subsets of the
+      // same underlying Measurement.type value space (their `field` strings
+      // intentionally differ per subset), so dedup by token across all of them —
+      // a producer choosing a token shouldn't find it means two different things
+      // depending on which file happened to define it first.
+      if (typeof v?.field === "string" && v.field.startsWith("Measurement.")) {
+        for (const t of v.tokens ?? []) {
+          if (typeof t?.token !== "string") continue;
+          if (measurementTokens.has(t.token))
+            errors.push(`${rel}: token '${t.token}' already defined in ${measurementTokens.get(t.token)}`);
+          else measurementTokens.set(t.token, rel);
+        }
+      }
     }
   }
 
@@ -103,7 +130,7 @@ function main() {
     if (errors.length > 50) console.error(`  … and ${errors.length - 50} more`);
     process.exit(1);
   }
-  console.log(`OpenBody registry: ${entries.length} canonical entries valid (ids unique); crosswalk ${mapped}/${xwalkTotal} mapped, all targets resolve; ${vocabFiles} vocabularies (${vocabTokens} tokens) valid.`);
+  console.log(`OpenBody registry: ${entries.length} canonical entries valid (ids unique); crosswalk ${mapped}/${xwalkTotal} mapped, all targets resolve; ${vocabFiles} vocabularies (${vocabTokens} tokens) valid, incl. measurement-type registry (${measurementTokens.size} Measurement.* tokens unique across files).`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main();

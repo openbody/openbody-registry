@@ -1,0 +1,14 @@
+{
+  "vocabulary": "location-channel",
+  "field": "Measurement.sampleArray.channels[].name (Measurement.type: location)",
+  "specRef": "§4.3, §4.5",
+  "open": true,
+  "description": "Canonical channel names for a multi-channel `sampleArray` on a `type: \"location\"` Measurement (SPEC §4.3/§4.5, OB-13 — the \"location channel convention\" the spec's measurement-type registry section names). `lat`/`lon`/`alt` were already in informal use (see the SPEC.md worked example); `speed`/`course` are added here for full GPS-track producers. A channel's `unit` still lives on the channel object itself (§4.3) — this file only canonicalizes the `name`.",
+  "tokens": [
+    { "token": "lat", "label": "Latitude", "description": "Recommended unit: deg." },
+    { "token": "lon", "label": "Longitude", "description": "Recommended unit: deg." },
+    { "token": "alt", "label": "Altitude", "description": "Recommended unit: m." },
+    { "token": "speed", "label": "Speed", "description": "Instantaneous ground speed. Recommended unit: m/s." },
+    { "token": "course", "label": "Course (Heading)", "description": "Direction of travel. Recommended unit: deg." }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "vocabulary": "power-pace",
+  "field": "Measurement.type (power/pace subset)",
+  "specRef": "§4.5",
+  "open": true,
+  "description": "Canonical Measurement.type tokens for real-time power/cadence telemetry (SPEC §4.1/§4.5, OB-13) — distinct from the prescriptive `Intensity` model (§5.13), which targets a value on one of these same dimensions; these tokens are for observed/recorded telemetry (Pillar A), not a Session/Block/WorkUnit target.",
+  "tokens": [
+    { "token": "power", "label": "Power", "description": "Cycling/rowing/erg power output. Recommended unit: W." },
+    { "token": "cadence", "label": "Cadence", "description": "Cycling RPM or running steps/min — context (accompanying discipline/activity) disambiguates which. Recommended unit: /min." }
+  ]
+}

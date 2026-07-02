@@ -1,0 +1,11 @@
+{
+  "vocabulary": "respiratory",
+  "field": "Measurement.type (respiratory subset)",
+  "specRef": "§4.5",
+  "open": true,
+  "description": "Canonical Measurement.type tokens for respiratory telemetry (SPEC §4.1/§4.5, OB-13). A narrow, hand-curated seed, not an exhaustive clinical taxonomy.",
+  "tokens": [
+    { "token": "respiratory_rate", "label": "Respiratory Rate", "description": "Breaths per minute. Recommended unit: /min." },
+    { "token": "blood_oxygen_saturation", "label": "Blood Oxygen Saturation", "aliases": ["spo2"], "description": "Peripheral SpO2. Recommended unit: %." }
+  ]
+}

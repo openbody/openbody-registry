@@ -1,5 +1,5 @@
 {
-  "description": "Manifest of OpenBody controlled-vocabulary files (the open, registry-backed token sets, SPEC §5.9). Each file lists the recommended-canon tokens for one model field. The spec defines the mechanism; these ship content on the registry's own cadence. Unknown tokens always round-trip — these files never close a set. CC0.",
+  "description": "Manifest of OpenBody controlled-vocabulary files (the open, registry-backed token sets, SPEC §5.9). Each file lists the recommended-canon tokens for one model field. The measurement-type registry (SPEC §4.5, folded in from openbody-measurements 2026-07-03) lives under measurements/: canonical Measurement.type tokens plus the location sampleArray channel-naming convention. The spec defines the mechanism; these ship content on the registry's own cadence. Unknown tokens always round-trip — these files never close a set. CC0.",
   "vocabularies": [
     { "file": "disciplines.json", "field": "Session.disciplines[]", "specRef": "§5.3" },
     { "file": "physical-quality.json", "field": "Session.qualities[] / Block.qualities[]", "specRef": "§5.3, §5.4" },
@@ -27,6 +27,13 @@
     { "file": "bar-position.json", "field": "ExerciseRef.facets.barPosition", "specRef": "§6.3" },
     { "file": "equipment.json", "field": "ExerciseRef.facets.equipment", "specRef": "§6.3" },
     { "file": "estimation-formula.json", "field": "ThresholdProfile.entries[].estimationFormula", "specRef": "§5.11" },
-    { "file": "competition-score.json", "field": "Measurement.type (competition-scoring subset)", "specRef": "§3.2, §4.5" }
+    { "file": "competition-score.json", "field": "Measurement.type (competition-scoring subset)", "specRef": "§3.2, §4.5" },
+    { "file": "measurements/cardiovascular.json", "field": "Measurement.type (cardiovascular subset)", "specRef": "§4.5" },
+    { "file": "measurements/respiratory.json", "field": "Measurement.type (respiratory subset)", "specRef": "§4.5" },
+    { "file": "measurements/sleep.json", "field": "Measurement.type (sleep subset)", "specRef": "§4.3, §4.5" },
+    { "file": "measurements/body-composition.json", "field": "Measurement.type (body-composition subset)", "specRef": "§4.5" },
+    { "file": "measurements/activity.json", "field": "Measurement.type (activity/energy subset)", "specRef": "§4.5" },
+    { "file": "measurements/power-pace.json", "field": "Measurement.type (power/pace subset)", "specRef": "§4.5" },
+    { "file": "measurements/location-channel.json", "field": "Measurement.sampleArray.channels[].name (Measurement.type: location)", "specRef": "§4.3, §4.5" }
   ]
 }

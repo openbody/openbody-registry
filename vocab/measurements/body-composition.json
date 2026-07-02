@@ -1,0 +1,13 @@
+{
+  "vocabulary": "body-composition",
+  "field": "Measurement.type (body-composition subset)",
+  "specRef": "§4.5",
+  "open": true,
+  "description": "Canonical Measurement.type tokens for body composition (SPEC §4.1/§4.5, OB-13). `body_mass` is the canonical spelling (OB-13) — it resolves a real collision found while scoping this registry: the project's own conformance suite had independently used `body_weight`, `body_mass`, and `body.mass` for the same concept across three different vectors before this file existed. `body_mass` was chosen to match the dominant existing-platform convention (HealthKit's `bodyMass`) and because \"mass\" is the technically precise term (\"weight\" is a force, not what a bathroom scale reports in kg). `body_weight`/`body.mass` are listed as aliases so producers using either spelling are recognized, though the canonical token should be preferred going forward.",
+  "tokens": [
+    { "token": "body_mass", "label": "Body Mass", "aliases": ["body_weight", "body.mass", "weight"], "description": "Recommended unit: kg." },
+    { "token": "body_fat_percentage", "label": "Body Fat Percentage", "description": "Recommended unit: %." },
+    { "token": "lean_body_mass", "label": "Lean Body Mass", "description": "Recommended unit: kg." },
+    { "token": "bmi", "label": "Body Mass Index", "description": "Dimensionless (kg/m² by definition, but the value itself is unitless)." }
+  ]
+}

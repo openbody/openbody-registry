@@ -1,0 +1,14 @@
+{
+  "vocabulary": "activity",
+  "field": "Measurement.type (activity/energy subset)",
+  "specRef": "§4.5",
+  "open": true,
+  "description": "Canonical Measurement.type tokens for whole-day activity and energy expenditure (SPEC §4.1/§4.5, OB-13). A narrow, hand-curated seed of the high-frequency wedge, not an exhaustive taxonomy.",
+  "tokens": [
+    { "token": "step_count", "label": "Step Count", "description": "Recommended unit: count." },
+    { "token": "active_energy", "label": "Active Energy Burned", "description": "Recommended unit: kcal." },
+    { "token": "basal_energy", "label": "Basal (Resting) Energy Burned", "description": "Recommended unit: kcal." },
+    { "token": "distance", "label": "Distance", "description": "Recommended unit: m." },
+    { "token": "floors_climbed", "label": "Floors Climbed", "description": "Recommended unit: count." }
+  ]
+}

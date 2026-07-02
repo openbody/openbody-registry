@@ -1,0 +1,13 @@
+{
+  "vocabulary": "cardiovascular",
+  "field": "Measurement.type (cardiovascular subset)",
+  "specRef": "§4.5",
+  "open": true,
+  "description": "Canonical Measurement.type tokens for cardiovascular telemetry (SPEC §4.1/§4.5, OB-13). A narrow, hand-curated seed of the high-frequency wedge every mainstream health/fitness platform already exposes, not an exhaustive clinical taxonomy. Recommended UCUM unit noted per token in its description as a hint only — the record's own `unit` field is authoritative (§4.1), not this file.",
+  "tokens": [
+    { "token": "heart_rate", "label": "Heart Rate", "description": "Instantaneous or windowed heart rate. Recommended unit: /min." },
+    { "token": "resting_heart_rate", "label": "Resting Heart Rate", "description": "Recommended unit: /min." },
+    { "token": "heart_rate_variability", "label": "Heart Rate Variability", "aliases": ["hrv"], "description": "Most commonly RMSSD; producers SHOULD note the method (RMSSD/SDNN/etc.) in provenance or notes if not RMSSD. Recommended unit: ms." },
+    { "token": "vo2max", "label": "Maximal Oxygen Uptake", "description": "Recommended unit: mL/kg/min." }
+  ]
+}

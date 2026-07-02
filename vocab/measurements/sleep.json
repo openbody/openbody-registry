@@ -1,0 +1,14 @@
+{
+  "vocabulary": "sleep",
+  "field": "Measurement.type (sleep subset)",
+  "specRef": "§4.3, §4.5",
+  "open": true,
+  "description": "Canonical Measurement.type tokens for sleep telemetry (SPEC §4.1/§4.5, OB-13). Sleep stages are modeled as separate typed Measurements per stage — the same convention SPEC.md §4.3 already establishes for windowed aggregates (e.g. heart_rate_min/heart_rate_mean/heart_rate_max) — rather than inventing a bespoke sleep-session shape. A narrow, hand-curated seed, not an exhaustive taxonomy.",
+  "tokens": [
+    { "token": "sleep_duration", "label": "Total Sleep Duration", "description": "Recommended unit: min." },
+    { "token": "sleep_rem", "label": "REM Sleep Duration", "description": "Recommended unit: min." },
+    { "token": "sleep_deep", "label": "Deep Sleep Duration", "description": "Recommended unit: min." },
+    { "token": "sleep_light", "label": "Light Sleep Duration", "description": "Recommended unit: min." },
+    { "token": "sleep_awake", "label": "Awake Duration (within a sleep period)", "description": "Recommended unit: min." }
+  ]
+}
