@@ -247,7 +247,8 @@
     },
     "attributes": { "met": 5.0 },
     "source": "curated",
-    "progressions": ["muscle-up"]
+    "progressions": ["muscle-up", "dip.rings"],
+    "regressions": ["dip.machine"]
   },
   {
     "id": "muscle-up",
@@ -953,5 +954,225 @@
       "rangeOfMotion": "full"
     },
     "source": "curated"
+  },
+  {
+    "id": "curl.barbell",
+    "names": ["Barbell Curl"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "elbow-flexion",
+      "anatomy": { "primary": ["biceps"], "secondary": ["brachioradialis"] },
+      "mechanic": "isolation",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.5 },
+    "source": "curated",
+    "variations": ["curl.dumbbell"]
+  },
+  {
+    "id": "triceps-pushdown.cable",
+    "names": ["Triceps Pushdown", "Cable Pushdown"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "elbow-extension",
+      "anatomy": { "primary": ["triceps"] },
+      "mechanic": "isolation",
+      "equipment": "cable",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.5 },
+    "source": "curated"
+  },
+  {
+    "id": "shoulder-press.dumbbell",
+    "names": ["Dumbbell Shoulder Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["anterior-deltoid"], "secondary": ["triceps", "upper-trapezius"] },
+      "mechanic": "compound",
+      "equipment": "dumbbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 5.0 },
+    "source": "curated",
+    "variations": ["overhead-press.barbell"]
+  },
+  {
+    "id": "chest-fly.dumbbell",
+    "names": ["Dumbbell Flyes", "Dumbbell Chest Fly"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["pectoralis-major"], "secondary": ["anterior-deltoid"] },
+      "mechanic": "isolation",
+      "equipment": "dumbbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.0 },
+    "source": "curated"
+  },
+  {
+    "id": "chest-fly.cable",
+    "names": ["Cable Crossover", "Cable Fly"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["pectoralis-major"], "secondary": ["anterior-deltoid"] },
+      "mechanic": "isolation",
+      "equipment": "cable",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.0 },
+    "source": "curated",
+    "variations": ["chest-fly.dumbbell"]
+  },
+  {
+    "id": "row.cable.seated",
+    "names": ["Seated Cable Row"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-pull",
+      "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps"] },
+      "mechanic": "compound",
+      "equipment": "cable",
+      "stance": "seated",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 4.0 },
+    "source": "curated"
+  },
+  {
+    "id": "row.dumbbell.one-arm",
+    "names": ["One-Arm Dumbbell Row", "Single-Arm Dumbbell Row"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-pull",
+      "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps"] },
+      "mechanic": "compound",
+      "equipment": "dumbbell",
+      "laterality": "alternating"
+    },
+    "attributes": { "met": 4.5 },
+    "source": "curated"
+  },
+  {
+    "id": "shrug.barbell",
+    "names": ["Barbell Shrug"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "scapular-elevation",
+      "anatomy": { "primary": ["upper-trapezius"] },
+      "mechanic": "isolation",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.0 },
+    "source": "curated"
+  },
+  {
+    "id": "shrug.dumbbell",
+    "names": ["Dumbbell Shrug"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "scapular-elevation",
+      "anatomy": { "primary": ["upper-trapezius"] },
+      "mechanic": "isolation",
+      "equipment": "dumbbell",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.0 },
+    "source": "curated",
+    "variations": ["shrug.barbell"]
+  },
+  {
+    "id": "crunch",
+    "names": ["Crunch"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "spinal-flexion",
+      "anatomy": { "primary": ["rectus-abdominis"] },
+      "mechanic": "isolation",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.0 },
+    "source": "curated"
+  },
+  {
+    "id": "sit-up",
+    "names": ["Sit-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "spinal-flexion",
+      "anatomy": { "primary": ["rectus-abdominis"], "secondary": ["hip-flexors"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.8 },
+    "source": "curated",
+    "variations": ["crunch"]
+  },
+  {
+    "id": "calf-raise.standing",
+    "names": ["Standing Calf Raise"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "ankle-plantarflexion",
+      "anatomy": { "primary": ["calves"] },
+      "mechanic": "isolation",
+      "equipment": "machine",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.0 },
+    "source": "curated"
+  },
+  {
+    "id": "calf-raise.seated.machine",
+    "names": ["Seated Calf Raise"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "ankle-plantarflexion",
+      "anatomy": { "primary": ["calves"] },
+      "mechanic": "isolation",
+      "equipment": "machine",
+      "stance": "seated",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 3.0 },
+    "source": "curated",
+    "variations": ["calf-raise.standing"]
+  },
+  {
+    "id": "dip.machine",
+    "names": ["Dip Machine"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["pectoralis-major", "triceps"], "secondary": ["anterior-deltoid"] },
+      "mechanic": "compound",
+      "equipment": "machine",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 4.0 },
+    "source": "curated",
+    "regressions": ["dip"]
+  },
+  {
+    "id": "dip.rings",
+    "names": ["Ring Dips"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["pectoralis-major", "triceps"], "secondary": ["anterior-deltoid"] },
+      "mechanic": "compound",
+      "equipment": "suspension",
+      "laterality": "bilateral"
+    },
+    "attributes": { "met": 5.5 },
+    "source": "curated",
+    "regressions": ["dip"]
   }
 ]

@@ -228,7 +228,7 @@
     {
       "id": "Barbell_Curl",
       "name": "Barbell Curl",
-      "canonical": null
+      "canonical": "curl.barbell"
     },
     {
       "id": "Barbell_Curls_Lying_Against_An_Incline",
@@ -303,7 +303,7 @@
     {
       "id": "Barbell_Shrug",
       "name": "Barbell Shrug",
-      "canonical": null
+      "canonical": "shrug.barbell"
     },
     {
       "id": "Barbell_Shrug_Behind_The_Back",
@@ -443,12 +443,12 @@
     {
       "id": "Bicycling",
       "name": "Bicycling",
-      "canonical": null
+      "canonical": "cycling"
     },
     {
       "id": "Bicycling_Stationary",
       "name": "Bicycling, Stationary",
-      "canonical": null
+      "canonical": "cycling"
     },
     {
       "id": "Board_Press",
@@ -558,7 +558,7 @@
     {
       "id": "Cable_Crossover",
       "name": "Cable Crossover",
-      "canonical": null
+      "canonical": "chest-fly.cable"
     },
     {
       "id": "Cable_Crunch",
@@ -948,7 +948,7 @@
     {
       "id": "Crunches",
       "name": "Crunches",
-      "canonical": null
+      "canonical": "crunch"
     },
     {
       "id": "Cuban_Press",
@@ -1043,7 +1043,7 @@
     {
       "id": "Dip_Machine",
       "name": "Dip Machine",
-      "canonical": null
+      "canonical": "dip.machine"
     },
     {
       "id": "Dips_-_Chest_Version",
@@ -1138,7 +1138,7 @@
     {
       "id": "Dumbbell_Flyes",
       "name": "Dumbbell Flyes",
-      "canonical": null
+      "canonical": "chest-fly.dumbbell"
     },
     {
       "id": "Dumbbell_Incline_Row",
@@ -1223,12 +1223,12 @@
     {
       "id": "Dumbbell_Shoulder_Press",
       "name": "Dumbbell Shoulder Press",
-      "canonical": null
+      "canonical": "shoulder-press.dumbbell"
     },
     {
       "id": "Dumbbell_Shrug",
       "name": "Dumbbell Shrug",
-      "canonical": null
+      "canonical": "shrug.dumbbell"
     },
     {
       "id": "Dumbbell_Side_Bend",
@@ -1853,7 +1853,7 @@
     {
       "id": "Jogging_Treadmill",
       "name": "Jogging, Treadmill",
-      "canonical": null
+      "canonical": "run"
     },
     {
       "id": "Keg_Load",
@@ -2358,7 +2358,7 @@
     {
       "id": "Muscle_Up",
       "name": "Muscle Up",
-      "canonical": null
+      "canonical": "muscle-up"
     },
     {
       "id": "Narrow_Stance_Hack_Squats",
@@ -2478,7 +2478,7 @@
     {
       "id": "One-Arm_Dumbbell_Row",
       "name": "One-Arm Dumbbell Row",
-      "canonical": null
+      "canonical": "row.dumbbell.one-arm"
     },
     {
       "id": "One-Arm_Flat_Bench_Dumbbell_Flye",
@@ -2663,7 +2663,7 @@
     {
       "id": "Parallel_Bar_Dip",
       "name": "Parallel Bar Dip",
-      "canonical": null
+      "canonical": "dip"
     },
     {
       "id": "Pelvic_Tilt_Into_Bridge",
@@ -2893,7 +2893,7 @@
     {
       "id": "Recumbent_Bike",
       "name": "Recumbent Bike",
-      "canonical": null
+      "canonical": "cycling"
     },
     {
       "id": "Return_Push_from_Stance",
@@ -3003,7 +3003,7 @@
     {
       "id": "Ring_Dips",
       "name": "Ring Dips",
-      "canonical": null
+      "canonical": "dip.rings"
     },
     {
       "id": "Rocket_Jump",
@@ -3133,7 +3133,7 @@
     {
       "id": "Seated_Cable_Rows",
       "name": "Seated Cable Rows",
-      "canonical": null
+      "canonical": "row.cable.seated"
     },
     {
       "id": "Seated_Cable_Shoulder_Press",
@@ -3143,7 +3143,7 @@
     {
       "id": "Seated_Calf_Raise",
       "name": "Seated Calf Raise",
-      "canonical": null
+      "canonical": "calf-raise.seated.machine"
     },
     {
       "id": "Seated_Calf_Stretch",
@@ -3443,7 +3443,7 @@
     {
       "id": "Sit-Up",
       "name": "Sit-Up",
-      "canonical": null
+      "canonical": "sit-up"
     },
     {
       "id": "Skating",
@@ -3713,7 +3713,7 @@
     {
       "id": "Standing_Barbell_Calf_Raise",
       "name": "Standing Barbell Calf Raise",
-      "canonical": null
+      "canonical": "calf-raise.standing"
     },
     {
       "id": "Standing_Barbell_Press_Behind_Neck",
@@ -3763,7 +3763,7 @@
     {
       "id": "Standing_Calf_Raises",
       "name": "Standing Calf Raises",
-      "canonical": null
+      "canonical": "calf-raise.standing"
     },
     {
       "id": "Standing_Concentration_Curl",
@@ -3773,7 +3773,7 @@
     {
       "id": "Standing_Dumbbell_Calf_Raise",
       "name": "Standing Dumbbell Calf Raise",
-      "canonical": null
+      "canonical": "calf-raise.standing"
     },
     {
       "id": "Standing_Dumbbell_Press",
@@ -4128,7 +4128,7 @@
     {
       "id": "Triceps_Pushdown",
       "name": "Triceps Pushdown",
-      "canonical": null
+      "canonical": "triceps-pushdown.cable"
     },
     {
       "id": "Triceps_Pushdown_-_Rope_Attachment",

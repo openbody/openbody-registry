@@ -35,6 +35,10 @@
     { "token": "strike", "label": "Strike", "description": "Striking pattern (punch, kick, knee, elbow)." },
     { "token": "mobilization", "label": "Mobilization", "description": "Dynamic joint mobilization (cat-cow, CARs)." },
     { "token": "static-stretch", "label": "Static Stretch", "description": "Held lengthening of a muscle." },
-    { "token": "isometric-hold", "label": "Isometric Hold", "description": "Static position under tension (planche, L-sit, wall sit, hang)." }
+    { "token": "isometric-hold", "label": "Isometric Hold", "description": "Static position under tension (planche, L-sit, wall sit, hang)." },
+    { "token": "shoulder-abduction", "label": "Shoulder Abduction", "description": "Raise the arm away from the torso (lateral raise)." },
+    { "token": "spinal-flexion", "label": "Spinal Flexion", "description": "Trunk-flexion core movement (crunch, sit-up)." },
+    { "token": "scapular-elevation", "label": "Scapular Elevation", "description": "Shrugging pattern that elevates the shoulder girdle." },
+    { "token": "ankle-plantarflexion", "label": "Ankle Plantarflexion", "description": "Calf-raise pattern; ankle extension." }
   ]
 }
