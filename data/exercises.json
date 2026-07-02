@@ -752,5 +752,206 @@
     },
     "attributes": { "met": 10.0 },
     "source": "curated"
+  },
+  {
+    "id": "deadlift.barbell.sumo",
+    "names": ["Sumo Deadlift"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hinge",
+      "anatomy": { "primary": ["glutes", "adductors"], "secondary": ["hamstrings", "quadriceps", "spinal-erectors"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "stance": "sumo",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "variations": ["deadlift.barbell.conventional"]
+  },
+  {
+    "id": "bench-press.barbell.incline",
+    "names": ["Incline Barbell Bench Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["pectoralis-major"], "secondary": ["anterior-deltoid", "triceps"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "variations": ["bench-press.barbell.flat"]
+  },
+  {
+    "id": "bench-press.dumbbell.flat",
+    "names": ["Flat Dumbbell Bench Press", "Dumbbell Bench Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps", "anterior-deltoid"] },
+      "mechanic": "compound",
+      "equipment": "dumbbell",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "variations": ["bench-press.barbell.flat"]
+  },
+  {
+    "id": "squat.dumbbell.goblet",
+    "names": ["Goblet Squat"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "squat",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors", "core"] },
+      "mechanic": "compound",
+      "equipment": "dumbbell",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["squat.barbell.high-bar"]
+  },
+  {
+    "id": "leg-press.machine",
+    "names": ["Leg Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "squat",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["hamstrings"] },
+      "mechanic": "compound",
+      "equipment": "machine",
+      "laterality": "bilateral"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "hip-thrust.barbell",
+    "names": ["Barbell Hip Thrust"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hinge",
+      "anatomy": { "primary": ["glutes"], "secondary": ["hamstrings", "quadriceps"] },
+      "mechanic": "compound",
+      "equipment": "barbell",
+      "laterality": "bilateral"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "lateral-raise.dumbbell",
+    "names": ["Dumbbell Lateral Raise", "Side Lateral Raise"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "shoulder-abduction",
+      "anatomy": { "primary": ["deltoids"] },
+      "mechanic": "isolation",
+      "equipment": "dumbbell",
+      "laterality": "bilateral"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "leg-curl.machine",
+    "names": ["Lying Leg Curl", "Leg Curl"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "knee-flexion",
+      "anatomy": { "primary": ["hamstrings"] },
+      "mechanic": "isolation",
+      "equipment": "machine",
+      "laterality": "bilateral"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "leg-extension.machine",
+    "names": ["Leg Extension"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "knee-extension",
+      "anatomy": { "primary": ["quadriceps"] },
+      "mechanic": "isolation",
+      "equipment": "machine",
+      "laterality": "bilateral"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "lat-pulldown.cable.wide",
+    "names": ["Wide-Grip Lat Pulldown"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats"], "secondary": ["biceps", "rhomboids"] },
+      "mechanic": "compound",
+      "equipment": "cable",
+      "grip": "wide",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "variations": ["lat-pulldown.cable"]
+  },
+  {
+    "id": "elliptical",
+    "names": ["Elliptical Trainer", "Elliptical"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "cycle",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["hamstrings", "calves"] },
+      "mechanic": "compound",
+      "equipment": "machine"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "stair-climber.machine",
+    "names": ["Stair Climber", "StairMaster"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["calves"] },
+      "mechanic": "compound",
+      "equipment": "machine"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "toes-to-bar",
+    "names": ["Toes-to-Bar"],
+    "facets": {
+      "modality": "functional",
+      "movementPattern": "hip-flexion",
+      "anatomy": { "primary": ["rectus-abdominis", "hip-flexors"], "secondary": ["forearms", "lats"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "rope-climb",
+    "names": ["Rope Climb"],
+    "facets": {
+      "modality": "functional",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats", "forearms"], "secondary": ["biceps", "core"] },
+      "mechanic": "compound",
+      "equipment": "climbing-rope",
+      "laterality": "bilateral"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "worlds-greatest-stretch",
+    "names": ["World's Greatest Stretch"],
+    "facets": {
+      "modality": "mobility",
+      "movementPattern": "mobilization",
+      "anatomy": { "primary": ["hip-flexors", "hamstrings"], "secondary": ["spinal-erectors"] },
+      "mechanic": "compound",
+      "equipment": "none",
+      "laterality": "alternating",
+      "rangeOfMotion": "full"
+    },
+    "source": "curated"
   }
 ]

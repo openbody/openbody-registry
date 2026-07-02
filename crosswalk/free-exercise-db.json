@@ -3,7 +3,7 @@
   "upstream": "https://github.com/yuhonas/free-exercise-db",
   "commit": "b0eed061e1c832b3ed815fbaa4b45b3cdc14df49",
   "license": "Unlicense (public domain)",
-  "note": "Crosswalk only — NOT canonical registry data. `canonical` points at a data/exercises.json id, or null if that movement is not yet hand-curated (the worklist). See CONTRIBUTING.md.",
+  "note": "Crosswalk only \u2014 NOT canonical registry data. `canonical` points at a data/exercises.json id, or null if that movement is not yet hand-curated (the worklist). See CONTRIBUTING.md.",
   "mappings": [
     {
       "id": "3_4_Sit-Up",
@@ -43,7 +43,7 @@
     {
       "id": "Air_Bike",
       "name": "Air Bike",
-      "canonical": null
+      "canonical": "air-bike"
     },
     {
       "id": "All_Fours_Quad_Stretch",
@@ -148,7 +148,7 @@
     {
       "id": "Atlas_Stones",
       "name": "Atlas Stones",
-      "canonical": null
+      "canonical": "atlas-stone-lift"
     },
     {
       "id": "Axle_Deadlift",
@@ -223,7 +223,7 @@
     {
       "id": "Barbell_Bench_Press_-_Medium_Grip",
       "name": "Barbell Bench Press - Medium Grip",
-      "canonical": null
+      "canonical": "bench-press.barbell.flat"
     },
     {
       "id": "Barbell_Curl",
@@ -238,7 +238,7 @@
     {
       "id": "Barbell_Deadlift",
       "name": "Barbell Deadlift",
-      "canonical": null
+      "canonical": "deadlift.barbell.conventional"
     },
     {
       "id": "Barbell_Full_Squat",
@@ -263,12 +263,12 @@
     {
       "id": "Barbell_Hip_Thrust",
       "name": "Barbell Hip Thrust",
-      "canonical": null
+      "canonical": "hip-thrust.barbell"
     },
     {
       "id": "Barbell_Incline_Bench_Press_-_Medium_Grip",
       "name": "Barbell Incline Bench Press - Medium Grip",
-      "canonical": null
+      "canonical": "bench-press.barbell.incline"
     },
     {
       "id": "Barbell_Incline_Shoulder_Raise",
@@ -323,7 +323,7 @@
     {
       "id": "Barbell_Squat",
       "name": "Barbell Squat",
-      "canonical": null
+      "canonical": "squat.barbell.high-bar"
     },
     {
       "id": "Barbell_Squat_To_A_Bench",
@@ -388,7 +388,7 @@
     {
       "id": "Bent_Over_Barbell_Row",
       "name": "Bent Over Barbell Row",
-      "canonical": null
+      "canonical": "row.barbell.bent-over"
     },
     {
       "id": "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench",
@@ -823,7 +823,7 @@
     {
       "id": "Clean_and_Jerk",
       "name": "Clean and Jerk",
-      "canonical": null
+      "canonical": "clean-and-jerk.barbell"
     },
     {
       "id": "Clean_and_Press",
@@ -1048,12 +1048,12 @@
     {
       "id": "Dips_-_Chest_Version",
       "name": "Dips - Chest Version",
-      "canonical": null
+      "canonical": "dip"
     },
     {
       "id": "Dips_-_Triceps_Version",
       "name": "Dips - Triceps Version",
-      "canonical": null
+      "canonical": "dip"
     },
     {
       "id": "Donkey_Calf_Raises",
@@ -1113,7 +1113,7 @@
     {
       "id": "Dumbbell_Bench_Press",
       "name": "Dumbbell Bench Press",
-      "canonical": null
+      "canonical": "bench-press.dumbbell.flat"
     },
     {
       "id": "Dumbbell_Bench_Press_with_Neutral_Grip",
@@ -1293,7 +1293,7 @@
     {
       "id": "Elliptical_Trainer",
       "name": "Elliptical Trainer",
-      "canonical": null
+      "canonical": "elliptical"
     },
     {
       "id": "Exercise_Ball_Crunch",
@@ -1343,7 +1343,7 @@
     {
       "id": "Farmers_Walk",
       "name": "Farmer's Walk",
-      "canonical": null
+      "canonical": "farmers-carry"
     },
     {
       "id": "Fast_Skipping",
@@ -1428,7 +1428,7 @@
     {
       "id": "Front_Barbell_Squat",
       "name": "Front Barbell Squat",
-      "canonical": null
+      "canonical": "squat.barbell.front"
     },
     {
       "id": "Front_Barbell_Squat_To_A_Bench",
@@ -1513,7 +1513,7 @@
     {
       "id": "Goblet_Squat",
       "name": "Goblet Squat",
-      "canonical": null
+      "canonical": "squat.dumbbell.goblet"
     },
     {
       "id": "Good_Morning",
@@ -2043,7 +2043,7 @@
     {
       "id": "Leg_Extensions",
       "name": "Leg Extensions",
-      "canonical": null
+      "canonical": "leg-extension.machine"
     },
     {
       "id": "Leg_Lift",
@@ -2053,7 +2053,7 @@
     {
       "id": "Leg_Press",
       "name": "Leg Press",
-      "canonical": null
+      "canonical": "leg-press.machine"
     },
     {
       "id": "Leg_Pull-In",
@@ -2243,7 +2243,7 @@
     {
       "id": "Lying_Leg_Curls",
       "name": "Lying Leg Curls",
-      "canonical": null
+      "canonical": "leg-curl.machine"
     },
     {
       "id": "Lying_Machine_Squat",
@@ -2633,7 +2633,7 @@
     {
       "id": "Pallof_Press",
       "name": "Pallof Press",
-      "canonical": null
+      "canonical": "pallof-press"
     },
     {
       "id": "Pallof_Press_With_Rotation",
@@ -2738,7 +2738,7 @@
     {
       "id": "Power_Clean",
       "name": "Power Clean",
-      "canonical": null
+      "canonical": "power-clean.barbell"
     },
     {
       "id": "Power_Clean_from_Blocks",
@@ -2843,7 +2843,7 @@
     {
       "id": "Pushups",
       "name": "Pushups",
-      "canonical": null
+      "canonical": "push-up"
     },
     {
       "id": "Pushups_Close_and_Wide_Hand_Positions",
@@ -3023,7 +3023,7 @@
     {
       "id": "Romanian_Deadlift",
       "name": "Romanian Deadlift",
-      "canonical": null
+      "canonical": "deadlift.barbell.romanian"
     },
     {
       "id": "Romanian_Deadlift_from_Deficit",
@@ -3033,7 +3033,7 @@
     {
       "id": "Rope_Climb",
       "name": "Rope Climb",
-      "canonical": null
+      "canonical": "rope-climb"
     },
     {
       "id": "Rope_Crunch",
@@ -3323,7 +3323,7 @@
     {
       "id": "Side_Lateral_Raise",
       "name": "Side Lateral Raise",
-      "canonical": null
+      "canonical": "lateral-raise.dumbbell"
     },
     {
       "id": "Side_Laterals_to_Front_Raise",
@@ -3468,7 +3468,7 @@
     {
       "id": "Sled_Push",
       "name": "Sled Push",
-      "canonical": null
+      "canonical": "sled-push"
     },
     {
       "id": "Sled_Reverse_Flye",
@@ -3583,7 +3583,7 @@
     {
       "id": "Snatch",
       "name": "Snatch",
-      "canonical": null
+      "canonical": "snatch.barbell"
     },
     {
       "id": "Snatch_Balance",
@@ -3703,7 +3703,7 @@
     {
       "id": "Stairmaster",
       "name": "Stairmaster",
-      "canonical": null
+      "canonical": "stair-climber.machine"
     },
     {
       "id": "Standing_Alternating_Dumbbell_Press",
@@ -3998,7 +3998,7 @@
     {
       "id": "Sumo_Deadlift",
       "name": "Sumo Deadlift",
-      "canonical": null
+      "canonical": "deadlift.barbell.sumo"
     },
     {
       "id": "Sumo_Deadlift_with_Bands",
@@ -4228,7 +4228,7 @@
     {
       "id": "Walking_Treadmill",
       "name": "Walking, Treadmill",
-      "canonical": null
+      "canonical": "walk"
     },
     {
       "id": "Weighted_Ball_Hyperextension",
@@ -4303,7 +4303,7 @@
     {
       "id": "Wide-Grip_Lat_Pulldown",
       "name": "Wide-Grip Lat Pulldown",
-      "canonical": null
+      "canonical": "lat-pulldown.cable.wide"
     },
     {
       "id": "Wide-Grip_Pulldown_Behind_The_Neck",
@@ -4333,7 +4333,7 @@
     {
       "id": "Worlds_Greatest_Stretch",
       "name": "World's Greatest Stretch",
-      "canonical": null
+      "canonical": "worlds-greatest-stretch"
     },
     {
       "id": "Wrist_Circles",
@@ -4353,7 +4353,7 @@
     {
       "id": "Yoke_Walk",
       "name": "Yoke Walk",
-      "canonical": null
+      "canonical": "yoke-carry"
     },
     {
       "id": "Zercher_Squats",
