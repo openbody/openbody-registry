@@ -1174,5 +1174,397 @@
     "attributes": { "met": 5.5 },
     "source": "curated",
     "regressions": ["dip"]
+  },
+  {
+    "id": "hamstring-stretch.90-90",
+    "names": ["90/90 Hamstring Stretch"],
+    "facets": {
+      "modality": "flexibility",
+      "movementPattern": "static-stretch",
+      "anatomy": { "primary": ["hamstrings"], "secondary": ["glutes"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "rangeOfMotion": "full"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "crunch.machine",
+    "names": ["Ab Crunch Machine"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "spinal-flexion",
+      "anatomy": { "primary": ["rectus-abdominis"] },
+      "mechanic": "isolation",
+      "equipment": "machine"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "ab-rollout.wheel",
+    "names": ["Ab Wheel Rollout", "Ab Roller"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "anti-extension",
+      "anatomy": { "primary": ["rectus-abdominis"], "secondary": ["lats", "triceps"] },
+      "mechanic": "compound",
+      "equipment": "implement"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "hip-adduction.machine",
+    "names": ["Seated Hip Adduction Machine", "Adductor Machine"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hip-adduction",
+      "anatomy": { "primary": ["adductors"] },
+      "mechanic": "isolation",
+      "equipment": "machine"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "hip-adduction.band",
+    "names": ["Band Hip Adduction"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hip-adduction",
+      "anatomy": { "primary": ["adductors"] },
+      "mechanic": "isolation",
+      "equipment": "resistance-band"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "windmill.kettlebell",
+    "names": ["Kettlebell Windmill"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "rotation",
+      "anatomy": { "primary": ["obliques"], "secondary": ["hamstrings", "deltoids"] },
+      "mechanic": "compound",
+      "equipment": "kettlebell",
+      "laterality": "alternating"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "quad-stretch.all-fours",
+    "names": ["All-Fours Quad Stretch"],
+    "facets": {
+      "modality": "flexibility",
+      "movementPattern": "static-stretch",
+      "anatomy": { "primary": ["quadriceps"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "laterality": "alternating",
+      "rangeOfMotion": "full"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "curl.dumbbell.hammer",
+    "names": ["Hammer Curl"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "elbow-flexion",
+      "anatomy": { "primary": ["biceps"], "secondary": ["brachioradialis"] },
+      "mechanic": "isolation",
+      "equipment": "dumbbell",
+      "grip": "neutral",
+      "laterality": "alternating"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "heel-touch",
+    "names": ["Heel Touch", "Alternating Heel Touchers"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "spinal-flexion",
+      "anatomy": { "primary": ["obliques"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "laterality": "alternating"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "curl.dumbbell.incline",
+    "names": ["Incline Dumbbell Curl"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "elbow-flexion",
+      "anatomy": { "primary": ["biceps"] },
+      "mechanic": "isolation",
+      "equipment": "dumbbell",
+      "laterality": "alternating"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "bound.diagonal",
+    "names": ["Alternate Leg Diagonal Bound"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "jump",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["hamstrings"] },
+      "mechanic": "compound",
+      "equipment": "none",
+      "laterality": "alternating"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "shoulder-press.cable",
+    "names": ["Alternating Cable Shoulder Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["triceps"] },
+      "mechanic": "compound",
+      "equipment": "cable",
+      "laterality": "alternating"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "floor-press.dumbbell",
+    "names": ["Dumbbell Floor Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps"] },
+      "mechanic": "compound",
+      "equipment": "dumbbell",
+      "rangeOfMotion": "partial"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "clean.dumbbell.hang",
+    "names": ["Dumbbell Hang Clean"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "clean",
+      "anatomy": { "primary": ["glutes", "hamstrings", "trapezius"] },
+      "mechanic": "compound",
+      "equipment": "dumbbell"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "shoulder-press.kettlebell",
+    "names": ["Kettlebell Shoulder Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["triceps"] },
+      "mechanic": "compound",
+      "equipment": "kettlebell",
+      "laterality": "alternating"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "row.kettlebell.one-arm",
+    "names": ["One-Arm Kettlebell Row"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-pull",
+      "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps"] },
+      "mechanic": "compound",
+      "equipment": "kettlebell",
+      "laterality": "alternating"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "renegade-row.dumbbell",
+    "names": ["Renegade Row"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-pull",
+      "anatomy": { "primary": ["lats"], "secondary": ["core", "deltoids"] },
+      "mechanic": "compound",
+      "equipment": "dumbbell",
+      "laterality": "alternating"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "ankle-circles",
+    "names": ["Ankle Circles"],
+    "facets": {
+      "modality": "mobility",
+      "movementPattern": "mobilization",
+      "anatomy": { "primary": ["ankle-stabilizers"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "laterality": "alternating",
+      "rangeOfMotion": "full"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "figure-four-stretch",
+    "names": ["Figure-Four Stretch", "Ankle on the Knee Stretch"],
+    "facets": {
+      "modality": "flexibility",
+      "movementPattern": "static-stretch",
+      "anatomy": { "primary": ["glutes"], "secondary": ["hip-flexors"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "laterality": "alternating",
+      "rangeOfMotion": "full"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "arm-circles",
+    "names": ["Arm Circles"],
+    "facets": {
+      "modality": "mobility",
+      "movementPattern": "mobilization",
+      "anatomy": { "primary": ["deltoids"] },
+      "mechanic": "isolation",
+      "equipment": "none",
+      "rangeOfMotion": "full"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "shoulder-press.dumbbell.arnold",
+    "names": ["Arnold Press"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["triceps"] },
+      "mechanic": "compound",
+      "equipment": "dumbbell"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "deadlift.axle",
+    "names": ["Axle Deadlift"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hinge",
+      "anatomy": { "primary": ["glutes", "hamstrings", "spinal-erectors"], "secondary": ["forearms"] },
+      "mechanic": "compound",
+      "equipment": "implement"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "reverse-fly.band",
+    "names": ["Band Reverse Fly", "Band Back Flyes"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-pull",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["rhomboids", "trapezius"] },
+      "mechanic": "isolation",
+      "equipment": "resistance-band"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "medicine-ball-throw.backward",
+    "names": ["Backward Medicine Ball Throw"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "throw",
+      "anatomy": { "primary": ["glutes", "hamstrings"], "secondary": ["core"] },
+      "mechanic": "compound",
+      "equipment": "medicine-ball"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "balance-board",
+    "names": ["Balance Board"],
+    "facets": {
+      "modality": "balance",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["ankle-stabilizers"], "secondary": ["core"] },
+      "mechanic": "isolation",
+      "equipment": "implement",
+      "rangeOfMotion": "static"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "leg-curl.stability-ball",
+    "names": ["Ball Leg Curl", "Stability Ball Hamstring Curl"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "knee-flexion",
+      "anatomy": { "primary": ["hamstrings"], "secondary": ["glutes"] },
+      "mechanic": "isolation",
+      "equipment": "implement"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "pull-up.band-assisted",
+    "names": ["Band-Assisted Pull-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats"], "secondary": ["biceps"] },
+      "mechanic": "compound",
+      "equipment": "resistance-band"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "good-morning.band",
+    "names": ["Band Good Morning"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hinge",
+      "anatomy": { "primary": ["hamstrings", "glutes", "spinal-erectors"] },
+      "mechanic": "compound",
+      "equipment": "resistance-band"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "pull-through.band",
+    "names": ["Band Pull-Through", "Band Good Morning Pull Through"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "hinge",
+      "anatomy": { "primary": ["glutes", "hamstrings"] },
+      "mechanic": "compound",
+      "equipment": "resistance-band"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "band-pull-apart",
+    "names": ["Band Pull-Apart"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-pull",
+      "anatomy": { "primary": ["rhomboids", "trapezius"], "secondary": ["deltoids"] },
+      "mechanic": "isolation",
+      "equipment": "resistance-band"
+    },
+    "source": "free-exercise-db"
+  },
+  {
+    "id": "triceps-extension.band",
+    "names": ["Band Skull Crusher", "Band Lying Triceps Extension"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "elbow-extension",
+      "anatomy": { "primary": ["triceps"] },
+      "mechanic": "isolation",
+      "equipment": "resistance-band"
+    },
+    "source": "free-exercise-db"
   }
 ]

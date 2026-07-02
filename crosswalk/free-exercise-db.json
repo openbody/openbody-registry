@@ -8,37 +8,37 @@
     {
       "id": "3_4_Sit-Up",
       "name": "3/4 Sit-Up",
-      "canonical": null
+      "canonical": "sit-up"
     },
     {
       "id": "90_90_Hamstring",
       "name": "90/90 Hamstring",
-      "canonical": null
+      "canonical": "hamstring-stretch.90-90"
     },
     {
       "id": "Ab_Crunch_Machine",
       "name": "Ab Crunch Machine",
-      "canonical": null
+      "canonical": "crunch.machine"
     },
     {
       "id": "Ab_Roller",
       "name": "Ab Roller",
-      "canonical": null
+      "canonical": "ab-rollout.wheel"
     },
     {
       "id": "Adductor",
       "name": "Adductor",
-      "canonical": null
+      "canonical": "hip-adduction.machine"
     },
     {
       "id": "Adductor_Groin",
       "name": "Adductor/Groin",
-      "canonical": null
+      "canonical": "hip-adduction.machine"
     },
     {
       "id": "Advanced_Kettlebell_Windmill",
       "name": "Advanced Kettlebell Windmill",
-      "canonical": null
+      "canonical": "windmill.kettlebell"
     },
     {
       "id": "Air_Bike",
@@ -48,72 +48,72 @@
     {
       "id": "All_Fours_Quad_Stretch",
       "name": "All Fours Quad Stretch",
-      "canonical": null
+      "canonical": "quad-stretch.all-fours"
     },
     {
       "id": "Alternate_Hammer_Curl",
       "name": "Alternate Hammer Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.hammer"
     },
     {
       "id": "Alternate_Heel_Touchers",
       "name": "Alternate Heel Touchers",
-      "canonical": null
+      "canonical": "heel-touch"
     },
     {
       "id": "Alternate_Incline_Dumbbell_Curl",
       "name": "Alternate Incline Dumbbell Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.incline"
     },
     {
       "id": "Alternate_Leg_Diagonal_Bound",
       "name": "Alternate Leg Diagonal Bound",
-      "canonical": null
+      "canonical": "bound.diagonal"
     },
     {
       "id": "Alternating_Cable_Shoulder_Press",
       "name": "Alternating Cable Shoulder Press",
-      "canonical": null
+      "canonical": "shoulder-press.cable"
     },
     {
       "id": "Alternating_Deltoid_Raise",
       "name": "Alternating Deltoid Raise",
-      "canonical": null
+      "canonical": "lateral-raise.dumbbell"
     },
     {
       "id": "Alternating_Floor_Press",
       "name": "Alternating Floor Press",
-      "canonical": null
+      "canonical": "floor-press.dumbbell"
     },
     {
       "id": "Alternating_Hang_Clean",
       "name": "Alternating Hang Clean",
-      "canonical": null
+      "canonical": "clean.dumbbell.hang"
     },
     {
       "id": "Alternating_Kettlebell_Press",
       "name": "Alternating Kettlebell Press",
-      "canonical": null
+      "canonical": "shoulder-press.kettlebell"
     },
     {
       "id": "Alternating_Kettlebell_Row",
       "name": "Alternating Kettlebell Row",
-      "canonical": null
+      "canonical": "row.kettlebell.one-arm"
     },
     {
       "id": "Alternating_Renegade_Row",
       "name": "Alternating Renegade Row",
-      "canonical": null
+      "canonical": "renegade-row.dumbbell"
     },
     {
       "id": "Ankle_Circles",
       "name": "Ankle Circles",
-      "canonical": null
+      "canonical": "ankle-circles"
     },
     {
       "id": "Ankle_On_The_Knee",
       "name": "Ankle On The Knee",
-      "canonical": null
+      "canonical": "figure-four-stretch"
     },
     {
       "id": "Anterior_Tibialis-SMR",
@@ -128,12 +128,12 @@
     {
       "id": "Arm_Circles",
       "name": "Arm Circles",
-      "canonical": null
+      "canonical": "arm-circles"
     },
     {
       "id": "Arnold_Dumbbell_Press",
       "name": "Arnold Dumbbell Press",
-      "canonical": null
+      "canonical": "shoulder-press.dumbbell.arnold"
     },
     {
       "id": "Around_The_Worlds",
@@ -143,7 +143,7 @@
     {
       "id": "Atlas_Stone_Trainer",
       "name": "Atlas Stone Trainer",
-      "canonical": null
+      "canonical": "atlas-stone-lift"
     },
     {
       "id": "Atlas_Stones",
@@ -153,62 +153,62 @@
     {
       "id": "Axle_Deadlift",
       "name": "Axle Deadlift",
-      "canonical": null
+      "canonical": "deadlift.axle"
     },
     {
       "id": "Back_Flyes_-_With_Bands",
       "name": "Back Flyes - With Bands",
-      "canonical": null
+      "canonical": "reverse-fly.band"
     },
     {
       "id": "Backward_Drag",
       "name": "Backward Drag",
-      "canonical": null
+      "canonical": "sled-pull"
     },
     {
       "id": "Backward_Medicine_Ball_Throw",
       "name": "Backward Medicine Ball Throw",
-      "canonical": null
+      "canonical": "medicine-ball-throw.backward"
     },
     {
       "id": "Balance_Board",
       "name": "Balance Board",
-      "canonical": null
+      "canonical": "balance-board"
     },
     {
       "id": "Ball_Leg_Curl",
       "name": "Ball Leg Curl",
-      "canonical": null
+      "canonical": "leg-curl.stability-ball"
     },
     {
       "id": "Band_Assisted_Pull-Up",
       "name": "Band Assisted Pull-Up",
-      "canonical": null
+      "canonical": "pull-up.band-assisted"
     },
     {
       "id": "Band_Good_Morning",
       "name": "Band Good Morning",
-      "canonical": null
+      "canonical": "good-morning.band"
     },
     {
       "id": "Band_Good_Morning_Pull_Through",
       "name": "Band Good Morning (Pull Through)",
-      "canonical": null
+      "canonical": "pull-through.band"
     },
     {
       "id": "Band_Hip_Adductions",
       "name": "Band Hip Adductions",
-      "canonical": null
+      "canonical": "hip-adduction.band"
     },
     {
       "id": "Band_Pull_Apart",
       "name": "Band Pull Apart",
-      "canonical": null
+      "canonical": "band-pull-apart"
     },
     {
       "id": "Band_Skull_Crusher",
       "name": "Band Skull Crusher",
-      "canonical": null
+      "canonical": "triceps-extension.band"
     },
     {
       "id": "Barbell_Ab_Rollout",
