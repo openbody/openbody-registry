@@ -26,6 +26,7 @@
     { "file": "stance.json", "field": "ExerciseRef.facets.stance", "specRef": "§6.3" },
     { "file": "bar-position.json", "field": "ExerciseRef.facets.barPosition", "specRef": "§6.3" },
     { "file": "equipment.json", "field": "ExerciseRef.facets.equipment", "specRef": "§6.3" },
-    { "file": "estimation-formula.json", "field": "ThresholdProfile.entries[].estimationFormula", "specRef": "§5.11" }
+    { "file": "estimation-formula.json", "field": "ThresholdProfile.entries[].estimationFormula", "specRef": "§5.11" },
+    { "file": "competition-score.json", "field": "Measurement.type (competition-scoring subset)", "specRef": "§3.2, §4.5" }
   ]
 }

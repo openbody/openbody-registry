@@ -1,0 +1,13 @@
+{
+  "vocabulary": "competition-score",
+  "field": "Measurement.type (competition-scoring subset)",
+  "specRef": "§3.2, §4.5",
+  "open": true,
+  "description": "Bodyweight-normalized strength-competition coefficients (SPEC.md §3.2, OB-31). OpenBody has no demographics/identity model — these are ordinary `Measurement` records the producing app computes externally (supplying sex/bodyweight-class from its own user profile, never from OpenBody) and stores with `links: [{type: \"derivedFrom\", ref: ...}]` pointing at the bodyweight Measurement and lift-total WorkUnit it was computed from, plus `provenance.algorithm.name/version` naming the coefficient. A narrow seed, not the full measurement-type registry (OB-13) — that covers the general physiological/telemetry token space.",
+  "tokens": [
+    { "token": "wilks-score", "label": "Wilks Score", "description": "Bodyweight-normalized powerlifting total (2020 formula, sex-specific coefficients)." },
+    { "token": "dots-score", "label": "DOTS Score", "description": "Bodyweight-normalized powerlifting total; successor to Wilks with a flatter curve at the extremes." },
+    { "token": "ipf-gl-score", "label": "IPF GL Points", "description": "IPF GL (Goodlift) points — the coefficient used in IPF-affiliated competition." },
+    { "token": "glossbrenner-score", "label": "Glossbrenner Score", "description": "Bodyweight-normalized total, historically used in some multi-ply/raw federations." }
+  ]
+}
