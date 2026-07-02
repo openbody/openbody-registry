@@ -9,6 +9,7 @@
     { "file": "block-scoring-scheme.json", "field": "Block.scoring.scheme", "specRef": "§5.4" },
     { "file": "block-grouping.json", "field": "Block.grouping", "specRef": "§5.4" },
     { "file": "set-role.json", "field": "WorkUnit.setRole", "specRef": "§5.5" },
+    { "file": "terminated-by.json", "field": "WorkUnit.performance.terminatedBy", "specRef": "§5.5" },
     { "file": "load-basis.json", "field": "Load.basis", "specRef": "§5.12" },
     { "file": "modifier-type.json", "field": "modifiers[].type", "specRef": "§5.17" },
     { "file": "effort-method.json", "field": "EffortLoad.method", "specRef": "§5.13" },

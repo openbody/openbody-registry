@@ -1,0 +1,19 @@
+{
+  "vocabulary": "terminated-by",
+  "field": "WorkUnit.performance.terminatedBy",
+  "specRef": "§5.5",
+  "open": true,
+  "description": "How a performed set actually ended (§5.5) — a performed-side fact, orthogonal to setRole (structural position). Mirrors Target.stopCondition.kind (§5.10, see stop-condition-kind.json) where the same concept applies on the performed side, plus performed-only tokens for how a stop was reached in practice. MAY be combined with any setRole token (e.g. a drop-set component taken to failure is `setRole: \"drop\"` + `terminatedBy: \"to_failure\"`).",
+  "tokens": [
+    { "token": "to_failure", "label": "To Failure", "description": "Taken to momentary muscular failure." },
+    { "token": "to_technical_failure", "label": "To Technical Failure", "description": "Stopped when form broke down (before absolute failure)." },
+    { "token": "to_rpe", "label": "To RPE", "description": "Stopped at a target RPE (parameterize via the WorkUnit's own effortLoad)." },
+    { "token": "to_rir", "label": "To RIR", "description": "Stopped at a target reps-in-reserve (parameterize via the WorkUnit's own effortLoad)." },
+    { "token": "voluntary", "label": "Voluntary Stop", "description": "Stopped by choice, short of failure or any target (e.g. fatigue management, discomfort, time pressure)." },
+    { "token": "time_cap", "label": "Time Cap", "description": "Stopped because an imposed time limit was reached." },
+    { "token": "prescribed", "label": "Prescribed Target Met", "description": "Stopped because the prescribed count/target was reached (the default, unremarkable case — usually left unstated)." },
+    { "token": "form_breakdown", "label": "Form Breakdown", "description": "Stopped due to loss of technical form, distinct from technical failure under load (e.g. a coach/spotter call)." },
+    { "token": "equipment_limit", "label": "Equipment Limit", "description": "Stopped because equipment capacity/range was exhausted (e.g. out of plates, pin stack limit)." },
+    { "token": "pain", "label": "Pain", "description": "Stopped due to onset of pain/discomfort (rehab context)." }
+  ]
+}
