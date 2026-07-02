@@ -34,7 +34,8 @@
     },
     "source": {
       "type": "string",
-      "description": "Provenance of this entry (e.g. `curated`, `free-exercise-db`, `compendium`)."
+      "description": "Provenance of this entry's data (open set; see SOURCES.md). `curated` = fully hand-authored, no third-party seed. `compendium` = the entry's `attributes.met` comes from the Compendium of Physical Activities (facts, cited per edition). `free-exercise-db` = the entry's existence, coverage, and typically its display name(s) derive from a free-exercise-db worklist row (public-domain upstream, pinned in SOURCES.md); the id and the facet classification were authored to OpenBody conventions (§6.2/§6.3) against this registry's own vocabularies, with a per-entry review — not copied field-for-field from upstream. For any value, `id` and `facets` are OpenBody-authored; `source` records what seeded or informed the entry, not a verbatim import.",
+      "examples": ["curated", "compendium", "free-exercise-db"]
     },
     "progressions": {
       "type": "array",

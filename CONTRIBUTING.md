@@ -1,9 +1,11 @@
-# Contributing to the OpenBody exercise registry
+# Contributing to the OpenBody registries
 
-The canonical registry is **hand-curated** for quality and stable identity. Third-party
-datasets (e.g. free-exercise-db) are used **only as crosswalk sources** — never imported as
-canonical entries. This guide is the method: follow it for every addition so the registry
-stays consistent for future maintainers.
+The canonical registry is **curated** for quality and stable identity. Third-party datasets
+(e.g. free-exercise-db) are **never bulk-imported verbatim** as canonical entries — but they
+DO seed entries: a crosswalk worklist row may drive an entry's existence and display name,
+while the id and facet classification are always authored to OpenBody conventions with
+per-entry review (see SOURCES.md for the full provenance story). This guide is the method:
+follow it for every addition so the registry stays consistent for future maintainers.
 
 ## The model
 
@@ -34,9 +36,10 @@ stays consistent for future maintainers.
    (`{ "wger": 73 }`) for *this* entry. For bulk source mappings, prefer the crosswalk file.
 6. **`source`**: provenance of the entry's data. Use `"curated"` for a fully hand-authored
    entry; `"compendium"` when the entry's `attributes.met` comes from the Compendium of
-   Physical Activities; `"free-exercise-db"` if a crosswalked movement seeded the entry (its
-   facets must still be hand-verified against §6.3). Facets are always hand-authored regardless
-   of `source`.
+   Physical Activities; `"free-exercise-db"` if a crosswalked movement seeded the entry —
+   the upstream row may supply the display name(s), but the id and facets must be authored
+   per this guide and hand-verified against §6.3, never copied structurally. The id and
+   facet classification are OpenBody-authored regardless of `source`.
 7. **Validate**: `npm run check` (id format + uniqueness + facet conformance + crosswalk
    integrity). Green is required.
 
@@ -75,9 +78,11 @@ header and in `SOURCES.md`. Source dumps are **not** committed — only the cros
 ## Adding a controlled-vocabulary token (`vocab/*.json`)
 
 The `vocab/` files supply the recommended-canon tokens for the model's open,
-registry-backed fields (§5.9). They are **not** closed enums — adding a token never breaks
-anyone, and an unknown token always round-trips. Add one when a real methodology needs a
-shared name.
+registry-backed fields (§5.9), and `vocab/measurements/` is the **measurement-type
+registry** (§4.5): canonical `Measurement.type` tokens plus the `location` channel-naming
+convention. They are **not** closed enums — adding a token never breaks anyone, and an
+unknown token always round-trips. Add one when a real methodology (or a real platform's
+telemetry) needs a shared name.
 
 1. **Pick the right file** (one per field; see `vocab/index.json`). Don't invent a new
    vocabulary file for a field the spec defines as a *closed* enum (those live in the spec,
@@ -88,7 +93,8 @@ shared name.
 3. **Add `{ token, label }`** (+ optional `aliases`, `description`, `appliesTo`). Reuse an
    existing token rather than minting a synonym; prefer adding an `alias` to an existing
    token over a near-duplicate token.
-4. **Validate**: `npm run check` (token format + uniqueness within the file).
+4. **Validate**: `npm run check` (token format + uniqueness within the file; for the
+   `Measurement.*` vocabularies, uniqueness across files too — they share one value space).
 
 Promotion of a widely-used namespaced token into canon follows SPEC §9.3.
 
