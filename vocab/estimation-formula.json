@@ -1,0 +1,15 @@
+{
+  "vocabulary": "estimation-formula",
+  "field": "ThresholdProfile.entries[].estimationFormula",
+  "specRef": "§5.11",
+  "open": true,
+  "description": "The regression formula used to estimate a 1RM (or similar threshold) from a submaximal set (§5.11, OB-32). Only meaningful when the entry's `source` is `estimated` — MUST NOT be present when `source` is `tested`. Seeded from the six formulas OpenWeight's Estimated1RM enumerates; open token, so a producer using a formula not listed here still round-trips.",
+  "tokens": [
+    { "token": "brzycki", "label": "Brzycki", "description": "load / (1.0278 - 0.0278 * reps)." },
+    { "token": "epley", "label": "Epley", "description": "load * (1 + reps / 30)." },
+    { "token": "lombardi", "label": "Lombardi", "description": "load * reps^0.10." },
+    { "token": "mayhew", "label": "Mayhew et al.", "description": "load * 100 / (52.2 + 41.9 * e^(-0.055 * reps))." },
+    { "token": "oconner", "label": "O'Conner et al.", "description": "load * (1 + 0.025 * reps)." },
+    { "token": "wathan", "label": "Wathan", "description": "load * 100 / (48.8 + 53.8 * e^(-0.075 * reps))." }
+  ]
+}
