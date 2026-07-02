@@ -118,7 +118,7 @@
     {
       "id": "Anterior_Tibialis-SMR",
       "name": "Anterior Tibialis-SMR",
-      "canonical": null
+      "canonical": "smr.anterior-tibialis"
     },
     {
       "id": "Anti-Gravity_Press",
@@ -213,12 +213,12 @@
     {
       "id": "Barbell_Ab_Rollout",
       "name": "Barbell Ab Rollout",
-      "canonical": null
+      "canonical": "ab-rollout.barbell"
     },
     {
       "id": "Barbell_Ab_Rollout_-_On_Knees",
       "name": "Barbell Ab Rollout - On Knees",
-      "canonical": null
+      "canonical": "ab-rollout.barbell.kneeling"
     },
     {
       "id": "Barbell_Bench_Press_-_Medium_Grip",
@@ -233,7 +233,7 @@
     {
       "id": "Barbell_Curls_Lying_Against_An_Incline",
       "name": "Barbell Curls Lying Against An Incline",
-      "canonical": null
+      "canonical": "curl.barbell.spider"
     },
     {
       "id": "Barbell_Deadlift",
@@ -243,22 +243,22 @@
     {
       "id": "Barbell_Full_Squat",
       "name": "Barbell Full Squat",
-      "canonical": null
+      "canonical": "squat.barbell.high-bar"
     },
     {
       "id": "Barbell_Glute_Bridge",
       "name": "Barbell Glute Bridge",
-      "canonical": null
+      "canonical": "glute-bridge.barbell"
     },
     {
       "id": "Barbell_Guillotine_Bench_Press",
       "name": "Barbell Guillotine Bench Press",
-      "canonical": null
+      "canonical": "bench-press.barbell.guillotine"
     },
     {
       "id": "Barbell_Hack_Squat",
       "name": "Barbell Hack Squat",
-      "canonical": null
+      "canonical": "squat.barbell.hack"
     },
     {
       "id": "Barbell_Hip_Thrust",
@@ -273,32 +273,32 @@
     {
       "id": "Barbell_Incline_Shoulder_Raise",
       "name": "Barbell Incline Shoulder Raise",
-      "canonical": null
+      "canonical": "front-raise.barbell.incline"
     },
     {
       "id": "Barbell_Lunge",
       "name": "Barbell Lunge",
-      "canonical": null
+      "canonical": "lunge.barbell"
     },
     {
       "id": "Barbell_Rear_Delt_Row",
       "name": "Barbell Rear Delt Row",
-      "canonical": null
+      "canonical": "row.barbell.rear-delt"
     },
     {
       "id": "Barbell_Rollout_from_Bench",
       "name": "Barbell Rollout from Bench",
-      "canonical": null
+      "canonical": "ab-rollout.barbell.bench"
     },
     {
       "id": "Barbell_Seated_Calf_Raise",
       "name": "Barbell Seated Calf Raise",
-      "canonical": null
+      "canonical": "calf-raise.seated.barbell"
     },
     {
       "id": "Barbell_Shoulder_Press",
       "name": "Barbell Shoulder Press",
-      "canonical": null
+      "canonical": "overhead-press.barbell"
     },
     {
       "id": "Barbell_Shrug",
@@ -308,17 +308,17 @@
     {
       "id": "Barbell_Shrug_Behind_The_Back",
       "name": "Barbell Shrug Behind The Back",
-      "canonical": null
+      "canonical": "shrug.barbell.behind-the-back"
     },
     {
       "id": "Barbell_Side_Bend",
       "name": "Barbell Side Bend",
-      "canonical": null
+      "canonical": "side-bend.barbell"
     },
     {
       "id": "Barbell_Side_Split_Squat",
       "name": "Barbell Side Split Squat",
-      "canonical": null
+      "canonical": "split-squat.barbell.side"
     },
     {
       "id": "Barbell_Squat",
@@ -328,57 +328,57 @@
     {
       "id": "Barbell_Squat_To_A_Bench",
       "name": "Barbell Squat To A Bench",
-      "canonical": null
+      "canonical": "squat.barbell.box"
     },
     {
       "id": "Barbell_Step_Ups",
       "name": "Barbell Step Ups",
-      "canonical": null
+      "canonical": "step-up.barbell"
     },
     {
       "id": "Barbell_Walking_Lunge",
       "name": "Barbell Walking Lunge",
-      "canonical": null
+      "canonical": "lunge.barbell.walking"
     },
     {
       "id": "Battling_Ropes",
       "name": "Battling Ropes",
-      "canonical": null
+      "canonical": "battle-ropes"
     },
     {
       "id": "Bear_Crawl_Sled_Drags",
       "name": "Bear Crawl Sled Drags",
-      "canonical": null
+      "canonical": "bear-crawl.sled"
     },
     {
       "id": "Behind_Head_Chest_Stretch",
       "name": "Behind Head Chest Stretch",
-      "canonical": null
+      "canonical": "chest-stretch.behind-head"
     },
     {
       "id": "Bench_Dips",
       "name": "Bench Dips",
-      "canonical": null
+      "canonical": "dip.bench"
     },
     {
       "id": "Bench_Jump",
       "name": "Bench Jump",
-      "canonical": null
+      "canonical": "bench-jump"
     },
     {
       "id": "Bench_Press_-_Powerlifting",
       "name": "Bench Press - Powerlifting",
-      "canonical": null
+      "canonical": "bench-press.barbell.flat"
     },
     {
       "id": "Bench_Press_-_With_Bands",
       "name": "Bench Press - With Bands",
-      "canonical": null
+      "canonical": "bench-press.barbell.bands"
     },
     {
       "id": "Bench_Press_with_Chains",
       "name": "Bench Press with Chains",
-      "canonical": null
+      "canonical": "bench-press.barbell.chains"
     },
     {
       "id": "Bench_Sprint",
@@ -393,52 +393,52 @@
     {
       "id": "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench",
       "name": "Bent Over Dumbbell Rear Delt Raise With Head On Bench",
-      "canonical": null
+      "canonical": "reverse-fly.dumbbell.supported"
     },
     {
       "id": "Bent_Over_Low-Pulley_Side_Lateral",
       "name": "Bent Over Low-Pulley Side Lateral",
-      "canonical": null
+      "canonical": "reverse-fly.cable"
     },
     {
       "id": "Bent_Over_One-Arm_Long_Bar_Row",
       "name": "Bent Over One-Arm Long Bar Row",
-      "canonical": null
+      "canonical": "row.barbell.bent-over.one-arm"
     },
     {
       "id": "Bent_Over_Two-Arm_Long_Bar_Row",
       "name": "Bent Over Two-Arm Long Bar Row",
-      "canonical": null
+      "canonical": "row.barbell.bent-over"
     },
     {
       "id": "Bent_Over_Two-Dumbbell_Row",
       "name": "Bent Over Two-Dumbbell Row",
-      "canonical": null
+      "canonical": "row.dumbbell.bent-over"
     },
     {
       "id": "Bent_Over_Two-Dumbbell_Row_With_Palms_In",
       "name": "Bent Over Two-Dumbbell Row With Palms In",
-      "canonical": null
+      "canonical": "row.dumbbell.bent-over"
     },
     {
       "id": "Bent_Press",
       "name": "Bent Press",
-      "canonical": null
+      "canonical": "bent-press"
     },
     {
       "id": "Bent-Arm_Barbell_Pullover",
       "name": "Bent-Arm Barbell Pullover",
-      "canonical": null
+      "canonical": "pullover.barbell.bent-arm"
     },
     {
       "id": "Bent-Arm_Dumbbell_Pullover",
       "name": "Bent-Arm Dumbbell Pullover",
-      "canonical": null
+      "canonical": "pullover.dumbbell.bent-arm"
     },
     {
       "id": "Bent-Knee_Hip_Raise",
       "name": "Bent-Knee Hip Raise",
-      "canonical": null
+      "canonical": "hip-raise.bent-knee"
     },
     {
       "id": "Bicycling",
@@ -453,7 +453,7 @@
     {
       "id": "Board_Press",
       "name": "Board Press",
-      "canonical": null
+      "canonical": "bench-press.barbell.board"
     },
     {
       "id": "Body_Tricep_Press",
@@ -468,77 +468,77 @@
     {
       "id": "Bodyweight_Flyes",
       "name": "Bodyweight Flyes",
-      "canonical": null
+      "canonical": "chest-fly.suspension"
     },
     {
       "id": "Bodyweight_Mid_Row",
       "name": "Bodyweight Mid Row",
-      "canonical": null
+      "canonical": "row.suspension"
     },
     {
       "id": "Bodyweight_Squat",
       "name": "Bodyweight Squat",
-      "canonical": null
+      "canonical": "squat.bodyweight"
     },
     {
       "id": "Bodyweight_Walking_Lunge",
       "name": "Bodyweight Walking Lunge",
-      "canonical": null
+      "canonical": "sandbag-lunge"
     },
     {
       "id": "Bosu_Ball_Cable_Crunch_With_Side_Bends",
       "name": "Bosu Ball Cable Crunch With Side Bends",
-      "canonical": null
+      "canonical": "crunch.cable.bosu-ball"
     },
     {
       "id": "Bottoms_Up",
       "name": "Bottoms Up",
-      "canonical": null
+      "canonical": "kettlebell-bottoms-up"
     },
     {
       "id": "Bottoms-Up_Clean_From_The_Hang_Position",
       "name": "Bottoms-Up Clean From The Hang Position",
-      "canonical": null
+      "canonical": "clean.kettlebell.bottoms-up"
     },
     {
       "id": "Box_Jump_Multiple_Response",
       "name": "Box Jump (Multiple Response)",
-      "canonical": null
+      "canonical": "box-jump"
     },
     {
       "id": "Box_Skip",
       "name": "Box Skip",
-      "canonical": null
+      "canonical": "box-skip"
     },
     {
       "id": "Box_Squat",
       "name": "Box Squat",
-      "canonical": null
+      "canonical": "squat.barbell.box"
     },
     {
       "id": "Box_Squat_with_Bands",
       "name": "Box Squat with Bands",
-      "canonical": null
+      "canonical": "squat.barbell.box.bands"
     },
     {
       "id": "Box_Squat_with_Chains",
       "name": "Box Squat with Chains",
-      "canonical": null
+      "canonical": "squat.barbell.box.chains"
     },
     {
       "id": "Brachialis-SMR",
       "name": "Brachialis-SMR",
-      "canonical": null
+      "canonical": "smr.brachialis"
     },
     {
       "id": "Bradford_Rocky_Presses",
       "name": "Bradford/Rocky Presses",
-      "canonical": null
+      "canonical": "overhead-press.barbell.bradford"
     },
     {
       "id": "Butt_Lift_Bridge",
       "name": "Butt Lift (Bridge)",
-      "canonical": null
+      "canonical": "glute-bridge"
     },
     {
       "id": "Butt-Ups",
@@ -553,7 +553,7 @@
     {
       "id": "Cable_Chest_Press",
       "name": "Cable Chest Press",
-      "canonical": null
+      "canonical": "chest-press.cable"
     },
     {
       "id": "Cable_Crossover",
@@ -563,122 +563,122 @@
     {
       "id": "Cable_Crunch",
       "name": "Cable Crunch",
-      "canonical": null
+      "canonical": "crunch.cable"
     },
     {
       "id": "Cable_Deadlifts",
       "name": "Cable Deadlifts",
-      "canonical": null
+      "canonical": "deadlift.cable"
     },
     {
       "id": "Cable_Hammer_Curls_-_Rope_Attachment",
       "name": "Cable Hammer Curls - Rope Attachment",
-      "canonical": null
+      "canonical": "curl.cable.hammer"
     },
     {
       "id": "Cable_Hip_Adduction",
       "name": "Cable Hip Adduction",
-      "canonical": null
+      "canonical": "hip-adduction.cable"
     },
     {
       "id": "Cable_Incline_Pushdown",
       "name": "Cable Incline Pushdown",
-      "canonical": null
+      "canonical": "triceps-pushdown.cable"
     },
     {
       "id": "Cable_Incline_Triceps_Extension",
       "name": "Cable Incline Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.cable.incline"
     },
     {
       "id": "Cable_Internal_Rotation",
       "name": "Cable Internal Rotation",
-      "canonical": null
+      "canonical": "internal-rotation.cable"
     },
     {
       "id": "Cable_Iron_Cross",
       "name": "Cable Iron Cross",
-      "canonical": null
+      "canonical": "fly.cable.iron-cross"
     },
     {
       "id": "Cable_Judo_Flip",
       "name": "Cable Judo Flip",
-      "canonical": null
+      "canonical": "rotation.cable.judo-flip"
     },
     {
       "id": "Cable_Lying_Triceps_Extension",
       "name": "Cable Lying Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.cable.lying"
     },
     {
       "id": "Cable_One_Arm_Tricep_Extension",
       "name": "Cable One Arm Tricep Extension",
-      "canonical": null
+      "canonical": "triceps-extension.cable.one-arm"
     },
     {
       "id": "Cable_Preacher_Curl",
       "name": "Cable Preacher Curl",
-      "canonical": null
+      "canonical": "curl.cable.preacher"
     },
     {
       "id": "Cable_Rear_Delt_Fly",
       "name": "Cable Rear Delt Fly",
-      "canonical": null
+      "canonical": "reverse-fly.cable"
     },
     {
       "id": "Cable_Reverse_Crunch",
       "name": "Cable Reverse Crunch",
-      "canonical": null
+      "canonical": "crunch.cable.reverse"
     },
     {
       "id": "Cable_Rope_Overhead_Triceps_Extension",
       "name": "Cable Rope Overhead Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.cable.overhead"
     },
     {
       "id": "Cable_Rope_Rear-Delt_Rows",
       "name": "Cable Rope Rear-Delt Rows",
-      "canonical": null
+      "canonical": "row.cable.rear-delt"
     },
     {
       "id": "Cable_Russian_Twists",
       "name": "Cable Russian Twists",
-      "canonical": null
+      "canonical": "russian-twist.cable"
     },
     {
       "id": "Cable_Seated_Crunch",
       "name": "Cable Seated Crunch",
-      "canonical": null
+      "canonical": "crunch.cable.seated"
     },
     {
       "id": "Cable_Seated_Lateral_Raise",
       "name": "Cable Seated Lateral Raise",
-      "canonical": null
+      "canonical": "lateral-raise.cable.seated"
     },
     {
       "id": "Cable_Shoulder_Press",
       "name": "Cable Shoulder Press",
-      "canonical": null
+      "canonical": "shoulder-press.cable"
     },
     {
       "id": "Cable_Shrugs",
       "name": "Cable Shrugs",
-      "canonical": null
+      "canonical": "shrug.cable"
     },
     {
       "id": "Cable_Wrist_Curl",
       "name": "Cable Wrist Curl",
-      "canonical": null
+      "canonical": "wrist-curl.cable"
     },
     {
       "id": "Calf_Press",
       "name": "Calf Press",
-      "canonical": null
+      "canonical": "calf-raise.leg-press-machine"
     },
     {
       "id": "Calf_Press_On_The_Leg_Press_Machine",
       "name": "Calf Press On The Leg Press Machine",
-      "canonical": null
+      "canonical": "calf-raise.leg-press-machine"
     },
     {
       "id": "Calf_Raise_On_A_Dumbbell",
@@ -688,77 +688,77 @@
     {
       "id": "Calf_Raises_-_With_Bands",
       "name": "Calf Raises - With Bands",
-      "canonical": null
+      "canonical": "calf-raise.band"
     },
     {
       "id": "Calf_Stretch_Elbows_Against_Wall",
       "name": "Calf Stretch Elbows Against Wall",
-      "canonical": null
+      "canonical": "calf-stretch.wall"
     },
     {
       "id": "Calf_Stretch_Hands_Against_Wall",
       "name": "Calf Stretch Hands Against Wall",
-      "canonical": null
+      "canonical": "calf-stretch.wall"
     },
     {
       "id": "Calf-Machine_Shoulder_Shrug",
       "name": "Calf-Machine Shoulder Shrug",
-      "canonical": null
+      "canonical": "shrug.machine"
     },
     {
       "id": "Calves-SMR",
       "name": "Calves-SMR",
-      "canonical": null
+      "canonical": "foam-roll.calves"
     },
     {
       "id": "Car_Deadlift",
       "name": "Car Deadlift",
-      "canonical": null
+      "canonical": "car-deadlift"
     },
     {
       "id": "Car_Drivers",
       "name": "Car Drivers",
-      "canonical": null
+      "canonical": "car-drivers"
     },
     {
       "id": "Carioca_Quick_Step",
       "name": "Carioca Quick Step",
-      "canonical": null
+      "canonical": "carioca"
     },
     {
       "id": "Cat_Stretch",
       "name": "Cat Stretch",
-      "canonical": null
+      "canonical": "cat-cow"
     },
     {
       "id": "Catch_and_Overhead_Throw",
       "name": "Catch and Overhead Throw",
-      "canonical": null
+      "canonical": "medicine-ball-throw.overhead"
     },
     {
       "id": "Chain_Handle_Extension",
       "name": "Chain Handle Extension",
-      "canonical": null
+      "canonical": "triceps-pushdown.cable"
     },
     {
       "id": "Chain_Press",
       "name": "Chain Press",
-      "canonical": null
+      "canonical": "bench-press.barbell.chains"
     },
     {
       "id": "Chair_Leg_Extended_Stretch",
       "name": "Chair Leg Extended Stretch",
-      "canonical": null
+      "canonical": "hamstring-stretch.chair"
     },
     {
       "id": "Chair_Lower_Back_Stretch",
       "name": "Chair Lower Back Stretch",
-      "canonical": null
+      "canonical": "lower-back-stretch.chair"
     },
     {
       "id": "Chair_Squat",
       "name": "Chair Squat",
-      "canonical": null
+      "canonical": "squat.bodyweight.chair"
     },
     {
       "id": "Chair_Upper_Body_Stretch",
@@ -768,12 +768,12 @@
     {
       "id": "Chest_And_Front_Of_Shoulder_Stretch",
       "name": "Chest And Front Of Shoulder Stretch",
-      "canonical": null
+      "canonical": "chest-stretch"
     },
     {
       "id": "Chest_Push_from_3_point_stance",
       "name": "Chest Push from 3 point stance",
-      "canonical": null
+      "canonical": "chest-pass.medicine-ball"
     },
     {
       "id": "Chest_Push_multiple_response",
@@ -793,22 +793,22 @@
     {
       "id": "Chest_Stretch_on_Stability_Ball",
       "name": "Chest Stretch on Stability Ball",
-      "canonical": null
+      "canonical": "chest-stretch.stability-ball"
     },
     {
       "id": "Childs_Pose",
       "name": "Child's Pose",
-      "canonical": null
+      "canonical": "childs-pose"
     },
     {
       "id": "Chin_To_Chest_Stretch",
       "name": "Chin To Chest Stretch",
-      "canonical": null
+      "canonical": "neck-stretch.chin-to-chest"
     },
     {
       "id": "Chin-Up",
       "name": "Chin-Up",
-      "canonical": null
+      "canonical": "pull-up.supinated"
     },
     {
       "id": "Circus_Bell",
@@ -818,7 +818,7 @@
     {
       "id": "Clean",
       "name": "Clean",
-      "canonical": null
+      "canonical": "clean.barbell"
     },
     {
       "id": "Clean_and_Jerk",
@@ -828,47 +828,47 @@
     {
       "id": "Clean_and_Press",
       "name": "Clean and Press",
-      "canonical": null
+      "canonical": "clean-and-press.barbell"
     },
     {
       "id": "Clean_Deadlift",
       "name": "Clean Deadlift",
-      "canonical": null
+      "canonical": "clean-deadlift.barbell"
     },
     {
       "id": "Clean_from_Blocks",
       "name": "Clean from Blocks",
-      "canonical": null
+      "canonical": "clean.barbell.blocks"
     },
     {
       "id": "Clean_Pull",
       "name": "Clean Pull",
-      "canonical": null
+      "canonical": "clean-pull.barbell"
     },
     {
       "id": "Clean_Shrug",
       "name": "Clean Shrug",
-      "canonical": null
+      "canonical": "clean-shrug.barbell"
     },
     {
       "id": "Clock_Push-Up",
       "name": "Clock Push-Up",
-      "canonical": null
+      "canonical": "push-up.clock"
     },
     {
       "id": "Close-Grip_Barbell_Bench_Press",
       "name": "Close-Grip Barbell Bench Press",
-      "canonical": null
+      "canonical": "bench-press.barbell.close-grip"
     },
     {
       "id": "Close-Grip_Dumbbell_Press",
       "name": "Close-Grip Dumbbell Press",
-      "canonical": null
+      "canonical": "bench-press.dumbbell.close-grip"
     },
     {
       "id": "Close-Grip_EZ_Bar_Curl",
       "name": "Close-Grip EZ Bar Curl",
-      "canonical": null
+      "canonical": "curl.ez-bar.close-grip"
     },
     {
       "id": "Close-Grip_EZ-Bar_Curl_with_Band",
@@ -878,72 +878,72 @@
     {
       "id": "Close-Grip_EZ-Bar_Press",
       "name": "Close-Grip EZ-Bar Press",
-      "canonical": null
+      "canonical": "bench-press.ez-bar.close-grip"
     },
     {
       "id": "Close-Grip_Front_Lat_Pulldown",
       "name": "Close-Grip Front Lat Pulldown",
-      "canonical": null
+      "canonical": "lat-pulldown.cable.close-grip"
     },
     {
       "id": "Close-Grip_Push-Up_off_of_a_Dumbbell",
       "name": "Close-Grip Push-Up off of a Dumbbell",
-      "canonical": null
+      "canonical": "push-up.dumbbell.close-grip"
     },
     {
       "id": "Close-Grip_Standing_Barbell_Curl",
       "name": "Close-Grip Standing Barbell Curl",
-      "canonical": null
+      "canonical": "curl.barbell.close-grip"
     },
     {
       "id": "Cocoons",
       "name": "Cocoons",
-      "canonical": null
+      "canonical": "cocoon-hold"
     },
     {
       "id": "Conans_Wheel",
       "name": "Conan's Wheel",
-      "canonical": null
+      "canonical": "conans-wheel"
     },
     {
       "id": "Concentration_Curls",
       "name": "Concentration Curls",
-      "canonical": null
+      "canonical": "curl.dumbbell.concentration"
     },
     {
       "id": "Cross_Body_Hammer_Curl",
       "name": "Cross Body Hammer Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.hammer.cross-body"
     },
     {
       "id": "Cross_Over_-_With_Bands",
       "name": "Cross Over - With Bands",
-      "canonical": null
+      "canonical": "chest-fly.band"
     },
     {
       "id": "Cross-Body_Crunch",
       "name": "Cross-Body Crunch",
-      "canonical": null
+      "canonical": "crunch.cross-body"
     },
     {
       "id": "Crossover_Reverse_Lunge",
       "name": "Crossover Reverse Lunge",
-      "canonical": null
+      "canonical": "lunge.reverse.crossover"
     },
     {
       "id": "Crucifix",
       "name": "Crucifix",
-      "canonical": null
+      "canonical": "crucifix-hold"
     },
     {
       "id": "Crunch_-_Hands_Overhead",
       "name": "Crunch - Hands Overhead",
-      "canonical": null
+      "canonical": "crunch.hands-overhead"
     },
     {
       "id": "Crunch_-_Legs_On_Exercise_Ball",
       "name": "Crunch - Legs On Exercise Ball",
-      "canonical": null
+      "canonical": "crunch.stability-ball"
     },
     {
       "id": "Crunches",
@@ -953,32 +953,32 @@
     {
       "id": "Cuban_Press",
       "name": "Cuban Press",
-      "canonical": null
+      "canonical": "cuban-press"
     },
     {
       "id": "Dancers_Stretch",
       "name": "Dancer's Stretch",
-      "canonical": null
+      "canonical": "dancers-stretch"
     },
     {
       "id": "Dead_Bug",
       "name": "Dead Bug",
-      "canonical": null
+      "canonical": "dead-bug"
     },
     {
       "id": "Deadlift_with_Bands",
       "name": "Deadlift with Bands",
-      "canonical": null
+      "canonical": "deadlift.barbell.bands"
     },
     {
       "id": "Deadlift_with_Chains",
       "name": "Deadlift with Chains",
-      "canonical": null
+      "canonical": "deadlift.barbell.chains"
     },
     {
       "id": "Decline_Barbell_Bench_Press",
       "name": "Decline Barbell Bench Press",
-      "canonical": null
+      "canonical": "bench-press.barbell.decline"
     },
     {
       "id": "Decline_Close-Grip_Bench_To_Skull_Crusher",
@@ -988,57 +988,57 @@
     {
       "id": "Decline_Crunch",
       "name": "Decline Crunch",
-      "canonical": null
+      "canonical": "crunch.decline"
     },
     {
       "id": "Decline_Dumbbell_Bench_Press",
       "name": "Decline Dumbbell Bench Press",
-      "canonical": null
+      "canonical": "bench-press.dumbbell.decline"
     },
     {
       "id": "Decline_Dumbbell_Flyes",
       "name": "Decline Dumbbell Flyes",
-      "canonical": null
+      "canonical": "chest-fly.dumbbell.decline"
     },
     {
       "id": "Decline_Dumbbell_Triceps_Extension",
       "name": "Decline Dumbbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.decline"
     },
     {
       "id": "Decline_EZ_Bar_Triceps_Extension",
       "name": "Decline EZ Bar Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.ez-bar.decline"
     },
     {
       "id": "Decline_Oblique_Crunch",
       "name": "Decline Oblique Crunch",
-      "canonical": null
+      "canonical": "crunch.decline.oblique"
     },
     {
       "id": "Decline_Push-Up",
       "name": "Decline Push-Up",
-      "canonical": null
+      "canonical": "push-up.decline"
     },
     {
       "id": "Decline_Reverse_Crunch",
       "name": "Decline Reverse Crunch",
-      "canonical": null
+      "canonical": "reverse-crunch.decline"
     },
     {
       "id": "Decline_Smith_Press",
       "name": "Decline Smith Press",
-      "canonical": null
+      "canonical": "bench-press.smith-machine.decline"
     },
     {
       "id": "Deficit_Deadlift",
       "name": "Deficit Deadlift",
-      "canonical": null
+      "canonical": "deadlift.barbell.deficit"
     },
     {
       "id": "Depth_Jump_Leap",
       "name": "Depth Jump Leap",
-      "canonical": null
+      "canonical": "depth-jump"
     },
     {
       "id": "Dip_Machine",
@@ -1058,37 +1058,37 @@
     {
       "id": "Donkey_Calf_Raises",
       "name": "Donkey Calf Raises",
-      "canonical": null
+      "canonical": "calf-raise.donkey"
     },
     {
       "id": "Double_Kettlebell_Alternating_Hang_Clean",
       "name": "Double Kettlebell Alternating Hang Clean",
-      "canonical": null
+      "canonical": "clean.kettlebell.double.hang"
     },
     {
       "id": "Double_Kettlebell_Jerk",
       "name": "Double Kettlebell Jerk",
-      "canonical": null
+      "canonical": "jerk.kettlebell.double"
     },
     {
       "id": "Double_Kettlebell_Push_Press",
       "name": "Double Kettlebell Push Press",
-      "canonical": null
+      "canonical": "push-press.kettlebell.double"
     },
     {
       "id": "Double_Kettlebell_Snatch",
       "name": "Double Kettlebell Snatch",
-      "canonical": null
+      "canonical": "kettlebell-snatch.double"
     },
     {
       "id": "Double_Kettlebell_Windmill",
       "name": "Double Kettlebell Windmill",
-      "canonical": null
+      "canonical": "windmill.kettlebell.double"
     },
     {
       "id": "Double_Leg_Butt_Kick",
       "name": "Double Leg Butt Kick",
-      "canonical": null
+      "canonical": "butt-kick.bilateral"
     },
     {
       "id": "Downward_Facing_Balance",
@@ -1098,7 +1098,7 @@
     {
       "id": "Drag_Curl",
       "name": "Drag Curl",
-      "canonical": null
+      "canonical": "curl.barbell.drag"
     },
     {
       "id": "Drop_Push",
@@ -1108,7 +1108,7 @@
     {
       "id": "Dumbbell_Alternate_Bicep_Curl",
       "name": "Dumbbell Alternate Bicep Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell"
     },
     {
       "id": "Dumbbell_Bench_Press",
@@ -1118,7 +1118,7 @@
     {
       "id": "Dumbbell_Bench_Press_with_Neutral_Grip",
       "name": "Dumbbell Bench Press with Neutral Grip",
-      "canonical": null
+      "canonical": "bench-press.dumbbell.flat.neutral-grip"
     },
     {
       "id": "Dumbbell_Bicep_Curl",
@@ -1128,12 +1128,12 @@
     {
       "id": "Dumbbell_Clean",
       "name": "Dumbbell Clean",
-      "canonical": null
+      "canonical": "clean.dumbbell"
     },
     {
       "id": "Dumbbell_Floor_Press",
       "name": "Dumbbell Floor Press",
-      "canonical": null
+      "canonical": "floor-press.dumbbell"
     },
     {
       "id": "Dumbbell_Flyes",
@@ -1143,57 +1143,57 @@
     {
       "id": "Dumbbell_Incline_Row",
       "name": "Dumbbell Incline Row",
-      "canonical": null
+      "canonical": "row.dumbbell.incline"
     },
     {
       "id": "Dumbbell_Incline_Shoulder_Raise",
       "name": "Dumbbell Incline Shoulder Raise",
-      "canonical": null
+      "canonical": "lateral-raise.dumbbell.incline"
     },
     {
       "id": "Dumbbell_Lunges",
       "name": "Dumbbell Lunges",
-      "canonical": null
+      "canonical": "lunge.dumbbell"
     },
     {
       "id": "Dumbbell_Lying_One-Arm_Rear_Lateral_Raise",
       "name": "Dumbbell Lying One-Arm Rear Lateral Raise",
-      "canonical": null
+      "canonical": "reverse-fly.dumbbell.lying.one-arm"
     },
     {
       "id": "Dumbbell_Lying_Pronation",
       "name": "Dumbbell Lying Pronation",
-      "canonical": null
+      "canonical": "pronation.dumbbell.lying"
     },
     {
       "id": "Dumbbell_Lying_Rear_Lateral_Raise",
       "name": "Dumbbell Lying Rear Lateral Raise",
-      "canonical": null
+      "canonical": "reverse-fly.dumbbell.lying"
     },
     {
       "id": "Dumbbell_Lying_Supination",
       "name": "Dumbbell Lying Supination",
-      "canonical": null
+      "canonical": "supination.dumbbell.lying"
     },
     {
       "id": "Dumbbell_One-Arm_Shoulder_Press",
       "name": "Dumbbell One-Arm Shoulder Press",
-      "canonical": null
+      "canonical": "shoulder-press.dumbbell.one-arm"
     },
     {
       "id": "Dumbbell_One-Arm_Triceps_Extension",
       "name": "Dumbbell One-Arm Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.one-arm"
     },
     {
       "id": "Dumbbell_One-Arm_Upright_Row",
       "name": "Dumbbell One-Arm Upright Row",
-      "canonical": null
+      "canonical": "upright-row.dumbbell.one-arm"
     },
     {
       "id": "Dumbbell_Prone_Incline_Curl",
       "name": "Dumbbell Prone Incline Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.incline"
     },
     {
       "id": "Dumbbell_Raise",
@@ -1203,12 +1203,12 @@
     {
       "id": "Dumbbell_Rear_Lunge",
       "name": "Dumbbell Rear Lunge",
-      "canonical": null
+      "canonical": "lunge.dumbbell.reverse"
     },
     {
       "id": "Dumbbell_Scaption",
       "name": "Dumbbell Scaption",
-      "canonical": null
+      "canonical": "scaption.dumbbell"
     },
     {
       "id": "Dumbbell_Seated_Box_Jump",
@@ -1218,7 +1218,7 @@
     {
       "id": "Dumbbell_Seated_One-Leg_Calf_Raise",
       "name": "Dumbbell Seated One-Leg Calf Raise",
-      "canonical": null
+      "canonical": "calf-raise.seated.dumbbell.one-leg"
     },
     {
       "id": "Dumbbell_Shoulder_Press",
@@ -1233,27 +1233,27 @@
     {
       "id": "Dumbbell_Side_Bend",
       "name": "Dumbbell Side Bend",
-      "canonical": null
+      "canonical": "side-bend.dumbbell"
     },
     {
       "id": "Dumbbell_Squat",
       "name": "Dumbbell Squat",
-      "canonical": null
+      "canonical": "squat.dumbbell"
     },
     {
       "id": "Dumbbell_Squat_To_A_Bench",
       "name": "Dumbbell Squat To A Bench",
-      "canonical": null
+      "canonical": "squat.dumbbell.box"
     },
     {
       "id": "Dumbbell_Step_Ups",
       "name": "Dumbbell Step Ups",
-      "canonical": null
+      "canonical": "step-up.dumbbell"
     },
     {
       "id": "Dumbbell_Tricep_Extension_-Pronated_Grip",
       "name": "Dumbbell Tricep Extension -Pronated Grip",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.pronated"
     },
     {
       "id": "Dynamic_Back_Stretch",
@@ -1268,12 +1268,12 @@
     {
       "id": "Elbow_Circles",
       "name": "Elbow Circles",
-      "canonical": null
+      "canonical": "elbow-circles"
     },
     {
       "id": "Elbow_to_Knee",
       "name": "Elbow to Knee",
-      "canonical": null
+      "canonical": "elbow-to-knee"
     },
     {
       "id": "Elbows_Back",
@@ -1298,47 +1298,47 @@
     {
       "id": "Exercise_Ball_Crunch",
       "name": "Exercise Ball Crunch",
-      "canonical": null
+      "canonical": "crunch.stability-ball"
     },
     {
       "id": "Exercise_Ball_Pull-In",
       "name": "Exercise Ball Pull-In",
-      "canonical": null
+      "canonical": "leg-pull-in.stability-ball"
     },
     {
       "id": "Extended_Range_One-Arm_Kettlebell_Floor_Press",
       "name": "Extended Range One-Arm Kettlebell Floor Press",
-      "canonical": null
+      "canonical": "floor-press.kettlebell.one-arm"
     },
     {
       "id": "External_Rotation",
       "name": "External Rotation",
-      "canonical": null
+      "canonical": "external-rotation.dumbbell"
     },
     {
       "id": "External_Rotation_with_Band",
       "name": "External Rotation with Band",
-      "canonical": null
+      "canonical": "external-rotation.band"
     },
     {
       "id": "External_Rotation_with_Cable",
       "name": "External Rotation with Cable",
-      "canonical": null
+      "canonical": "external-rotation.cable"
     },
     {
       "id": "EZ-Bar_Curl",
       "name": "EZ-Bar Curl",
-      "canonical": null
+      "canonical": "curl.ez-bar"
     },
     {
       "id": "EZ-Bar_Skullcrusher",
       "name": "EZ-Bar Skullcrusher",
-      "canonical": null
+      "canonical": "triceps-extension.ez-bar"
     },
     {
       "id": "Face_Pull",
       "name": "Face Pull",
-      "canonical": null
+      "canonical": "face-pull"
     },
     {
       "id": "Farmers_Walk",
@@ -1348,57 +1348,57 @@
     {
       "id": "Fast_Skipping",
       "name": "Fast Skipping",
-      "canonical": null
+      "canonical": "skip.fast"
     },
     {
       "id": "Finger_Curls",
       "name": "Finger Curls",
-      "canonical": null
+      "canonical": "finger-curl.barbell"
     },
     {
       "id": "Flat_Bench_Cable_Flyes",
       "name": "Flat Bench Cable Flyes",
-      "canonical": null
+      "canonical": "chest-fly.cable.flat"
     },
     {
       "id": "Flat_Bench_Leg_Pull-In",
       "name": "Flat Bench Leg Pull-In",
-      "canonical": null
+      "canonical": "leg-pull-in.bench"
     },
     {
       "id": "Flat_Bench_Lying_Leg_Raise",
       "name": "Flat Bench Lying Leg Raise",
-      "canonical": null
+      "canonical": "leg-raise.bench"
     },
     {
       "id": "Flexor_Incline_Dumbbell_Curls",
       "name": "Flexor Incline Dumbbell Curls",
-      "canonical": null
+      "canonical": "curl.dumbbell.incline"
     },
     {
       "id": "Floor_Glute-Ham_Raise",
       "name": "Floor Glute-Ham Raise",
-      "canonical": null
+      "canonical": "glute-ham-raise.floor"
     },
     {
       "id": "Floor_Press",
       "name": "Floor Press",
-      "canonical": null
+      "canonical": "floor-press.barbell"
     },
     {
       "id": "Floor_Press_with_Chains",
       "name": "Floor Press with Chains",
-      "canonical": null
+      "canonical": "floor-press.barbell.chains"
     },
     {
       "id": "Flutter_Kicks",
       "name": "Flutter Kicks",
-      "canonical": null
+      "canonical": "flutter-kicks"
     },
     {
       "id": "Foot-SMR",
       "name": "Foot-SMR",
-      "canonical": null
+      "canonical": "foot-smr"
     },
     {
       "id": "Forward_Drag_with_Press",
@@ -1408,22 +1408,22 @@
     {
       "id": "Frankenstein_Squat",
       "name": "Frankenstein Squat",
-      "canonical": null
+      "canonical": "squat.frankenstein"
     },
     {
       "id": "Freehand_Jump_Squat",
       "name": "Freehand Jump Squat",
-      "canonical": null
+      "canonical": "squat.jump"
     },
     {
       "id": "Frog_Hops",
       "name": "Frog Hops",
-      "canonical": null
+      "canonical": "frog-hop"
     },
     {
       "id": "Frog_Sit-Ups",
       "name": "Frog Sit-Ups",
-      "canonical": null
+      "canonical": "sit-up.frog"
     },
     {
       "id": "Front_Barbell_Squat",
@@ -1433,82 +1433,82 @@
     {
       "id": "Front_Barbell_Squat_To_A_Bench",
       "name": "Front Barbell Squat To A Bench",
-      "canonical": null
+      "canonical": "squat.barbell.front.box"
     },
     {
       "id": "Front_Box_Jump",
       "name": "Front Box Jump",
-      "canonical": null
+      "canonical": "box-jump"
     },
     {
       "id": "Front_Cable_Raise",
       "name": "Front Cable Raise",
-      "canonical": null
+      "canonical": "front-raise.cable"
     },
     {
       "id": "Front_Cone_Hops_or_hurdle_hops",
       "name": "Front Cone Hops (or hurdle hops)",
-      "canonical": null
+      "canonical": "hurdle-hop"
     },
     {
       "id": "Front_Dumbbell_Raise",
       "name": "Front Dumbbell Raise",
-      "canonical": null
+      "canonical": "front-raise.dumbbell"
     },
     {
       "id": "Front_Incline_Dumbbell_Raise",
       "name": "Front Incline Dumbbell Raise",
-      "canonical": null
+      "canonical": "front-raise.dumbbell.incline"
     },
     {
       "id": "Front_Leg_Raises",
       "name": "Front Leg Raises",
-      "canonical": null
+      "canonical": "leg-raise.standing.front"
     },
     {
       "id": "Front_Plate_Raise",
       "name": "Front Plate Raise",
-      "canonical": null
+      "canonical": "front-raise.plate"
     },
     {
       "id": "Front_Raise_And_Pullover",
       "name": "Front Raise And Pullover",
-      "canonical": null
+      "canonical": "front-raise.pullover.barbell"
     },
     {
       "id": "Front_Squat_Clean_Grip",
       "name": "Front Squat (Clean Grip)",
-      "canonical": null
+      "canonical": "squat.barbell.front"
     },
     {
       "id": "Front_Squats_With_Two_Kettlebells",
       "name": "Front Squats With Two Kettlebells",
-      "canonical": null
+      "canonical": "squat.kettlebell.double.front"
     },
     {
       "id": "Front_Two-Dumbbell_Raise",
       "name": "Front Two-Dumbbell Raise",
-      "canonical": null
+      "canonical": "front-raise.dumbbell"
     },
     {
       "id": "Full_Range-Of-Motion_Lat_Pulldown",
       "name": "Full Range-Of-Motion Lat Pulldown",
-      "canonical": null
+      "canonical": "lat-pulldown.cable"
     },
     {
       "id": "Gironda_Sternum_Chins",
       "name": "Gironda Sternum Chins",
-      "canonical": null
+      "canonical": "pull-up.sternum"
     },
     {
       "id": "Glute_Ham_Raise",
       "name": "Glute Ham Raise",
-      "canonical": null
+      "canonical": "glute-ham-raise"
     },
     {
       "id": "Glute_Kickback",
       "name": "Glute Kickback",
-      "canonical": null
+      "canonical": "glute-kickback"
     },
     {
       "id": "Goblet_Squat",
@@ -1518,12 +1518,12 @@
     {
       "id": "Good_Morning",
       "name": "Good Morning",
-      "canonical": null
+      "canonical": "good-morning.barbell"
     },
     {
       "id": "Good_Morning_off_Pins",
       "name": "Good Morning off Pins",
-      "canonical": null
+      "canonical": "good-morning.barbell.pins"
     },
     {
       "id": "Gorilla_Chin_Crunch",
@@ -1533,62 +1533,62 @@
     {
       "id": "Groin_and_Back_Stretch",
       "name": "Groin and Back Stretch",
-      "canonical": null
+      "canonical": "groin-and-back-stretch"
     },
     {
       "id": "Groiners",
       "name": "Groiners",
-      "canonical": null
+      "canonical": "groiners"
     },
     {
       "id": "Hack_Squat",
       "name": "Hack Squat",
-      "canonical": null
+      "canonical": "squat.barbell.hack"
     },
     {
       "id": "Hammer_Curls",
       "name": "Hammer Curls",
-      "canonical": null
+      "canonical": "curl.dumbbell.hammer"
     },
     {
       "id": "Hammer_Grip_Incline_DB_Bench_Press",
       "name": "Hammer Grip Incline DB Bench Press",
-      "canonical": null
+      "canonical": "bench-press.dumbbell.incline.neutral-grip"
     },
     {
       "id": "Hamstring_Stretch",
       "name": "Hamstring Stretch",
-      "canonical": null
+      "canonical": "hamstring-stretch.standing"
     },
     {
       "id": "Hamstring-SMR",
       "name": "Hamstring-SMR",
-      "canonical": null
+      "canonical": "foam-roll.hamstrings"
     },
     {
       "id": "Handstand_Push-Ups",
       "name": "Handstand Push-Ups",
-      "canonical": null
+      "canonical": "handstand-push-up"
     },
     {
       "id": "Hang_Clean",
       "name": "Hang Clean",
-      "canonical": null
+      "canonical": "clean.barbell.hang"
     },
     {
       "id": "Hang_Clean_-_Below_the_Knees",
       "name": "Hang Clean - Below the Knees",
-      "canonical": null
+      "canonical": "clean.barbell.hang.below-knee"
     },
     {
       "id": "Hang_Snatch",
       "name": "Hang Snatch",
-      "canonical": null
+      "canonical": "snatch.barbell.hang"
     },
     {
       "id": "Hang_Snatch_-_Below_Knees",
       "name": "Hang Snatch - Below Knees",
-      "canonical": null
+      "canonical": "snatch.barbell.hang.below-knee"
     },
     {
       "id": "Hanging_Bar_Good_Morning",
@@ -1598,17 +1598,17 @@
     {
       "id": "Hanging_Leg_Raise",
       "name": "Hanging Leg Raise",
-      "canonical": null
+      "canonical": "hanging-leg-raise"
     },
     {
       "id": "Hanging_Pike",
       "name": "Hanging Pike",
-      "canonical": null
+      "canonical": "hanging-leg-raise.pike"
     },
     {
       "id": "Heaving_Snatch_Balance",
       "name": "Heaving Snatch Balance",
-      "canonical": null
+      "canonical": "snatch-balance.heaving"
     },
     {
       "id": "Heavy_Bag_Thrust",
@@ -1618,27 +1618,27 @@
     {
       "id": "High_Cable_Curls",
       "name": "High Cable Curls",
-      "canonical": null
+      "canonical": "curl.cable.high"
     },
     {
       "id": "Hip_Circles_prone",
       "name": "Hip Circles (prone)",
-      "canonical": null
+      "canonical": "hip-circles.prone"
     },
     {
       "id": "Hip_Extension_with_Bands",
       "name": "Hip Extension with Bands",
-      "canonical": null
+      "canonical": "hip-extension.band"
     },
     {
       "id": "Hip_Flexion_with_Band",
       "name": "Hip Flexion with Band",
-      "canonical": null
+      "canonical": "hip-flexion.band"
     },
     {
       "id": "Hip_Lift_with_Band",
       "name": "Hip Lift with Band",
-      "canonical": null
+      "canonical": "hip-lift.band"
     },
     {
       "id": "Hug_A_Ball",
@@ -1648,117 +1648,117 @@
     {
       "id": "Hug_Knees_To_Chest",
       "name": "Hug Knees To Chest",
-      "canonical": null
+      "canonical": "knees-to-chest-stretch"
     },
     {
       "id": "Hurdle_Hops",
       "name": "Hurdle Hops",
-      "canonical": null
+      "canonical": "hurdle-hop"
     },
     {
       "id": "Hyperextensions_Back_Extensions",
       "name": "Hyperextensions (Back Extensions)",
-      "canonical": null
+      "canonical": "back-extension.hyperextension-bench"
     },
     {
       "id": "Hyperextensions_With_No_Hyperextension_Bench",
       "name": "Hyperextensions With No Hyperextension Bench",
-      "canonical": null
+      "canonical": "back-extension.floor"
     },
     {
       "id": "Iliotibial_Tract-SMR",
       "name": "Iliotibial Tract-SMR",
-      "canonical": null
+      "canonical": "foam-roll.it-band"
     },
     {
       "id": "Inchworm",
       "name": "Inchworm",
-      "canonical": null
+      "canonical": "inchworm"
     },
     {
       "id": "Incline_Barbell_Triceps_Extension",
       "name": "Incline Barbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.barbell.incline"
     },
     {
       "id": "Incline_Bench_Pull",
       "name": "Incline Bench Pull",
-      "canonical": null
+      "canonical": "row.barbell.chest-supported"
     },
     {
       "id": "Incline_Cable_Chest_Press",
       "name": "Incline Cable Chest Press",
-      "canonical": null
+      "canonical": "bench-press.cable.incline"
     },
     {
       "id": "Incline_Cable_Flye",
       "name": "Incline Cable Flye",
-      "canonical": null
+      "canonical": "chest-fly.cable.incline"
     },
     {
       "id": "Incline_Dumbbell_Bench_With_Palms_Facing_In",
       "name": "Incline Dumbbell Bench With Palms Facing In",
-      "canonical": null
+      "canonical": "bench-press.dumbbell.incline.neutral-grip"
     },
     {
       "id": "Incline_Dumbbell_Curl",
       "name": "Incline Dumbbell Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.incline"
     },
     {
       "id": "Incline_Dumbbell_Flyes",
       "name": "Incline Dumbbell Flyes",
-      "canonical": null
+      "canonical": "chest-fly.dumbbell.incline"
     },
     {
       "id": "Incline_Dumbbell_Flyes_-_With_A_Twist",
       "name": "Incline Dumbbell Flyes - With A Twist",
-      "canonical": null
+      "canonical": "chest-fly.dumbbell.incline"
     },
     {
       "id": "Incline_Dumbbell_Press",
       "name": "Incline Dumbbell Press",
-      "canonical": null
+      "canonical": "bench-press.dumbbell.incline"
     },
     {
       "id": "Incline_Hammer_Curls",
       "name": "Incline Hammer Curls",
-      "canonical": null
+      "canonical": "curl.dumbbell.incline.hammer"
     },
     {
       "id": "Incline_Inner_Biceps_Curl",
       "name": "Incline Inner Biceps Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.incline"
     },
     {
       "id": "Incline_Push-Up",
       "name": "Incline Push-Up",
-      "canonical": null
+      "canonical": "push-up.incline"
     },
     {
       "id": "Incline_Push-Up_Close-Grip",
       "name": "Incline Push-Up Close-Grip",
-      "canonical": null
+      "canonical": "push-up.incline.close-grip"
     },
     {
       "id": "Incline_Push-Up_Depth_Jump",
       "name": "Incline Push-Up Depth Jump",
-      "canonical": null
+      "canonical": "push-up.incline.depth-jump"
     },
     {
       "id": "Incline_Push-Up_Medium",
       "name": "Incline Push-Up Medium",
-      "canonical": null
+      "canonical": "push-up.incline"
     },
     {
       "id": "Incline_Push-Up_Reverse_Grip",
       "name": "Incline Push-Up Reverse Grip",
-      "canonical": null
+      "canonical": "push-up.incline.reverse-grip"
     },
     {
       "id": "Incline_Push-Up_Wide",
       "name": "Incline Push-Up Wide",
-      "canonical": null
+      "canonical": "push-up.incline.wide-grip"
     },
     {
       "id": "Intermediate_Groin_Stretch",
@@ -1773,42 +1773,42 @@
     {
       "id": "Internal_Rotation_with_Band",
       "name": "Internal Rotation with Band",
-      "canonical": null
+      "canonical": "internal-rotation.band"
     },
     {
       "id": "Inverted_Row",
       "name": "Inverted Row",
-      "canonical": null
+      "canonical": "inverted-row"
     },
     {
       "id": "Inverted_Row_with_Straps",
       "name": "Inverted Row with Straps",
-      "canonical": null
+      "canonical": "inverted-row.suspension"
     },
     {
       "id": "Iron_Cross",
       "name": "Iron Cross",
-      "canonical": null
+      "canonical": "iron-cross"
     },
     {
       "id": "Iron_Crosses_stretch",
       "name": "Iron Crosses (stretch)",
-      "canonical": null
+      "canonical": "iron-cross-stretch"
     },
     {
       "id": "Isometric_Chest_Squeezes",
       "name": "Isometric Chest Squeezes",
-      "canonical": null
+      "canonical": "isometric-chest-squeeze"
     },
     {
       "id": "Isometric_Neck_Exercise_-_Front_And_Back",
       "name": "Isometric Neck Exercise - Front And Back",
-      "canonical": null
+      "canonical": "neck-isometric.front-back"
     },
     {
       "id": "Isometric_Neck_Exercise_-_Sides",
       "name": "Isometric Neck Exercise - Sides",
-      "canonical": null
+      "canonical": "neck-isometric.lateral"
     },
     {
       "id": "Isometric_Wipers",
@@ -1818,37 +1818,37 @@
     {
       "id": "IT_Band_and_Glute_Stretch",
       "name": "IT Band and Glute Stretch",
-      "canonical": null
+      "canonical": "it-band-glute-stretch"
     },
     {
       "id": "Jackknife_Sit-Up",
       "name": "Jackknife Sit-Up",
-      "canonical": null
+      "canonical": "sit-up.jackknife"
     },
     {
       "id": "Janda_Sit-Up",
       "name": "Janda Sit-Up",
-      "canonical": null
+      "canonical": "sit-up.janda"
     },
     {
       "id": "Jefferson_Squats",
       "name": "Jefferson Squats",
-      "canonical": null
+      "canonical": "squat.barbell.jefferson"
     },
     {
       "id": "Jerk_Balance",
       "name": "Jerk Balance",
-      "canonical": null
+      "canonical": "jerk-balance.barbell"
     },
     {
       "id": "Jerk_Dip_Squat",
       "name": "Jerk Dip Squat",
-      "canonical": null
+      "canonical": "squat.barbell.jerk-dip"
     },
     {
       "id": "JM_Press",
       "name": "JM Press",
-      "canonical": null
+      "canonical": "jm-press.barbell"
     },
     {
       "id": "Jogging_Treadmill",
@@ -1858,37 +1858,37 @@
     {
       "id": "Keg_Load",
       "name": "Keg Load",
-      "canonical": null
+      "canonical": "keg-load"
     },
     {
       "id": "Kettlebell_Arnold_Press",
       "name": "Kettlebell Arnold Press",
-      "canonical": null
+      "canonical": "shoulder-press.kettlebell.arnold"
     },
     {
       "id": "Kettlebell_Dead_Clean",
       "name": "Kettlebell Dead Clean",
-      "canonical": null
+      "canonical": "clean.kettlebell.dead"
     },
     {
       "id": "Kettlebell_Figure_8",
       "name": "Kettlebell Figure 8",
-      "canonical": null
+      "canonical": "kettlebell-figure-8"
     },
     {
       "id": "Kettlebell_Hang_Clean",
       "name": "Kettlebell Hang Clean",
-      "canonical": null
+      "canonical": "clean.kettlebell.hang"
     },
     {
       "id": "Kettlebell_One-Legged_Deadlift",
       "name": "Kettlebell One-Legged Deadlift",
-      "canonical": null
+      "canonical": "deadlift.kettlebell.single-leg"
     },
     {
       "id": "Kettlebell_Pass_Between_The_Legs",
       "name": "Kettlebell Pass Between The Legs",
-      "canonical": null
+      "canonical": "pass-between-legs.kettlebell"
     },
     {
       "id": "Kettlebell_Pirate_Ships",
@@ -1898,67 +1898,67 @@
     {
       "id": "Kettlebell_Pistol_Squat",
       "name": "Kettlebell Pistol Squat",
-      "canonical": null
+      "canonical": "pistol-squat.kettlebell"
     },
     {
       "id": "Kettlebell_Seated_Press",
       "name": "Kettlebell Seated Press",
-      "canonical": null
+      "canonical": "shoulder-press.kettlebell.seated"
     },
     {
       "id": "Kettlebell_Seesaw_Press",
       "name": "Kettlebell Seesaw Press",
-      "canonical": null
+      "canonical": "shoulder-press.kettlebell.alternating"
     },
     {
       "id": "Kettlebell_Sumo_High_Pull",
       "name": "Kettlebell Sumo High Pull",
-      "canonical": null
+      "canonical": "high-pull.kettlebell.sumo"
     },
     {
       "id": "Kettlebell_Thruster",
       "name": "Kettlebell Thruster",
-      "canonical": null
+      "canonical": "thruster.kettlebell"
     },
     {
       "id": "Kettlebell_Turkish_Get-Up_Lunge_style",
       "name": "Kettlebell Turkish Get-Up (Lunge style)",
-      "canonical": null
+      "canonical": "turkish-get-up.kettlebell.lunge"
     },
     {
       "id": "Kettlebell_Turkish_Get-Up_Squat_style",
       "name": "Kettlebell Turkish Get-Up (Squat style)",
-      "canonical": null
+      "canonical": "turkish-get-up.kettlebell.squat"
     },
     {
       "id": "Kettlebell_Windmill",
       "name": "Kettlebell Windmill",
-      "canonical": null
+      "canonical": "windmill.kettlebell"
     },
     {
       "id": "Kipping_Muscle_Up",
       "name": "Kipping Muscle Up",
-      "canonical": null
+      "canonical": "muscle-up"
     },
     {
       "id": "Knee_Across_The_Body",
       "name": "Knee Across The Body",
-      "canonical": null
+      "canonical": "supine-twist"
     },
     {
       "id": "Knee_Circles",
       "name": "Knee Circles",
-      "canonical": null
+      "canonical": "knee-circles"
     },
     {
       "id": "Knee_Hip_Raise_On_Parallel_Bars",
       "name": "Knee/Hip Raise On Parallel Bars",
-      "canonical": null
+      "canonical": "knee-raise.parallel-bars"
     },
     {
       "id": "Knee_Tuck_Jump",
       "name": "Knee Tuck Jump",
-      "canonical": null
+      "canonical": "tuck-jump"
     },
     {
       "id": "Kneeling_Arm_Drill",
@@ -1968,77 +1968,77 @@
     {
       "id": "Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists",
       "name": "Kneeling Cable Crunch With Alternating Oblique Twists",
-      "canonical": null
+      "canonical": "crunch.cable.kneeling"
     },
     {
       "id": "Kneeling_Cable_Triceps_Extension",
       "name": "Kneeling Cable Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.cable.kneeling"
     },
     {
       "id": "Kneeling_Forearm_Stretch",
       "name": "Kneeling Forearm Stretch",
-      "canonical": null
+      "canonical": "forearm-stretch.kneeling"
     },
     {
       "id": "Kneeling_High_Pulley_Row",
       "name": "Kneeling High Pulley Row",
-      "canonical": null
+      "canonical": "row.cable.kneeling"
     },
     {
       "id": "Kneeling_Hip_Flexor",
       "name": "Kneeling Hip Flexor",
-      "canonical": null
+      "canonical": "hip-flexor-stretch.kneeling"
     },
     {
       "id": "Kneeling_Jump_Squat",
       "name": "Kneeling Jump Squat",
-      "canonical": null
+      "canonical": "jump-squat.kneeling"
     },
     {
       "id": "Kneeling_Single-Arm_High_Pulley_Row",
       "name": "Kneeling Single-Arm High Pulley Row",
-      "canonical": null
+      "canonical": "row.cable.kneeling.one-arm"
     },
     {
       "id": "Kneeling_Squat",
       "name": "Kneeling Squat",
-      "canonical": null
+      "canonical": "squat.kneeling"
     },
     {
       "id": "Landmine_180s",
       "name": "Landmine 180's",
-      "canonical": null
+      "canonical": "landmine-rotation"
     },
     {
       "id": "Landmine_Linear_Jammer",
       "name": "Landmine Linear Jammer",
-      "canonical": null
+      "canonical": "press.landmine.jammer"
     },
     {
       "id": "Lateral_Bound",
       "name": "Lateral Bound",
-      "canonical": null
+      "canonical": "bound.lateral"
     },
     {
       "id": "Lateral_Box_Jump",
       "name": "Lateral Box Jump",
-      "canonical": null
+      "canonical": "box-jump.lateral"
     },
     {
       "id": "Lateral_Cone_Hops",
       "name": "Lateral Cone Hops",
-      "canonical": null
+      "canonical": "cone-hops.lateral"
     },
     {
       "id": "Lateral_Raise_-_With_Bands",
       "name": "Lateral Raise - With Bands",
-      "canonical": null
+      "canonical": "lateral-raise.band"
     },
     {
       "id": "Latissimus_Dorsi-SMR",
       "name": "Latissimus Dorsi-SMR",
-      "canonical": null
+      "canonical": "smr.lats"
     },
     {
       "id": "Leg_Extensions",
@@ -2048,7 +2048,7 @@
     {
       "id": "Leg_Lift",
       "name": "Leg Lift",
-      "canonical": null
+      "canonical": "leg-raise.lying"
     },
     {
       "id": "Leg_Press",
@@ -2058,57 +2058,57 @@
     {
       "id": "Leg_Pull-In",
       "name": "Leg Pull-In",
-      "canonical": null
+      "canonical": "leg-pull-in"
     },
     {
       "id": "Leg-Over_Floor_Press",
       "name": "Leg-Over Floor Press",
-      "canonical": null
+      "canonical": "floor-press.barbell.leg-over"
     },
     {
       "id": "Leg-Up_Hamstring_Stretch",
       "name": "Leg-Up Hamstring Stretch",
-      "canonical": null
+      "canonical": "hamstring-stretch.leg-up"
     },
     {
       "id": "Leverage_Chest_Press",
       "name": "Leverage Chest Press",
-      "canonical": null
+      "canonical": "chest-press.machine"
     },
     {
       "id": "Leverage_Deadlift",
       "name": "Leverage Deadlift",
-      "canonical": null
+      "canonical": "deadlift.machine"
     },
     {
       "id": "Leverage_Decline_Chest_Press",
       "name": "Leverage Decline Chest Press",
-      "canonical": null
+      "canonical": "chest-press.machine.decline"
     },
     {
       "id": "Leverage_High_Row",
       "name": "Leverage High Row",
-      "canonical": null
+      "canonical": "row.machine.high"
     },
     {
       "id": "Leverage_Incline_Chest_Press",
       "name": "Leverage Incline Chest Press",
-      "canonical": null
+      "canonical": "chest-press.machine.incline"
     },
     {
       "id": "Leverage_Iso_Row",
       "name": "Leverage Iso Row",
-      "canonical": null
+      "canonical": "row.machine.iso"
     },
     {
       "id": "Leverage_Shoulder_Press",
       "name": "Leverage Shoulder Press",
-      "canonical": null
+      "canonical": "shoulder-press.machine"
     },
     {
       "id": "Leverage_Shrug",
       "name": "Leverage Shrug",
-      "canonical": null
+      "canonical": "shrug.machine.leverage"
     },
     {
       "id": "Linear_3-Part_Start_Technique",
@@ -2123,12 +2123,12 @@
     {
       "id": "Linear_Depth_Jump",
       "name": "Linear Depth Jump",
-      "canonical": null
+      "canonical": "depth-jump.linear"
     },
     {
       "id": "Log_Lift",
       "name": "Log Lift",
-      "canonical": null
+      "canonical": "log-lift"
     },
     {
       "id": "London_Bridges",
@@ -2143,67 +2143,67 @@
     {
       "id": "Low_Cable_Crossover",
       "name": "Low Cable Crossover",
-      "canonical": null
+      "canonical": "chest-fly.cable.low"
     },
     {
       "id": "Low_Cable_Triceps_Extension",
       "name": "Low Cable Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.cable.low"
     },
     {
       "id": "Low_Pulley_Row_To_Neck",
       "name": "Low Pulley Row To Neck",
-      "canonical": null
+      "canonical": "row.cable.neck"
     },
     {
       "id": "Lower_Back_Curl",
       "name": "Lower Back Curl",
-      "canonical": null
+      "canonical": "back-extension"
     },
     {
       "id": "Lower_Back-SMR",
       "name": "Lower Back-SMR",
-      "canonical": null
+      "canonical": "smr.lower-back"
     },
     {
       "id": "Lunge_Pass_Through",
       "name": "Lunge Pass Through",
-      "canonical": null
+      "canonical": "lunge.pass-through"
     },
     {
       "id": "Lunge_Sprint",
       "name": "Lunge Sprint",
-      "canonical": null
+      "canonical": "lunge.sprint"
     },
     {
       "id": "Lying_Bent_Leg_Groin",
       "name": "Lying Bent Leg Groin",
-      "canonical": null
+      "canonical": "adductor-stretch.lying"
     },
     {
       "id": "Lying_Cable_Curl",
       "name": "Lying Cable Curl",
-      "canonical": null
+      "canonical": "curl.cable.lying"
     },
     {
       "id": "Lying_Cambered_Barbell_Row",
       "name": "Lying Cambered Barbell Row",
-      "canonical": null
+      "canonical": "row.barbell.cambered"
     },
     {
       "id": "Lying_Close-Grip_Bar_Curl_On_High_Pulley",
       "name": "Lying Close-Grip Bar Curl On High Pulley",
-      "canonical": null
+      "canonical": "curl.cable.lying"
     },
     {
       "id": "Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head",
       "name": "Lying Close-Grip Barbell Triceps Extension Behind The Head",
-      "canonical": null
+      "canonical": "triceps-extension.barbell.lying.behind-head"
     },
     {
       "id": "Lying_Close-Grip_Barbell_Triceps_Press_To_Chin",
       "name": "Lying Close-Grip Barbell Triceps Press To Chin",
-      "canonical": null
+      "canonical": "triceps-extension.barbell.lying"
     },
     {
       "id": "Lying_Crossover",
@@ -2213,32 +2213,32 @@
     {
       "id": "Lying_Dumbbell_Tricep_Extension",
       "name": "Lying Dumbbell Tricep Extension",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.lying"
     },
     {
       "id": "Lying_Face_Down_Plate_Neck_Resistance",
       "name": "Lying Face Down Plate Neck Resistance",
-      "canonical": null
+      "canonical": "neck-extension.plate"
     },
     {
       "id": "Lying_Face_Up_Plate_Neck_Resistance",
       "name": "Lying Face Up Plate Neck Resistance",
-      "canonical": null
+      "canonical": "neck-flexion.plate"
     },
     {
       "id": "Lying_Glute",
       "name": "Lying Glute",
-      "canonical": null
+      "canonical": "glute-stretch.lying"
     },
     {
       "id": "Lying_Hamstring",
       "name": "Lying Hamstring",
-      "canonical": null
+      "canonical": "hamstring-stretch.lying"
     },
     {
       "id": "Lying_High_Bench_Barbell_Curl",
       "name": "Lying High Bench Barbell Curl",
-      "canonical": null
+      "canonical": "curl.barbell.lying-high-bench"
     },
     {
       "id": "Lying_Leg_Curls",
@@ -2248,102 +2248,102 @@
     {
       "id": "Lying_Machine_Squat",
       "name": "Lying Machine Squat",
-      "canonical": null
+      "canonical": "leg-press.machine"
     },
     {
       "id": "Lying_One-Arm_Lateral_Raise",
       "name": "Lying One-Arm Lateral Raise",
-      "canonical": null
+      "canonical": "lateral-raise.dumbbell.lying"
     },
     {
       "id": "Lying_Prone_Quadriceps",
       "name": "Lying Prone Quadriceps",
-      "canonical": null
+      "canonical": "quad-stretch.prone"
     },
     {
       "id": "Lying_Rear_Delt_Raise",
       "name": "Lying Rear Delt Raise",
-      "canonical": null
+      "canonical": "reverse-fly.dumbbell.lying.rear-delt"
     },
     {
       "id": "Lying_Supine_Dumbbell_Curl",
       "name": "Lying Supine Dumbbell Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.supine"
     },
     {
       "id": "Lying_T-Bar_Row",
       "name": "Lying T-Bar Row",
-      "canonical": null
+      "canonical": "row.t-bar.chest-supported"
     },
     {
       "id": "Lying_Triceps_Press",
       "name": "Lying Triceps Press",
-      "canonical": null
+      "canonical": "triceps-extension.barbell.lying"
     },
     {
       "id": "Machine_Bench_Press",
       "name": "Machine Bench Press",
-      "canonical": null
+      "canonical": "chest-press.machine"
     },
     {
       "id": "Machine_Bicep_Curl",
       "name": "Machine Bicep Curl",
-      "canonical": null
+      "canonical": "curl.machine"
     },
     {
       "id": "Machine_Preacher_Curls",
       "name": "Machine Preacher Curls",
-      "canonical": null
+      "canonical": "curl.machine.preacher"
     },
     {
       "id": "Machine_Shoulder_Military_Press",
       "name": "Machine Shoulder (Military) Press",
-      "canonical": null
+      "canonical": "shoulder-press.machine.military"
     },
     {
       "id": "Machine_Triceps_Extension",
       "name": "Machine Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.machine"
     },
     {
       "id": "Medicine_Ball_Chest_Pass",
       "name": "Medicine Ball Chest Pass",
-      "canonical": null
+      "canonical": "medicine-ball-throw.chest-pass"
     },
     {
       "id": "Medicine_Ball_Full_Twist",
       "name": "Medicine Ball Full Twist",
-      "canonical": null
+      "canonical": "medicine-ball-twist"
     },
     {
       "id": "Medicine_Ball_Scoop_Throw",
       "name": "Medicine Ball Scoop Throw",
-      "canonical": null
+      "canonical": "medicine-ball-throw.scoop"
     },
     {
       "id": "Middle_Back_Shrug",
       "name": "Middle Back Shrug",
-      "canonical": null
+      "canonical": "shrug.cable.reverse"
     },
     {
       "id": "Middle_Back_Stretch",
       "name": "Middle Back Stretch",
-      "canonical": null
+      "canonical": "middle-back-stretch"
     },
     {
       "id": "Mixed_Grip_Chin",
       "name": "Mixed Grip Chin",
-      "canonical": null
+      "canonical": "pull-up.mixed-grip"
     },
     {
       "id": "Monster_Walk",
       "name": "Monster Walk",
-      "canonical": null
+      "canonical": "monster-walk"
     },
     {
       "id": "Mountain_Climbers",
       "name": "Mountain Climbers",
-      "canonical": null
+      "canonical": "mountain-climber"
     },
     {
       "id": "Moving_Claw_Series",
@@ -2353,7 +2353,7 @@
     {
       "id": "Muscle_Snatch",
       "name": "Muscle Snatch",
-      "canonical": null
+      "canonical": "snatch.barbell.muscle"
     },
     {
       "id": "Muscle_Up",
@@ -2363,117 +2363,117 @@
     {
       "id": "Narrow_Stance_Hack_Squats",
       "name": "Narrow Stance Hack Squats",
-      "canonical": null
+      "canonical": "hack-squat.machine.narrow-stance"
     },
     {
       "id": "Narrow_Stance_Leg_Press",
       "name": "Narrow Stance Leg Press",
-      "canonical": null
+      "canonical": "leg-press.machine.narrow-stance"
     },
     {
       "id": "Narrow_Stance_Squats",
       "name": "Narrow Stance Squats",
-      "canonical": null
+      "canonical": "squat.barbell.narrow-stance"
     },
     {
       "id": "Natural_Glute_Ham_Raise",
       "name": "Natural Glute Ham Raise",
-      "canonical": null
+      "canonical": "glute-ham-raise.natural"
     },
     {
       "id": "Neck_Press",
       "name": "Neck Press",
-      "canonical": null
+      "canonical": "bench-press.barbell.neck"
     },
     {
       "id": "Neck-SMR",
       "name": "Neck-SMR",
-      "canonical": null
+      "canonical": "neck-smr"
     },
     {
       "id": "Oblique_Crunches",
       "name": "Oblique Crunches",
-      "canonical": null
+      "canonical": "crunch.oblique"
     },
     {
       "id": "Oblique_Crunches_-_On_The_Floor",
       "name": "Oblique Crunches - On The Floor",
-      "canonical": null
+      "canonical": "crunch.oblique"
     },
     {
       "id": "Olympic_Squat",
       "name": "Olympic Squat",
-      "canonical": null
+      "canonical": "squat.barbell.high-bar"
     },
     {
       "id": "On_Your_Side_Quad_Stretch",
       "name": "On Your Side Quad Stretch",
-      "canonical": null
+      "canonical": "quad-stretch.side-lying"
     },
     {
       "id": "On-Your-Back_Quad_Stretch",
       "name": "On-Your-Back Quad Stretch",
-      "canonical": null
+      "canonical": "quad-stretch.supine"
     },
     {
       "id": "One_Arm_Against_Wall",
       "name": "One Arm Against Wall",
-      "canonical": null
+      "canonical": "pec-stretch.wall"
     },
     {
       "id": "One_Arm_Chin-Up",
       "name": "One Arm Chin-Up",
-      "canonical": null
+      "canonical": "pull-up.one-arm"
     },
     {
       "id": "One_Arm_Dumbbell_Bench_Press",
       "name": "One Arm Dumbbell Bench Press",
-      "canonical": null
+      "canonical": "bench-press.dumbbell.one-arm"
     },
     {
       "id": "One_Arm_Dumbbell_Preacher_Curl",
       "name": "One Arm Dumbbell Preacher Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.preacher.one-arm"
     },
     {
       "id": "One_Arm_Floor_Press",
       "name": "One Arm Floor Press",
-      "canonical": null
+      "canonical": "floor-press.dumbbell.one-arm"
     },
     {
       "id": "One_Arm_Lat_Pulldown",
       "name": "One Arm Lat Pulldown",
-      "canonical": null
+      "canonical": "lat-pulldown.cable.one-arm"
     },
     {
       "id": "One_Arm_Pronated_Dumbbell_Triceps_Extension",
       "name": "One Arm Pronated Dumbbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.pronated.one-arm"
     },
     {
       "id": "One_Arm_Supinated_Dumbbell_Triceps_Extension",
       "name": "One Arm Supinated Dumbbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.supinated"
     },
     {
       "id": "One_Half_Locust",
       "name": "One Half Locust",
-      "canonical": null
+      "canonical": "half-locust"
     },
     {
       "id": "One_Handed_Hang",
       "name": "One Handed Hang",
-      "canonical": null
+      "canonical": "dead-hang.one-arm"
     },
     {
       "id": "One_Knee_To_Chest",
       "name": "One Knee To Chest",
-      "canonical": null
+      "canonical": "knee-to-chest-stretch"
     },
     {
       "id": "One_Leg_Barbell_Squat",
       "name": "One Leg Barbell Squat",
-      "canonical": null
+      "canonical": "squat.barbell.single-leg"
     },
     {
       "id": "One-Arm_Dumbbell_Row",
@@ -2483,127 +2483,127 @@
     {
       "id": "One-Arm_Flat_Bench_Dumbbell_Flye",
       "name": "One-Arm Flat Bench Dumbbell Flye",
-      "canonical": null
+      "canonical": "chest-fly.dumbbell.one-arm"
     },
     {
       "id": "One-Arm_High-Pulley_Cable_Side_Bends",
       "name": "One-Arm High-Pulley Cable Side Bends",
-      "canonical": null
+      "canonical": "side-bend.cable"
     },
     {
       "id": "One-Arm_Incline_Lateral_Raise",
       "name": "One-Arm Incline Lateral Raise",
-      "canonical": null
+      "canonical": "lateral-raise.dumbbell.incline.one-arm"
     },
     {
       "id": "One-Arm_Kettlebell_Clean",
       "name": "One-Arm Kettlebell Clean",
-      "canonical": null
+      "canonical": "clean.kettlebell"
     },
     {
       "id": "One-Arm_Kettlebell_Clean_and_Jerk",
       "name": "One-Arm Kettlebell Clean and Jerk",
-      "canonical": null
+      "canonical": "clean-and-jerk.kettlebell"
     },
     {
       "id": "One-Arm_Kettlebell_Floor_Press",
       "name": "One-Arm Kettlebell Floor Press",
-      "canonical": null
+      "canonical": "floor-press.kettlebell"
     },
     {
       "id": "One-Arm_Kettlebell_Jerk",
       "name": "One-Arm Kettlebell Jerk",
-      "canonical": null
+      "canonical": "jerk.kettlebell"
     },
     {
       "id": "One-Arm_Kettlebell_Military_Press_To_The_Side",
       "name": "One-Arm Kettlebell Military Press To The Side",
-      "canonical": null
+      "canonical": "shoulder-press.kettlebell.side"
     },
     {
       "id": "One-Arm_Kettlebell_Para_Press",
       "name": "One-Arm Kettlebell Para Press",
-      "canonical": null
+      "canonical": "shoulder-press.kettlebell.para"
     },
     {
       "id": "One-Arm_Kettlebell_Push_Press",
       "name": "One-Arm Kettlebell Push Press",
-      "canonical": null
+      "canonical": "push-press.kettlebell"
     },
     {
       "id": "One-Arm_Kettlebell_Row",
       "name": "One-Arm Kettlebell Row",
-      "canonical": null
+      "canonical": "row.kettlebell.one-arm"
     },
     {
       "id": "One-Arm_Kettlebell_Snatch",
       "name": "One-Arm Kettlebell Snatch",
-      "canonical": null
+      "canonical": "kettlebell-snatch"
     },
     {
       "id": "One-Arm_Kettlebell_Split_Jerk",
       "name": "One-Arm Kettlebell Split Jerk",
-      "canonical": null
+      "canonical": "split-jerk.kettlebell"
     },
     {
       "id": "One-Arm_Kettlebell_Split_Snatch",
       "name": "One-Arm Kettlebell Split Snatch",
-      "canonical": null
+      "canonical": "split-snatch.kettlebell"
     },
     {
       "id": "One-Arm_Kettlebell_Swings",
       "name": "One-Arm Kettlebell Swings",
-      "canonical": null
+      "canonical": "kettlebell-swing"
     },
     {
       "id": "One-Arm_Long_Bar_Row",
       "name": "One-Arm Long Bar Row",
-      "canonical": null
+      "canonical": "row.landmine"
     },
     {
       "id": "One-Arm_Medicine_Ball_Slam",
       "name": "One-Arm Medicine Ball Slam",
-      "canonical": null
+      "canonical": "slam.medicine-ball.one-arm"
     },
     {
       "id": "One-Arm_Open_Palm_Kettlebell_Clean",
       "name": "One-Arm Open Palm Kettlebell Clean",
-      "canonical": null
+      "canonical": "clean.kettlebell.open-palm"
     },
     {
       "id": "One-Arm_Overhead_Kettlebell_Squats",
       "name": "One-Arm Overhead Kettlebell Squats",
-      "canonical": null
+      "canonical": "squat.kettlebell.overhead"
     },
     {
       "id": "One-Arm_Side_Deadlift",
       "name": "One-Arm Side Deadlift",
-      "canonical": null
+      "canonical": "deadlift.barbell.side"
     },
     {
       "id": "One-Arm_Side_Laterals",
       "name": "One-Arm Side Laterals",
-      "canonical": null
+      "canonical": "lateral-raise.dumbbell.one-arm"
     },
     {
       "id": "One-Legged_Cable_Kickback",
       "name": "One-Legged Cable Kickback",
-      "canonical": null
+      "canonical": "glute-kickback.cable"
     },
     {
       "id": "Open_Palm_Kettlebell_Clean",
       "name": "Open Palm Kettlebell Clean",
-      "canonical": null
+      "canonical": "clean.kettlebell.open-palm"
     },
     {
       "id": "Otis-Up",
       "name": "Otis-Up",
-      "canonical": null
+      "canonical": "otis-up"
     },
     {
       "id": "Overhead_Cable_Curl",
       "name": "Overhead Cable Curl",
-      "canonical": null
+      "canonical": "curl.cable.overhead"
     },
     {
       "id": "Overhead_Lat",
@@ -2613,22 +2613,22 @@
     {
       "id": "Overhead_Slam",
       "name": "Overhead Slam",
-      "canonical": null
+      "canonical": "slam.medicine-ball"
     },
     {
       "id": "Overhead_Squat",
       "name": "Overhead Squat",
-      "canonical": null
+      "canonical": "squat.barbell.overhead"
     },
     {
       "id": "Overhead_Stretch",
       "name": "Overhead Stretch",
-      "canonical": null
+      "canonical": "overhead-stretch"
     },
     {
       "id": "Overhead_Triceps",
       "name": "Overhead Triceps",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.overhead.bilateral"
     },
     {
       "id": "Pallof_Press",
@@ -2638,27 +2638,27 @@
     {
       "id": "Pallof_Press_With_Rotation",
       "name": "Pallof Press With Rotation",
-      "canonical": null
+      "canonical": "pallof-press.rotation"
     },
     {
       "id": "Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench",
       "name": "Palms-Down Dumbbell Wrist Curl Over A Bench",
-      "canonical": null
+      "canonical": "wrist-curl.dumbbell.reverse.bilateral"
     },
     {
       "id": "Palms-Down_Wrist_Curl_Over_A_Bench",
       "name": "Palms-Down Wrist Curl Over A Bench",
-      "canonical": null
+      "canonical": "wrist-curl.barbell.reverse.bilateral"
     },
     {
       "id": "Palms-Up_Barbell_Wrist_Curl_Over_A_Bench",
       "name": "Palms-Up Barbell Wrist Curl Over A Bench",
-      "canonical": null
+      "canonical": "wrist-curl.barbell.bilateral"
     },
     {
       "id": "Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench",
       "name": "Palms-Up Dumbbell Wrist Curl Over A Bench",
-      "canonical": null
+      "canonical": "wrist-curl.dumbbell.bilateral"
     },
     {
       "id": "Parallel_Bar_Dip",
@@ -2668,32 +2668,32 @@
     {
       "id": "Pelvic_Tilt_Into_Bridge",
       "name": "Pelvic Tilt Into Bridge",
-      "canonical": null
+      "canonical": "pelvic-tilt-bridge"
     },
     {
       "id": "Peroneals_Stretch",
       "name": "Peroneals Stretch",
-      "canonical": null
+      "canonical": "peroneals-stretch"
     },
     {
       "id": "Peroneals-SMR",
       "name": "Peroneals-SMR",
-      "canonical": null
+      "canonical": "peroneals-smr"
     },
     {
       "id": "Physioball_Hip_Bridge",
       "name": "Physioball Hip Bridge",
-      "canonical": null
+      "canonical": "hip-bridge.stability-ball"
     },
     {
       "id": "Pin_Presses",
       "name": "Pin Presses",
-      "canonical": null
+      "canonical": "bench-press.barbell.pin"
     },
     {
       "id": "Piriformis-SMR",
       "name": "Piriformis-SMR",
-      "canonical": null
+      "canonical": "piriformis-smr"
     },
     {
       "id": "Plank",
@@ -2703,37 +2703,37 @@
     {
       "id": "Plate_Pinch",
       "name": "Plate Pinch",
-      "canonical": null
+      "canonical": "plate-pinch"
     },
     {
       "id": "Plate_Twist",
       "name": "Plate Twist",
-      "canonical": null
+      "canonical": "twist.plate"
     },
     {
       "id": "Platform_Hamstring_Slides",
       "name": "Platform Hamstring Slides",
-      "canonical": null
+      "canonical": "leg-curl.slider"
     },
     {
       "id": "Plie_Dumbbell_Squat",
       "name": "Plie Dumbbell Squat",
-      "canonical": null
+      "canonical": "squat.dumbbell.plie"
     },
     {
       "id": "Plyo_Kettlebell_Pushups",
       "name": "Plyo Kettlebell Pushups",
-      "canonical": null
+      "canonical": "push-up.plyo.kettlebell"
     },
     {
       "id": "Plyo_Push-up",
       "name": "Plyo Push-up",
-      "canonical": null
+      "canonical": "push-up.plyo"
     },
     {
       "id": "Posterior_Tibialis_Stretch",
       "name": "Posterior Tibialis Stretch",
-      "canonical": null
+      "canonical": "posterior-tibialis-stretch"
     },
     {
       "id": "Power_Clean",
@@ -2743,12 +2743,12 @@
     {
       "id": "Power_Clean_from_Blocks",
       "name": "Power Clean from Blocks",
-      "canonical": null
+      "canonical": "power-clean.barbell.blocks"
     },
     {
       "id": "Power_Jerk",
       "name": "Power Jerk",
-      "canonical": null
+      "canonical": "jerk.power.barbell"
     },
     {
       "id": "Power_Partials",
@@ -2758,12 +2758,12 @@
     {
       "id": "Power_Snatch",
       "name": "Power Snatch",
-      "canonical": null
+      "canonical": "snatch.barbell.power"
     },
     {
       "id": "Power_Snatch_from_Blocks",
       "name": "Power Snatch from Blocks",
-      "canonical": null
+      "canonical": "snatch.barbell.power.blocks"
     },
     {
       "id": "Power_Stairs",
@@ -2773,17 +2773,17 @@
     {
       "id": "Preacher_Curl",
       "name": "Preacher Curl",
-      "canonical": null
+      "canonical": "curl.barbell.preacher"
     },
     {
       "id": "Preacher_Hammer_Dumbbell_Curl",
       "name": "Preacher Hammer Dumbbell Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.hammer.preacher"
     },
     {
       "id": "Press_Sit-Up",
       "name": "Press Sit-Up",
-      "canonical": null
+      "canonical": "sit-up.press"
     },
     {
       "id": "Prone_Manual_Hamstring",
@@ -2793,12 +2793,12 @@
     {
       "id": "Prowler_Sprint",
       "name": "Prowler Sprint",
-      "canonical": null
+      "canonical": "sled-push"
     },
     {
       "id": "Pull_Through",
       "name": "Pull Through",
-      "canonical": null
+      "canonical": "pull-through.cable"
     },
     {
       "id": "Pullups",
@@ -2808,37 +2808,37 @@
     {
       "id": "Push_Press",
       "name": "Push Press",
-      "canonical": null
+      "canonical": "push-press.barbell"
     },
     {
       "id": "Push_Press_-_Behind_the_Neck",
       "name": "Push Press - Behind the Neck",
-      "canonical": null
+      "canonical": "push-press.barbell.behind-neck"
     },
     {
       "id": "Push_Up_to_Side_Plank",
       "name": "Push Up to Side Plank",
-      "canonical": null
+      "canonical": "push-up.side-plank"
     },
     {
       "id": "Push-Up_Wide",
       "name": "Push-Up Wide",
-      "canonical": null
+      "canonical": "push-up.wide"
     },
     {
       "id": "Push-Ups_-_Close_Triceps_Position",
       "name": "Push-Ups - Close Triceps Position",
-      "canonical": null
+      "canonical": "push-up.close-grip"
     },
     {
       "id": "Push-Ups_With_Feet_Elevated",
       "name": "Push-Ups With Feet Elevated",
-      "canonical": null
+      "canonical": "push-up.feet-elevated"
     },
     {
       "id": "Push-Ups_With_Feet_On_An_Exercise_Ball",
       "name": "Push-Ups With Feet On An Exercise Ball",
-      "canonical": null
+      "canonical": "push-up.stability-ball"
     },
     {
       "id": "Pushups",
@@ -2858,12 +2858,12 @@
     {
       "id": "Quad_Stretch",
       "name": "Quad Stretch",
-      "canonical": null
+      "canonical": "quad-stretch.standing"
     },
     {
       "id": "Quadriceps-SMR",
       "name": "Quadriceps-SMR",
-      "canonical": null
+      "canonical": "smr.quadriceps"
     },
     {
       "id": "Quick_Leap",
@@ -2883,12 +2883,12 @@
     {
       "id": "Rack_Pulls",
       "name": "Rack Pulls",
-      "canonical": null
+      "canonical": "deadlift.barbell.rack-pull"
     },
     {
       "id": "Rear_Leg_Raises",
       "name": "Rear Leg Raises",
-      "canonical": null
+      "canonical": "leg-raise.rear"
     },
     {
       "id": "Recumbent_Bike",
@@ -2928,77 +2928,77 @@
     {
       "id": "Reverse_Barbell_Curl",
       "name": "Reverse Barbell Curl",
-      "canonical": null
+      "canonical": "curl.barbell.reverse-grip"
     },
     {
       "id": "Reverse_Barbell_Preacher_Curls",
       "name": "Reverse Barbell Preacher Curls",
-      "canonical": null
+      "canonical": "curl.barbell.preacher.reverse-grip"
     },
     {
       "id": "Reverse_Cable_Curl",
       "name": "Reverse Cable Curl",
-      "canonical": null
+      "canonical": "curl.cable.reverse-grip"
     },
     {
       "id": "Reverse_Crunch",
       "name": "Reverse Crunch",
-      "canonical": null
+      "canonical": "reverse-crunch"
     },
     {
       "id": "Reverse_Flyes",
       "name": "Reverse Flyes",
-      "canonical": null
+      "canonical": "reverse-fly.dumbbell"
     },
     {
       "id": "Reverse_Flyes_With_External_Rotation",
       "name": "Reverse Flyes With External Rotation",
-      "canonical": null
+      "canonical": "reverse-fly.dumbbell.external-rotation"
     },
     {
       "id": "Reverse_Grip_Bent-Over_Rows",
       "name": "Reverse Grip Bent-Over Rows",
-      "canonical": null
+      "canonical": "row.barbell.bent-over.reverse-grip"
     },
     {
       "id": "Reverse_Grip_Triceps_Pushdown",
       "name": "Reverse Grip Triceps Pushdown",
-      "canonical": null
+      "canonical": "triceps-pushdown.cable.reverse-grip"
     },
     {
       "id": "Reverse_Hyperextension",
       "name": "Reverse Hyperextension",
-      "canonical": null
+      "canonical": "reverse-hyperextension"
     },
     {
       "id": "Reverse_Machine_Flyes",
       "name": "Reverse Machine Flyes",
-      "canonical": null
+      "canonical": "reverse-fly.machine"
     },
     {
       "id": "Reverse_Plate_Curls",
       "name": "Reverse Plate Curls",
-      "canonical": null
+      "canonical": "curl.plate.reverse-grip"
     },
     {
       "id": "Reverse_Triceps_Bench_Press",
       "name": "Reverse Triceps Bench Press",
-      "canonical": null
+      "canonical": "bench-press.barbell.flat.reverse-grip"
     },
     {
       "id": "Rhomboids-SMR",
       "name": "Rhomboids-SMR",
-      "canonical": null
+      "canonical": "smr.rhomboids"
     },
     {
       "id": "Rickshaw_Carry",
       "name": "Rickshaw Carry",
-      "canonical": null
+      "canonical": "rickshaw-carry"
     },
     {
       "id": "Rickshaw_Deadlift",
       "name": "Rickshaw Deadlift",
-      "canonical": null
+      "canonical": "deadlift.rickshaw"
     },
     {
       "id": "Ring_Dips",
@@ -3008,12 +3008,12 @@
     {
       "id": "Rocket_Jump",
       "name": "Rocket Jump",
-      "canonical": null
+      "canonical": "rocket-jump"
     },
     {
       "id": "Rocking_Standing_Calf_Raise",
       "name": "Rocking Standing Calf Raise",
-      "canonical": null
+      "canonical": "calf-raise.standing.rocking"
     },
     {
       "id": "Rocky_Pull-Ups_Pulldowns",
@@ -3028,7 +3028,7 @@
     {
       "id": "Romanian_Deadlift_from_Deficit",
       "name": "Romanian Deadlift from Deficit",
-      "canonical": null
+      "canonical": "deadlift.barbell.romanian.deficit"
     },
     {
       "id": "Rope_Climb",
@@ -3038,22 +3038,22 @@
     {
       "id": "Rope_Crunch",
       "name": "Rope Crunch",
-      "canonical": null
+      "canonical": "crunch.cable"
     },
     {
       "id": "Rope_Jumping",
       "name": "Rope Jumping",
-      "canonical": null
+      "canonical": "jump-rope"
     },
     {
       "id": "Rope_Straight-Arm_Pulldown",
       "name": "Rope Straight-Arm Pulldown",
-      "canonical": null
+      "canonical": "pullover.cable"
     },
     {
       "id": "Round_The_World_Shoulder_Stretch",
       "name": "Round The World Shoulder Stretch",
-      "canonical": null
+      "canonical": "round-the-world"
     },
     {
       "id": "Rowing_Stationary",
@@ -3073,57 +3073,57 @@
     {
       "id": "Russian_Twist",
       "name": "Russian Twist",
-      "canonical": null
+      "canonical": "russian-twist"
     },
     {
       "id": "Sandbag_Load",
       "name": "Sandbag Load",
-      "canonical": null
+      "canonical": "sandbag-load"
     },
     {
       "id": "Scapular_Pull-Up",
       "name": "Scapular Pull-Up",
-      "canonical": null
+      "canonical": "pull-up.scapular"
     },
     {
       "id": "Scissor_Kick",
       "name": "Scissor Kick",
-      "canonical": null
+      "canonical": "scissor-kick"
     },
     {
       "id": "Scissors_Jump",
       "name": "Scissors Jump",
-      "canonical": null
+      "canonical": "scissor-jump"
     },
     {
       "id": "Seated_Band_Hamstring_Curl",
       "name": "Seated Band Hamstring Curl",
-      "canonical": null
+      "canonical": "leg-curl.band.seated"
     },
     {
       "id": "Seated_Barbell_Military_Press",
       "name": "Seated Barbell Military Press",
-      "canonical": null
+      "canonical": "overhead-press.barbell.seated"
     },
     {
       "id": "Seated_Barbell_Twist",
       "name": "Seated Barbell Twist",
-      "canonical": null
+      "canonical": "twist.barbell.seated"
     },
     {
       "id": "Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension",
       "name": "Seated Bent-Over One-Arm Dumbbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.bent-over.one-arm"
     },
     {
       "id": "Seated_Bent-Over_Rear_Delt_Raise",
       "name": "Seated Bent-Over Rear Delt Raise",
-      "canonical": null
+      "canonical": "reverse-fly.dumbbell.seated"
     },
     {
       "id": "Seated_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension",
       "name": "Seated Bent-Over Two-Arm Dumbbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.bent-over"
     },
     {
       "id": "Seated_Biceps",
@@ -3138,7 +3138,7 @@
     {
       "id": "Seated_Cable_Shoulder_Press",
       "name": "Seated Cable Shoulder Press",
-      "canonical": null
+      "canonical": "shoulder-press.cable.seated"
     },
     {
       "id": "Seated_Calf_Raise",
@@ -3148,7 +3148,7 @@
     {
       "id": "Seated_Calf_Stretch",
       "name": "Seated Calf Stretch",
-      "canonical": null
+      "canonical": "calf-stretch.seated"
     },
     {
       "id": "Seated_Close-Grip_Concentration_Barbell_Curl",
@@ -3158,37 +3158,37 @@
     {
       "id": "Seated_Dumbbell_Curl",
       "name": "Seated Dumbbell Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell"
     },
     {
       "id": "Seated_Dumbbell_Inner_Biceps_Curl",
       "name": "Seated Dumbbell Inner Biceps Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.inner-biceps"
     },
     {
       "id": "Seated_Dumbbell_Palms-Down_Wrist_Curl",
       "name": "Seated Dumbbell Palms-Down Wrist Curl",
-      "canonical": null
+      "canonical": "wrist-curl.dumbbell.reverse.seated"
     },
     {
       "id": "Seated_Dumbbell_Palms-Up_Wrist_Curl",
       "name": "Seated Dumbbell Palms-Up Wrist Curl",
-      "canonical": null
+      "canonical": "wrist-curl.dumbbell.seated"
     },
     {
       "id": "Seated_Dumbbell_Press",
       "name": "Seated Dumbbell Press",
-      "canonical": null
+      "canonical": "shoulder-press.dumbbell"
     },
     {
       "id": "Seated_Flat_Bench_Leg_Pull-In",
       "name": "Seated Flat Bench Leg Pull-In",
-      "canonical": null
+      "canonical": "leg-pull-in.seated"
     },
     {
       "id": "Seated_Floor_Hamstring_Stretch",
       "name": "Seated Floor Hamstring Stretch",
-      "canonical": null
+      "canonical": "hamstring-stretch.seated"
     },
     {
       "id": "Seated_Front_Deltoid",
@@ -3203,7 +3203,7 @@
     {
       "id": "Seated_Good_Mornings",
       "name": "Seated Good Mornings",
-      "canonical": null
+      "canonical": "good-morning.barbell.seated"
     },
     {
       "id": "Seated_Hamstring",
@@ -3213,87 +3213,87 @@
     {
       "id": "Seated_Hamstring_and_Calf_Stretch",
       "name": "Seated Hamstring and Calf Stretch",
-      "canonical": null
+      "canonical": "hamstring-calf-stretch.seated"
     },
     {
       "id": "Seated_Head_Harness_Neck_Resistance",
       "name": "Seated Head Harness Neck Resistance",
-      "canonical": null
+      "canonical": "neck-extension.harness"
     },
     {
       "id": "Seated_Leg_Curl",
       "name": "Seated Leg Curl",
-      "canonical": null
+      "canonical": "leg-curl.machine.seated"
     },
     {
       "id": "Seated_Leg_Tucks",
       "name": "Seated Leg Tucks",
-      "canonical": null
+      "canonical": "leg-pull-in.seated"
     },
     {
       "id": "Seated_One-arm_Cable_Pulley_Rows",
       "name": "Seated One-arm Cable Pulley Rows",
-      "canonical": null
+      "canonical": "row.cable.seated"
     },
     {
       "id": "Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl",
       "name": "Seated One-Arm Dumbbell Palms-Down Wrist Curl",
-      "canonical": null
+      "canonical": "wrist-curl.dumbbell.reverse.one-arm"
     },
     {
       "id": "Seated_One-Arm_Dumbbell_Palms-Up_Wrist_Curl",
       "name": "Seated One-Arm Dumbbell Palms-Up Wrist Curl",
-      "canonical": null
+      "canonical": "wrist-curl.dumbbell.one-arm"
     },
     {
       "id": "Seated_Overhead_Stretch",
       "name": "Seated Overhead Stretch",
-      "canonical": null
+      "canonical": "overhead-stretch.seated"
     },
     {
       "id": "Seated_Palm-Up_Barbell_Wrist_Curl",
       "name": "Seated Palm-Up Barbell Wrist Curl",
-      "canonical": null
+      "canonical": "wrist-curl.barbell.seated"
     },
     {
       "id": "Seated_Palms-Down_Barbell_Wrist_Curl",
       "name": "Seated Palms-Down Barbell Wrist Curl",
-      "canonical": null
+      "canonical": "wrist-curl.barbell.reverse.seated"
     },
     {
       "id": "Seated_Side_Lateral_Raise",
       "name": "Seated Side Lateral Raise",
-      "canonical": null
+      "canonical": "lateral-raise.dumbbell"
     },
     {
       "id": "Seated_Triceps_Press",
       "name": "Seated Triceps Press",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.seated"
     },
     {
       "id": "Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl",
       "name": "Seated Two-Arm Palms-Up Low-Pulley Wrist Curl",
-      "canonical": null
+      "canonical": "wrist-curl.cable.seated"
     },
     {
       "id": "See-Saw_Press_Alternating_Side_Press",
       "name": "See-Saw Press (Alternating Side Press)",
-      "canonical": null
+      "canonical": "shoulder-press.dumbbell.alternating.seesaw"
     },
     {
       "id": "Shotgun_Row",
       "name": "Shotgun Row",
-      "canonical": null
+      "canonical": "row.cable.shotgun"
     },
     {
       "id": "Shoulder_Circles",
       "name": "Shoulder Circles",
-      "canonical": null
+      "canonical": "shoulder-circles"
     },
     {
       "id": "Shoulder_Press_-_With_Bands",
       "name": "Shoulder Press - With Bands",
-      "canonical": null
+      "canonical": "shoulder-press.band"
     },
     {
       "id": "Shoulder_Raise",
@@ -3308,17 +3308,17 @@
     {
       "id": "Side_Bridge",
       "name": "Side Bridge",
-      "canonical": null
+      "canonical": "side-plank"
     },
     {
       "id": "Side_Hop-Sprint",
       "name": "Side Hop-Sprint",
-      "canonical": null
+      "canonical": "lateral-hop-sprint"
     },
     {
       "id": "Side_Jackknife",
       "name": "Side Jackknife",
-      "canonical": null
+      "canonical": "side-jackknife"
     },
     {
       "id": "Side_Lateral_Raise",
@@ -3328,37 +3328,37 @@
     {
       "id": "Side_Laterals_to_Front_Raise",
       "name": "Side Laterals to Front Raise",
-      "canonical": null
+      "canonical": "lateral-raise.dumbbell.to-front-raise"
     },
     {
       "id": "Side_Leg_Raises",
       "name": "Side Leg Raises",
-      "canonical": null
+      "canonical": "hip-abduction.side-lying"
     },
     {
       "id": "Side_Lying_Groin_Stretch",
       "name": "Side Lying Groin Stretch",
-      "canonical": null
+      "canonical": "groin-stretch.side-lying"
     },
     {
       "id": "Side_Neck_Stretch",
       "name": "Side Neck Stretch",
-      "canonical": null
+      "canonical": "neck-stretch.lateral"
     },
     {
       "id": "Side_Standing_Long_Jump",
       "name": "Side Standing Long Jump",
-      "canonical": null
+      "canonical": "broad-jump.lateral"
     },
     {
       "id": "Side_to_Side_Box_Shuffle",
       "name": "Side to Side Box Shuffle",
-      "canonical": null
+      "canonical": "lateral-shuffle.box"
     },
     {
       "id": "Side_To_Side_Chins",
       "name": "Side To Side Chins",
-      "canonical": null
+      "canonical": "pull-up.commando"
     },
     {
       "id": "Side_Wrist_Pull",
@@ -3378,67 +3378,67 @@
     {
       "id": "Single_Leg_Butt_Kick",
       "name": "Single Leg Butt Kick",
-      "canonical": null
+      "canonical": "butt-kick.single-leg"
     },
     {
       "id": "Single_Leg_Glute_Bridge",
       "name": "Single Leg Glute Bridge",
-      "canonical": null
+      "canonical": "glute-bridge.single-leg"
     },
     {
       "id": "Single_Leg_Push-off",
       "name": "Single Leg Push-off",
-      "canonical": null
+      "canonical": "push-off.single-leg"
     },
     {
       "id": "Single-Arm_Cable_Crossover",
       "name": "Single-Arm Cable Crossover",
-      "canonical": null
+      "canonical": "chest-fly.cable"
     },
     {
       "id": "Single-Arm_Linear_Jammer",
       "name": "Single-Arm Linear Jammer",
-      "canonical": null
+      "canonical": "jammer-press.single-arm"
     },
     {
       "id": "Single-Arm_Push-Up",
       "name": "Single-Arm Push-Up",
-      "canonical": null
+      "canonical": "push-up.single-arm"
     },
     {
       "id": "Single-Cone_Sprint_Drill",
       "name": "Single-Cone Sprint Drill",
-      "canonical": null
+      "canonical": "agility-drill.single-cone"
     },
     {
       "id": "Single-Leg_High_Box_Squat",
       "name": "Single-Leg High Box Squat",
-      "canonical": null
+      "canonical": "squat.bodyweight.box.single-leg"
     },
     {
       "id": "Single-Leg_Hop_Progression",
       "name": "Single-Leg Hop Progression",
-      "canonical": null
+      "canonical": "hop.single-leg"
     },
     {
       "id": "Single-Leg_Lateral_Hop",
       "name": "Single-Leg Lateral Hop",
-      "canonical": null
+      "canonical": "hop.single-leg.lateral"
     },
     {
       "id": "Single-Leg_Leg_Extension",
       "name": "Single-Leg Leg Extension",
-      "canonical": null
+      "canonical": "leg-extension.machine"
     },
     {
       "id": "Single-Leg_Stride_Jump",
       "name": "Single-Leg Stride Jump",
-      "canonical": null
+      "canonical": "hop.single-leg"
     },
     {
       "id": "Sit_Squats",
       "name": "Sit Squats",
-      "canonical": null
+      "canonical": "squat.bodyweight.box"
     },
     {
       "id": "Sit-Up",
@@ -3448,22 +3448,22 @@
     {
       "id": "Skating",
       "name": "Skating",
-      "canonical": null
+      "canonical": "skate"
     },
     {
       "id": "Sled_Drag_-_Harness",
       "name": "Sled Drag - Harness",
-      "canonical": null
+      "canonical": "sled-pull"
     },
     {
       "id": "Sled_Overhead_Backward_Walk",
       "name": "Sled Overhead Backward Walk",
-      "canonical": null
+      "canonical": "sled-carry.overhead-backward"
     },
     {
       "id": "Sled_Overhead_Triceps_Extension",
       "name": "Sled Overhead Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.sled"
     },
     {
       "id": "Sled_Push",
@@ -3473,17 +3473,17 @@
     {
       "id": "Sled_Reverse_Flye",
       "name": "Sled Reverse Flye",
-      "canonical": null
+      "canonical": "reverse-fly.sled"
     },
     {
       "id": "Sled_Row",
       "name": "Sled Row",
-      "canonical": null
+      "canonical": "row.sled"
     },
     {
       "id": "Sledgehammer_Swings",
       "name": "Sledgehammer Swings",
-      "canonical": null
+      "canonical": "sledgehammer-swing"
     },
     {
       "id": "Smith_Incline_Shoulder_Raise",
@@ -3493,92 +3493,92 @@
     {
       "id": "Smith_Machine_Behind_the_Back_Shrug",
       "name": "Smith Machine Behind the Back Shrug",
-      "canonical": null
+      "canonical": "shrug.smith-machine.behind-the-back"
     },
     {
       "id": "Smith_Machine_Bench_Press",
       "name": "Smith Machine Bench Press",
-      "canonical": null
+      "canonical": "bench-press.smith-machine"
     },
     {
       "id": "Smith_Machine_Bent_Over_Row",
       "name": "Smith Machine Bent Over Row",
-      "canonical": null
+      "canonical": "row.smith-machine.bent-over"
     },
     {
       "id": "Smith_Machine_Calf_Raise",
       "name": "Smith Machine Calf Raise",
-      "canonical": null
+      "canonical": "calf-raise.smith-machine"
     },
     {
       "id": "Smith_Machine_Close-Grip_Bench_Press",
       "name": "Smith Machine Close-Grip Bench Press",
-      "canonical": null
+      "canonical": "bench-press.smith-machine.close-grip"
     },
     {
       "id": "Smith_Machine_Decline_Press",
       "name": "Smith Machine Decline Press",
-      "canonical": null
+      "canonical": "bench-press.smith-machine.decline.close"
     },
     {
       "id": "Smith_Machine_Hang_Power_Clean",
       "name": "Smith Machine Hang Power Clean",
-      "canonical": null
+      "canonical": "power-clean.smith-machine.hang"
     },
     {
       "id": "Smith_Machine_Hip_Raise",
       "name": "Smith Machine Hip Raise",
-      "canonical": null
+      "canonical": "hip-thrust.smith-machine"
     },
     {
       "id": "Smith_Machine_Incline_Bench_Press",
       "name": "Smith Machine Incline Bench Press",
-      "canonical": null
+      "canonical": "bench-press.smith-machine.incline"
     },
     {
       "id": "Smith_Machine_Leg_Press",
       "name": "Smith Machine Leg Press",
-      "canonical": null
+      "canonical": "leg-press.smith-machine"
     },
     {
       "id": "Smith_Machine_One-Arm_Upright_Row",
       "name": "Smith Machine One-Arm Upright Row",
-      "canonical": null
+      "canonical": "upright-row.smith-machine.one-arm"
     },
     {
       "id": "Smith_Machine_Overhead_Shoulder_Press",
       "name": "Smith Machine Overhead Shoulder Press",
-      "canonical": null
+      "canonical": "overhead-press.smith-machine"
     },
     {
       "id": "Smith_Machine_Pistol_Squat",
       "name": "Smith Machine Pistol Squat",
-      "canonical": null
+      "canonical": "pistol-squat.smith-machine"
     },
     {
       "id": "Smith_Machine_Reverse_Calf_Raises",
       "name": "Smith Machine Reverse Calf Raises",
-      "canonical": null
+      "canonical": "tibialis-raise.smith-machine"
     },
     {
       "id": "Smith_Machine_Squat",
       "name": "Smith Machine Squat",
-      "canonical": null
+      "canonical": "squat.smith-machine"
     },
     {
       "id": "Smith_Machine_Stiff-Legged_Deadlift",
       "name": "Smith Machine Stiff-Legged Deadlift",
-      "canonical": null
+      "canonical": "deadlift.stiff-leg.smith-machine"
     },
     {
       "id": "Smith_Machine_Upright_Row",
       "name": "Smith Machine Upright Row",
-      "canonical": null
+      "canonical": "upright-row.smith-machine"
     },
     {
       "id": "Smith_Single-Leg_Split_Squat",
       "name": "Smith Single-Leg Split Squat",
-      "canonical": null
+      "canonical": "split-squat.smith-machine"
     },
     {
       "id": "Snatch",
@@ -3588,107 +3588,107 @@
     {
       "id": "Snatch_Balance",
       "name": "Snatch Balance",
-      "canonical": null
+      "canonical": "snatch.barbell.balance"
     },
     {
       "id": "Snatch_Deadlift",
       "name": "Snatch Deadlift",
-      "canonical": null
+      "canonical": "deadlift.barbell.snatch-grip"
     },
     {
       "id": "Snatch_from_Blocks",
       "name": "Snatch from Blocks",
-      "canonical": null
+      "canonical": "snatch.barbell.blocks"
     },
     {
       "id": "Snatch_Pull",
       "name": "Snatch Pull",
-      "canonical": null
+      "canonical": "snatch.barbell.pull"
     },
     {
       "id": "Snatch_Shrug",
       "name": "Snatch Shrug",
-      "canonical": null
+      "canonical": "shrug.barbell.snatch-grip"
     },
     {
       "id": "Speed_Band_Overhead_Triceps",
       "name": "Speed Band Overhead Triceps",
-      "canonical": null
+      "canonical": "triceps-extension.band.overhead"
     },
     {
       "id": "Speed_Box_Squat",
       "name": "Speed Box Squat",
-      "canonical": null
+      "canonical": "squat.barbell.box.speed"
     },
     {
       "id": "Speed_Squats",
       "name": "Speed Squats",
-      "canonical": null
+      "canonical": "squat.barbell.speed"
     },
     {
       "id": "Spell_Caster",
       "name": "Spell Caster",
-      "canonical": null
+      "canonical": "spellcaster"
     },
     {
       "id": "Spider_Crawl",
       "name": "Spider Crawl",
-      "canonical": null
+      "canonical": "spider-crawl"
     },
     {
       "id": "Spider_Curl",
       "name": "Spider Curl",
-      "canonical": null
+      "canonical": "curl.barbell.spider"
     },
     {
       "id": "Spinal_Stretch",
       "name": "Spinal Stretch",
-      "canonical": null
+      "canonical": "spine-stretch-forward"
     },
     {
       "id": "Split_Clean",
       "name": "Split Clean",
-      "canonical": null
+      "canonical": "clean.barbell.split"
     },
     {
       "id": "Split_Jerk",
       "name": "Split Jerk",
-      "canonical": null
+      "canonical": "jerk.barbell.split"
     },
     {
       "id": "Split_Jump",
       "name": "Split Jump",
-      "canonical": null
+      "canonical": "scissor-jump"
     },
     {
       "id": "Split_Snatch",
       "name": "Split Snatch",
-      "canonical": null
+      "canonical": "snatch.barbell.split"
     },
     {
       "id": "Split_Squat_with_Dumbbells",
       "name": "Split Squat with Dumbbells",
-      "canonical": null
+      "canonical": "split-squat.dumbbell"
     },
     {
       "id": "Split_Squats",
       "name": "Split Squats",
-      "canonical": null
+      "canonical": "split-squat"
     },
     {
       "id": "Squat_Jerk",
       "name": "Squat Jerk",
-      "canonical": null
+      "canonical": "jerk.barbell.squat"
     },
     {
       "id": "Squat_with_Bands",
       "name": "Squat with Bands",
-      "canonical": null
+      "canonical": "squat.barbell.bands"
     },
     {
       "id": "Squat_with_Chains",
       "name": "Squat with Chains",
-      "canonical": null
+      "canonical": "squat.barbell.chains"
     },
     {
       "id": "Squat_with_Plate_Movers",
@@ -3698,7 +3698,7 @@
     {
       "id": "Squats_-_With_Bands",
       "name": "Squats - With Bands",
-      "canonical": null
+      "canonical": "squat.barbell.bands"
     },
     {
       "id": "Stairmaster",
@@ -3708,7 +3708,7 @@
     {
       "id": "Standing_Alternating_Dumbbell_Press",
       "name": "Standing Alternating Dumbbell Press",
-      "canonical": null
+      "canonical": "shoulder-press.dumbbell.alternating.standing"
     },
     {
       "id": "Standing_Barbell_Calf_Raise",
@@ -3718,47 +3718,47 @@
     {
       "id": "Standing_Barbell_Press_Behind_Neck",
       "name": "Standing Barbell Press Behind Neck",
-      "canonical": null
+      "canonical": "overhead-press.barbell.behind-neck"
     },
     {
       "id": "Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension",
       "name": "Standing Bent-Over One-Arm Dumbbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-kickback.dumbbell.one-arm"
     },
     {
       "id": "Standing_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension",
       "name": "Standing Bent-Over Two-Arm Dumbbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-kickback.dumbbell"
     },
     {
       "id": "Standing_Biceps_Cable_Curl",
       "name": "Standing Biceps Cable Curl",
-      "canonical": null
+      "canonical": "curl.cable"
     },
     {
       "id": "Standing_Biceps_Stretch",
       "name": "Standing Biceps Stretch",
-      "canonical": null
+      "canonical": "biceps-stretch.standing"
     },
     {
       "id": "Standing_Bradford_Press",
       "name": "Standing Bradford Press",
-      "canonical": null
+      "canonical": "overhead-press.barbell.bradford"
     },
     {
       "id": "Standing_Cable_Chest_Press",
       "name": "Standing Cable Chest Press",
-      "canonical": null
+      "canonical": "chest-press.cable.standing"
     },
     {
       "id": "Standing_Cable_Lift",
       "name": "Standing Cable Lift",
-      "canonical": null
+      "canonical": "cable-lift"
     },
     {
       "id": "Standing_Cable_Wood_Chop",
       "name": "Standing Cable Wood Chop",
-      "canonical": null
+      "canonical": "cable-woodchop"
     },
     {
       "id": "Standing_Calf_Raises",
@@ -3768,7 +3768,7 @@
     {
       "id": "Standing_Concentration_Curl",
       "name": "Standing Concentration Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.concentration.standing"
     },
     {
       "id": "Standing_Dumbbell_Calf_Raise",
@@ -3778,52 +3778,52 @@
     {
       "id": "Standing_Dumbbell_Press",
       "name": "Standing Dumbbell Press",
-      "canonical": null
+      "canonical": "shoulder-press.dumbbell"
     },
     {
       "id": "Standing_Dumbbell_Reverse_Curl",
       "name": "Standing Dumbbell Reverse Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.reverse"
     },
     {
       "id": "Standing_Dumbbell_Straight-Arm_Front_Delt_Raise_Above_Head",
       "name": "Standing Dumbbell Straight-Arm Front Delt Raise Above Head",
-      "canonical": null
+      "canonical": "front-raise.dumbbell.overhead"
     },
     {
       "id": "Standing_Dumbbell_Triceps_Extension",
       "name": "Standing Dumbbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.overhead.standing"
     },
     {
       "id": "Standing_Dumbbell_Upright_Row",
       "name": "Standing Dumbbell Upright Row",
-      "canonical": null
+      "canonical": "upright-row.dumbbell"
     },
     {
       "id": "Standing_Elevated_Quad_Stretch",
       "name": "Standing Elevated Quad Stretch",
-      "canonical": null
+      "canonical": "quad-stretch.standing.elevated"
     },
     {
       "id": "Standing_Front_Barbell_Raise_Over_Head",
       "name": "Standing Front Barbell Raise Over Head",
-      "canonical": null
+      "canonical": "front-raise.barbell.overhead"
     },
     {
       "id": "Standing_Gastrocnemius_Calf_Stretch",
       "name": "Standing Gastrocnemius Calf Stretch",
-      "canonical": null
+      "canonical": "calf-stretch.standing.gastrocnemius"
     },
     {
       "id": "Standing_Hamstring_and_Calf_Stretch",
       "name": "Standing Hamstring and Calf Stretch",
-      "canonical": null
+      "canonical": "hamstring-stretch.standing"
     },
     {
       "id": "Standing_Hip_Circles",
       "name": "Standing Hip Circles",
-      "canonical": null
+      "canonical": "hip-circles.standing"
     },
     {
       "id": "Standing_Hip_Flexors",
@@ -3833,32 +3833,32 @@
     {
       "id": "Standing_Inner-Biceps_Curl",
       "name": "Standing Inner-Biceps Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell"
     },
     {
       "id": "Standing_Lateral_Stretch",
       "name": "Standing Lateral Stretch",
-      "canonical": null
+      "canonical": "lateral-stretch.standing"
     },
     {
       "id": "Standing_Leg_Curl",
       "name": "Standing Leg Curl",
-      "canonical": null
+      "canonical": "leg-curl.machine.standing"
     },
     {
       "id": "Standing_Long_Jump",
       "name": "Standing Long Jump",
-      "canonical": null
+      "canonical": "standing-long-jump"
     },
     {
       "id": "Standing_Low-Pulley_Deltoid_Raise",
       "name": "Standing Low-Pulley Deltoid Raise",
-      "canonical": null
+      "canonical": "lateral-raise.cable"
     },
     {
       "id": "Standing_Low-Pulley_One-Arm_Triceps_Extension",
       "name": "Standing Low-Pulley One-Arm Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-kickback.cable.one-arm"
     },
     {
       "id": "Standing_Military_Press",
@@ -3868,62 +3868,62 @@
     {
       "id": "Standing_Olympic_Plate_Hand_Squeeze",
       "name": "Standing Olympic Plate Hand Squeeze",
-      "canonical": null
+      "canonical": "plate-hand-squeeze"
     },
     {
       "id": "Standing_One-Arm_Cable_Curl",
       "name": "Standing One-Arm Cable Curl",
-      "canonical": null
+      "canonical": "curl.cable.one-arm"
     },
     {
       "id": "Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench",
       "name": "Standing One-Arm Dumbbell Curl Over Incline Bench",
-      "canonical": null
+      "canonical": "curl.dumbbell.incline"
     },
     {
       "id": "Standing_One-Arm_Dumbbell_Triceps_Extension",
       "name": "Standing One-Arm Dumbbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.overhead.one-arm"
     },
     {
       "id": "Standing_Overhead_Barbell_Triceps_Extension",
       "name": "Standing Overhead Barbell Triceps Extension",
-      "canonical": null
+      "canonical": "triceps-extension.barbell.overhead"
     },
     {
       "id": "Standing_Palm-In_One-Arm_Dumbbell_Press",
       "name": "Standing Palm-In One-Arm Dumbbell Press",
-      "canonical": null
+      "canonical": "shoulder-press.dumbbell.neutral-grip.one-arm"
     },
     {
       "id": "Standing_Palms-In_Dumbbell_Press",
       "name": "Standing Palms-In Dumbbell Press",
-      "canonical": null
+      "canonical": "shoulder-press.dumbbell.neutral-grip"
     },
     {
       "id": "Standing_Palms-Up_Barbell_Behind_The_Back_Wrist_Curl",
       "name": "Standing Palms-Up Barbell Behind The Back Wrist Curl",
-      "canonical": null
+      "canonical": "wrist-curl.barbell.behind-back"
     },
     {
       "id": "Standing_Pelvic_Tilt",
       "name": "Standing Pelvic Tilt",
-      "canonical": null
+      "canonical": "pelvic-tilt.standing"
     },
     {
       "id": "Standing_Rope_Crunch",
       "name": "Standing Rope Crunch",
-      "canonical": null
+      "canonical": "crunch.cable.standing"
     },
     {
       "id": "Standing_Soleus_And_Achilles_Stretch",
       "name": "Standing Soleus And Achilles Stretch",
-      "canonical": null
+      "canonical": "calf-stretch.standing.soleus"
     },
     {
       "id": "Standing_Toe_Touches",
       "name": "Standing Toe Touches",
-      "canonical": null
+      "canonical": "hamstring-stretch.standing"
     },
     {
       "id": "Standing_Towel_Triceps_Extension",
@@ -3933,47 +3933,47 @@
     {
       "id": "Standing_Two-Arm_Overhead_Throw",
       "name": "Standing Two-Arm Overhead Throw",
-      "canonical": null
+      "canonical": "medicine-ball-throw.overhead.standing.two-arm"
     },
     {
       "id": "Star_Jump",
       "name": "Star Jump",
-      "canonical": null
+      "canonical": "star-jump"
     },
     {
       "id": "Step_Mill",
       "name": "Step Mill",
-      "canonical": null
+      "canonical": "stair-climber.machine"
     },
     {
       "id": "Step-up_with_Knee_Raise",
       "name": "Step-up with Knee Raise",
-      "canonical": null
+      "canonical": "step-up.knee-raise"
     },
     {
       "id": "Stiff_Leg_Barbell_Good_Morning",
       "name": "Stiff Leg Barbell Good Morning",
-      "canonical": null
+      "canonical": "good-morning.barbell.stiff-leg"
     },
     {
       "id": "Stiff-Legged_Barbell_Deadlift",
       "name": "Stiff-Legged Barbell Deadlift",
-      "canonical": null
+      "canonical": "deadlift.stiff-leg.barbell"
     },
     {
       "id": "Stiff-Legged_Dumbbell_Deadlift",
       "name": "Stiff-Legged Dumbbell Deadlift",
-      "canonical": null
+      "canonical": "deadlift.stiff-leg.dumbbell"
     },
     {
       "id": "Stomach_Vacuum",
       "name": "Stomach Vacuum",
-      "canonical": null
+      "canonical": "stomach-vacuum"
     },
     {
       "id": "Straight_Bar_Bench_Mid_Rows",
       "name": "Straight Bar Bench Mid Rows",
-      "canonical": null
+      "canonical": "row.barbell.chest-supported"
     },
     {
       "id": "Straight_Raises_on_Incline_Bench",
@@ -3983,17 +3983,17 @@
     {
       "id": "Straight-Arm_Dumbbell_Pullover",
       "name": "Straight-Arm Dumbbell Pullover",
-      "canonical": null
+      "canonical": "pullover.dumbbell"
     },
     {
       "id": "Straight-Arm_Pulldown",
       "name": "Straight-Arm Pulldown",
-      "canonical": null
+      "canonical": "pullover.cable"
     },
     {
       "id": "Stride_Jump_Crossover",
       "name": "Stride Jump Crossover",
-      "canonical": null
+      "canonical": "stride-jump-crossover"
     },
     {
       "id": "Sumo_Deadlift",
@@ -4003,72 +4003,72 @@
     {
       "id": "Sumo_Deadlift_with_Bands",
       "name": "Sumo Deadlift with Bands",
-      "canonical": null
+      "canonical": "deadlift.barbell.sumo.band"
     },
     {
       "id": "Sumo_Deadlift_with_Chains",
       "name": "Sumo Deadlift with Chains",
-      "canonical": null
+      "canonical": "deadlift.barbell.sumo.chain"
     },
     {
       "id": "Superman",
       "name": "Superman",
-      "canonical": null
+      "canonical": "superman"
     },
     {
       "id": "Supine_Chest_Throw",
       "name": "Supine Chest Throw",
-      "canonical": null
+      "canonical": "medicine-ball-throw.chest.supine"
     },
     {
       "id": "Supine_One-Arm_Overhead_Throw",
       "name": "Supine One-Arm Overhead Throw",
-      "canonical": null
+      "canonical": "medicine-ball-throw.overhead.supine.one-arm"
     },
     {
       "id": "Supine_Two-Arm_Overhead_Throw",
       "name": "Supine Two-Arm Overhead Throw",
-      "canonical": null
+      "canonical": "medicine-ball-throw.overhead.supine.two-arm"
     },
     {
       "id": "Suspended_Fallout",
       "name": "Suspended Fallout",
-      "canonical": null
+      "canonical": "fallout.suspension"
     },
     {
       "id": "Suspended_Push-Up",
       "name": "Suspended Push-Up",
-      "canonical": null
+      "canonical": "push-up.suspension"
     },
     {
       "id": "Suspended_Reverse_Crunch",
       "name": "Suspended Reverse Crunch",
-      "canonical": null
+      "canonical": "reverse-crunch.suspension"
     },
     {
       "id": "Suspended_Row",
       "name": "Suspended Row",
-      "canonical": null
+      "canonical": "row.suspension"
     },
     {
       "id": "Suspended_Split_Squat",
       "name": "Suspended Split Squat",
-      "canonical": null
+      "canonical": "split-squat.suspension"
     },
     {
       "id": "Svend_Press",
       "name": "Svend Press",
-      "canonical": null
+      "canonical": "svend-press"
     },
     {
       "id": "T-Bar_Row_with_Handle",
       "name": "T-Bar Row with Handle",
-      "canonical": null
+      "canonical": "row.t-bar"
     },
     {
       "id": "Tate_Press",
       "name": "Tate Press",
-      "canonical": null
+      "canonical": "triceps-extension.dumbbell.tate"
     },
     {
       "id": "The_Straddle",
@@ -4078,52 +4078,52 @@
     {
       "id": "Thigh_Abductor",
       "name": "Thigh Abductor",
-      "canonical": null
+      "canonical": "hip-abduction.machine"
     },
     {
       "id": "Thigh_Adductor",
       "name": "Thigh Adductor",
-      "canonical": null
+      "canonical": "hip-adduction.machine"
     },
     {
       "id": "Tire_Flip",
       "name": "Tire Flip",
-      "canonical": null
+      "canonical": "tire-flip"
     },
     {
       "id": "Toe_Touchers",
       "name": "Toe Touchers",
-      "canonical": null
+      "canonical": "crunch.toe-touch"
     },
     {
       "id": "Torso_Rotation",
       "name": "Torso Rotation",
-      "canonical": null
+      "canonical": "torso-rotation"
     },
     {
       "id": "Trail_Running_Walking",
       "name": "Trail Running/Walking",
-      "canonical": null
+      "canonical": "run.trail"
     },
     {
       "id": "Trap_Bar_Deadlift",
       "name": "Trap Bar Deadlift",
-      "canonical": null
+      "canonical": "deadlift.trap-bar"
     },
     {
       "id": "Tricep_Dumbbell_Kickback",
       "name": "Tricep Dumbbell Kickback",
-      "canonical": null
+      "canonical": "triceps-kickback.dumbbell.tricep"
     },
     {
       "id": "Tricep_Side_Stretch",
       "name": "Tricep Side Stretch",
-      "canonical": null
+      "canonical": "triceps-stretch.overhead"
     },
     {
       "id": "Triceps_Overhead_Extension_with_Rope",
       "name": "Triceps Overhead Extension with Rope",
-      "canonical": null
+      "canonical": "triceps-extension.cable.overhead.rope"
     },
     {
       "id": "Triceps_Pushdown",
@@ -4133,57 +4133,57 @@
     {
       "id": "Triceps_Pushdown_-_Rope_Attachment",
       "name": "Triceps Pushdown - Rope Attachment",
-      "canonical": null
+      "canonical": "triceps-pushdown.cable.rope"
     },
     {
       "id": "Triceps_Pushdown_-_V-Bar_Attachment",
       "name": "Triceps Pushdown - V-Bar Attachment",
-      "canonical": null
+      "canonical": "triceps-pushdown.cable.v-bar"
     },
     {
       "id": "Triceps_Stretch",
       "name": "Triceps Stretch",
-      "canonical": null
+      "canonical": "triceps-stretch.overhead"
     },
     {
       "id": "Tuck_Crunch",
       "name": "Tuck Crunch",
-      "canonical": null
+      "canonical": "crunch.tuck"
     },
     {
       "id": "Two-Arm_Dumbbell_Preacher_Curl",
       "name": "Two-Arm Dumbbell Preacher Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.preacher"
     },
     {
       "id": "Two-Arm_Kettlebell_Clean",
       "name": "Two-Arm Kettlebell Clean",
-      "canonical": null
+      "canonical": "clean.kettlebell.two-arm"
     },
     {
       "id": "Two-Arm_Kettlebell_Jerk",
       "name": "Two-Arm Kettlebell Jerk",
-      "canonical": null
+      "canonical": "jerk.kettlebell.two-arm"
     },
     {
       "id": "Two-Arm_Kettlebell_Military_Press",
       "name": "Two-Arm Kettlebell Military Press",
-      "canonical": null
+      "canonical": "shoulder-press.kettlebell"
     },
     {
       "id": "Two-Arm_Kettlebell_Row",
       "name": "Two-Arm Kettlebell Row",
-      "canonical": null
+      "canonical": "row.kettlebell.two-arm"
     },
     {
       "id": "Underhand_Cable_Pulldowns",
       "name": "Underhand Cable Pulldowns",
-      "canonical": null
+      "canonical": "lat-pulldown.cable.underhand"
     },
     {
       "id": "Upper_Back_Stretch",
       "name": "Upper Back Stretch",
-      "canonical": null
+      "canonical": "upper-back-stretch"
     },
     {
       "id": "Upper_Back-Leg_Grab",
@@ -4193,37 +4193,37 @@
     {
       "id": "Upright_Barbell_Row",
       "name": "Upright Barbell Row",
-      "canonical": null
+      "canonical": "upright-row.barbell"
     },
     {
       "id": "Upright_Cable_Row",
       "name": "Upright Cable Row",
-      "canonical": null
+      "canonical": "upright-row.cable"
     },
     {
       "id": "Upright_Row_-_With_Bands",
       "name": "Upright Row - With Bands",
-      "canonical": null
+      "canonical": "upright-row.band"
     },
     {
       "id": "Upward_Stretch",
       "name": "Upward Stretch",
-      "canonical": null
+      "canonical": "upward-stretch"
     },
     {
       "id": "V-Bar_Pulldown",
       "name": "V-Bar Pulldown",
-      "canonical": null
+      "canonical": "lat-pulldown.cable.v-bar"
     },
     {
       "id": "V-Bar_Pullup",
       "name": "V-Bar Pullup",
-      "canonical": null
+      "canonical": "pull-up.v-bar"
     },
     {
       "id": "Vertical_Swing",
       "name": "Vertical Swing",
-      "canonical": null
+      "canonical": "kettlebell-swing.vertical"
     },
     {
       "id": "Walking_Treadmill",
@@ -4233,72 +4233,72 @@
     {
       "id": "Weighted_Ball_Hyperextension",
       "name": "Weighted Ball Hyperextension",
-      "canonical": null
+      "canonical": "back-extension.medicine-ball"
     },
     {
       "id": "Weighted_Ball_Side_Bend",
       "name": "Weighted Ball Side Bend",
-      "canonical": null
+      "canonical": "side-bend.medicine-ball"
     },
     {
       "id": "Weighted_Bench_Dip",
       "name": "Weighted Bench Dip",
-      "canonical": null
+      "canonical": "dip.bench.weighted"
     },
     {
       "id": "Weighted_Crunches",
       "name": "Weighted Crunches",
-      "canonical": null
+      "canonical": "crunch.weighted"
     },
     {
       "id": "Weighted_Jump_Squat",
       "name": "Weighted Jump Squat",
-      "canonical": null
+      "canonical": "jump-squat.weighted"
     },
     {
       "id": "Weighted_Pull_Ups",
       "name": "Weighted Pull Ups",
-      "canonical": null
+      "canonical": "pull-up.weighted"
     },
     {
       "id": "Weighted_Sissy_Squat",
       "name": "Weighted Sissy Squat",
-      "canonical": null
+      "canonical": "sissy-squat.weighted"
     },
     {
       "id": "Weighted_Sit-Ups_-_With_Bands",
       "name": "Weighted Sit-Ups - With Bands",
-      "canonical": null
+      "canonical": "sit-up.band"
     },
     {
       "id": "Weighted_Squat",
       "name": "Weighted Squat",
-      "canonical": null
+      "canonical": "squat.weighted"
     },
     {
       "id": "Wide_Stance_Barbell_Squat",
       "name": "Wide Stance Barbell Squat",
-      "canonical": null
+      "canonical": "squat.barbell.wide-stance"
     },
     {
       "id": "Wide_Stance_Stiff_Legs",
       "name": "Wide Stance Stiff Legs",
-      "canonical": null
+      "canonical": "deadlift.barbell.stiff-leg.wide-stance"
     },
     {
       "id": "Wide-Grip_Barbell_Bench_Press",
       "name": "Wide-Grip Barbell Bench Press",
-      "canonical": null
+      "canonical": "bench-press.barbell.flat.wide-grip"
     },
     {
       "id": "Wide-Grip_Decline_Barbell_Bench_Press",
       "name": "Wide-Grip Decline Barbell Bench Press",
-      "canonical": null
+      "canonical": "bench-press.barbell.decline.wide-grip"
     },
     {
       "id": "Wide-Grip_Decline_Barbell_Pullover",
       "name": "Wide-Grip Decline Barbell Pullover",
-      "canonical": null
+      "canonical": "pullover.barbell.decline.wide-grip"
     },
     {
       "id": "Wide-Grip_Lat_Pulldown",
@@ -4308,27 +4308,27 @@
     {
       "id": "Wide-Grip_Pulldown_Behind_The_Neck",
       "name": "Wide-Grip Pulldown Behind The Neck",
-      "canonical": null
+      "canonical": "lat-pulldown.cable.behind-neck.wide-grip"
     },
     {
       "id": "Wide-Grip_Rear_Pull-Up",
       "name": "Wide-Grip Rear Pull-Up",
-      "canonical": null
+      "canonical": "pull-up.behind-neck.wide-grip"
     },
     {
       "id": "Wide-Grip_Standing_Barbell_Curl",
       "name": "Wide-Grip Standing Barbell Curl",
-      "canonical": null
+      "canonical": "curl.barbell.wide-grip"
     },
     {
       "id": "Wind_Sprints",
       "name": "Wind Sprints",
-      "canonical": null
+      "canonical": "sprint"
     },
     {
       "id": "Windmills",
       "name": "Windmills",
-      "canonical": null
+      "canonical": "windmill.bodyweight"
     },
     {
       "id": "Worlds_Greatest_Stretch",
@@ -4338,17 +4338,17 @@
     {
       "id": "Wrist_Circles",
       "name": "Wrist Circles",
-      "canonical": null
+      "canonical": "wrist-circles"
     },
     {
       "id": "Wrist_Roller",
       "name": "Wrist Roller",
-      "canonical": null
+      "canonical": "wrist-roller"
     },
     {
       "id": "Wrist_Rotations_with_Straight_Bar",
       "name": "Wrist Rotations with Straight Bar",
-      "canonical": null
+      "canonical": "wrist-rotation.barbell"
     },
     {
       "id": "Yoke_Walk",
@@ -4358,17 +4358,17 @@
     {
       "id": "Zercher_Squats",
       "name": "Zercher Squats",
-      "canonical": null
+      "canonical": "squat.barbell.zercher"
     },
     {
       "id": "Zottman_Curl",
       "name": "Zottman Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.zottman"
     },
     {
       "id": "Zottman_Preacher_Curl",
       "name": "Zottman Preacher Curl",
-      "canonical": null
+      "canonical": "curl.dumbbell.preacher.zottman"
     }
   ]
 }
