@@ -199,7 +199,7 @@
     "names": ["Bent-Over Barbell Row"],
     "facets": {
       "modality": "strength",
-      "movementPattern": "horizontal-pull",
+      "movementPattern": "row",
       "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps", "spinal-erectors"] },
       "mechanic": "compound",
       "equipment": "barbell",
@@ -1046,7 +1046,7 @@
     "names": ["Seated Cable Row"],
     "facets": {
       "modality": "strength",
-      "movementPattern": "horizontal-pull",
+      "movementPattern": "row",
       "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps"] },
       "mechanic": "compound",
       "equipment": "cable",
@@ -1061,7 +1061,7 @@
     "names": ["One-Arm Dumbbell Row", "Single-Arm Dumbbell Row"],
     "facets": {
       "modality": "strength",
-      "movementPattern": "horizontal-pull",
+      "movementPattern": "row",
       "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps"] },
       "mechanic": "compound",
       "equipment": "dumbbell",
@@ -1387,7 +1387,7 @@
     "names": ["One-Arm Kettlebell Row"],
     "facets": {
       "modality": "strength",
-      "movementPattern": "horizontal-pull",
+      "movementPattern": "row",
       "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps"] },
       "mechanic": "compound",
       "equipment": "kettlebell",
@@ -1400,7 +1400,7 @@
     "names": ["Renegade Row"],
     "facets": {
       "modality": "strength",
-      "movementPattern": "horizontal-pull",
+      "movementPattern": "row",
       "anatomy": { "primary": ["lats"], "secondary": ["core", "deltoids"] },
       "mechanic": "compound",
       "equipment": "dumbbell",
@@ -5312,7 +5312,7 @@
     "names": ["Lying Rear Delt Raise"],
     "facets": {
       "modality": "strength",
-      "movementPattern": "horizontal-abduction",
+      "movementPattern": "horizontal-pull",
       "anatomy": { "primary": ["deltoids"], "secondary": ["trapezius", "rhomboids"] },
       "mechanic": "isolation",
       "equipment": "dumbbell"
