@@ -57,6 +57,7 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 5.0 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_BARBELL_SHOULDER_PRESS" },
     "source": "curated"
   },
   {
@@ -72,6 +73,7 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 8.0 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_PULL_UP" },
     "source": "curated",
     "regressions": ["lat-pulldown.cable"],
     "progressions": ["muscle-up"]
@@ -115,7 +117,7 @@
       "equipment": "none"
     },
     "attributes": { "met": 9.8 },
-    "coded": { "healthkit": "running" },
+    "coded": { "healthkit": "running", "healthconnect": "EXERCISE_SEGMENT_TYPE_RUNNING" },
     "source": "compendium"
   },
   {
@@ -129,6 +131,7 @@
       "equipment": "machine"
     },
     "attributes": { "met": 7.0 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_ROWING_MACHINE" },
     "source": "compendium"
   },
   {
@@ -143,6 +146,7 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 3.8 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_PLANK" },
     "source": "curated"
   },
   {
@@ -217,6 +221,7 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 5.0 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_LAT_PULL_DOWN" },
     "source": "curated",
     "progressions": ["pull-up"]
   },
@@ -361,6 +366,7 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 9.3 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_KETTLEBELL_SWING" },
     "source": "compendium"
   },
   {
@@ -403,6 +409,7 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 8.0 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_BURPEE" },
     "source": "curated"
   },
   {
@@ -570,7 +577,7 @@
       "equipment": "bicycle"
     },
     "attributes": { "met": 7.5 },
-    "coded": { "healthkit": "cycling" },
+    "coded": { "healthkit": "cycling", "healthconnect": "EXERCISE_SEGMENT_TYPE_BIKING" },
     "source": "compendium"
   },
   {
@@ -610,7 +617,7 @@
       "equipment": "none"
     },
     "attributes": { "met": 8.3 },
-    "coded": { "healthkit": "swimming" },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_SWIMMING_FREESTYLE" },
     "source": "compendium"
   },
   {
@@ -624,7 +631,7 @@
       "equipment": "none"
     },
     "attributes": { "met": 3.5 },
-    "coded": { "healthkit": "walking" },
+    "coded": { "healthkit": "walking", "healthconnect": "EXERCISE_SEGMENT_TYPE_WALKING" },
     "source": "compendium"
   },
   {
@@ -639,6 +646,7 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 11.0 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_JUMP_ROPE", "healthkit": "jumpRope" },
     "source": "compendium"
   },
   {
@@ -822,6 +830,7 @@
       "equipment": "machine",
       "laterality": "bilateral"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_LEG_PRESS" },
     "source": "curated"
   },
   {
@@ -848,6 +857,7 @@
       "equipment": "dumbbell",
       "laterality": "bilateral"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_DUMBBELL_LATERAL_RAISE" },
     "source": "curated"
   },
   {
@@ -874,6 +884,7 @@
       "equipment": "machine",
       "laterality": "bilateral"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_LEG_EXTENSION" },
     "source": "curated"
   },
   {
@@ -901,6 +912,7 @@
       "mechanic": "compound",
       "equipment": "machine"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_ELLIPTICAL", "healthkit": "elliptical" },
     "source": "curated"
   },
   {
@@ -913,6 +925,7 @@
       "mechanic": "compound",
       "equipment": "machine"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_STAIR_CLIMBING_MACHINE" },
     "source": "curated"
   },
   {
@@ -1098,6 +1111,7 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 3.0 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_CRUNCH" },
     "source": "curated"
   },
   {
@@ -1112,6 +1126,7 @@
       "laterality": "bilateral"
     },
     "attributes": { "met": 3.8 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_SIT_UP" },
     "source": "curated",
     "variations": ["crunch"]
   },
@@ -3761,6 +3776,7 @@
       "mechanic": "isolation",
       "equipment": "dumbbell"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_DUMBBELL_FRONT_RAISE" },
     "source": "free-exercise-db"
   },
   {
@@ -5096,6 +5112,7 @@
       "mechanic": "isolation",
       "equipment": "bodyweight"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_BACK_EXTENSION" },
     "source": "free-exercise-db"
   },
   {
@@ -5469,6 +5486,7 @@
       "mechanic": "compound",
       "equipment": "bodyweight"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_MOUNTAIN_CLIMBER" },
     "source": "free-exercise-db"
   },
   {
@@ -6006,6 +6024,7 @@
       "mechanic": "compound",
       "equipment": "medicine-ball"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_BALL_SLAM" },
     "source": "free-exercise-db"
   },
   {
@@ -10003,6 +10022,7 @@
       "equipment": "none"
     },
     "attributes": { "met": 9.5 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_SWIMMING_BACKSTROKE" },
     "source": "compendium"
   },
   {
@@ -10016,6 +10036,7 @@
       "equipment": "none"
     },
     "attributes": { "met": 10.3 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_SWIMMING_BREASTSTROKE" },
     "source": "compendium"
   },
   {
@@ -10029,6 +10050,7 @@
       "equipment": "none"
     },
     "attributes": { "met": 13.8 },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_SWIMMING_BUTTERFLY" },
     "source": "compendium"
   },
   {
@@ -10054,6 +10076,7 @@
       "mechanic": "compound",
       "equipment": "none"
     },
+    "coded": { "healthconnect": "EXERCISE_SEGMENT_TYPE_SWIMMING_OPEN_WATER" },
     "source": "curated",
     "variations": ["swim.freestyle"]
   },
@@ -10409,7 +10432,7 @@
       "mechanic": "compound",
       "equipment": "none"
     },
-    "coded": { "healthkit": "stairClimbing" },
+    "coded": { "healthkit": "stairClimbing", "healthconnect": "EXERCISE_SEGMENT_TYPE_STAIR_CLIMBING" },
     "source": "curated",
     "variations": ["stair-climber.machine"]
   },
