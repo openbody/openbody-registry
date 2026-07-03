@@ -216,7 +216,7 @@
     },
     {
       "name": "Climbing",
-      "canonical": null
+      "canonical": "climb"
     },
     {
       "name": "Concentration Curl (Dumbbell)",
@@ -412,7 +412,7 @@
     },
     {
       "name": "Hiking",
-      "canonical": null
+      "canonical": "hike"
     },
     {
       "name": "Hip Abductor (Machine)",
@@ -508,7 +508,7 @@
     },
     {
       "name": "Kipping Pull Up",
-      "canonical": null
+      "canonical": "pull-up.kipping"
     },
     {
       "name": "Knee Raise (Captain's Chair)",
@@ -984,7 +984,7 @@
     },
     {
       "name": "Swimming",
-      "canonical": null
+      "canonical": "swim"
     },
     {
       "name": "T Bar Row",

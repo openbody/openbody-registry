@@ -9217,5 +9217,1241 @@
       "equipment": "dumbbell"
     },
     "source": "free-exercise-db"
+  },
+  {
+    "id": "front-lever.tuck",
+    "names": ["Tuck Front Lever"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["lats", "core"], "secondary": ["forearms", "deltoids"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["front-lever.advanced-tuck"],
+    "regressions": ["dead-hang", "hanging-leg-raise"]
+  },
+  {
+    "id": "front-lever.advanced-tuck",
+    "names": ["Advanced Tuck Front Lever"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["lats", "core"], "secondary": ["forearms", "deltoids"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["front-lever.straddle"],
+    "regressions": ["front-lever.tuck"]
+  },
+  {
+    "id": "front-lever.straddle",
+    "names": ["Straddle Front Lever"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["lats", "core"], "secondary": ["forearms", "deltoids"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["front-lever"],
+    "regressions": ["front-lever.advanced-tuck"]
+  },
+  {
+    "id": "front-lever",
+    "names": ["Front Lever"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["lats", "core"], "secondary": ["forearms", "deltoids", "rectus-abdominis"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["front-lever.straddle"]
+  },
+  {
+    "id": "back-lever.tuck",
+    "names": ["Tuck Back Lever"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["lats", "core"], "secondary": ["pectoralis-major", "biceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["back-lever"],
+    "regressions": ["skin-the-cat"]
+  },
+  {
+    "id": "back-lever",
+    "names": ["Back Lever"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["lats", "core"], "secondary": ["pectoralis-major", "biceps", "spinal-erectors"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["back-lever.tuck"]
+  },
+  {
+    "id": "planche.lean",
+    "names": ["Planche Lean"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["anterior-deltoid", "pectoralis-major"], "secondary": ["forearms", "core"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["planche.tuck"]
+  },
+  {
+    "id": "planche.tuck",
+    "names": ["Tuck Planche"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["anterior-deltoid", "pectoralis-major"], "secondary": ["forearms", "core", "biceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["planche.straddle"],
+    "regressions": ["planche.lean", "crow-stand"]
+  },
+  {
+    "id": "planche.straddle",
+    "names": ["Straddle Planche"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["anterior-deltoid", "pectoralis-major"], "secondary": ["forearms", "core", "biceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["planche"],
+    "regressions": ["planche.tuck"]
+  },
+  {
+    "id": "planche",
+    "names": ["Planche", "Full Planche"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["anterior-deltoid", "pectoralis-major"], "secondary": ["forearms", "core", "biceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["planche.straddle"]
+  },
+  {
+    "id": "push-up.pseudo-planche",
+    "names": ["Pseudo Planche Push-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["anterior-deltoid", "pectoralis-major"], "secondary": ["triceps", "core", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["push-up.planche"],
+    "regressions": ["push-up"]
+  },
+  {
+    "id": "push-up.planche",
+    "names": ["Planche Push-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["anterior-deltoid", "pectoralis-major"], "secondary": ["triceps", "core", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["push-up.pseudo-planche"]
+  },
+  {
+    "id": "handstand.wall",
+    "names": ["Wall Handstand", "Wall-Supported Handstand"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["core", "triceps", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["handstand"],
+    "regressions": ["wall-walk"]
+  },
+  {
+    "id": "wall-walk",
+    "names": ["Wall Walk"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["deltoids", "core"], "secondary": ["triceps", "pectoralis-major"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight"
+    },
+    "source": "curated",
+    "progressions": ["handstand.wall"],
+    "regressions": ["push-up.pike"]
+  },
+  {
+    "id": "handstand-walk",
+    "names": ["Handstand Walk", "Handstand Walking"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["triceps", "core", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight"
+    },
+    "source": "curated",
+    "regressions": ["handstand"]
+  },
+  {
+    "id": "press-to-handstand",
+    "names": ["Press to Handstand", "Press Handstand"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["deltoids", "core"], "secondary": ["triceps", "hip-flexors"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["handstand", "l-sit"]
+  },
+  {
+    "id": "handstand-push-up.freestanding",
+    "names": ["Freestanding Handstand Push-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["triceps", "trapezius", "core"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["handstand-push-up"]
+  },
+  {
+    "id": "push-up.pike",
+    "names": ["Pike Push-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-push",
+      "anatomy": { "primary": ["deltoids"], "secondary": ["triceps", "trapezius"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["handstand-push-up"],
+    "regressions": ["push-up"]
+  },
+  {
+    "id": "crow-stand",
+    "names": ["Crow Stand", "Crow Pose", "Frog Stand"],
+    "facets": {
+      "modality": "balance",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["deltoids", "core"], "secondary": ["forearms", "triceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["handstand", "planche.tuck"]
+  },
+  {
+    "id": "support-hold",
+    "names": ["Support Hold", "Parallel Bar Support Hold"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["triceps", "deltoids"], "secondary": ["pectoralis-major", "core"] },
+      "mechanic": "compound",
+      "equipment": "parallel-bars",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["support-hold.rings", "dip"]
+  },
+  {
+    "id": "support-hold.rings",
+    "names": ["Ring Support Hold"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["triceps", "deltoids"], "secondary": ["pectoralis-major", "core", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "suspension",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["dip.rings"],
+    "regressions": ["support-hold"]
+  },
+  {
+    "id": "muscle-up.rings",
+    "names": ["Ring Muscle-Up"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats", "pectoralis-major"], "secondary": ["triceps", "biceps", "core"] },
+      "mechanic": "compound",
+      "equipment": "suspension",
+      "grip": "false-grip",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["pull-up", "dip.rings", "support-hold.rings"],
+    "variations": ["muscle-up"]
+  },
+  {
+    "id": "inverted-row.rings",
+    "names": ["Ring Row"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "row",
+      "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps", "trapezius", "core"] },
+      "mechanic": "compound",
+      "equipment": "suspension"
+    },
+    "source": "curated",
+    "progressions": ["pull-up"],
+    "variations": ["inverted-row.suspension"]
+  },
+  {
+    "id": "skin-the-cat",
+    "names": ["Skin the Cat", "German Hang Pullover"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "shoulder-circumduction",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["biceps", "core", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "suspension"
+    },
+    "source": "curated",
+    "progressions": ["back-lever.tuck"]
+  },
+  {
+    "id": "pistol-squat.assisted",
+    "names": ["Assisted Pistol Squat"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "squat",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors", "core"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "alternating"
+    },
+    "source": "curated",
+    "progressions": ["pistol-squat.box"]
+  },
+  {
+    "id": "pistol-squat.box",
+    "names": ["Box Pistol Squat", "Pistol Squat to Box"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "squat",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors", "core"] },
+      "mechanic": "compound",
+      "equipment": "box",
+      "laterality": "alternating"
+    },
+    "source": "curated",
+    "progressions": ["pistol-squat"],
+    "regressions": ["pistol-squat.assisted"]
+  },
+  {
+    "id": "squat.shrimp",
+    "names": ["Shrimp Squat"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "squat",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors", "core"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "alternating"
+    },
+    "source": "curated",
+    "variations": ["pistol-squat"]
+  },
+  {
+    "id": "l-sit.tuck",
+    "names": ["Tuck L-Sit", "Tucked L-Sit"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["rectus-abdominis", "hip-flexors"], "secondary": ["triceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["l-sit"]
+  },
+  {
+    "id": "v-sit",
+    "names": ["V-Sit"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["rectus-abdominis", "hip-flexors"], "secondary": ["triceps", "quadriceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["l-sit"]
+  },
+  {
+    "id": "bridge",
+    "names": ["Bridge", "Full Bridge", "Wheel Pose"],
+    "facets": {
+      "modality": "mobility",
+      "movementPattern": "spinal-extension",
+      "anatomy": { "primary": ["spinal-erectors", "glutes"], "secondary": ["deltoids", "quadriceps"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["glute-bridge"]
+  },
+  {
+    "id": "human-flag.tuck",
+    "names": ["Tuck Human Flag"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["obliques", "lats"], "secondary": ["deltoids", "core"] },
+      "mechanic": "compound",
+      "equipment": "pole"
+    },
+    "source": "curated",
+    "progressions": ["human-flag"]
+  },
+  {
+    "id": "human-flag",
+    "names": ["Human Flag", "Flag Hold"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["obliques", "lats"], "secondary": ["deltoids", "core", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "pole"
+    },
+    "source": "curated",
+    "regressions": ["human-flag.tuck", "side-plank"]
+  },
+  {
+    "id": "hollow-body-hold",
+    "names": ["Hollow Body Hold", "Hollow Hold"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "anti-extension",
+      "anatomy": { "primary": ["rectus-abdominis"], "secondary": ["hip-flexors", "obliques"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["dragon-flag"]
+  },
+  {
+    "id": "dragon-flag",
+    "names": ["Dragon Flag"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "anti-extension",
+      "anatomy": { "primary": ["rectus-abdominis", "core"], "secondary": ["lats", "hip-flexors"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["hollow-body-hold"]
+  },
+  {
+    "id": "pull-up.archer",
+    "names": ["Archer Pull-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats"], "secondary": ["biceps", "forearms", "core"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "alternating"
+    },
+    "source": "curated",
+    "progressions": ["pull-up.one-arm"],
+    "regressions": ["pull-up"]
+  },
+  {
+    "id": "push-up.archer",
+    "names": ["Archer Push-Up"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "horizontal-push",
+      "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps", "anterior-deltoid", "core"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "alternating"
+    },
+    "source": "curated",
+    "progressions": ["push-up.single-arm"],
+    "regressions": ["push-up"]
+  },
+  {
+    "id": "pull-up.kipping",
+    "names": ["Kipping Pull-Up"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats"], "secondary": ["biceps", "core", "hip-flexors"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight"
+    },
+    "source": "curated",
+    "variations": ["pull-up"]
+  },
+  {
+    "id": "pull-up.butterfly",
+    "names": ["Butterfly Pull-Up"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats"], "secondary": ["biceps", "core", "hip-flexors"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight"
+    },
+    "source": "curated",
+    "variations": ["pull-up.kipping"]
+  },
+  {
+    "id": "dead-hang",
+    "names": ["Dead Hang", "Bar Hang"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["forearms"], "secondary": ["lats", "deltoids"] },
+      "mechanic": "isolation",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["dead-hang.one-arm", "pull-up.scapular"]
+  },
+  {
+    "id": "dead-hang.hangboard",
+    "names": ["Hangboard Hang", "Fingerboard Hang"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["forearms"], "secondary": ["lats", "deltoids"] },
+      "mechanic": "isolation",
+      "equipment": "hangboard",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["dead-hang"]
+  },
+  {
+    "id": "dead-hang.hangboard.max",
+    "names": ["Max Hang", "Max Weight Hang"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["forearms"], "secondary": ["lats", "deltoids"] },
+      "mechanic": "isolation",
+      "equipment": "hangboard",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["dead-hang.hangboard"]
+  },
+  {
+    "id": "dead-hang.hangboard.repeaters",
+    "names": ["Hangboard Repeaters", "Repeaters"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["forearms"], "secondary": ["lats", "deltoids"] },
+      "mechanic": "isolation",
+      "equipment": "hangboard",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["dead-hang.hangboard"]
+  },
+  {
+    "id": "lock-off",
+    "names": ["Lock-Off", "Pull-Up Lock-Off"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["biceps", "lats"], "secondary": ["forearms", "core"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "progressions": ["lock-off.one-arm"],
+    "regressions": ["pull-up"]
+  },
+  {
+    "id": "lock-off.one-arm",
+    "names": ["One-Arm Lock-Off"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "isometric-hold",
+      "anatomy": { "primary": ["biceps", "lats"], "secondary": ["forearms", "core"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "alternating"
+    },
+    "source": "curated",
+    "regressions": ["lock-off"]
+  },
+  {
+    "id": "pull-up.frenchies",
+    "names": ["Frenchies", "French Pull-Ups"],
+    "facets": {
+      "modality": "strength",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["lats", "biceps"], "secondary": ["forearms", "core"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight",
+      "laterality": "bilateral"
+    },
+    "source": "curated",
+    "regressions": ["pull-up", "lock-off"]
+  },
+  {
+    "id": "campus-board",
+    "names": ["Campus Board", "Campusing"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["forearms", "lats"], "secondary": ["biceps", "deltoids"] },
+      "mechanic": "compound",
+      "equipment": "campus-board"
+    },
+    "source": "curated",
+    "regressions": ["pull-up.weighted", "dead-hang.hangboard.max"]
+  },
+  {
+    "id": "campus-board.ladder",
+    "names": ["Campus Ladders", "Campus Board Ladders"],
+    "facets": {
+      "modality": "power",
+      "movementPattern": "vertical-pull",
+      "anatomy": { "primary": ["forearms", "lats"], "secondary": ["biceps", "deltoids"] },
+      "mechanic": "compound",
+      "equipment": "campus-board",
+      "laterality": "alternating"
+    },
+    "source": "curated",
+    "variations": ["campus-board"]
+  },
+  {
+    "id": "climb",
+    "names": ["Climbing", "Rock Climbing"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "climb",
+      "anatomy": { "primary": ["forearms", "lats"], "secondary": ["biceps", "calves", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "coded": { "healthkit": "climbing" },
+    "source": "curated"
+  },
+  {
+    "id": "climb.boulder",
+    "names": ["Bouldering", "Boulder Climbing"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "climb",
+      "anatomy": { "primary": ["forearms", "lats"], "secondary": ["biceps", "core", "calves"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["climb"]
+  },
+  {
+    "id": "climb.route",
+    "names": ["Route Climbing", "Roped Climbing"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "climb",
+      "anatomy": { "primary": ["forearms", "lats"], "secondary": ["biceps", "calves", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["climb"]
+  },
+  {
+    "id": "climb.route.top-rope",
+    "names": ["Top-Rope Climbing", "Top Roping"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "climb",
+      "anatomy": { "primary": ["forearms", "lats"], "secondary": ["biceps", "calves", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "progressions": ["climb.route.lead"],
+    "variations": ["climb.route"]
+  },
+  {
+    "id": "climb.route.lead",
+    "names": ["Lead Climbing", "Sport Climbing (Lead)"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "climb",
+      "anatomy": { "primary": ["forearms", "lats"], "secondary": ["biceps", "calves", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "regressions": ["climb.route.top-rope"],
+    "variations": ["climb.route"]
+  },
+  {
+    "id": "climb.board",
+    "names": ["Board Climbing", "System Board Climbing"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "climb",
+      "anatomy": { "primary": ["forearms", "lats"], "secondary": ["biceps", "core"] },
+      "mechanic": "compound",
+      "equipment": "training-board"
+    },
+    "source": "curated",
+    "variations": ["climb.boulder"]
+  },
+  {
+    "id": "climb.traverse",
+    "names": ["Wall Traverse", "Traverse Climbing"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "climb",
+      "anatomy": { "primary": ["forearms", "calves"], "secondary": ["lats", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "regressions": ["climb.boulder"]
+  },
+  {
+    "id": "swim",
+    "names": ["Swimming"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core", "glutes"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 6.0 },
+    "coded": { "healthkit": "swimming" },
+    "source": "compendium"
+  },
+  {
+    "id": "swim.backstroke",
+    "names": ["Backstroke", "Backstroke Swim"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core", "glutes", "quadriceps"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 9.5 },
+    "source": "compendium"
+  },
+  {
+    "id": "swim.breaststroke",
+    "names": ["Breaststroke", "Breaststroke Swim"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["pectoralis-major", "lats"], "secondary": ["adductors", "quadriceps", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 10.3 },
+    "source": "compendium"
+  },
+  {
+    "id": "swim.butterfly",
+    "names": ["Butterfly", "Butterfly Swim"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "pectoralis-major", "core"], "secondary": ["deltoids", "glutes"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 13.8 },
+    "source": "compendium"
+  },
+  {
+    "id": "swim.sidestroke",
+    "names": ["Sidestroke", "Sidestroke Swim"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "adductors"], "secondary": ["deltoids", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 7.0 },
+    "source": "compendium"
+  },
+  {
+    "id": "swim.open-water",
+    "names": ["Open Water Swim", "Open-Water Swimming"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core", "glutes"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["swim.freestyle"]
+  },
+  {
+    "id": "swim.freestyle.catch-up",
+    "names": ["Catch-Up Drill", "Catch-Up Freestyle"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["swim.freestyle"]
+  },
+  {
+    "id": "swim.freestyle.fingertip-drag",
+    "names": ["Fingertip Drag Drill"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["deltoids", "lats"], "secondary": ["core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["swim.freestyle"]
+  },
+  {
+    "id": "swim.freestyle.single-arm",
+    "names": ["Single-Arm Freestyle Drill", "One-Arm Freestyle"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core"] },
+      "mechanic": "compound",
+      "equipment": "none",
+      "laterality": "alternating"
+    },
+    "source": "curated",
+    "variations": ["swim.freestyle"]
+  },
+  {
+    "id": "swim.freestyle.sighting",
+    "names": ["Sighting Drill", "Open-Water Sighting Drill"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core", "spinal-erectors"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["swim.open-water"]
+  },
+  {
+    "id": "swim.freestyle.pull-buoy",
+    "names": ["Pull Buoy Freestyle", "Freestyle Pull Set"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["lats", "pectoralis-major"], "secondary": ["deltoids", "triceps"] },
+      "mechanic": "compound",
+      "equipment": "pull-buoy"
+    },
+    "source": "curated",
+    "variations": ["swim.freestyle"]
+  },
+  {
+    "id": "scull",
+    "names": ["Sculling", "Sculling Drill"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["forearms", "deltoids"], "secondary": ["pectoralis-major", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "swim-kick",
+    "names": ["Swim Kick", "Kick Set"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["hip-flexors", "quadriceps"], "secondary": ["glutes", "calves", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "swim-kick.kickboard",
+    "names": ["Kickboard Kick Set", "Kickboard Flutter Kick"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["hip-flexors", "quadriceps"], "secondary": ["glutes", "calves", "core"] },
+      "mechanic": "compound",
+      "equipment": "kickboard"
+    },
+    "source": "curated",
+    "variations": ["swim-kick"]
+  },
+  {
+    "id": "swim-kick.dolphin",
+    "names": ["Dolphin Kick", "Underwater Dolphin Kick"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["core", "hip-flexors"], "secondary": ["quadriceps", "glutes"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["swim-kick"]
+  },
+  {
+    "id": "swim-kick.vertical",
+    "names": ["Vertical Kicking"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["hip-flexors", "quadriceps"], "secondary": ["core", "calves"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["swim-kick"]
+  },
+  {
+    "id": "treading-water",
+    "names": ["Treading Water"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["quadriceps", "adductors"], "secondary": ["deltoids", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 3.5 },
+    "source": "compendium",
+    "progressions": ["treading-water.eggbeater"]
+  },
+  {
+    "id": "treading-water.eggbeater",
+    "names": ["Eggbeater Kick", "Eggbeater"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "swim",
+      "anatomy": { "primary": ["adductors", "quadriceps"], "secondary": ["hip-flexors", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "regressions": ["treading-water"]
+  },
+  {
+    "id": "flip-turn",
+    "names": ["Flip Turn", "Tumble Turn"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "rotation",
+      "anatomy": { "primary": ["core"], "secondary": ["hip-flexors", "quadriceps"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated"
+  },
+  {
+    "id": "paddle",
+    "names": ["Paddling"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "paddle",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core", "obliques"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "coded": { "healthkit": "paddleSports" },
+    "source": "curated"
+  },
+  {
+    "id": "paddle.kayak",
+    "names": ["Kayaking", "Kayak Paddling"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "paddle",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core", "obliques", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "kayak"
+    },
+    "attributes": { "met": 5.0 },
+    "source": "compendium",
+    "variations": ["paddle"]
+  },
+  {
+    "id": "paddle.kayak.erg",
+    "names": ["Kayak Ergometer", "Paddle Erg"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "paddle",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core", "obliques", "forearms"] },
+      "mechanic": "compound",
+      "equipment": "machine"
+    },
+    "source": "curated",
+    "variations": ["paddle.kayak"]
+  },
+  {
+    "id": "paddle.canoe",
+    "names": ["Canoeing", "Canoe Paddling"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "paddle",
+      "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core", "obliques"] },
+      "mechanic": "compound",
+      "equipment": "canoe"
+    },
+    "attributes": { "met": 5.8 },
+    "source": "compendium",
+    "variations": ["paddle"]
+  },
+  {
+    "id": "paddle.sup",
+    "names": ["Stand-Up Paddleboarding", "SUP Paddling"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "paddle",
+      "anatomy": { "primary": ["lats", "core"], "secondary": ["deltoids", "calves", "glutes"] },
+      "mechanic": "compound",
+      "equipment": "paddleboard"
+    },
+    "source": "curated",
+    "variations": ["paddle"]
+  },
+  {
+    "id": "paddle.prone",
+    "names": ["Prone Paddling", "Surfboard Paddling"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "paddle",
+      "anatomy": { "primary": ["deltoids", "lats"], "secondary": ["trapezius", "spinal-erectors"] },
+      "mechanic": "compound",
+      "equipment": "surfboard",
+      "laterality": "alternating"
+    },
+    "source": "curated",
+    "variations": ["paddle"]
+  },
+  {
+    "id": "surf-pop-up",
+    "names": ["Surf Pop-Up", "Pop-Up Drill"],
+    "facets": {
+      "modality": "skill",
+      "movementPattern": "squat-thrust",
+      "anatomy": { "primary": ["pectoralis-major", "quadriceps"], "secondary": ["triceps", "core", "hip-flexors"] },
+      "mechanic": "compound",
+      "equipment": "bodyweight"
+    },
+    "source": "curated",
+    "regressions": ["burpee", "push-up"]
+  },
+  {
+    "id": "row.on-water",
+    "names": ["Rowing (On Water)", "On-Water Rowing"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "row",
+      "anatomy": { "primary": ["lats", "quadriceps"], "secondary": ["hamstrings", "biceps", "spinal-erectors"] },
+      "mechanic": "compound",
+      "equipment": "rowing-shell"
+    },
+    "source": "curated",
+    "variations": ["row.erg"]
+  },
+  {
+    "id": "run.deep-water",
+    "names": ["Deep Water Running", "Aqua Jogging"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "hamstrings"], "secondary": ["hip-flexors", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["run"]
+  },
+  {
+    "id": "hike",
+    "names": ["Hiking"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "glutes", "calves"], "secondary": ["hamstrings", "core"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "attributes": { "met": 6.0 },
+    "coded": { "healthkit": "hiking" },
+    "source": "compendium",
+    "variations": ["walk", "run.trail"]
+  },
+  {
+    "id": "ruck",
+    "names": ["Rucking", "Ruck March", "Loaded March"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "glutes", "calves"], "secondary": ["spinal-erectors", "trapezius", "core"] },
+      "mechanic": "compound",
+      "equipment": "rucksack"
+    },
+    "source": "curated",
+    "regressions": ["hike", "walk"]
+  },
+  {
+    "id": "walk.treadmill.incline",
+    "names": ["Incline Treadmill Walk", "Treadmill Hike", "Incline Treadmill Hike"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "glutes", "calves"], "secondary": ["hamstrings"] },
+      "mechanic": "compound",
+      "equipment": "treadmill"
+    },
+    "source": "curated",
+    "variations": ["hike", "walk"]
+  },
+  {
+    "id": "walk.nordic",
+    "names": ["Nordic Walking", "Pole Walking"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "glutes", "calves"], "secondary": ["lats", "triceps", "core"] },
+      "mechanic": "compound",
+      "equipment": "poles"
+    },
+    "source": "curated",
+    "variations": ["walk"]
+  },
+  {
+    "id": "stair-climb",
+    "names": ["Stair Climbing", "Stairs"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["calves", "hamstrings"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "coded": { "healthkit": "stairClimbing" },
+    "source": "curated",
+    "variations": ["stair-climber.machine"]
+  },
+  {
+    "id": "snowshoe",
+    "names": ["Snowshoeing"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "gait",
+      "anatomy": { "primary": ["quadriceps", "glutes", "hip-flexors"], "secondary": ["calves", "hamstrings"] },
+      "mechanic": "compound",
+      "equipment": "snowshoes"
+    },
+    "attributes": { "met": 5.3 },
+    "source": "compendium",
+    "variations": ["hike"]
+  },
+  {
+    "id": "ski.cross-country",
+    "names": ["Cross-Country Skiing", "XC Skiing", "Nordic Skiing"],
+    "facets": {
+      "modality": "endurance",
+      "movementPattern": "ski",
+      "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["lats", "triceps", "core"] },
+      "mechanic": "compound",
+      "equipment": "skis"
+    },
+    "coded": { "healthkit": "crossCountrySkiing" },
+    "source": "curated",
+    "variations": ["ski.erg"]
+  },
+  {
+    "id": "sprint.hill",
+    "names": ["Hill Sprint", "Hill Sprints"],
+    "facets": {
+      "modality": "conditioning",
+      "movementPattern": "locomotion",
+      "anatomy": { "primary": ["glutes", "hamstrings", "quadriceps"], "secondary": ["calves"] },
+      "mechanic": "compound",
+      "equipment": "none"
+    },
+    "source": "curated",
+    "variations": ["sprint"]
   }
 ]

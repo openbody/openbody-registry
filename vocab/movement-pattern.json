@@ -41,6 +41,8 @@
     { "token": "scapular-elevation", "label": "Scapular Elevation", "description": "Shrugging pattern that elevates the shoulder girdle." },
     { "token": "ankle-plantarflexion", "label": "Ankle Plantarflexion", "description": "Calf-raise pattern; ankle extension." },
     { "token": "hip-adduction", "label": "Hip Adduction", "description": "Draw the leg toward the midline (adductor machine/band)." },
-    { "token": "knee-flexion", "label": "Knee Flexion", "description": "Isolated hamstring curl pattern (leg curl)." }
+    { "token": "knee-flexion", "label": "Knee Flexion", "description": "Isolated hamstring curl pattern (leg curl)." },
+    { "token": "climb", "label": "Climb", "description": "Whole-body climbing locomotion up rock, wall, or board (bouldering, route climbing, traversing)." },
+    { "token": "paddle", "label": "Paddle", "description": "Paddle-stroke locomotion (kayak, canoe, SUP, prone/surfboard paddling)." }
   ]
 }

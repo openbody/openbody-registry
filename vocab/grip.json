@@ -12,6 +12,9 @@
     { "token": "hook", "label": "Hook Grip", "description": "Thumb wrapped inside the fingers against the bar (Olympic lifting)." },
     { "token": "false-grip", "label": "False Grip", "aliases": ["monkey-grip", "monkey-paw"], "description": "Thumb over the bar rather than wrapped around it (gymnastics rings/muscle-up)." },
     { "token": "wide", "label": "Wide Grip", "description": "Hands placed wider than shoulder width." },
-    { "token": "close", "label": "Close Grip", "aliases": ["narrow"], "description": "Hands placed narrower than shoulder width." }
+    { "token": "close", "label": "Close Grip", "aliases": ["narrow"], "description": "Hands placed narrower than shoulder width." },
+    { "token": "half-crimp", "label": "Half Crimp", "description": "Climbing grip: fingers bent ~90° at the second knuckle, thumb off (standard hangboard testing grip)." },
+    { "token": "full-crimp", "label": "Full Crimp", "aliases": ["closed-crimp"], "description": "Climbing grip: hyperextended fingertips with the thumb locked over the index finger." },
+    { "token": "open-hand", "label": "Open Hand", "aliases": ["open-crimp", "drag"], "description": "Climbing grip: fingers open/extended over the hold (three-finger drag, sloper grip)." }
   ]
 }

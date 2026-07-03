@@ -404,7 +404,7 @@
     },
     {
       "name": "Hiking",
-      "canonical": null
+      "canonical": "hike"
     },
     {
       "name": "Hip Abduction (Machine)",
@@ -1008,7 +1008,7 @@
     },
     {
       "name": "Swimming",
-      "canonical": null
+      "canonical": "swim"
     },
     {
       "name": "T Bar Row",

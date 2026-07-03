@@ -28,6 +28,22 @@
     { "token": "trap-bar", "label": "Trap Bar", "aliases": ["hex-bar"], "description": "Hexagonal/trap bar with neutral, centered grip handles." },
     { "token": "smith-machine", "label": "Smith Machine", "description": "Barbell fixed to a vertical linear track." },
     { "token": "resistance-band", "label": "Resistance Band", "aliases": ["band"], "description": "Elastic resistance band, used standalone or as an accommodating-resistance accessory." },
-    { "token": "suspension", "label": "Suspension Trainer", "aliases": ["TRX"], "description": "Strap-based suspension trainer anchored overhead (e.g. TRX)." }
+    { "token": "suspension", "label": "Suspension Trainer", "aliases": ["TRX"], "description": "Strap-based suspension trainer anchored overhead (e.g. TRX)." },
+    { "token": "hangboard", "label": "Hangboard", "aliases": ["fingerboard"], "description": "Fingerboard/hangboard with edges and pockets for climbing finger-strength hangs." },
+    { "token": "campus-board", "label": "Campus Board", "description": "Overhanging board of wooden rungs for dynamic climbing power work (no feet)." },
+    { "token": "training-board", "label": "Training Board", "aliases": ["system-board"], "description": "Standardized climbing training board (system/board-style wall with set hold layouts)." },
+    { "token": "pole", "label": "Pole", "aliases": ["vertical-pole"], "description": "Vertical pole or stall bars gripped for leverage holds (human flag, pole work)." },
+    { "token": "kickboard", "label": "Kickboard", "description": "Foam swim kickboard held in the hands to isolate the kick." },
+    { "token": "pull-buoy", "label": "Pull Buoy", "description": "Foam buoy held between the thighs to float the legs and isolate the swim pull." },
+    { "token": "kayak", "label": "Kayak", "description": "Kayak paddled with a double-bladed paddle." },
+    { "token": "canoe", "label": "Canoe", "description": "Canoe paddled with a single-bladed paddle." },
+    { "token": "paddleboard", "label": "Paddleboard", "aliases": ["SUP"], "description": "Stand-up paddleboard." },
+    { "token": "surfboard", "label": "Surfboard", "description": "Surfboard (prone paddling, pop-up practice)." },
+    { "token": "rowing-shell", "label": "Rowing Shell", "description": "On-water rowing shell (sweep or sculling boat)." },
+    { "token": "rucksack", "label": "Rucksack", "aliases": ["weighted-backpack", "ruck-plate-carrier"], "description": "Loaded backpack/rucksack or plate carrier worn during locomotion (rucking)." },
+    { "token": "treadmill", "label": "Treadmill", "description": "Motorized or manual treadmill." },
+    { "token": "snowshoes", "label": "Snowshoes", "description": "Snowshoes for over-snow locomotion." },
+    { "token": "poles", "label": "Poles", "aliases": ["trekking-poles", "nordic-walking-poles"], "description": "Walking/trekking or Nordic walking poles." },
+    { "token": "skis", "label": "Skis", "aliases": ["cross-country-skis"], "description": "Skis (cross-country/backcountry ski locomotion)." }
   ]
 }
