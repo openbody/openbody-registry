@@ -5020,7 +5020,7 @@
   },
   {
     "id": "shoulder-press.machine",
-    "names": ["Leverage Shoulder Press"],
+    "names": ["Leverage Shoulder Press", "Machine Shoulder Press", "Machine Military Press"],
     "facets": {
       "modality": "strength",
       "movementPattern": "vertical-push",
@@ -5363,18 +5363,6 @@
       "movementPattern": "elbow-flexion",
       "anatomy": { "primary": ["biceps"], "secondary": ["forearms"] },
       "mechanic": "isolation",
-      "equipment": "machine"
-    },
-    "source": "free-exercise-db"
-  },
-  {
-    "id": "shoulder-press.machine.military",
-    "names": ["Machine Shoulder Press", "Machine Military Press"],
-    "facets": {
-      "modality": "strength",
-      "movementPattern": "vertical-push",
-      "anatomy": { "primary": ["deltoids"], "secondary": ["triceps"] },
-      "mechanic": "compound",
       "equipment": "machine"
     },
     "source": "free-exercise-db"

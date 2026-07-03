@@ -2298,7 +2298,7 @@
     {
       "id": "Machine_Shoulder_Military_Press",
       "name": "Machine Shoulder (Military) Press",
-      "canonical": "shoulder-press.machine.military"
+      "canonical": "shoulder-press.machine"
     },
     {
       "id": "Machine_Triceps_Extension",
