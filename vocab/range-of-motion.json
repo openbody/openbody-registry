@@ -10,6 +10,7 @@
     { "token": "lengthened-partial", "label": "Lengthened Partial", "aliases": ["stretch partial", "long-length partial"], "description": "A partial performed at the long-muscle-length (stretched) portion of the range." },
     { "token": "shortened-partial", "label": "Shortened Partial", "description": "A partial at the short-muscle-length portion." },
     { "token": "deficit", "label": "Deficit", "description": "Extended range below normal (e.g. deficit deadlift)." },
+    { "token": "extended", "label": "Extended", "description": "A greater-than-normal range of motion at the working joint(s), beyond what the standard movement allows (e.g. deep ranges from a deficit or added mobility)." },
     { "token": "elevated", "label": "Elevated / Reduced", "description": "Reduced range from an elevated start (e.g. block pull, board press)." },
     { "token": "paused", "label": "Paused", "description": "Full range with an enforced pause (also expressible via phasePattern)." }
   ]

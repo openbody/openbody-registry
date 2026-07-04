@@ -714,8 +714,7 @@
       "movementPattern": "balance",
       "anatomy": { "primary": ["ankle-stabilizers"], "secondary": ["glutes", "core"] },
       "mechanic": "isolation",
-      "equipment": "none",
-      "rangeOfMotion": "static"
+      "equipment": "none"
     },
     "attributes": { "met": 2.0 },
     "source": "curated"
@@ -1505,8 +1504,7 @@
       "movementPattern": "isometric-hold",
       "anatomy": { "primary": ["ankle-stabilizers"], "secondary": ["core"] },
       "mechanic": "isolation",
-      "equipment": "implement",
-      "rangeOfMotion": "static"
+      "equipment": "implement"
     },
     "source": "free-exercise-db"
   },
@@ -4299,7 +4297,7 @@
       "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps", "anterior-deltoid"] },
       "mechanic": "compound",
       "equipment": "bodyweight",
-      "grip": "reverse"
+      "grip": "supinated"
     },
     "source": "free-exercise-db"
   },
@@ -8826,7 +8824,7 @@
       "anatomy": { "primary": ["lats", "biceps"], "secondary": ["rhomboids"] },
       "mechanic": "compound",
       "equipment": "cable",
-      "grip": "underhand"
+      "grip": "supinated"
     },
     "source": "free-exercise-db"
   },
