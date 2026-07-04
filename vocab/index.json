@@ -15,7 +15,7 @@
     { "file": "effort-method.json", "field": "EffortLoad.method", "specRef": "§5.13" },
     { "file": "intensity-dimension.json", "field": "Intensity.dimension", "specRef": "§5.13" },
     { "file": "intensity-zone.json", "field": "Intensity.zone", "specRef": "§5.13" },
-    { "file": "threshold-kind.json", "field": "Target.relativeToThreshold.of / ThresholdProfile.kind", "specRef": "§5.10, §5.11" },
+    { "file": "threshold-kind.json", "field": "Target.relativeToThreshold.of / ThresholdProfile.entries[].kind", "specRef": "§5.10, §5.11" },
     { "file": "stop-condition-kind.json", "field": "Target.stopCondition.kind", "specRef": "§5.10" },
     { "file": "progression-rule.json", "field": "Progression.rule", "specRef": "§5.14" },
     { "file": "participant-role.json", "field": "participants[].role", "specRef": "§5.19" },

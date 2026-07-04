@@ -27,7 +27,7 @@ Each is a separate, independently-versioned, fetchable artifact **decoupled from
 | `vocab/*.json` | **The training controlled vocabularies** — recommended-canon tokens for the model's open, registry-backed fields (§5.9): `disciplines`, `block-scoring-scheme`, `block-grouping`, `set-role`, `load-basis`, `modifier-type`, `effort-method`, `threshold-kind`, `stop-condition-kind`, `progression-rule`, `participant-role`, `status-period-type`, `modality`, `movement-pattern`, `range-of-motion`, `phase-qualifier`, and more. See `vocab/index.json`. |
 | `vocab/measurements/*.json` | **The measurement-type registry** (§4.5): `cardiovascular`, `respiratory`, `sleep`, `body-composition`, `activity`, `power-pace` (all `Measurement.type` subsets) and `location-channel` (`sampleArray.channels[].name` for `type: "location"`). Also indexed in `vocab/index.json`. |
 | `crosswalk/free-exercise-db.json` | Crosswalk: free-exercise-db movement id → canonical id (or `null`). Resolution table + curation worklist. See SOURCES.md. |
-| `tools/validate.mjs` | Validator: each canonical entry against `schema/registry-entry.schema.json` (ajv) + id uniqueness + crosswalk integrity + vocabulary token format/uniqueness (incl. cross-file uniqueness for the `Measurement.*` vocabularies). `npm run check`. |
+| `tools/validate.mjs` | Validator: each canonical entry against `schema/registry-entry.schema.json` (ajv) + id uniqueness + display-name uniqueness + relationship-ref integrity (progressions/regressions/variations resolve, no self-ref) + crosswalk integrity (source keys unique, no ambiguous aliases, targets resolve) + vocabulary token format/uniqueness (incl. cross-file uniqueness for the `Measurement.*` vocabularies). `npm run check`. |
 | `tools/build-crosswalk.mjs` | Rebuild a crosswalk table from a local source dump (preserving fills). `npm run crosswalk -- <dump.json>`. |
 
 ## Provenance & the `source` field
@@ -51,9 +51,9 @@ To be precise about what was and wasn't done: an early pass that **bulk-imported
 free-exercise-db verbatim (with algorithmic id decomposition) was **reverted** (2026-06-26).
 What replaced it (OB-24) is a **curated derivation**: the crosswalk worklist drove which
 movements to cover, and each entry was individually authored and reviewed to the method in
-[CONTRIBUTING.md](./CONTRIBUTING.md). The result: 657 of 740 entries are
-`source: "free-exercise-db"` — worklist-seeded, OpenBody-classified — alongside 73
-`curated` and 10 `compendium` entries. Display names on seeded entries are usually carried
+[CONTRIBUTING.md](./CONTRIBUTING.md). The result: 656 of 829 entries are
+`source: "free-exercise-db"` — worklist-seeded, OpenBody-classified — alongside 153
+`curated` and 20 `compendium` entries. Display names on seeded entries are usually carried
 verbatim from upstream (they're the common names, and upstream is public domain); ids and
 facets are not.
 
@@ -99,9 +99,9 @@ preferred label; `facets` carry classification (intrinsic) + variation (distingu
 Optional fields, present where the data supports them:
 
 - `attributes` — registry attributes that are **not** identity, e.g. Compendium MET
-  (`{ "met": 6.0 }`); currently on 68 entries.
+  (`{ "met": 6.0 }`); currently on 78 entries.
 - `coded` — advisory identity-equivalence crosswalk to incumbent systems (§6.4), e.g.
-  `{ "wger": 73 }`. **Sparsely populated**: 5 of 740 entries today; systematic population
+  `{ "wger": 73 }`. **Sparsely populated**: 34 of 829 entries today; systematic population
   is tracked as OB-69. Don't rely on it for coverage yet — for bulk source mappings use
   `crosswalk/`.
 - `progressions` / `regressions` / `variations` — relationships to other entries.
@@ -113,7 +113,7 @@ authoritative.
 
 ## Status
 
-Pre-v1 (ids and tokens **not** stable until v1.0). The exercise registry holds 740
+Pre-v1 (ids and tokens **not** stable until v1.0). The exercise registry holds 829
 canonical entries; the free-exercise-db crosswalk (873 movements) is 799 mapped, the
 remainder being out-of-scope or pending review. The measurement-type registry is the v1
 wedge (27 tokens across 7 vocabularies), started 2026-07-02 (OB-13) and folded in here
