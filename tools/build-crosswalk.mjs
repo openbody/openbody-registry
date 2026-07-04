@@ -35,6 +35,19 @@ const commitArg = process.argv[3];
 if (!src) { console.error("usage: build-crosswalk.mjs <free-exercise-db/dist/exercises.json> [upstream-commit-sha]"); process.exit(1); }
 const fed = JSON.parse(fs.readFileSync(src, "utf8"));
 
+// Fail loudly on a malformed dump rather than silently emitting a broken/empty table
+// (a truncated download or the wrong file would otherwise wipe the worklist).
+if (!Array.isArray(fed) || fed.length === 0) {
+  console.error(`error: ${src} is not a non-empty JSON array of free-exercise-db movements.`);
+  process.exit(1);
+}
+for (const e of fed) {
+  if (typeof e?.id !== "string" || typeof e?.name !== "string") {
+    console.error(`error: every source movement needs a string 'id' and 'name'; offending row: ${JSON.stringify(e)}`);
+    process.exit(1);
+  }
+}
+
 const prevDoc = fs.existsSync(outPath) ? JSON.parse(fs.readFileSync(outPath, "utf8")) : null;
 const prev = prevDoc ? Object.fromEntries(prevDoc.mappings.map((m) => [m.id, m.canonical])) : {};
 

@@ -1,7 +1,14 @@
 // Validate the canonical exercise registry (data/exercises.json) against
 // schema/registry-entry.schema.json (SPEC §6.2/§6.3) using ajv, and layer on the
-// checks the schema cannot express: cross-entry id uniqueness and crosswalk
-// referential integrity (every non-null crosswalk target resolves to a canonical id).
+// checks the schema cannot express:
+//   - cross-entry id uniqueness;
+//   - relationship referential integrity (every progressions/regressions/variations
+//     id resolves to a known entry and no entry points at itself);
+//   - display-name uniqueness (a normalized name resolves to exactly one canonical id,
+//     so name-based resolution downstream is unambiguous);
+//   - crosswalk integrity — a `mappings` array is present, each row has a source key
+//     (`id` or `name`) unique within the file, no normalized source name resolves to two
+//     canonical ids, and every non-null `canonical` target resolves to an entry.
 // Also validates every controlled-vocabulary file under vocab/ (including the
 // measurement-type registry, vocab/measurements/, SPEC §4.5 — folded in from
 // openbody-measurements, OB-66), plus cross-file token uniqueness across the
@@ -74,17 +81,67 @@ function main() {
   const entries = JSON.parse(fs.readFileSync(path.join(root, "data/exercises.json"), "utf8"));
   for (const e of entries) errors.push(...validateEntry(e, seen));
 
-  // 2. Crosswalk referential integrity (every non-null `canonical` resolves to an entry).
+  // 1b. Relationship referential integrity. progressions/regressions/variations name
+  //     OTHER entries by id; the schema (one entry at a time) can't see the id set, so
+  //     this is a second pass once every id is known. A dangling or self ref is a bug the
+  //     openbody-ts resolver would trip on.
+  for (const e of entries) {
+    const where = typeof e?.id === "string" ? e.id : "(no id)";
+    for (const rel of ["progressions", "regressions", "variations"]) {
+      for (const ref of e?.[rel] ?? []) {
+        if (ref === e?.id) errors.push(`${where}.${rel}: references itself`);
+        else if (!seen.has(ref)) errors.push(`${where}.${rel}: unknown id '${ref}'`);
+      }
+    }
+  }
+
+  // 1c. Display-name uniqueness. A normalized display name (case-insensitive, punctuation
+  //     and spacing collapsed) must resolve to exactly one canonical id — otherwise a
+  //     consumer resolving by name can't tell which movement was meant.
+  const byName = new Map();
+  for (const e of entries) {
+    for (const n of e?.names ?? []) {
+      const key = String(n).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+      if (!key) continue;
+      if (byName.has(key) && byName.get(key) !== e?.id)
+        errors.push(`name "${n}" resolves to both '${byName.get(key)}' and '${e?.id}'`);
+      else byName.set(key, e?.id);
+    }
+  }
+
+  // 2. Crosswalk integrity. Each file maps a source movement — keyed by `id` (id-based
+  //    sources like free-exercise-db) or by `name` (name-based app crosswalks) — to a
+  //    canonical id (or null = worklist). The source key must be unique within the file,
+  //    a normalized source name must not point at two different canonical ids, and every
+  //    non-null target must resolve to an entry. All three keep name/id → canonical
+  //    resolution unambiguous for consumers.
   const xwalkDir = path.join(root, "crosswalk");
   let mapped = 0, xwalkTotal = 0;
   if (fs.existsSync(xwalkDir)) {
     for (const f of fs.readdirSync(xwalkDir).filter((f) => f.endsWith(".json"))) {
       const x = JSON.parse(fs.readFileSync(path.join(xwalkDir, f), "utf8"));
-      for (const m of x.mappings ?? []) {
+      if (!Array.isArray(x.mappings)) {
+        errors.push(`crosswalk/${f}: 'mappings' must be an array`);
+        continue;
+      }
+      const seenKeys = new Set();
+      const byNorm = new Map(); // normalized source name → canonical id (within this file)
+      for (const m of x.mappings) {
         xwalkTotal++;
+        const key = m.id ?? m.name;
+        const where = `crosswalk/${f}: '${key ?? "(no id/name)"}'`;
+        if (key == null) errors.push(`${where}: mapping has neither 'id' nor 'name'`);
+        else if (seenKeys.has(key)) errors.push(`${where}: duplicate source key`);
+        else seenKeys.add(key);
+        if (typeof m.name === "string" && m.canonical != null) {
+          const nk = m.name.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+          if (nk && byNorm.has(nk) && byNorm.get(nk) !== m.canonical)
+            errors.push(`${where}: name also maps to '${byNorm.get(nk)}' (ambiguous)`);
+          else if (nk) byNorm.set(nk, m.canonical);
+        }
         if (m.canonical == null) continue;
         mapped++;
-        if (!seen.has(m.canonical)) errors.push(`crosswalk/${f}: '${m.id}' → unknown canonical id '${m.canonical}'`);
+        if (!seen.has(m.canonical)) errors.push(`${where} → unknown canonical id '${m.canonical}'`);
       }
     }
   }
@@ -130,7 +187,7 @@ function main() {
     if (errors.length > 50) console.error(`  … and ${errors.length - 50} more`);
     process.exit(1);
   }
-  console.log(`OpenBody registry: ${entries.length} canonical entries valid (ids unique); crosswalk ${mapped}/${xwalkTotal} mapped, all targets resolve; ${vocabFiles} vocabularies (${vocabTokens} tokens) valid, incl. measurement-type registry (${measurementTokens.size} Measurement.* tokens unique across files).`);
+  console.log(`OpenBody registry: ${entries.length} canonical entries valid (ids + names unique, relationship refs resolve); crosswalk ${mapped}/${xwalkTotal} mapped, all targets resolve, no ambiguous aliases; ${vocabFiles} vocabularies (${vocabTokens} tokens) valid, incl. measurement-type registry (${measurementTokens.size} Measurement.* tokens unique across files).`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main();
