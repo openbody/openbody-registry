@@ -1,0 +1,19 @@
+{
+  "vocabulary": "anthropometry",
+  "field": "Measurement.type (anthropometry/body-circumference subset)",
+  "specRef": "§4.5",
+  "open": true,
+  "description": "Canonical Measurement.type tokens for anthropometric body girths/circumferences (SPEC §4.1/§4.5) — the tape-measure metrics logged alongside body composition (distinct from body-composition.json's body_mass/body_fat_percentage/lean_body_mass/bmi). UNIT-AGNOSTIC: the token names the girth, never its unit; the unit lives on Measurement.unit (recommended `cm` or `[in_i]`, per the producer's setting). LATERALITY IS NOT IN THE TOKEN: a limb girth's side (left/right) is carried on the `Measurement.laterality` field (SPEC §4.1, closed enum `left｜right｜bilateral`), NOT baked into a `_left`/`_right` token suffix. The token names the girth only — e.g. `bicep_circumference` with `laterality: \"left\"`, never `bicep_circumference_left`. Non-lateral (midline/axial) girths (neck/shoulder/chest/abdomen/waist/hip) omit `laterality` entirely.",
+  "tokens": [
+    { "token": "neck_circumference", "label": "Neck Circumference", "description": "Girth of the neck. Non-lateral (omit Measurement.laterality). Recommended unit: cm or [in_i]." },
+    { "token": "shoulder_circumference", "label": "Shoulder Circumference", "description": "Girth around the shoulders (deltoids). Non-lateral (omit Measurement.laterality). Recommended unit: cm or [in_i]." },
+    { "token": "chest_circumference", "label": "Chest Circumference", "description": "Girth around the chest. Non-lateral (omit Measurement.laterality). Recommended unit: cm or [in_i]." },
+    { "token": "abdomen_circumference", "label": "Abdomen Circumference", "description": "Girth around the abdomen (typically at the navel). Non-lateral (omit Measurement.laterality). Recommended unit: cm or [in_i]." },
+    { "token": "waist_circumference", "label": "Waist Circumference", "description": "Girth around the natural waist. Non-lateral (omit Measurement.laterality). Recommended unit: cm or [in_i]." },
+    { "token": "hip_circumference", "label": "Hip Circumference", "description": "Girth around the hips at the widest point. Non-lateral (omit Measurement.laterality). Recommended unit: cm or [in_i]." },
+    { "token": "bicep_circumference", "label": "Bicep Circumference", "description": "Girth of the upper arm (bicep). Side-agnostic — carry the side on Measurement.laterality (left/right). Recommended unit: cm or [in_i]." },
+    { "token": "forearm_circumference", "label": "Forearm Circumference", "description": "Girth of the forearm. Side-agnostic — carry the side on Measurement.laterality (left/right). Recommended unit: cm or [in_i]." },
+    { "token": "thigh_circumference", "label": "Thigh Circumference", "description": "Girth of the thigh. Side-agnostic — carry the side on Measurement.laterality (left/right). Recommended unit: cm or [in_i]." },
+    { "token": "calf_circumference", "label": "Calf Circumference", "description": "Girth of the calf. Side-agnostic — carry the side on Measurement.laterality (left/right). Recommended unit: cm or [in_i]." }
+  ]
+}

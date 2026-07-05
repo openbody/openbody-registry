@@ -32,6 +32,7 @@
     { "file": "measurements/respiratory.json", "field": "Measurement.type (respiratory subset)", "specRef": "§4.5" },
     { "file": "measurements/sleep.json", "field": "Measurement.type (sleep subset)", "specRef": "§4.3, §4.5" },
     { "file": "measurements/body-composition.json", "field": "Measurement.type (body-composition subset)", "specRef": "§4.5" },
+    { "file": "measurements/anthropometry.json", "field": "Measurement.type (anthropometry/body-circumference subset)", "specRef": "§4.5" },
     { "file": "measurements/activity.json", "field": "Measurement.type (activity/energy subset)", "specRef": "§4.5" },
     { "file": "measurements/power-pace.json", "field": "Measurement.type (power/pace subset)", "specRef": "§4.5" },
     { "file": "measurements/location-channel.json", "field": "Measurement.sampleArray.channels[].name (Measurement.type: location)", "specRef": "§4.3, §4.5" }
