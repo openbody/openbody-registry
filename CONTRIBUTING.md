@@ -108,3 +108,12 @@ before minting a new base.
 
 Every change is reviewed for: id correctness (base + ordered variation), facet/​id agreement,
 no duplicate or near-duplicate of an existing entry, and `npm run check` green.
+
+## Sign-off (DCO)
+
+All commits must be signed off under the [Developer Certificate of Origin](https://developercertificate.org/) —
+add a `Signed-off-by: Name <email>` trailer with `git commit -s`. This certifies you have
+the right to submit the contribution; a DCO check gates merges. Provenance matters here
+especially: the registry data is **CC0**, so its contribution trail must stay clean. To
+sign off existing commits on a branch:
+`git rebase --exec 'git commit --amend --no-edit -s' origin/main`.
