@@ -87,7 +87,7 @@
       "anatomy": { "primary": ["biceps"], "secondary": ["brachioradialis"] },
       "mechanic": "isolation",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "bilateral"
     },
     "attributes": { "met": 3.5 },
     "source": "curated"
@@ -378,7 +378,7 @@
       "anatomy": { "primary": ["glutes", "deltoids"], "secondary": ["hamstrings", "trapezius"] },
       "mechanic": "compound",
       "equipment": "kettlebell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "attributes": { "met": 9.5 },
     "source": "compendium"
@@ -672,7 +672,7 @@
       "anatomy": { "primary": ["hip-flexors", "quadriceps"] },
       "mechanic": "isolation",
       "equipment": "none",
-      "laterality": "alternating",
+      "laterality": "unilateral",
       "rangeOfMotion": "full"
     },
     "attributes": { "met": 2.3 },
@@ -1260,7 +1260,7 @@
       "anatomy": { "primary": ["obliques"], "secondary": ["hamstrings", "deltoids"] },
       "mechanic": "compound",
       "equipment": "kettlebell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -1273,7 +1273,7 @@
       "anatomy": { "primary": ["quadriceps"] },
       "mechanic": "isolation",
       "equipment": "none",
-      "laterality": "alternating",
+      "laterality": "unilateral",
       "rangeOfMotion": "full"
     },
     "source": "free-exercise-db"
@@ -1288,7 +1288,7 @@
       "mechanic": "isolation",
       "equipment": "dumbbell",
       "grip": "neutral",
-      "laterality": "alternating"
+      "laterality": "bilateral"
     },
     "source": "free-exercise-db"
   },
@@ -1314,7 +1314,7 @@
       "anatomy": { "primary": ["biceps"] },
       "mechanic": "isolation",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "bilateral"
     },
     "source": "free-exercise-db"
   },
@@ -1431,7 +1431,7 @@
       "anatomy": { "primary": ["glutes"], "secondary": ["hip-flexors"] },
       "mechanic": "isolation",
       "equipment": "none",
-      "laterality": "alternating",
+      "laterality": "unilateral",
       "rangeOfMotion": "full"
     },
     "source": "free-exercise-db"
@@ -3385,7 +3385,7 @@
       "anatomy": { "primary": ["obliques"], "secondary": ["spinal-erectors"] },
       "mechanic": "isolation",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -3497,7 +3497,7 @@
       "anatomy": { "primary": ["rotator-cuff"] },
       "mechanic": "isolation",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -3510,7 +3510,7 @@
       "anatomy": { "primary": ["rotator-cuff"] },
       "mechanic": "isolation",
       "equipment": "resistance-band",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -3875,7 +3875,7 @@
       "anatomy": { "primary": ["glutes"], "secondary": ["hamstrings"] },
       "mechanic": "isolation",
       "equipment": "bodyweight",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
