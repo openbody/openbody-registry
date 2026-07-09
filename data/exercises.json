@@ -3520,7 +3520,7 @@
       "anatomy": { "primary": ["rotator-cuff"] },
       "mechanic": "isolation",
       "equipment": "cable",
-      "laterality": "alternating"
+      "laterality": "unilateral_left"
     },
     "source": "free-exercise-db"
   },
@@ -5862,7 +5862,8 @@
       "movementPattern": "vertical-push",
       "anatomy": { "primary": ["deltoids"], "secondary": ["quadriceps", "triceps"] },
       "mechanic": "compound",
-      "equipment": "kettlebell"
+      "equipment": "kettlebell",
+      "laterality": "unilateral_left"
     },
     "source": "free-exercise-db"
   },
