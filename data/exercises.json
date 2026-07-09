@@ -546,8 +546,7 @@
       "movementPattern": "strike",
       "anatomy": { "primary": ["deltoids", "core"], "secondary": ["forearms", "quadriceps"] },
       "mechanic": "compound",
-      "equipment": "heavy-bag",
-      "laterality": "alternating"
+      "equipment": "heavy-bag"
     },
     "attributes": { "met": 6.0 },
     "source": "compendium"
@@ -560,8 +559,7 @@
       "movementPattern": "strike",
       "anatomy": { "primary": ["deltoids"], "secondary": ["core", "calves"] },
       "mechanic": "compound",
-      "equipment": "none",
-      "laterality": "alternating"
+      "equipment": "none"
     },
     "attributes": { "met": 5.0 },
     "source": "compendium"
@@ -963,7 +961,7 @@
       "anatomy": { "primary": ["hip-flexors", "hamstrings"], "secondary": ["spinal-erectors"] },
       "mechanic": "compound",
       "equipment": "none",
-      "laterality": "alternating",
+      "laterality": "unilateral",
       "rangeOfMotion": "full"
     },
     "source": "curated"
@@ -1378,7 +1376,7 @@
       "anatomy": { "primary": ["deltoids"], "secondary": ["triceps"] },
       "mechanic": "compound",
       "equipment": "kettlebell",
-      "laterality": "alternating"
+      "laterality": "bilateral"
     },
     "source": "free-exercise-db"
   },
@@ -1417,7 +1415,7 @@
       "anatomy": { "primary": ["ankle-stabilizers"] },
       "mechanic": "isolation",
       "equipment": "none",
-      "laterality": "alternating",
+      "laterality": "unilateral",
       "rangeOfMotion": "full"
     },
     "source": "free-exercise-db"
@@ -1677,7 +1675,7 @@
       "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["hamstrings"] },
       "mechanic": "compound",
       "equipment": "barbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -1777,7 +1775,7 @@
       "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["hamstrings", "calves"] },
       "mechanic": "compound",
       "equipment": "barbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -2445,7 +2443,7 @@
       "anatomy": { "primary": ["obliques"], "secondary": ["core", "deltoids"] },
       "mechanic": "compound",
       "equipment": "implement",
-      "laterality": "alternating"
+      "laterality": "bilateral"
     },
     "source": "free-exercise-db"
   },
@@ -2803,7 +2801,7 @@
       "anatomy": { "primary": ["biceps"], "secondary": ["brachioradialis", "forearms"] },
       "mechanic": "isolation",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -2841,7 +2839,7 @@
       "anatomy": { "primary": ["glutes"], "secondary": ["quadriceps", "adductors"] },
       "mechanic": "compound",
       "equipment": "bodyweight",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -3159,7 +3157,7 @@
       "anatomy": { "primary": ["obliques", "deltoids"], "secondary": ["hamstrings", "core"] },
       "mechanic": "compound",
       "equipment": "kettlebell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
