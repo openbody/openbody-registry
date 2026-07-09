@@ -279,7 +279,7 @@
       "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors"] },
       "mechanic": "compound",
       "equipment": "bodyweight",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "attributes": { "met": 8.0 },
     "source": "curated"
@@ -710,6 +710,7 @@
     "id": "single-leg-stance",
     "names": ["Single-Leg Stance", "Single-Leg Balance"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "stability",
       "movementPattern": "balance",
       "anatomy": { "primary": ["ankle-stabilizers"], "secondary": ["glutes", "core"] },
@@ -1064,7 +1065,7 @@
       "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps"] },
       "mechanic": "compound",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "attributes": { "met": 4.5 },
     "source": "curated"
@@ -1390,7 +1391,7 @@
       "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps"] },
       "mechanic": "compound",
       "equipment": "kettlebell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -1905,6 +1906,7 @@
     "id": "row.barbell.bent-over.one-arm",
     "names": ["Bent Over One-Arm Long Bar Row"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "row",
       "anatomy": { "primary": ["lats"], "secondary": ["rhomboids", "biceps", "trapezius"] },
@@ -2244,6 +2246,7 @@
     "id": "triceps-extension.cable.one-arm",
     "names": ["Cable One Arm Tricep Extension"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "elbow-extension",
       "anatomy": { "primary": ["triceps"] },
@@ -3256,7 +3259,7 @@
       "anatomy": { "primary": ["deltoids"], "secondary": ["rhomboids", "trapezius"] },
       "mechanic": "isolation",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -3306,7 +3309,7 @@
       "anatomy": { "primary": ["deltoids"], "secondary": ["triceps", "trapezius"] },
       "mechanic": "compound",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -3319,7 +3322,7 @@
       "anatomy": { "primary": ["triceps"] },
       "mechanic": "isolation",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -3332,7 +3335,7 @@
       "anatomy": { "primary": ["deltoids", "trapezius"], "secondary": ["biceps"] },
       "mechanic": "compound",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -3369,7 +3372,7 @@
       "anatomy": { "primary": ["calves"] },
       "mechanic": "isolation",
       "equipment": "dumbbell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -3480,7 +3483,7 @@
       "anatomy": { "primary": ["pectoralis-major", "triceps"], "secondary": ["anterior-deltoid", "core"] },
       "mechanic": "compound",
       "equipment": "kettlebell",
-      "laterality": "alternating",
+      "laterality": "unilateral",
       "rangeOfMotion": "extended"
     },
     "source": "free-exercise-db"
@@ -3520,7 +3523,7 @@
       "anatomy": { "primary": ["rotator-cuff"] },
       "mechanic": "isolation",
       "equipment": "cable",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -4564,7 +4567,7 @@
       "anatomy": { "primary": ["hamstrings", "glutes"], "secondary": ["core", "calves"] },
       "mechanic": "compound",
       "equipment": "kettlebell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -4589,7 +4592,7 @@
       "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["hamstrings", "core"] },
       "mechanic": "compound",
       "equipment": "kettlebell",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -4791,6 +4794,7 @@
     "id": "row.cable.kneeling.one-arm",
     "names": ["Kneeling Single-Arm High Pulley Row"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "row",
       "anatomy": { "primary": ["lats", "rhomboids"], "secondary": ["biceps", "obliques"] },
@@ -5285,6 +5289,7 @@
     "id": "lateral-raise.dumbbell.lying",
     "names": ["Lying One-Arm Lateral Raise"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "shoulder-abduction",
       "anatomy": { "primary": ["deltoids"] },
@@ -5603,6 +5608,7 @@
     "id": "pec-stretch.wall",
     "names": ["One Arm Against Wall"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "flexibility",
       "movementPattern": "static-stretch",
       "anatomy": { "primary": ["pectoralis-major"], "secondary": ["anterior-deltoid"] },
@@ -5620,7 +5626,7 @@
       "anatomy": { "primary": ["lats"], "secondary": ["biceps", "forearms"] },
       "mechanic": "compound",
       "equipment": "bodyweight",
-      "laterality": "unilateral_left"
+      "laterality": "unilateral"
     },
     "source": "free-exercise-db"
   },
@@ -5628,6 +5634,7 @@
     "id": "bench-press.dumbbell.one-arm",
     "names": ["One Arm Dumbbell Bench Press"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "horizontal-push",
       "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps"] },
@@ -5640,6 +5647,7 @@
     "id": "curl.dumbbell.preacher.one-arm",
     "names": ["Dumbbell Preacher Curl", "One Arm Dumbbell Preacher Curl"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "elbow-flexion",
       "anatomy": { "primary": ["biceps"] },
@@ -5652,6 +5660,7 @@
     "id": "floor-press.dumbbell.one-arm",
     "names": ["One Arm Dumbbell Floor Press"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "horizontal-push",
       "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps"] },
@@ -5664,6 +5673,7 @@
     "id": "lat-pulldown.cable.one-arm",
     "names": ["One Arm Lat Pulldown"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "vertical-pull",
       "anatomy": { "primary": ["lats"], "secondary": ["biceps"] },
@@ -5676,6 +5686,7 @@
     "id": "triceps-extension.dumbbell.pronated.one-arm",
     "names": ["One Arm Pronated Dumbbell Triceps Extension"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "elbow-extension",
       "anatomy": { "primary": ["triceps"] },
@@ -5689,6 +5700,7 @@
     "id": "triceps-extension.dumbbell.supinated",
     "names": ["One Arm Supinated Dumbbell Triceps Extension"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "elbow-extension",
       "anatomy": { "primary": ["triceps"] },
@@ -5714,6 +5726,7 @@
     "id": "dead-hang.one-arm",
     "names": ["One Handed Hang"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "isometric-hold",
       "anatomy": { "primary": ["forearms"], "secondary": ["lats"] },
@@ -5738,6 +5751,7 @@
     "id": "squat.barbell.single-leg",
     "names": ["One Leg Barbell Squat"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "squat",
       "anatomy": { "primary": ["quadriceps"], "secondary": ["glutes"] },
@@ -5750,6 +5764,7 @@
     "id": "chest-fly.dumbbell.one-arm",
     "names": ["One-Arm Flat Bench Dumbbell Flye"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "horizontal-push",
       "anatomy": { "primary": ["pectoralis-major"] },
@@ -5762,6 +5777,7 @@
     "id": "side-bend.cable",
     "names": ["One-Arm High-Pulley Cable Side Bend"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "lateral-flexion",
       "anatomy": { "primary": ["obliques"] },
@@ -5774,6 +5790,7 @@
     "id": "lateral-raise.dumbbell.incline.one-arm",
     "names": ["One-Arm Incline Lateral Raise"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "shoulder-abduction",
       "anatomy": { "primary": ["deltoids"] },
@@ -5786,6 +5803,7 @@
     "id": "clean.kettlebell",
     "names": ["Kettlebell Clean", "One-Arm Kettlebell Clean"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "clean",
       "anatomy": { "primary": ["glutes", "hamstrings"], "secondary": ["deltoids", "forearms"] },
@@ -5798,6 +5816,7 @@
     "id": "clean-and-jerk.kettlebell",
     "names": ["Kettlebell Clean and Jerk", "One-Arm Kettlebell Clean and Jerk"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "clean",
       "anatomy": { "primary": ["glutes", "hamstrings", "deltoids"], "secondary": ["triceps", "quadriceps"] },
@@ -5810,6 +5829,7 @@
     "id": "floor-press.kettlebell",
     "names": ["One-Arm Kettlebell Floor Press"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "horizontal-push",
       "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps"] },
@@ -5822,6 +5842,7 @@
     "id": "jerk.kettlebell",
     "names": ["One-Arm Kettlebell Jerk"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "jerk",
       "anatomy": { "primary": ["deltoids"], "secondary": ["triceps", "quadriceps"] },
@@ -5834,6 +5855,7 @@
     "id": "shoulder-press.kettlebell.side",
     "names": ["One-Arm Kettlebell Military Press To The Side"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "vertical-push",
       "anatomy": { "primary": ["deltoids"], "secondary": ["triceps", "obliques"] },
@@ -5846,6 +5868,7 @@
     "id": "shoulder-press.kettlebell.para",
     "names": ["One-Arm Kettlebell Para Press"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "vertical-push",
       "anatomy": { "primary": ["deltoids"], "secondary": ["triceps"] },
@@ -5858,6 +5881,7 @@
     "id": "push-press.kettlebell",
     "names": ["One-Arm Kettlebell Push Press"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "vertical-push",
       "anatomy": { "primary": ["deltoids"], "secondary": ["quadriceps", "triceps"] },
@@ -5870,6 +5894,7 @@
     "id": "split-jerk.kettlebell",
     "names": ["One-Arm Kettlebell Split Jerk"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "jerk",
       "anatomy": { "primary": ["deltoids"], "secondary": ["quadriceps"] },
@@ -5883,6 +5908,7 @@
     "id": "split-snatch.kettlebell",
     "names": ["One-Arm Kettlebell Split Snatch"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "snatch",
       "anatomy": { "primary": ["deltoids"], "secondary": ["hamstrings", "quadriceps"] },
@@ -5896,6 +5922,7 @@
     "id": "row.landmine",
     "names": ["One-Arm Long Bar Row", "Landmine Row"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "row",
       "anatomy": { "primary": ["lats"], "secondary": ["rhomboids", "biceps"] },
@@ -5908,6 +5935,7 @@
     "id": "slam.medicine-ball.one-arm",
     "names": ["One-Arm Medicine Ball Slam"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "throw",
       "anatomy": { "primary": ["core"], "secondary": ["deltoids", "lats"] },
@@ -5920,6 +5948,7 @@
     "id": "clean.kettlebell.open-palm",
     "names": ["One-Arm Open Palm Kettlebell Clean", "Open Palm Kettlebell Clean"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "clean",
       "anatomy": { "primary": ["glutes", "hamstrings"], "secondary": ["forearms"] },
@@ -5932,6 +5961,7 @@
     "id": "squat.kettlebell.overhead",
     "names": ["One-Arm Overhead Kettlebell Squat"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "squat",
       "anatomy": { "primary": ["quadriceps"], "secondary": ["deltoids", "core"] },
@@ -5944,6 +5974,7 @@
     "id": "deadlift.barbell.side",
     "names": ["One-Arm Side Deadlift"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "hinge",
       "anatomy": { "primary": ["spinal-erectors"], "secondary": ["obliques", "forearms"] },
@@ -5956,6 +5987,7 @@
     "id": "lateral-raise.dumbbell.one-arm",
     "names": ["One-Arm Side Laterals"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "shoulder-abduction",
       "anatomy": { "primary": ["deltoids"] },
@@ -5968,6 +6000,7 @@
     "id": "glute-kickback.cable",
     "names": ["One-Legged Cable Kickback"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "hip-extension",
       "anatomy": { "primary": ["glutes"], "secondary": ["hamstrings"] },
@@ -6838,6 +6871,7 @@
     "id": "triceps-extension.dumbbell.bent-over.one-arm",
     "names": ["Seated Bent-Over One-Arm Dumbbell Triceps Extension"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "elbow-extension",
       "anatomy": { "primary": ["triceps"] },
@@ -6939,6 +6973,7 @@
     "id": "wrist-curl.dumbbell.one-arm",
     "names": ["Seated One-Arm Dumbbell Palms-Up Wrist Curl"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "wrist-flexion",
       "anatomy": { "primary": ["forearms"] },
@@ -6952,6 +6987,7 @@
     "id": "wrist-curl.dumbbell.reverse.one-arm",
     "names": ["Seated One-Arm Dumbbell Palms-Down Wrist Curl"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "wrist-extension",
       "anatomy": { "primary": ["forearms"] },
@@ -7274,6 +7310,7 @@
     "id": "butt-kick.single-leg",
     "names": ["Single Leg Butt Kick"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "endurance",
       "movementPattern": "gait",
       "anatomy": { "primary": ["hamstrings"], "secondary": ["quadriceps"] },
@@ -7286,6 +7323,7 @@
     "id": "glute-bridge.single-leg",
     "names": ["Single Leg Glute Bridge"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "hinge",
       "anatomy": { "primary": ["glutes"], "secondary": ["hamstrings"] },
@@ -7298,6 +7336,7 @@
     "id": "push-off.single-leg",
     "names": ["Single Leg Push-off"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "jump",
       "anatomy": { "primary": ["quadriceps", "glutes", "calves"] },
@@ -7310,6 +7349,7 @@
     "id": "jammer-press.single-arm",
     "names": ["Single-Arm Linear Jammer"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "horizontal-push",
       "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps", "anterior-deltoid"] },
@@ -7322,6 +7362,7 @@
     "id": "push-up.single-arm",
     "names": ["Single-Arm Push-Up"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "horizontal-push",
       "anatomy": { "primary": ["pectoralis-major"], "secondary": ["triceps", "anterior-deltoid", "core"] },
@@ -7346,6 +7387,7 @@
     "id": "squat.bodyweight.box.single-leg",
     "names": ["Single-Leg High Box Squat"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "squat",
       "anatomy": { "primary": ["quadriceps"], "secondary": ["glutes", "hamstrings"] },
@@ -7358,6 +7400,7 @@
     "id": "hop.single-leg",
     "names": ["Single-Leg Hop Progression", "Single-Leg Stride Jump"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "jump",
       "anatomy": { "primary": ["quadriceps", "glutes", "calves"] },
@@ -7370,6 +7413,7 @@
     "id": "hop.single-leg.lateral",
     "names": ["Single-Leg Lateral Hop"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "jump",
       "anatomy": { "primary": ["calves", "quadriceps", "glutes"], "secondary": ["ankle-stabilizers"] },
@@ -7587,6 +7631,7 @@
     "id": "upright-row.smith-machine.one-arm",
     "names": ["Smith Machine One-Arm Upright Row"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "vertical-pull",
       "anatomy": { "primary": ["deltoids"], "secondary": ["trapezius", "biceps"] },
@@ -7611,6 +7656,7 @@
     "id": "pistol-squat.smith-machine",
     "names": ["Smith Machine Pistol Squat"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "squat",
       "anatomy": { "primary": ["quadriceps"], "secondary": ["glutes", "hamstrings"] },
@@ -7672,6 +7718,7 @@
     "id": "split-squat.smith-machine",
     "names": ["Smith Machine Single-Leg Split Squat", "Smith Single-Leg Split Squat"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "lunge",
       "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["hamstrings"] },
@@ -7939,6 +7986,7 @@
     "id": "triceps-kickback.dumbbell.one-arm",
     "names": ["One-Arm Dumbbell Triceps Kickback", "Standing Bent-Over One-Arm Dumbbell Triceps Extension"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "elbow-extension",
       "anatomy": { "primary": ["triceps"] },
@@ -8197,6 +8245,7 @@
     "id": "triceps-kickback.cable.one-arm",
     "names": ["One-Arm Cable Triceps Kickback", "Standing Low-Pulley One-Arm Triceps Extension"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "elbow-extension",
       "anatomy": { "primary": ["triceps"] },
@@ -8221,6 +8270,7 @@
     "id": "curl.cable.one-arm",
     "names": ["One-Arm Cable Curl", "Standing One-Arm Cable Curl"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "elbow-flexion",
       "anatomy": { "primary": ["biceps"], "secondary": ["brachioradialis"] },
@@ -8233,6 +8283,7 @@
     "id": "triceps-extension.dumbbell.overhead.one-arm",
     "names": ["One-Arm Standing Overhead Dumbbell Triceps Extension", "Standing One-Arm Dumbbell Triceps Extension"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "elbow-extension",
       "anatomy": { "primary": ["triceps"] },
@@ -8257,6 +8308,7 @@
     "id": "shoulder-press.dumbbell.neutral-grip.one-arm",
     "names": ["Standing Palm-In One-Arm Dumbbell Press"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "strength",
       "movementPattern": "vertical-push",
       "anatomy": { "primary": ["deltoids"], "secondary": ["triceps"] },
@@ -8512,6 +8564,7 @@
     "id": "medicine-ball-throw.overhead.supine.one-arm",
     "names": ["Supine One-Arm Overhead Throw"],
     "facets": {
+      "laterality": "unilateral",
       "modality": "power",
       "movementPattern": "throw",
       "anatomy": { "primary": ["lats", "triceps"], "secondary": ["core", "pectoralis-major"] },
@@ -9578,7 +9631,7 @@
       "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors", "core"] },
       "mechanic": "compound",
       "equipment": "bodyweight",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "curated",
     "progressions": ["pistol-squat.box"]
@@ -9592,7 +9645,7 @@
       "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors", "core"] },
       "mechanic": "compound",
       "equipment": "box",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "curated",
     "progressions": ["pistol-squat"],
@@ -9607,7 +9660,7 @@
       "anatomy": { "primary": ["quadriceps", "glutes"], "secondary": ["adductors", "core"] },
       "mechanic": "compound",
       "equipment": "bodyweight",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "curated",
     "variations": ["pistol-squat"]
@@ -9844,7 +9897,7 @@
       "anatomy": { "primary": ["biceps", "lats"], "secondary": ["forearms", "core"] },
       "mechanic": "compound",
       "equipment": "bodyweight",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "curated",
     "regressions": ["lock-off"]
@@ -10101,7 +10154,7 @@
       "anatomy": { "primary": ["lats", "deltoids"], "secondary": ["core"] },
       "mechanic": "compound",
       "equipment": "none",
-      "laterality": "alternating"
+      "laterality": "unilateral"
     },
     "source": "curated",
     "variations": ["swim.freestyle"]
